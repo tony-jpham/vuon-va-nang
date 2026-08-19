@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Vườn &amp; Nắng — Cây cảnh &amp; Nông sản sấy khô</title>
-<meta name="description" content="Cây cảnh chọn lọc và nông sản sấy khô tự nhiên, từ vườn đến tay bạn.">
+<title>Vườn &amp; Nắng — Cây giống &amp; Dược liệu sấy khô</title>
+<meta name="description" content="Cây giống chọn lọc và dược liệu sấy khô tự nhiên, vì sức khoẻ của bạn và gia đình, ươm trồng và chế biến thủ công tại vườn nhà.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Work+Sans:wght@400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
@@ -191,61 +191,6 @@
     color:var(--sage);
   }
 
-  /* ---------- SIGNATURE: PROCESS STRIP ---------- */
-  .process{
-    background:var(--green-deep);
-    color:var(--kraft-light);
-    padding:64px 0;
-  }
-  .process-head{
-    font-family:var(--mono);
-    font-size:0.78rem;
-    text-transform:uppercase;
-    letter-spacing:0.12em;
-    color:var(--sage);
-    margin-bottom:36px;
-  }
-  .process-strip{
-    display:grid;
-    grid-template-columns:repeat(4,1fr);
-    position:relative;
-  }
-  @media (max-width:800px){
-    .process-strip{grid-template-columns:1fr;gap:28px;}
-  }
-  .process-strip::before{
-    content:"";
-    position:absolute;
-    top:11px;left:0;right:0;
-    height:1px;
-    background:repeating-linear-gradient(to right, var(--sage) 0 6px, transparent 6px 12px);
-  }
-  @media (max-width:800px){.process-strip::before{display:none;}}
-  .process-step{
-    position:relative;
-    padding-right:20px;
-  }
-  .process-step .node{
-    width:23px;height:23px;
-    border-radius:50%;
-    background:var(--green-deep);
-    border:1px solid var(--sage);
-    display:flex;align-items:center;justify-content:center;
-    font-family:var(--mono);font-size:0.68rem;color:var(--kraft-light);
-    margin-bottom:20px;position:relative;z-index:1;
-  }
-  .process-step h3{
-    font-family:var(--display);
-    font-weight:500;
-    font-size:1.2rem;
-    margin-bottom:8px;
-  }
-  .process-step p{
-    font-size:0.92rem;
-    color:var(--sage);
-    max-width:26ch;
-  }
-
   /* ---------- SECTION HEADS ---------- */
   section{padding:88px 0;}
   .section-head{
@@ -308,6 +253,7 @@
     display:flex;align-items:center;justify-content:center;
   }
   .specimen-photo svg{width:46%;height:46%;opacity:0.85;}
+  .specimen-photo img{width:100%;height:100%;object-fit:cover;}
   .specimen-photo .frame-mark{
     position:absolute;top:10px;left:10px;right:10px;bottom:10px;
     border:1px dashed rgba(246,239,221,0.45);
@@ -385,6 +331,10 @@
   }
   .price-cat .dot{width:7px;height:7px;border-radius:50%;display:inline-block;}
   .price-cat.plant .dot{background:var(--sage);}
+  .price-cat.herb .dot{background:var(--green-mid);}
+  .price-cat.spice .dot{background:var(--rust-dim);}
+  .price-cat.fruit .dot{background:var(--green-deep);}
+  .price-cat.other .dot{background:var(--kraft);}
   .price-cat.dried .dot{background:var(--rust);}
   .price-table td.name{
     font-family:var(--display);
@@ -432,27 +382,6 @@
   .about-stats div{font-family:var(--mono);}
   .about-stats .n{font-size:1.6rem;color:var(--rust);display:block;}
   .about-stats .l{font-size:0.72rem;color:var(--green-mid);text-transform:uppercase;letter-spacing:0.06em;}
-
-  /* ---------- TESTIMONIAL / QUOTE STRIP ---------- */
-  .quote-strip{
-    padding:70px 0;
-    text-align:center;
-  }
-  .quote-strip blockquote{
-    font-family:var(--display);
-    font-style:italic;
-    font-weight:500;
-    font-size:clamp(1.4rem,3vw,2.1rem);
-    color:var(--green-deep);
-    max-width:38ch;margin:0 auto;
-    line-height:1.35;
-  }
-  .quote-strip cite{
-    display:block;margin-top:20px;
-    font-family:var(--mono);font-style:normal;
-    font-size:0.78rem;color:var(--rust);
-    text-transform:uppercase;letter-spacing:0.06em;
-  }
 
   /* ---------- CONTACT ---------- */
   .contact{
@@ -523,9 +452,9 @@
 <section class="hero">
   <div class="wrap">
     <div>
-      <div class="eyebrow">Cây cảnh &amp; nông sản sấy khô</div>
+      <div class="eyebrow">Cây giống &amp; dược liệu sấy khô</div>
       <h1>Giữ trọn nắng,<br>trong từng <em>khoảnh khắc</em> nhỏ.</h1>
-      <p class="hero-sub">Chúng tôi tuyển chọn cây cảnh khoẻ đẹp và nông sản sấy khô tự nhiên — không chất bảo quản, không đường hoá học — để mang một góc vườn quê vào không gian sống của bạn.</p>
+      <p class="hero-sub">Chúng tôi tuyển chọn cây giống khoẻ đẹp và dược liệu sấy khô tự nhiên — không chất bảo quản, không hoá chất — vì sức khoẻ của bạn và gia đình, mang một góc vườn quê vào không gian sống của bạn.</p>
       <div class="hero-cta">
         <a href="#san-pham" class="btn btn-primary">Xem sản phẩm</a>
         <a href="#lien-he" class="btn btn-ghost">Đặt hàng / Tư vấn</a>
@@ -539,131 +468,113 @@
   </div>
 </section>
 
-<section class="process">
-  <div class="wrap">
-    <div class="process-head">Từ vườn đến tay bạn</div>
-    <div class="process-strip">
-      <div class="process-step">
-        <div class="node">01</div>
-        <h3>Thu hái</h3>
-        <p>Chọn đúng độ chín, đúng mùa, từ vườn liên kết trong nước.</p>
-      </div>
-      <div class="process-step">
-        <div class="node">02</div>
-        <h3>Phơi &amp; sấy</h3>
-        <p>Sấy lạnh ở nhiệt độ thấp, giữ màu và dưỡng chất tự nhiên.</p>
-      </div>
-      <div class="process-step">
-        <div class="node">03</div>
-        <h3>Đóng gói</h3>
-        <p>Hút chân không, dán nhãn ngày sấy và hạn dùng rõ ràng.</p>
-      </div>
-      <div class="process-step">
-        <div class="node">04</div>
-        <h3>Giao đến bạn</h3>
-        <p>Đóng gói cẩn thận, giao nhanh trong khu vực nội thành.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
 <section id="san-pham">
   <div class="wrap">
     <div class="section-head">
       <div>
-        <h2>Cây cảnh chọn lọc</h2>
+        <h2>Cây giống chọn lọc</h2>
       </div>
-      <span class="num">01 — Bộ sưu tập · vuốt để xem thêm</span>
+      <span class="num">01 — Bộ sưu tập · vuốt ngang để xem thêm</span>
     </div>
     <div class="scroll-row">
 
       <div class="specimen">
         <div class="specimen-photo">
-          <div class="frame-mark"></div>
-          <svg viewBox="0 0 100 100" fill="none" stroke="#F6EFDD" stroke-width="2.2"><path d="M50 90 V40 M50 40 C30 40 20 20 22 8 C34 10 50 20 50 40 M50 40 C70 40 80 20 78 8 C66 10 50 20 50 40 M50 60 C34 60 26 48 28 38 C40 40 50 48 50 60 M50 60 C66 60 74 48 72 38 C60 40 50 48 50 60"/></svg>
+          <img src="images/phu-qui.webp" alt="Cây Phú quí trồng chậu nhựa" loading="lazy">
         </div>
         <div class="specimen-body">
-          <div class="specimen-tag">Cây nội thất</div>
-          <h3>Trầu bà Nam Mỹ</h3>
-          <p>Ưa bóng bán phần, dễ chăm, hợp bàn làm việc và phòng khách.</p>
-          <div class="specimen-meta"><span>Cao 30–40cm</span><span>Chậu sứ</span></div>
+          <div class="specimen-tag">Cây phong thuỷ</div>
+          <h3>Phú quí</h3>
+          <p>Lá viền hồng đỏ nổi bật trên nền xanh, tượng trưng cho phú quý, tài lộc, hợp trang trí bàn làm việc và phòng khách.</p>
+          <div class="specimen-meta"><span>Cây con trong bầu</span><span>Chậu nhựa</span></div>
         </div>
       </div>
 
       <div class="specimen">
-        <div class="specimen-photo" style="background:linear-gradient(135deg,#B7A15E,var(--green-mid));">
-          <div class="frame-mark"></div>
-          <svg viewBox="0 0 100 100" fill="none" stroke="#F6EFDD" stroke-width="2.2"><path d="M50 92 V50 M50 50 L30 20 M50 50 L70 20 M50 65 L34 40 M50 65 L66 40 M30 20 L26 8 M30 20 L38 10 M70 20 L74 8 M70 20 L62 10"/></svg>
+        <div class="specimen-photo">
+          <img src="images/ray-voi.webp" alt="Cây Ráy voi trồng chậu nhựa" loading="lazy">
         </div>
         <div class="specimen-body">
-          <div class="specimen-tag">Cây để bàn</div>
-          <h3>Sen đá hồng ngọc</h3>
-          <p>Chịu nắng tốt, ít cần tưới, phù hợp ban công và cửa sổ.</p>
-          <div class="specimen-meta"><span>Cao 10–15cm</span><span>Chậu đất nung</span></div>
+          <div class="specimen-tag">Cây lá lớn</div>
+          <h3>Ráy voi</h3>
+          <p>Lá to bản, xanh mướt, dáng vươn khoẻ khoắn, hợp trồng sân vườn hoặc ban công nhiều nắng.</p>
+          <div class="specimen-meta"><span>Cây con đang lớn</span><span>Chậu nhựa</span></div>
+        </div>
+      </div>
+
+      <div class="specimen">
+        <div class="specimen-photo">
+          <img src="images/luoi-ho.webp" alt="Cây Lưỡi hổ trồng chậu nhựa" loading="lazy">
+        </div>
+        <div class="specimen-body">
+          <div class="specimen-tag">Cây phong thuỷ</div>
+          <h3>Lưỡi hổ</h3>
+          <p>Lá dày, mọc thẳng đứng, sức sống bền bỉ, ít cần chăm sóc, được xem là mang lại may mắn cho gia chủ.</p>
+          <div class="specimen-meta"><span>Bụi nhiều lá</span><span>Chậu nhựa</span></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="duoc-lieu" style="padding-top:0;">
+  <div class="wrap">
+    <div class="section-head">
+      <div><h2>Dược liệu sấy khô</h2></div>
+      <span class="num">02 — Bộ sưu tập · vuốt ngang để xem thêm</span>
+    </div>
+    <div class="scroll-row">
+
+      <div class="specimen">
+        <div class="specimen-photo" style="background:linear-gradient(135deg,var(--sage),var(--green-deep));">
+          <div class="frame-mark"></div>
+          <svg viewBox="0 0 100 100" fill="none" stroke="#F6EFDD" stroke-width="2.2"><circle cx="50" cy="50" r="30"/><path d="M50 20 V80 M50 50 C35 50 25 40 25 25 M50 50 C65 50 75 40 75 25 M50 65 C38 65 30 58 30 48 M50 65 C62 65 70 58 70 48"/></svg>
+        </div>
+        <div class="specimen-body">
+          <div class="specimen-tag">Dược liệu</div>
+          <h3>Lá sen sấy khô</h3>
+          <p>Thu hái từ đầm sen tự nhiên, sấy lạnh giữ nguyên dược tính, dùng hãm trà thanh nhiệt.</p>
+          <div class="specimen-meta"><span>Gói 100g</span><span>HSD 12 tháng</span></div>
+        </div>
+      </div>
+
+      <div class="specimen">
+        <div class="specimen-photo" style="background:linear-gradient(135deg,#4A6B3C,var(--rust-dim));">
+          <div class="frame-mark"></div>
+          <svg viewBox="0 0 100 100" fill="none" stroke="#F6EFDD" stroke-width="2.2"><path d="M50 88 V38 M50 55 C34 55 24 42 26 28 C40 30 50 40 50 55 M50 55 C66 55 76 42 74 28 C60 30 50 40 50 55 M50 38 C36 38 28 27 30 15 C42 17 50 26 50 38 M50 38 C64 38 72 27 70 15 C58 17 50 26 50 38"/></svg>
+        </div>
+        <div class="specimen-body">
+          <div class="specimen-tag">Dược liệu</div>
+          <h3>Lá ổi sấy khô</h3>
+          <p>Lá ổi non hái buổi sáng, sấy lạnh giữ hương thơm tự nhiên, hỗ trợ tiêu hoá.</p>
+          <div class="specimen-meta"><span>Gói 100g</span><span>HSD 12 tháng</span></div>
+        </div>
+      </div>
+
+      <div class="specimen">
+        <div class="specimen-photo" style="background:linear-gradient(135deg,#8B5E34,var(--green-mid));">
+          <div class="frame-mark"></div>
+          <svg viewBox="0 0 100 100" fill="none" stroke="#F6EFDD" stroke-width="2.2"><path d="M50 88 V45 M50 60 L28 40 M50 60 L72 40 M50 45 L32 22 M50 45 L68 22 M28 40 L22 30 M72 40 L78 30"/></svg>
+        </div>
+        <div class="specimen-body">
+          <div class="specimen-tag">Dược liệu</div>
+          <h3>Lá sa kê sấy khô</h3>
+          <p>Lá sa kê già vàng tự nhiên, phơi &amp; sấy đúng độ, dùng nấu nước uống hỗ trợ sức khoẻ.</p>
+          <div class="specimen-meta"><span>Gói 100g</span><span>HSD 12 tháng</span></div>
         </div>
       </div>
 
       <div class="specimen">
         <div class="specimen-photo" style="background:linear-gradient(135deg,var(--rust),#5B2E1B);">
           <div class="frame-mark"></div>
-          <svg viewBox="0 0 100 100" fill="none" stroke="#F6EFDD" stroke-width="2.2"><path d="M50 90 V30 M50 30 Q35 20 30 10 M50 30 Q65 20 70 10 M50 55 Q38 48 34 38 M50 55 Q62 48 66 38"/></svg>
+          <svg viewBox="0 0 100 100" fill="none" stroke="#F6EFDD" stroke-width="2.2"><path d="M30 85 Q35 50 25 20 M45 85 Q50 45 42 15 M60 85 Q62 48 58 18 M75 85 Q72 50 80 22"/></svg>
         </div>
         <div class="specimen-body">
-          <div class="specimen-tag">Cây phong thuỷ</div>
-          <h3>Kim ngân góc bàn</h3>
-          <p>Thân bện tự nhiên, mang ý nghĩa tài lộc, dễ sống trong nhà.</p>
-          <div class="specimen-meta"><span>Cao 50–60cm</span><span>Chậu gỗ</span></div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-<section id="nong-san" style="padding-top:0;">
-  <div class="wrap">
-    <div class="section-head">
-      <div><h2>Nông sản sấy khô</h2></div>
-      <span class="num">02 — Bộ sưu tập · vuốt để xem thêm</span>
-    </div>
-    <div class="scroll-row">
-
-      <div class="specimen">
-        <div class="specimen-photo" style="background:linear-gradient(135deg,#C97A3B,var(--rust-dim));">
-          <div class="frame-mark"></div>
-          <svg viewBox="0 0 100 100" fill="none" stroke="#F6EFDD" stroke-width="2.2"><circle cx="50" cy="50" r="26"/><path d="M50 24 V14 M40 27 L34 19 M60 27 L66 19"/></svg>
-        </div>
-        <div class="specimen-body">
-          <div class="specimen-tag">Trái cây sấy</div>
-          <h3>Xoài sấy dẻo</h3>
-          <p>Sấy lạnh giữ vị chua ngọt tự nhiên, không đường, không phẩm màu.</p>
-          <div class="specimen-meta"><span>Gói 200g</span><span>HSD 6 tháng</span></div>
-        </div>
-      </div>
-
-      <div class="specimen">
-        <div class="specimen-photo" style="background:linear-gradient(135deg,var(--sage),#4A3A22);">
-          <div class="frame-mark"></div>
-          <svg viewBox="0 0 100 100" fill="none" stroke="#F6EFDD" stroke-width="2.2"><path d="M30 70 Q50 30 70 70 Q50 60 30 70Z"/><path d="M50 45 V25"/></svg>
-        </div>
-        <div class="specimen-body">
-          <div class="specimen-tag">Rau củ sấy</div>
-          <h3>Chuối sấy giòn</h3>
-          <p>Chiên chân không ở nhiệt độ thấp, giòn tan, ít dầu hơn cách truyền thống.</p>
-          <div class="specimen-meta"><span>Gói 150g</span><span>HSD 4 tháng</span></div>
-        </div>
-      </div>
-
-      <div class="specimen">
-        <div class="specimen-photo" style="background:linear-gradient(135deg,#8B5E34,var(--green-deep));">
-          <div class="frame-mark"></div>
-          <svg viewBox="0 0 100 100" fill="none" stroke="#F6EFDD" stroke-width="2.2"><rect x="30" y="35" width="40" height="30" rx="3"/><path d="M30 45 H70 M40 35 V65 M60 35 V65"/></svg>
-        </div>
-        <div class="specimen-body">
-          <div class="specimen-tag">Hạt &amp; ngũ cốc</div>
-          <h3>Mít sấy thái</h3>
-          <p>Múi mít chín cây, sấy nguyên miếng, thơm béo tự nhiên.</p>
-          <div class="specimen-meta"><span>Gói 250g</span><span>HSD 6 tháng</span></div>
+          <div class="specimen-tag">Dược liệu</div>
+          <h3>Cỏ mần trầu sấy khô</h3>
+          <p>Cỏ mần trầu tươi rửa sạch, sấy lạnh giữ dược tính, dùng sắc uống thanh nhiệt, giải độc.</p>
+          <div class="specimen-meta"><span>Gói 100g</span><span>HSD 12 tháng</span></div>
         </div>
       </div>
 
@@ -686,59 +597,57 @@
             <th>Loại</th>
             <th>Tên sản phẩm</th>
             <th>Đơn vị tính</th>
-            <th>Số lượng / Trọng lượng</th>
             <th>Giá tiền</th>
           </tr>
         </thead>
-        <tbody>
-          <tr>
-            <td><span class="price-cat plant"><span class="dot"></span>Cây cảnh</span></td>
-            <td class="name">Trầu bà Nam Mỹ</td>
-            <td>Chậu</td>
-            <td>Cao 30–40cm</td>
-            <td class="amount">180.000đ</td>
-          </tr>
-          <tr>
-            <td><span class="price-cat plant"><span class="dot"></span>Cây cảnh</span></td>
-            <td class="name">Sen đá hồng ngọc</td>
-            <td>Chậu</td>
-            <td>Cao 10–15cm</td>
-            <td class="amount">65.000đ</td>
-          </tr>
-          <tr>
-            <td><span class="price-cat plant"><span class="dot"></span>Cây cảnh</span></td>
-            <td class="name">Kim ngân góc bàn</td>
-            <td>Chậu</td>
-            <td>Cao 50–60cm</td>
-            <td class="amount">320.000đ</td>
-          </tr>
-          <tr>
-            <td><span class="price-cat dried"><span class="dot"></span>Nông sản sấy</span></td>
-            <td class="name">Xoài sấy dẻo</td>
-            <td>Gói</td>
-            <td>200g</td>
-            <td class="amount">95.000đ</td>
-          </tr>
-          <tr>
-            <td><span class="price-cat dried"><span class="dot"></span>Nông sản sấy</span></td>
-            <td class="name">Chuối sấy giòn</td>
-            <td>Gói</td>
-            <td>150g</td>
-            <td class="amount">55.000đ</td>
-          </tr>
-          <tr>
-            <td><span class="price-cat dried"><span class="dot"></span>Nông sản sấy</span></td>
-            <td class="name">Mít sấy thái</td>
-            <td>Gói</td>
-            <td>250g</td>
-            <td class="amount">110.000đ</td>
-          </tr>
+        <tbody id="price-table-body">
+          <tr><td colspan="4">Đang tải bảng giá…</td></tr>
         </tbody>
       </table>
     </div>
     <p class="price-note">* Giá đã bao gồm đóng gói, chưa gồm phí giao hàng. Vuốt ngang bảng để xem đủ cột trên điện thoại.</p>
   </div>
 </section>
+
+<script>
+(function () {
+  var tbody = document.getElementById('price-table-body');
+  if (!tbody) return;
+
+  function formatPrice(n) {
+    return n.toLocaleString('vi-VN') + 'đ';
+  }
+
+  function escapeHtml(s) {
+    return String(s).replace(/[&<>"']/g, function (c) {
+      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+    });
+  }
+
+  fetch('products.json')
+    .then(function (res) { return res.json(); })
+    .then(function (data) {
+      var cats = data.categories || {};
+      var unitLabels = { 'Chậu': '1 chậu', 'Gói': 'Gói 100g' };
+      var rows = (data.products || []).map(function (p) {
+        var cat = cats[p.category] || { label: p.category, unit: '' };
+        var unit = unitLabels[cat.unit] || cat.unit || '';
+        return (
+          '<tr>' +
+          '<td><span class="price-cat ' + escapeHtml(p.category) + '"><span class="dot"></span>' + escapeHtml(cat.label) + '</span></td>' +
+          '<td class="name">' + escapeHtml(p.name) + '</td>' +
+          '<td>' + escapeHtml(unit) + '</td>' +
+          '<td class="amount">' + formatPrice(p.price) + '</td>' +
+          '</tr>'
+        );
+      });
+      tbody.innerHTML = rows.join('') || '<tr><td colspan="4">Chưa có sản phẩm.</td></tr>';
+    })
+    .catch(function () {
+      tbody.innerHTML = '<tr><td colspan="4">Không tải được bảng giá. Vui lòng thử lại sau.</td></tr>';
+    });
+})();
+</script>
 
 <section class="about" id="cau-chuyen">
   <div class="wrap about-grid">
@@ -750,21 +659,14 @@
     </div>
     <div>
       <h2>Một góc vườn nhỏ, giữ lại theo cách riêng</h2>
-      <p>Vườn &amp; Nắng bắt đầu từ một khu vườn nhỏ ở ngoại thành, nơi chúng tôi thử nghiệm trồng và sấy khô theo phương pháp giữ nguyên hương vị tự nhiên — không rút ngắn thời gian, không dùng chất bảo quản.</p>
-      <p>Mỗi lô cây và mỗi mẻ sấy đều được ghi lại ngày thu hoạch, để bạn luôn biết mình đang mang gì về nhà.</p>
+      <p>Vườn &amp; Nắng là 1 khu vườn nhỏ tại Đức Huệ, nơi chúng tôi trồng thuận tự nhiên và sấy khô theo phương pháp giữ nguyên hương vị, dược tính — không rút ngắn thời gian, không dùng chất bảo quản.</p>
+      <p>Bảng giá chỉ là một phần — ghé thăm vườn để khám phá thêm nhiều loại cây và dược liệu khác chưa kịp cập nhật.</p>
       <div class="about-stats">
-        <div><span class="n">120+</span><span class="l">Loại cây đã giao</span></div>
-        <div><span class="n">15</span><span class="l">Vườn liên kết</span></div>
-        <div><span class="n">0%</span><span class="l">Chất bảo quản</span></div>
+        <div><span class="n">40+</span><span class="l">Loại cây</span></div>
+        <div><span class="n">100%</span><span class="l">Cây giống và dược liệu Organic</span></div>
+        <div><span class="n">0%</span><span class="l">Hóa chất, chất bảo quản</span></div>
       </div>
     </div>
-  </div>
-</section>
-
-<section class="quote-strip">
-  <div class="wrap">
-    <blockquote>"Đặt cây tuần trước, cây vẫn tươi và được đóng gói rất kỹ. Đồ sấy thì cả nhà mê xoài dẻo."</blockquote>
-    <cite>— Khách hàng tại TP.HCM</cite>
   </div>
 </section>
 
@@ -776,28 +678,12 @@
     </div>
     <div class="contact-grid">
       <div>
-        <p>Để lại thông tin, chúng tôi sẽ liên hệ tư vấn loại cây hoặc sản phẩm sấy phù hợp trong vòng 24 giờ.</p>
         <ul class="contact-info">
-          <li><span>Điện thoại —</span> 0000 000 000</li>
-          <li><span>Zalo / Facebook —</span> vuonvanang</li>
-          <li><span>Khu vực giao —</span> Nội thành &amp; lân cận</li>
+          <li><span>Điện thoại | Zalo —</span> 0908 097 714 - MS. DIỄM</li>
+          <li><span>Địa chỉ vườn —</span> <a href="https://maps.app.goo.gl/DTzMnPoMHxirXit69" target="_blank" rel="noopener">Đức Huệ, Long An (Xem trên Google Maps)</a></li>
         </ul>
       </div>
-      <form action="https://formspree.io/f/your-form-id" method="POST">
-        <div class="field">
-          <label for="name">Họ tên</label>
-          <input id="name" name="name" type="text" placeholder="Nguyễn Văn A" required>
-        </div>
-        <div class="field">
-          <label for="phone">Số điện thoại</label>
-          <input id="phone" name="phone" type="tel" placeholder="09xx xxx xxx" required>
-        </div>
-        <div class="field">
-          <label for="message">Bạn quan tâm sản phẩm nào?</label>
-          <textarea id="message" name="message" placeholder="Ví dụ: Trầu bà Nam Mỹ + xoài sấy dẻo 2 gói"></textarea>
-        </div>
-        <button type="submit" class="btn btn-primary">Gửi yêu cầu</button>
-      </form>
+      
     </div>
   </div>
 </section>
