@@ -53,19 +53,19 @@
     { "category": "other", "name": "Rau dền nhật", "price": 10000 },
     { "category": "other", "name": "Cỏ lạc", "price": 10000 },
 
-    { "category": "dried", "name": "Lá sen", "price": 20000, "weight": "100g" },
-    { "category": "dried", "name": "Lá ổi", "price": 20000, "weight": "100g" },
-    { "category": "dried", "name": "Lá sa kê", "price": 20000, "weight": "100g" },
-    { "category": "dried", "name": "Lá đu đủ", "price": 20000, "weight": "100g" },
-    { "category": "dried", "name": "Lá vối", "price": 20000, "weight": "100g" },
-    { "category": "dried", "name": "Lá vong nem", "price": 20000, "weight": "100g" },
-    { "category": "dried", "name": "Chùm bao", "price": 20000, "weight": "100g" },
-    { "category": "dried", "name": "Trinh nữ (mắc cỡ)", "price": 20000, "weight": "100g" },
-    { "category": "dried", "name": "Lá dứa thơm", "price": 20000, "weight": "100g" },
-    { "category": "dried", "name": "Chùm ngây", "price": 20000, "weight": "100g" },
-    { "category": "dried", "name": "Cỏ mần trầu", "price": 20000, "weight": "100g" },
-    { "category": "dried", "name": "Lá mơ lông tím", "price": 20000, "weight": "100g" },
-    { "category": "dried", "name": "Thù lù", "price": 20000, "weight": "100g" },
-    { "category": "dried", "name": "Lá lốt", "price": 20000, "weight": "100g" }
+    { "category": "dried", "name": "Lá sen", "price": 20000, "weight": "100g", "benefit": "Hỗ trợ giảm mỡ máu, ổn định huyết áp, an thần, dễ ngủ." },
+    { "category": "dried", "name": "Lá ổi", "price": 20000, "weight": "100g", "benefit": "Hỗ trợ tiêu hoá, ổn định đường huyết, tăng đề kháng." },
+    { "category": "dried", "name": "Lá sa kê", "price": 20000, "weight": "100g", "benefit": "Lợi tiểu, kháng viêm, hỗ trợ giảm gout và sỏi thận." },
+    { "category": "dried", "name": "Lá đu đủ", "price": 20000, "weight": "100g", "benefit": "Thanh nhiệt, giải độc, hỗ trợ tiêu hoá, tăng đề kháng." },
+    { "category": "dried", "name": "Lá vối", "price": 20000, "weight": "100g", "benefit": "Hỗ trợ tiêu hoá, giảm mỡ máu, ổn định đường huyết." },
+    { "category": "dried", "name": "Lá vong nem", "price": 20000, "weight": "100g", "benefit": "An thần, hỗ trợ giấc ngủ, giảm đau nhức xương khớp." },
+    { "category": "dried", "name": "Chùm bao", "price": 20000, "weight": "100g", "benefit": "An thần, hỗ trợ giấc ngủ ngon, giảm hồi hộp lo âu." },
+    { "category": "dried", "name": "Trinh nữ (mắc cỡ)", "price": 20000, "weight": "100g", "benefit": "An thần, lợi tiểu, hỗ trợ giảm đau nhức xương khớp." },
+    { "category": "dried", "name": "Lá dứa thơm", "price": 20000, "weight": "100g", "benefit": "Hỗ trợ ổn định đường huyết, kháng viêm, tăng đề kháng." },
+    { "category": "dried", "name": "Chùm ngây", "price": 20000, "weight": "100g", "benefit": "Giàu vitamin, khoáng chất, tăng đề kháng, kháng viêm." },
+    { "category": "dried", "name": "Cỏ mần trầu", "price": 20000, "weight": "100g", "benefit": "Thanh nhiệt, mát gan, lợi tiểu, giải độc cơ thể." },
+    { "category": "dried", "name": "Lá mơ lông tím", "price": 20000, "weight": "100g", "benefit": "Hỗ trợ tiêu hoá, kháng viêm, tốt cho đường ruột." },
+    { "category": "dried", "name": "Thù lù", "price": 20000, "weight": "100g", "benefit": "Giàu vitamin A, C, hỗ trợ tăng đề kháng, tốt cho mắt." },
+    { "category": "dried", "name": "Lá lốt", "price": 20000, "weight": "100g", "benefit": "Ấm bụng, hỗ trợ tiêu hoá, giảm đau nhức xương khớp." }
   ]
 }

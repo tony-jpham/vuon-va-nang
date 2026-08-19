@@ -281,6 +281,16 @@
     opacity:0.78;
     flex:1;
   }
+  .specimen-benefit{
+    flex:none !important;
+    margin-top:10px;
+    font-family:var(--mono);
+    font-size:0.74rem;
+    color:var(--green-mid);
+    opacity:1 !important;
+    padding-top:10px;
+    border-top:1px dashed rgba(36,31,23,0.15);
+  }
   .specimen-meta{
     display:flex;justify-content:space-between;
     margin-top:16px;padding-top:14px;
@@ -347,6 +357,41 @@
     color:var(--rust-dim);
     white-space:nowrap;
   }
+  .benefit-toggle{
+    display:inline-flex;align-items:center;gap:8px;
+    background:rgba(168,68,42,0.08);
+    border:1px solid rgba(168,68,42,0.3);
+    border-radius:20px;
+    padding:5px 12px 5px 14px;
+    margin:-5px 0;
+    font-family:var(--display);font-weight:500;font-size:1em;
+    color:var(--green-deep);cursor:pointer;
+    text-align:left;
+    transition:background 0.15s ease, border-color 0.15s ease;
+  }
+  .benefit-toggle:hover{background:rgba(168,68,42,0.16);border-color:var(--rust);color:var(--rust-dim);}
+  .benefit-toggle:focus-visible{outline:2px solid var(--rust);outline-offset:2px;}
+  .benefit-toggle .chev{
+    font-family:var(--mono);font-size:0.68rem;
+    color:var(--paper);
+    background:var(--rust);
+    width:16px;height:16px;
+    border-radius:50%;
+    display:inline-flex;align-items:center;justify-content:center;
+    transition:transform 0.15s ease;
+    flex-shrink:0;
+  }
+  .benefit-toggle[aria-expanded="true"] .chev{transform:rotate(90deg);}
+  .benefit-row td{padding-top:0;padding-bottom:14px;border-bottom:1px dashed rgba(36,31,23,0.18);}
+  .benefit-text{
+    font-family:var(--body);
+    font-size:0.85rem;
+    color:var(--green-mid);
+    background:rgba(138,155,120,0.14);
+    border-left:2px solid var(--sage);
+    padding:10px 14px;
+    border-radius:2px;
+  }
   .price-note{
     margin-top:18px;
     font-family:var(--mono);
@@ -396,6 +441,12 @@
   .contact-info{list-style:none;font-family:var(--mono);font-size:0.88rem;}
   .contact-info li{margin-bottom:12px;display:flex;gap:10px;}
   .contact-info li span{color:var(--sage);}
+  .map-embed{
+    border-radius:4px;overflow:hidden;
+    border:1px solid rgba(246,239,221,0.3);
+    aspect-ratio:4/3;
+  }
+  .map-embed iframe{width:100%;height:100%;display:block;}
 
   form{display:flex;flex-direction:column;gap:16px;}
   label{
@@ -514,6 +565,66 @@
         </div>
       </div>
 
+      <div class="specimen">
+        <div class="specimen-photo">
+          <img src="images/co-nhen.webp" alt="Cỏ nhện trồng chậu nhựa" loading="lazy">
+        </div>
+        <div class="specimen-body">
+          <div class="specimen-tag">Cây nội thất</div>
+          <h3>Cỏ nhện</h3>
+          <p>Lá dài mảnh viền trắng xanh, mọc toả tròn như tia nắng, dễ trồng và có khả năng lọc không khí tốt.</p>
+          <div class="specimen-meta"><span>Bụi nhiều lá</span><span>Chậu nhựa</span></div>
+        </div>
+      </div>
+
+      <div class="specimen">
+        <div class="specimen-photo">
+          <img src="images/dinh-lang-la-tron.webp" alt="Cây Đinh lăng lá tròn trồng chậu nhựa" loading="lazy">
+        </div>
+        <div class="specimen-body">
+          <div class="specimen-tag">Dược liệu</div>
+          <h3>Đinh lăng lá tròn</h3>
+          <p>Lá tròn xanh mướt, thân nhỏ dễ trồng, vừa làm cảnh vừa là dược liệu quen thuộc trong vườn nhà.</p>
+          <div class="specimen-meta"><span>Cây con đang lớn</span><span>Chậu nhựa</span></div>
+        </div>
+      </div>
+
+      <div class="specimen">
+        <div class="specimen-photo">
+          <img src="images/hoa-hanh-phuc.webp" alt="Cây Hoa hạnh phúc trồng chậu nhựa" loading="lazy">
+        </div>
+        <div class="specimen-body">
+          <div class="specimen-tag">Cây cảnh</div>
+          <h3>Hoa hạnh phúc</h3>
+          <p>Lá dài xanh đậm, cụm hoa đỏ tươi nổi bật hình tháp, mang ý nghĩa may mắn và hạnh phúc cho không gian sống.</p>
+          <div class="specimen-meta"><span>Cây con đang lớn</span><span>Chậu nhựa</span></div>
+        </div>
+      </div>
+
+      <div class="specimen">
+        <div class="specimen-photo">
+          <img src="images/ma-de.webp" alt="Cây Mã đề trồng chậu nhựa" loading="lazy">
+        </div>
+        <div class="specimen-body">
+          <div class="specimen-tag">Dược liệu</div>
+          <h3>Mã đề</h3>
+          <p>Lá to bản hình bầu dục, mọc sát gốc, là dược liệu dân gian quen thuộc, dễ trồng trong vườn nhà.</p>
+          <div class="specimen-meta"><span>Cây con đang lớn</span><span>Chậu nhựa</span></div>
+        </div>
+      </div>
+
+      <div class="specimen">
+        <div class="specimen-photo">
+          <img src="images/vang-anh.webp" alt="Cây Vàng anh trồng chậu nhựa" loading="lazy">
+        </div>
+        <div class="specimen-body">
+          <div class="specimen-tag">Cây phong thuỷ</div>
+          <h3>Vàng anh</h3>
+          <p>Lá đốm vàng xen xanh nổi bật quanh năm, dáng bụi gọn, hợp trang trí sân vườn và lối đi.</p>
+          <div class="specimen-meta"><span>Cây con đang lớn</span><span>Chậu nhựa</span></div>
+        </div>
+      </div>
+
     </div>
   </div>
 </section>
@@ -527,53 +638,53 @@
     <div class="scroll-row">
 
       <div class="specimen">
-        <div class="specimen-photo" style="background:linear-gradient(135deg,var(--sage),var(--green-deep));">
-          <div class="frame-mark"></div>
-          <svg viewBox="0 0 100 100" fill="none" stroke="#F6EFDD" stroke-width="2.2"><circle cx="50" cy="50" r="30"/><path d="M50 20 V80 M50 50 C35 50 25 40 25 25 M50 50 C65 50 75 40 75 25 M50 65 C38 65 30 58 30 48 M50 65 C62 65 70 58 70 48"/></svg>
+        <div class="specimen-photo">
+          <img src="images/la-sen-say.webp" alt="Lá sen sấy khô đóng gói" loading="lazy">
         </div>
         <div class="specimen-body">
           <div class="specimen-tag">Dược liệu</div>
           <h3>Lá sen sấy khô</h3>
-          <p>Thu hái từ đầm sen tự nhiên, sấy lạnh giữ nguyên dược tính, dùng hãm trà thanh nhiệt.</p>
+          <p>Thu hái từ đầm sen tự nhiên, thái nhỏ và sấy khô giữ nguyên dược tính, dùng hãm trà thanh nhiệt.</p>
+          <p class="specimen-benefit">Hỗ trợ giảm mỡ máu, ổn định huyết áp, an thần, dễ ngủ.</p>
           <div class="specimen-meta"><span>Gói 100g</span><span>HSD 12 tháng</span></div>
         </div>
       </div>
 
       <div class="specimen">
-        <div class="specimen-photo" style="background:linear-gradient(135deg,#4A6B3C,var(--rust-dim));">
-          <div class="frame-mark"></div>
-          <svg viewBox="0 0 100 100" fill="none" stroke="#F6EFDD" stroke-width="2.2"><path d="M50 88 V38 M50 55 C34 55 24 42 26 28 C40 30 50 40 50 55 M50 55 C66 55 76 42 74 28 C60 30 50 40 50 55 M50 38 C36 38 28 27 30 15 C42 17 50 26 50 38 M50 38 C64 38 72 27 70 15 C58 17 50 26 50 38"/></svg>
+        <div class="specimen-photo">
+          <img src="images/la-dua-say.webp" alt="Lá dứa sấy khô đóng gói" loading="lazy">
         </div>
         <div class="specimen-body">
           <div class="specimen-tag">Dược liệu</div>
-          <h3>Lá ổi sấy khô</h3>
-          <p>Lá ổi non hái buổi sáng, sấy lạnh giữ hương thơm tự nhiên, hỗ trợ tiêu hoá.</p>
+          <h3>Lá dứa sấy khô</h3>
+          <p>Lá dứa thái sợi, sấy khô giữ trọn hương thơm tự nhiên, dùng nấu nước uống hoặc hãm trà.</p>
+          <p class="specimen-benefit">Hỗ trợ ổn định đường huyết, kháng viêm, tăng cường đề kháng.</p>
           <div class="specimen-meta"><span>Gói 100g</span><span>HSD 12 tháng</span></div>
         </div>
       </div>
 
       <div class="specimen">
-        <div class="specimen-photo" style="background:linear-gradient(135deg,#8B5E34,var(--green-mid));">
-          <div class="frame-mark"></div>
-          <svg viewBox="0 0 100 100" fill="none" stroke="#F6EFDD" stroke-width="2.2"><path d="M50 88 V45 M50 60 L28 40 M50 60 L72 40 M50 45 L32 22 M50 45 L68 22 M28 40 L22 30 M72 40 L78 30"/></svg>
+        <div class="specimen-photo">
+          <img src="images/la-sa-ke-say.webp" alt="Lá sa kê sấy khô đóng gói" loading="lazy">
         </div>
         <div class="specimen-body">
           <div class="specimen-tag">Dược liệu</div>
           <h3>Lá sa kê sấy khô</h3>
           <p>Lá sa kê già vàng tự nhiên, phơi &amp; sấy đúng độ, dùng nấu nước uống hỗ trợ sức khoẻ.</p>
+          <p class="specimen-benefit">Lợi tiểu, kháng viêm, hỗ trợ giảm gout và sỏi thận.</p>
           <div class="specimen-meta"><span>Gói 100g</span><span>HSD 12 tháng</span></div>
         </div>
       </div>
 
       <div class="specimen">
-        <div class="specimen-photo" style="background:linear-gradient(135deg,var(--rust),#5B2E1B);">
-          <div class="frame-mark"></div>
-          <svg viewBox="0 0 100 100" fill="none" stroke="#F6EFDD" stroke-width="2.2"><path d="M30 85 Q35 50 25 20 M45 85 Q50 45 42 15 M60 85 Q62 48 58 18 M75 85 Q72 50 80 22"/></svg>
+        <div class="specimen-photo">
+          <img src="images/thu-lu-say.webp" alt="Thù lù sấy khô đóng gói" loading="lazy">
         </div>
         <div class="specimen-body">
           <div class="specimen-tag">Dược liệu</div>
-          <h3>Cỏ mần trầu sấy khô</h3>
-          <p>Cỏ mần trầu tươi rửa sạch, sấy lạnh giữ dược tính, dùng sắc uống thanh nhiệt, giải độc.</p>
+          <h3>Thù lù sấy khô</h3>
+          <p>Thù lù (tầm bóp) thu hái tự nhiên, sấy khô nguyên trái, dùng nấu nước uống thanh nhiệt, giải độc.</p>
+          <p class="specimen-benefit">Giàu vitamin A, C, hỗ trợ tăng đề kháng, tốt cho mắt.</p>
           <div class="specimen-meta"><span>Gói 100g</span><span>HSD 12 tháng</span></div>
         </div>
       </div>
@@ -605,7 +716,7 @@
         </tbody>
       </table>
     </div>
-    <p class="price-note">* Giá đã bao gồm đóng gói, chưa gồm phí giao hàng. Vuốt ngang bảng để xem đủ cột trên điện thoại.</p>
+    <p class="price-note">* Giá đã bao gồm đóng gói, chưa gồm phí giao hàng. Vuốt ngang bảng để xem đủ cột trên điện thoại. Bấm vào tên sản phẩm có khung viền để xem công dụng sức khoẻ.</p>
   </div>
 </section>
 
@@ -629,19 +740,40 @@
     .then(function (data) {
       var cats = data.categories || {};
       var unitLabels = { 'Chậu': '1 chậu', 'Gói': 'Gói 100g' };
-      var rows = (data.products || []).map(function (p) {
+      var rows = (data.products || []).map(function (p, i) {
         var cat = cats[p.category] || { label: p.category, unit: '' };
         var unit = unitLabels[cat.unit] || cat.unit || '';
-        return (
+        var hasBenefit = !!p.benefit;
+        var nameCell = hasBenefit
+          ? '<button type="button" class="benefit-toggle" data-target="benefit-' + i + '" aria-expanded="false">' +
+            escapeHtml(p.name) + '<span class="chev">▸</span></button>'
+          : escapeHtml(p.name);
+        var mainRow = (
           '<tr>' +
           '<td><span class="price-cat ' + escapeHtml(p.category) + '"><span class="dot"></span>' + escapeHtml(cat.label) + '</span></td>' +
-          '<td class="name">' + escapeHtml(p.name) + '</td>' +
+          '<td class="name">' + nameCell + '</td>' +
           '<td>' + escapeHtml(unit) + '</td>' +
           '<td class="amount">' + formatPrice(p.price) + '</td>' +
           '</tr>'
         );
+        var benefitRow = hasBenefit
+          ? '<tr class="benefit-row" id="benefit-' + i + '" hidden>' +
+            '<td colspan="4"><div class="benefit-text">' + escapeHtml(p.benefit) + '</div></td>' +
+            '</tr>'
+          : '';
+        return mainRow + benefitRow;
       });
       tbody.innerHTML = rows.join('') || '<tr><td colspan="4">Chưa có sản phẩm.</td></tr>';
+
+      tbody.addEventListener('click', function (e) {
+        var btn = e.target.closest('.benefit-toggle');
+        if (!btn) return;
+        var target = document.getElementById(btn.dataset.target);
+        if (!target) return;
+        var expanded = btn.getAttribute('aria-expanded') === 'true';
+        btn.setAttribute('aria-expanded', String(!expanded));
+        target.hidden = expanded;
+      });
     })
     .catch(function () {
       tbody.innerHTML = '<tr><td colspan="4">Không tải được bảng giá. Vui lòng thử lại sau.</td></tr>';
@@ -680,10 +812,12 @@
       <div>
         <ul class="contact-info">
           <li><span>Điện thoại | Zalo —</span> 0908 097 714 - MS. DIỄM</li>
-          <li><span>Địa chỉ vườn —</span> <a href="https://maps.app.goo.gl/DTzMnPoMHxirXit69" target="_blank" rel="noopener">Đức Huệ, Long An (Xem trên Google Maps)</a></li>
+          <li><span>Địa chỉ vườn —</span> <a href="https://maps.app.goo.gl/DTzMnPoMHxirXit69" target="_blank" rel="noopener">Đức Huệ, Tây Ninh (Xem trên Google Maps)</a></li>
         </ul>
       </div>
-      
+      <div class="map-embed">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d546.9464267212556!2d106.30064118160955!3d10.848827076475501!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x310ad9001a14e51b%3A0x2f0bafc0130666a4!2zVGnhu4dtIGPDonkgTmjDoCBtw6FpIG5nw7Np!5e0!3m2!1sen!2s!4v1787135493139!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" title="Bản đồ địa chỉ vườn Vườn &amp; Nắng"></iframe>
+      </div>
     </div>
   </div>
 </section>
@@ -691,7 +825,7 @@
 <footer>
   <div class="wrap">
     <span>© 2026 Vườn &amp; Nắng.</span>
-    <span><a href="#san-pham">Sản phẩm</a> · <a href="#cau-chuyen">Câu chuyện</a> · <a href="#lien-he">Liên hệ</a></span>
+    <span><a href="#san-pham">Sản phẩm</a> · <a href="#bang-gia">Bảng giá</a> · <a href="#cau-chuyen">Câu chuyện</a> · <a href="#lien-he">Liên hệ</a></span>
   </div>
 </footer>
 
