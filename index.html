@@ -298,31 +298,34 @@
     display:none;
     position:fixed;inset:0;z-index:200;
     background:rgba(20,17,12,0.92);
+    flex-direction:column;
     align-items:center;justify-content:center;
+    gap:20px;
     padding:32px;
   }
   .lightbox.open{display:flex;}
   .lightbox img{
-    max-width:100%;max-height:100%;
+    max-width:100%;
+    max-height:calc(100% - 76px);
     object-fit:contain;
     border-radius:4px;
     box-shadow:0 20px 60px rgba(0,0,0,0.4);
   }
   .lightbox-close{
-    position:absolute;top:20px;right:24px;
-    width:44px;height:44px;
+    flex-shrink:0;
+    width:52px;height:52px;
     border-radius:50%;
     border:1px solid rgba(246,239,221,0.35);
     background:rgba(246,239,221,0.08);
     color:var(--paper);
-    font-size:1.4rem;line-height:1;
+    font-size:1.5rem;line-height:1;
     display:flex;align-items:center;justify-content:center;
     cursor:pointer;
   }
   .lightbox-close:hover{background:rgba(246,239,221,0.18);}
   @media (max-width:600px){
-    .lightbox{padding:16px;}
-    .lightbox-close{top:12px;right:12px;width:40px;height:40px;}
+    .lightbox{padding:16px;gap:16px;}
+    .lightbox img{max-height:calc(100% - 76px);}
   }
   .specimen-photo .frame-mark{
     position:absolute;top:10px;left:10px;right:10px;bottom:10px;
@@ -654,8 +657,8 @@
 </section>
 
 <div class="lightbox" id="lightbox">
-  <button type="button" class="lightbox-close" id="lightbox-close" aria-label="Đóng">✕</button>
   <img id="lightbox-img" src="" alt="">
+  <button type="button" class="lightbox-close" id="lightbox-close" aria-label="Đóng">✕</button>
 </div>
 
 <section class="price-section" id="bang-gia">
