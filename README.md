@@ -21,24 +21,24 @@ Mọi thay đổi commit lên branch `main` sẽ tự động deploy lại sau v
 
 ## Các mục đã có trong trang
 
-1. **Hero** — tiêu đề + mô tả (có nhấn yếu tố sức khoẻ) + 2 nút CTA (Xem sản phẩm / Đặt hàng).
-2. **Cây giống chọn lọc** — 8 sản phẩm có ảnh thật (Phú quí, Ráy voi, Lưỡi hổ, Cỏ nhện, Đinh lăng lá tròn, Hoa hạnh phúc, Mã đề, Vàng anh), dạng **cuộn ngang (scroll-row)**, có snap, responsive mobile.
-3. **Dược liệu sấy khô** — 4 sản phẩm có ảnh thật (Lá sen, Lá dứa, Lá sa kê, Thù lù), cùng kiểu cuộn ngang.
-4. **Bảng giá chi tiết** — bảng 4 cột: Loại / Tên sản phẩm / Đơn vị tính / Giá tiền, render động từ `products.json` bằng JavaScript (`fetch`). Phân loại theo 6 nhóm: Cây cảnh, Dược liệu, Gia vị, Cây ăn quả, Khác, Dược liệu sấy khô — mỗi nhóm có màu chấm riêng.
+1. **Header** — logo + nav ngang trên desktop; trên mobile (≤720px) thu gọn thành **nút hamburger** góc phải, bấm mở dropdown menu (Sản phẩm / Bảng giá / Câu chuyện / Liên hệ), tự đóng khi chọn một mục.
+2. **Hero** — tiêu đề + mô tả (có nhấn yếu tố sức khoẻ) + 2 nút CTA (Xem sản phẩm / Đặt hàng).
+3. **Sản phẩm** — toàn bộ 65 sản phẩm từ `products.json` render dạng lưới thẻ "tiêu bản thực vật", có **bộ lọc theo loại** (nút pill), mỗi nút hiển thị kèm số lượng sản phẩm trong nhóm đó (ví dụ "Cây cảnh (34)"), nút "Tất cả" hiển thị tổng số. 55/65 sản phẩm đã có ảnh thật.
+4. **Bảng giá nhanh** — bảng **2 cột** (Tên sản phẩm / Giá tiền, đã bỏ cột Loại và Đơn vị tính), render động từ `products.json` bằng JavaScript (`fetch`). Sản phẩm được **gom nhóm theo loại**, mỗi nhóm có 1 dòng tiêu đề riêng (nền đậm hơn, có chấm màu theo category) chèn trước danh sách sản phẩm cùng loại, thay vì lặp lại tên loại ở từng dòng.
 5. **Câu chuyện** — giới thiệu thương hiệu (khu vườn tại Đức Huệ) + số liệu (40+ loại cây, 100% organic, 0% hoá chất/chất bảo quản) + lời mời ghé thăm vườn.
-6. **Liên hệ** — số điện thoại/Zalo và địa chỉ vườn (link Google Maps).
+6. **Liên hệ** — số điện thoại/Zalo và địa chỉ vườn (link Google Maps + bản đồ nhúng).
 7. **Footer**.
 
 ## Việc cần làm tiếp (chưa hoàn thiện)
 
-- [ ] Bổ sung thêm ảnh thật cho các sản phẩm còn lại trong `products.json` (hiện chỉ 8/23 cây cảnh và 4/14 dược liệu sấy có ảnh).
+- [ ] Bổ sung ảnh thật cho 10 sản phẩm còn thiếu trong `products.json` (55/65 đã có ảnh).
 - [ ] Cân nhắc thêm cột "Còn hàng/Hết hàng" hoặc nút "Đặt ngay" trong bảng giá.
 - [ ] Cân nhắc thêm form liên hệ trực tiếp trên trang (hiện chỉ có số điện thoại/Zalo).
 
 ## Ghi chú kỹ thuật quan trọng
 
-- **Ảnh phải nén trước khi đưa vào repo** — dùng squoosh.app hoặc TinyPNG, xuất định dạng **WebP** (quality ~80), resize về khoảng **750×560px** (đủ nét cho khung hiển thị 4:3 kể cả màn Retina, không lãng phí dung lượng).
-- Ảnh sản phẩm nằm trong thư mục `images/`, đặt tên không dấu, dùng gạch nối (ví dụ `phu-qui.webp`, `la-sen-say.webp`).
+- **Ảnh phải nén trước khi đưa vào repo** — xuất định dạng **WebP**. Có thể dùng squoosh.app/TinyPNG, hoặc dòng lệnh `cwebp -q 78 -resize 640 0 input.jpg -o output.webp` (cần cài qua `brew install webp` + `brew install libtiff`), resize chiều rộng khoảng **640px** là đủ nét cho khung thẻ sản phẩm, dung lượng trung bình ~150-200KB/ảnh.
+- Ảnh sản phẩm nằm trong thư mục `images/`, đặt tên không dấu, dùng gạch nối, khớp với tên sản phẩm (ví dụ `phu-qui.webp`, `la-sen-say.webp`). Với sản phẩm có nhiều size (nhỏ/vừa/lớn), hậu tố size vào cuối tên file (ví dụ `vang-anh-nho.webp`, `vang-anh-lon.webp`).
 - **Cập nhật giá/sản phẩm**: chỉ cần sửa `products.json`, không cần đụng vào `index.html`. Bảng giá tự render lại khi tải trang.
 - **`fetch('products.json')` cần chạy qua HTTP** — mở `index.html` trực tiếp bằng double-click (giao thức `file://`) sẽ khiến bảng giá không tải được. Test local bằng `python3 -m http.server` hoặc tương đương.
 - Site là **tĩnh hoàn toàn** — không có backend, không database.
