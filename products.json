@@ -68,7 +68,7 @@
       "id": "plant-phat-tai-la-do-nho",
       "price": 15000,
       "image": "images/phat-tai-la-do-nho.webp",
-      "tag": "Cây phong thuỷ",
+      "tag": "Phong thủy",
       "description": "Lá dài nhọn pha đỏ tía và xanh nổi bật, tượng trưng cho may mắn, tài lộc theo phong thủy, hợp trang trí sân vườn, ban công.",
       "research": {
         "verified": true,
@@ -88,7 +88,7 @@
       "id": "plant-phat-tai-la-do-vua",
       "price": 25000,
       "image": "images/phat-tai-la-do-vua.webp",
-      "tag": "Cây phong thuỷ",
+      "tag": "Phong thủy",
       "description": "Lá dài nhọn pha đỏ tía và xanh nổi bật, tượng trưng cho may mắn, tài lộc theo phong thủy, hợp trang trí sân vườn, ban công.",
       "research": {
         "verified": true,
@@ -106,7 +106,7 @@
       "id": "plant-phat-tai-la-do-lon",
       "price": 30000,
       "image": "images/phat-tai-la-do-lon.webp",
-      "tag": "Cây phong thuỷ",
+      "tag": "Phong thủy",
       "description": "Lá dài nhọn pha đỏ tía và xanh nổi bật, tượng trưng cho may mắn, tài lộc theo phong thủy, hợp trang trí sân vườn, ban công.",
       "research": {
         "verified": true,
@@ -123,7 +123,7 @@
       "id": "plant-vang-anh-nho",
       "price": 15000,
       "image": "images/vang-anh-nho.webp",
-      "tag": "Cây phong thuỷ",
+      "tag": "Phong thủy",
       "description": "Lá đốm vàng xen xanh nổi bật quanh năm, dáng bụi gọn, hợp trang trí sân vườn và lối đi.",
       "research": {
         "verified": true,
@@ -143,7 +143,7 @@
       "id": "plant-vang-anh-lon",
       "price": 30000,
       "image": "images/vang-anh-lon.webp",
-      "tag": "Cây phong thuỷ",
+      "tag": "Phong thủy",
       "description": "Lá đốm vàng xen xanh nổi bật quanh năm, dáng bụi gọn, hợp trang trí sân vườn và lối đi.",
       "research": {
         "verified": true,
@@ -214,7 +214,7 @@
       "id": "plant-phu-qui",
       "price": 15000,
       "image": "images/phu-qui.webp",
-      "tag": "Cây phong thuỷ",
+      "tag": "Phong thủy",
       "description": "Lá viền hồng đỏ nổi bật trên nền xanh, tượng trưng cho phú quý, tài lộc, hợp trang trí bàn làm việc và phòng khách.",
       "research": {
         "verified": true,
@@ -232,6 +232,7 @@
       "id": "plant-van-nien-thanh-nho",
       "price": 10000,
       "image": "images/van-nien-thanh-nho.webp",
+      "tag": "Phong thủy",
       "description": "Lá loang màu xanh trắng hoặc xanh đốm, phiến lá hình bầu dục, dễ sống trong nhà, tượng trưng cho tài lộc và thịnh vượng.",
       "research": {
         "verified": true,
@@ -250,6 +251,7 @@
       "id": "plant-van-nien-thanh-lon",
       "price": 25000,
       "image": "images/van-nien-thanh-lon.webp",
+      "tag": "Phong thủy",
       "description": "Lá loang màu xanh trắng hoặc xanh đốm, phiến lá hình bầu dục, dễ sống trong nhà, tượng trưng cho tài lộc và thịnh vượng.",
       "research": {
         "verified": true,
@@ -268,7 +270,7 @@
       "id": "plant-luoi-ho",
       "price": 15000,
       "image": "images/luoi-ho.webp",
-      "tag": "Cây phong thuỷ",
+      "tag": "Phong thủy",
       "description": "Lá dày, mọc thẳng đứng, sức sống bền bỉ, ít cần chăm sóc, được xem là mang lại may mắn cho gia chủ.",
       "research": {
         "verified": true,
@@ -287,6 +289,7 @@
       "id": "plant-phat-tai-bup-sen",
       "price": 15000,
       "image": "images/phat-tai-bup-sen.webp",
+      "tag": "Phong thủy",
       "description": "Lá mọc xếp lớp quanh thân tạo hình búp sen, thân thẳng nhiều đốt, rễ chùm trắng khỏe, tượng trưng may mắn và tài lộc.",
       "research": {
         "verified": true,
@@ -338,6 +341,7 @@
       "id": "plant-loc-vung",
       "price": 25000,
       "image": "images/loc-vung.webp",
+      "tag": "Phong thủy",
       "description": "Hoa nhỏ đỏ mọc thành chùm rủ dài như dây pháo, nở vào đầu hè và cuối thu, tượng trưng cho tài lộc và may mắn.",
       "research": {
         "verified": true,
@@ -356,6 +360,7 @@
       "id": "plant-giu-tien",
       "price": 25000,
       "image": "images/giu-tien.webp",
+      "tag": "Phong thủy",
       "description": "Lá thuôn dài xanh đậm với gân và mảng trắng như tuyết phủ, thân mảnh mềm mại, được cho là giúp giữ của cải cho gia chủ.",
       "research": {
         "verified": true,
@@ -391,6 +396,7 @@
       "id": "plant-dua-van-phat",
       "price": 15000,
       "image": "images/dua-van-phat.webp",
+      "tag": "Phong thủy",
       "description": "Lá dài hẹp xanh sọc vàng ở giữa, mọc thành bụi gọn dạng dứa cảnh, ưa nắng, được xem là biểu tượng cho may mắn và tài lộc.",
       "research": {
         "verified": false,
@@ -408,7 +414,7 @@
       "id": "plant-hoa-hanh-phuc",
       "price": 15000,
       "image": "images/hoa-hanh-phuc.webp",
-      "tag": "Cây cảnh",
+      "tag": "Phong thủy",
       "description": "Lá dài xanh đậm, cụm hoa đỏ tươi nổi bật hình tháp, mang ý nghĩa may mắn và hạnh phúc cho không gian sống.",
       "research": {
         "verified": false,
@@ -427,6 +433,7 @@
       "id": "plant-ngoc-ngan",
       "price": 25000,
       "image": "images/ngoc-ngan.webp",
+      "tag": "Phong thủy",
       "description": "Lá bầu dục xanh đậm điểm vân trắng bạc nổi bật, mọc bụi gọn, tượng trưng cho sự thịnh vượng và may mắn tài lộc.",
       "research": {
         "verified": true,
@@ -501,6 +508,7 @@
       "id": "plant-mat-nai",
       "price": 15000,
       "image": "images/mat-nai.webp",
+      "tag": "Phong thủy",
       "description": "Lá hình trái xoan màu tím đặc trưng, thân mềm mọng nước, cây bụi nhỏ dễ trồng, hoa trắng nhỏ mang ý nghĩa thịnh vượng bình yên.",
       "research": {
         "verified": false,
@@ -628,6 +636,7 @@
       "id": "plant-cay-mo-ket",
       "price": 15000,
       "image": "images/cay-mo-ket.webp",
+      "tag": "Phong thủy",
       "description": "Cây bụi nhỏ lá to giống lá chuối, hoa hình mỏ chim màu đỏ cam sặc sỡ, cây cảnh phong thủy được ưa chuộng vì tượng trưng tài lộc, may mắn.",
       "research": {
         "verified": true,
@@ -750,9 +759,9 @@
       }
     },
     {
-      "category": "plant",
+      "category": "herb",
       "name": "Ngải cứu",
-      "id": "plant-ngai-cuu",
+      "id": "herb-ngai-cuu",
       "price": 15000,
       "image": "images/ngai-cuu.webp",
       "description": "Cây bụi nhỏ, lá xẻ thùy sâu như lông chim, mặt dưới lá có lông trắng mịn, mùi thơm hắc đặc trưng, dân gian dùng làm rau và dược liệu.",
@@ -829,7 +838,6 @@
       "id": "herb-ma-de",
       "price": 10000,
       "image": "images/ma-de.webp",
-      "tag": "Dược liệu",
       "description": "Lá to bản hình bầu dục, mọc sát gốc, là dược liệu dân gian quen thuộc, dễ trồng trong vườn nhà.",
       "research": {
         "verified": true,
@@ -903,7 +911,6 @@
       "id": "herb-dinh-lang-la-tron",
       "price": 15000,
       "image": "images/dinh-lang-la-tron.webp",
-      "tag": "Dược liệu",
       "description": "Lá tròn xanh mướt, thân nhỏ dễ trồng, vừa làm cảnh vừa là dược liệu quen thuộc trong vườn nhà.",
       "research": {
         "verified": false,

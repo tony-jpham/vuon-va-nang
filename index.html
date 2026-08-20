@@ -258,6 +258,38 @@
   }
 
   /* ---------- PRODUCT CARDS (herbarium specimen style) ---------- */
+  .product-search{margin-bottom:16px;}
+  .product-search-field{
+    display:flex;align-items:center;gap:10px;
+    max-width:560px;padding:0 14px;
+    border:1px solid rgba(36,31,23,0.26);
+    border-radius:3px;background:var(--paper);
+  }
+  .product-search-field:focus-within{border-color:var(--rust);box-shadow:0 0 0 3px rgba(168,68,42,0.12);}
+  .product-search-icon{font-size:1.1rem;color:var(--green-mid);}
+  .product-search-input{
+    min-width:0;flex:1;padding:14px 0;border:0;outline:0;box-shadow:none;
+    -webkit-appearance:none;appearance:none;
+    background:transparent;color:var(--ink);font:inherit;font-size:.95rem;
+  }
+  .product-search-input:focus,
+  .product-search-input:focus-visible{outline:none !important;box-shadow:none !important;}
+  .product-search-input::placeholder{color:var(--green-mid);opacity:.75;}
+  .product-search-input::-webkit-search-decoration,
+  .product-search-input::-webkit-search-cancel-button,
+  .product-search-input::-webkit-search-results-button,
+  .product-search-input::-webkit-search-results-decoration{
+    -webkit-appearance:none;appearance:none;
+  }
+  .product-search-clear{
+    width:28px;height:28px;border:0;border-radius:50%;
+    background:var(--kraft);color:var(--green-deep);font-size:1.1rem;line-height:1;cursor:pointer;
+  }
+  .product-search-clear:hover{background:var(--rust);color:var(--paper);}
+  .search-status{min-height:1.4em;margin-top:9px;color:var(--green-mid);font-family:var(--mono);font-size:.76rem;}
+  .product-no-results{margin-top:32px;color:var(--green-mid);font-family:var(--mono);font-size:.88rem;}
+  .product-no-results button{margin-left:6px;border:0;border-bottom:1px solid var(--rust);background:transparent;color:var(--rust-dim);font:inherit;cursor:pointer;}
+  [hidden]{display:none !important;}
   .filter-bar{
     display:flex;flex-wrap:wrap;gap:10px;
     margin-bottom:32px;
@@ -322,13 +354,25 @@
     opacity:0.7;
   }
   .specimen-body{padding:20px 20px 22px;flex:1;display:flex;flex-direction:column;}
+  .specimen-taglist{
+    display:flex;align-items:center;flex-wrap:wrap;gap:8px;
+    margin-bottom:10px;
+  }
   .specimen-tag{
     font-family:var(--mono);
     font-size:0.68rem;
     letter-spacing:0.05em;
     color:var(--rust);
     text-transform:uppercase;
-    margin-bottom:10px;
+  }
+  .specimen-subtag{
+    font-family:var(--mono);
+    font-size:0.66rem;
+    letter-spacing:0.03em;
+    padding:2px 9px;
+    border-radius:999px;
+    background:var(--kraft);
+    color:var(--green-deep);
   }
   .specimen h3{
     font-family:var(--display);
@@ -660,11 +704,22 @@
       <span class="num">01 — Cây con khoẻ, dược liệu sấy tự nhiên</span>
     </div>
 
+    <div class="product-search">
+      <label class="visually-hidden" for="product-search-input">Tìm sản phẩm theo tên</label>
+      <div class="product-search-field">
+        <span class="product-search-icon" aria-hidden="true">⌕</span>
+        <input class="product-search-input" id="product-search-input" type="search" placeholder="Tìm cây, dược liệu…" autocomplete="off">
+        <button class="product-search-clear" id="product-search-clear" type="button" aria-label="Xoá tìm kiếm" hidden>×</button>
+      </div>
+      <p class="search-status" id="search-status" aria-live="polite" hidden></p>
+    </div>
+
     <div class="filter-bar" id="filter-bar"></div>
 
     <div class="product-grid" id="product-grid">
       <p class="product-loading">Đang tải sản phẩm…</p>
     </div>
+    <p class="product-no-results" id="product-no-results" hidden>Không tìm thấy sản phẩm phù hợp.<button type="button" id="product-search-reset">Xoá tìm kiếm</button></p>
   </div>
 </section>
 
@@ -705,7 +760,12 @@
   var grid = document.getElementById('product-grid');
   var filterBar = document.getElementById('filter-bar');
   var tbody = document.getElementById('price-table-body');
-  if (!grid || !tbody) return;
+  var searchInput = document.getElementById('product-search-input');
+  var searchClear = document.getElementById('product-search-clear');
+  var searchStatus = document.getElementById('search-status');
+  var searchNoResults = document.getElementById('product-no-results');
+  var searchReset = document.getElementById('product-search-reset');
+  if (!grid || !tbody || !searchInput || !searchClear || !searchStatus || !searchNoResults || !searchReset) return;
 
   function formatPrice(n) {
     return n.toLocaleString('vi-VN') + 'đ';
@@ -715,6 +775,16 @@
     return String(s).replace(/[&<>"']/g, function (c) {
       return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
     });
+  }
+
+  function normalizeSearchText(value) {
+    return String(value)
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '')
+      .replace(/đ/g, 'd')
+      .replace(/Đ/g, 'd')
+      .toLowerCase()
+      .trim();
   }
 
   fetch('products.json')
@@ -739,14 +809,14 @@
         var photo = p.image
           ? '<img src="' + escapeHtml(p.image) + '" alt="' + escapeHtml(p.name) + '" loading="lazy">'
           : '<div class="frame-mark"></div>';
-        var tag = p.tag || cat.label;
+        var subtag = p.tag && p.tag !== cat.label ? '<span class="specimen-subtag">' + escapeHtml(p.tag) + '</span>' : '';
         var desc = p.description ? '<p>' + escapeHtml(p.description) + '</p>' : '';
         var benefit = p.benefit ? '<p class="specimen-benefit">' + escapeHtml(p.benefit) + '</p>' : '';
         return (
-          '<div class="specimen" data-cat="' + escapeHtml(p.category) + '">' +
+          '<div class="specimen" data-cat="' + escapeHtml(p.category) + '" data-name="' + escapeHtml(normalizeSearchText(p.name)) + '">' +
           '<div class="specimen-photo' + (p.image ? '' : ' no-image') + '">' + photo + '</div>' +
           '<div class="specimen-body">' +
-          '<div class="specimen-tag">' + escapeHtml(tag) + '</div>' +
+          '<div class="specimen-taglist"><span class="specimen-tag">' + escapeHtml(cat.label) + '</span>' + subtag + '</div>' +
           '<h3>' + escapeHtml(p.name) + '</h3>' +
           desc + benefit +
           '<div class="specimen-meta"><span>' + escapeHtml(unit) + '</span><span class="amount">' + formatPrice(p.price) + '</span></div>' +
@@ -758,15 +828,44 @@
 
       grid.innerHTML = products.map(cardHtml).join('') || '<p class="product-loading">Chưa có sản phẩm.</p>';
 
+      var activeCategory = 'all';
+      var cards = grid.querySelectorAll('.specimen');
+
+      function updateVisibleProducts() {
+        var query = normalizeSearchText(searchInput.value);
+        var visibleCount = 0;
+        cards.forEach(function (card) {
+          var matchesCategory = activeCategory === 'all' || card.dataset.cat === activeCategory;
+          var matchesSearch = !query || card.dataset.name.indexOf(query) !== -1;
+          var visible = matchesCategory && matchesSearch;
+          card.style.display = visible ? '' : 'none';
+          if (visible) visibleCount += 1;
+        });
+        searchClear.hidden = !searchInput.value;
+        searchStatus.hidden = !query;
+        searchNoResults.hidden = !query || visibleCount !== 0;
+        if (query) {
+          searchStatus.textContent = visibleCount ? 'Tìm thấy ' + visibleCount + ' sản phẩm.' : 'Không tìm thấy sản phẩm phù hợp.';
+        }
+      }
+
+      function clearSearch() {
+        searchInput.value = '';
+        updateVisibleProducts();
+        searchInput.focus();
+      }
+
+      searchInput.addEventListener('input', updateVisibleProducts);
+      searchClear.addEventListener('click', clearSearch);
+      searchReset.addEventListener('click', clearSearch);
+
       filterBar.addEventListener('click', function (e) {
         var btn = e.target.closest('.filter-pill');
         if (!btn) return;
         filterBar.querySelectorAll('.filter-pill').forEach(function (b) { b.classList.remove('active'); });
         btn.classList.add('active');
-        var cat = btn.dataset.cat;
-        grid.querySelectorAll('.specimen').forEach(function (card) {
-          card.style.display = (cat === 'all' || card.dataset.cat === cat) ? '' : 'none';
-        });
+        activeCategory = btn.dataset.cat;
+        updateVisibleProducts();
       });
 
       var rows = [];
