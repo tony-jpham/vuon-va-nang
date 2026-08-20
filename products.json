@@ -1,84 +1,1278 @@
 {
   "updatedNote": "Cập nhật hàng tuần",
   "categories": {
-    "plant": { "label": "Cây cảnh", "unit": "Chậu" },
-    "herb": { "label": "Dược liệu", "unit": "Chậu" },
-    "spice": { "label": "Gia vị", "unit": "Chậu" },
-    "fruit": { "label": "Cây ăn quả", "unit": "Chậu" },
-    "other": { "label": "Khác", "unit": "Chậu" },
-    "dried": { "label": "Dược liệu sấy khô", "unit": "Gói" }
+    "plant": {
+      "label": "Cây cảnh",
+      "unit": "Chậu"
+    },
+    "herb": {
+      "label": "Dược liệu",
+      "unit": "Chậu"
+    },
+    "spice": {
+      "label": "Gia vị",
+      "unit": "Chậu"
+    },
+    "fruit": {
+      "label": "Cây ăn quả",
+      "unit": "Chậu"
+    },
+    "other": {
+      "label": "Khác",
+      "unit": "Chậu"
+    },
+    "dried": {
+      "label": "Dược liệu sấy khô",
+      "unit": "Gói"
+    }
   },
   "products": [
-    { "category": "plant", "name": "Chiều hồng", "price": 15000, "image": "images/chieu-hong.webp", "description": "Thân bụi thấp, lá thon dài xanh đậm, hoa hình chuông màu hồng phấn nở liên tục, ưa nắng và dễ trồng ngoài trời." },
-    { "category": "plant", "name": "Chiều tím", "price": 15000, "image": "images/chieu-tim.webp", "description": "Thân bụi cao đến 1m, lá thon dài, hoa hình chuông tím nhạt nở quanh năm, chịu hạn tốt, hợp trồng viền lối đi." },
-    { "category": "plant", "name": "Phát tài lá đỏ nhỏ", "price": 15000, "image": "images/phat-tai-la-do-nho.webp", "tag": "Cây phong thuỷ", "description": "Lá dài nhọn pha đỏ tía và xanh nổi bật, tượng trưng cho may mắn, tài lộc theo phong thủy, hợp trang trí sân vườn, ban công." },
-    { "category": "plant", "name": "Phát tài lá đỏ (kèm bình)", "price": 25000, "image": "images/phat-tai-la-do-vua.webp", "tag": "Cây phong thuỷ", "description": "Lá dài nhọn pha đỏ tía và xanh nổi bật, tượng trưng cho may mắn, tài lộc theo phong thủy, hợp trang trí sân vườn, ban công." },
-    { "category": "plant", "name": "Phát tài lá đỏ (kèm bình)", "price": 30000, "image": "images/phat-tai-la-do-lon.webp", "tag": "Cây phong thuỷ", "description": "Lá dài nhọn pha đỏ tía và xanh nổi bật, tượng trưng cho may mắn, tài lộc theo phong thủy, hợp trang trí sân vườn, ban công." },
-    { "category": "plant", "name": "Vàng anh nhỏ", "price": 15000, "image": "images/vang-anh-nho.webp", "tag": "Cây phong thuỷ", "description": "Lá đốm vàng xen xanh nổi bật quanh năm, dáng bụi gọn, hợp trang trí sân vườn và lối đi." },
-    { "category": "plant", "name": "Vàng anh (kèm bình)", "price": 30000, "image": "images/vang-anh-lon.webp", "tag": "Cây phong thuỷ", "description": "Lá đốm vàng xen xanh nổi bật quanh năm, dáng bụi gọn, hợp trang trí sân vườn và lối đi." },
-    { "category": "plant", "name": "Cỏ nhện/Lan chi", "price": 15000, "image": "images/lan-chi.webp", "tag": "Cây nội thất", "description": "Lá dài mảnh viền trắng xanh, mọc toả tròn như tia nắng, dễ trồng và có khả năng lọc không khí tốt." },
-    { "category": "plant", "name": "Ráy voi", "price": 15000, "image": "images/ray-voi.webp", "tag": "Cây lá lớn", "description": "Lá to bản, xanh mướt, dáng vươn khoẻ khoắn, hợp trồng sân vườn hoặc ban công nhiều nắng." },
-    { "category": "plant", "name": "Hoàng yến", "price": 10000, "image": "images/hoang-yen.webp", "description": "Hoa vàng tươi hình chuông, nở rộ thành chùm rủ vào mùa xuân, cây ưa nắng, thường trồng chậu hoặc tạo bụi trang trí sân vườn." },
-    { "category": "plant", "name": "Phú quí", "price": 15000, "image": "images/phu-qui.webp", "tag": "Cây phong thuỷ", "description": "Lá viền hồng đỏ nổi bật trên nền xanh, tượng trưng cho phú quý, tài lộc, hợp trang trí bàn làm việc và phòng khách." },
-    { "category": "plant", "name": "Vạn niên thanh nhỏ", "price": 10000, "image": "images/van-nien-thanh-nho.webp", "description": "Lá loang màu xanh trắng hoặc xanh đốm, phiến lá hình bầu dục, dễ sống trong nhà, tượng trưng cho tài lộc và thịnh vượng." },
-    { "category": "plant", "name": "Vạn niên thanh lớn", "price": 25000, "image": "images/van-nien-thanh-lon.webp", "description": "Lá loang màu xanh trắng hoặc xanh đốm, phiến lá hình bầu dục, dễ sống trong nhà, tượng trưng cho tài lộc và thịnh vượng." },
-    { "category": "plant", "name": "Lưỡi hổ", "price": 15000, "image": "images/luoi-ho.webp", "tag": "Cây phong thuỷ", "description": "Lá dày, mọc thẳng đứng, sức sống bền bỉ, ít cần chăm sóc, được xem là mang lại may mắn cho gia chủ." },
-    { "category": "plant", "name": "Phát tài búp sen", "price": 15000, "image": "images/phat-tai-bup-sen.webp", "description": "Lá mọc xếp lớp quanh thân tạo hình búp sen, thân thẳng nhiều đốt, rễ chùm trắng khỏe, tượng trưng may mắn và tài lộc." },
-    { "category": "plant", "name": "Lưỡi mèo thái xanh", "price": 15000, "image": "images/luoi-meo-thai-xanh.webp", "description": "Lá dày hình kiếm ngắn, xếp cuộn xoáy sát gốc tạo hoa thị, có vằn ngang bóng, cây nhỏ gọn, bền, ít cần chăm sóc." },
-    { "category": "plant", "name": "Dương xỉ lá me", "price": 15000, "image": "images/duong-xi-la-me.webp", "description": "Lá kép nhỏ mảnh như lá me, mọc thành cụm rậm rạp xanh quanh năm, ưa bóng râm, có khả năng lọc không khí." },
-    { "category": "plant", "name": "Lộc vừng", "price": 25000, "image": "images/loc-vung.webp", "description": "Hoa nhỏ đỏ mọc thành chùm rủ dài như dây pháo, nở vào đầu hè và cuối thu, tượng trưng cho tài lộc và may mắn." },
-    { "category": "plant", "name": "Giữ tiền/lan tuyết", "price": 25000, "image": "images/giu-tien.webp", "description": "Lá thuôn dài xanh đậm với gân và mảng trắng như tuyết phủ, thân mảnh mềm mại, được cho là giúp giữ của cải cho gia chủ." },
-    { "category": "plant", "name": "Dương xỉ tóc tiên", "price": 15000, "image": "images/duong-xi-toc-tien.webp", "description": "Lá nhỏ mảnh mai hình quạt, buông rủ mềm mại như tóc, ưa bóng râm và ẩm, tạo nét thanh nhã dịu mắt cho không gian sống." },
-    { "category": "plant", "name": "Dứa vạn phát", "price": 15000, "image": "images/dua-van-phat.webp", "description": "Lá dài hẹp xanh sọc vàng ở giữa, mọc thành bụi gọn dạng dứa cảnh, ưa nắng, được xem là biểu tượng cho may mắn và tài lộc." },
-    { "category": "plant", "name": "Hoa hạnh phúc", "price": 15000, "image": "images/hoa-hanh-phuc.webp", "tag": "Cây cảnh", "description": "Lá dài xanh đậm, cụm hoa đỏ tươi nổi bật hình tháp, mang ý nghĩa may mắn và hạnh phúc cho không gian sống." },
-    { "category": "plant", "name": "Ngọc ngân", "price": 25000, "image": "images/ngoc-ngan.webp", "description": "Lá bầu dục xanh đậm điểm vân trắng bạc nổi bật, mọc bụi gọn, tượng trưng cho sự thịnh vượng và may mắn tài lộc." },
-    { "category": "plant", "name": "Da quy", "price": 25000, "image": "images/da-quy.webp", "description": "Lá bầu dục bóng, mép lá thường pha sắc đỏ hoặc xanh thẫm, cây bụi nhỏ dùng viền bồn hoa, trang trí sân vườn và nội thất." },
-    { "category": "plant", "name": "Đại phú gia", "price": 40000, "image": "images/dai-phu-gia.webp", "description": "Lá to bản xanh đốm trắng bắt mắt, dáng bụi sum suê, thanh lọc không khí tốt nhưng nhựa cây có thể gây kích ứng da, cần tránh trẻ nhỏ." },
-
-    { "category": "plant", "name": "Sương sáo", "price": 10000, "image": "images/suong-sao.webp", "description": "Thân thảo mọc thẳng cao 40-60cm, lá và thân chứa chất tạo keo, nấu lên đông thành thạch đen dùng làm món giải khát mùa hè." },
-    { "category": "plant", "name": "Mắt nai", "price": 15000, "image": "images/mat-nai.webp", "description": "Lá hình trái xoan màu tím đặc trưng, thân mềm mọng nước, cây bụi nhỏ dễ trồng, hoa trắng nhỏ mang ý nghĩa thịnh vượng bình yên." },
-    { "category": "plant", "name": "Cà na", "price": 15000, "image": "images/ca-na.webp", "description": "Quả hạch bầu dục nhỏ, xanh khi non chuyển vàng nhạt lúc chín, vị chua giòn đặc trưng, thường dùng ăn vặt và làm mứt ở miền Tây." },
-    { "category": "plant", "name": "Bình tinh", "price": 10000, "image": "images/binh-tinh.webp", "description": "Lá to hình bầu dục gân song song rõ nét, củ trắng ngà bọc vảy mỏng, chứa nhiều tinh bột dùng làm bột bình tinh truyền thống." },
-    { "category": "plant", "name": "Đậu biếc", "price": 15000, "image": "images/dau-biec.webp", "description": "Dây leo hoa xanh tím đặc trưng, dùng nấu nước hoặc nhuộm màu thực phẩm tự nhiên, còn là dược liệu dân gian hỗ trợ an thần, chống oxy hóa." },
-    { "category": "plant", "name": "Xá xị", "price": 10000, "image": "images/xa-xi.webp", "description": "Còn gọi rau quế vị/quế đất, lá mọc đối hình bầu dục thuôn dài, thân thảo mọc thẳng, có mùi thơm đặc trưng như xá xị, thường dùng ăn kèm gỏi cuốn, lẩu." },
-    { "category": "plant", "name": "So đũa hoa trắng", "price": 15000, "image": "images/so-dua-hoa-trang.webp", "description": "Cây thân gỗ nhỏ, lá kép lông chim, hoa trắng lớn mọc chùm, là đặc sản miền Tây dùng nấu canh chua hoặc xào, đồng thời là vị thuốc dân gian." },
-    { "category": "plant", "name": "Lá giang", "price": 15000, "image": "images/la-giang.webp", "description": "Dây leo lá hình trứng vị chua thanh, nguyên liệu quen thuộc để nấu canh chua, đồng thời là dược liệu dân gian giúp tiêu thũng, chống viêm." },
-    { "category": "plant", "name": "Cây mỏ két", "price": 15000, "image": "images/cay-mo-ket.webp", "description": "Cây bụi nhỏ lá to giống lá chuối, hoa hình mỏ chim màu đỏ cam sặc sỡ, cây cảnh phong thủy được ưa chuộng vì tượng trưng tài lộc, may mắn." },
-
-    { "category": "herb", "name": "Rẻ quạt/Xạ can", "price": 15000, "image": "images/re-quat.webp", "description": "Lá dạng kiếm xếp hình quạt, hoa vàng cam đốm tía, là dược liệu cổ truyền nổi tiếng chữa viêm họng, ho có đờm." },
-    { "category": "herb", "name": "Nha đam", "price": 10000, "image": "images/nha-dam.webp", "description": "Lá dày mọng nước xếp hình hoa thị, mép có răng cưa, chứa gel trong dùng làm đẹp da và hỗ trợ tiêu hóa, làm lành vết thương." },
-    { "category": "herb", "name": "Lá é", "price": 10000, "image": "images/la-e.webp", "description": "É trắng, lá thơm dạng húng quế, dùng ăn kèm món cuốn hoặc nấu canh, có tinh dầu kháng viêm hỗ trợ tiêu hóa trong y học dân gian." },
-    { "category": "herb", "name": "Mã đề", "price": 10000, "image": "images/ma-de.webp", "tag": "Dược liệu", "description": "Lá to bản hình bầu dục, mọc sát gốc, là dược liệu dân gian quen thuộc, dễ trồng trong vườn nhà." },
-    { "category": "herb", "name": "Thù lù/Tầm bóp", "price": 10000, "image": "images/thu-lu.webp", "description": "Quả nhỏ bọc trong lớp đài mỏng hình lồng đèn, chín ngả vàng cam, vị chua ngọt nhẹ, ăn tươi trực tiếp hoặc làm mứt, dễ trồng trong vườn nhà." },
-    { "category": "herb", "name": "Hương nhu", "price": 10000, "image": "images/huong-nhu.webp", "description": "Cây nhỏ toàn thân có lông, mùi thơm đặc trưng chứa eugenol, là dược liệu dân gian quen thuộc để xông giải cảm, hạ sốt." },
-    { "category": "herb", "name": "Đinh lăng", "price": 15000, "image": "images/dinh-lang.webp", "description": "Lá kép xẻ nhỏ như lông chim, mùi thơm nhẹ khi vò, rễ được dùng làm thuốc bổ dân gian, ví như 'sâm của người nghèo'." },
-    { "category": "herb", "name": "Đinh lăng lá tròn", "price": 15000, "image": "images/dinh-lang-la-tron.webp", "tag": "Dược liệu", "description": "Lá tròn xanh mướt, thân nhỏ dễ trồng, vừa làm cảnh vừa là dược liệu quen thuộc trong vườn nhà." },
-
-    { "category": "spice", "name": "Hương thảo", "price": 15000, "image": "images/huong-thao.webp", "description": "Lá nhỏ dài như kim, xanh đậm, thân gỗ nhỏ mùi thơm nồng đặc trưng, thường dùng làm gia vị và trang trí giúp thư giãn tinh thần." },
-    { "category": "spice", "name": "Lá lốt", "price": 10000, "image": "images/la-lot.webp", "description": "Lá hình tim xanh đậm bóng mượt, thân bò lan sát đất, thường dùng cuốn thịt bò nướng hoặc làm chả, kèm công dụng giảm đau kháng viêm." },
-    { "category": "spice", "name": "Gừng", "price": 10000, "image": "images/gung.webp", "description": "Thân rễ (củ) phân nhánh như bàn tay, vỏ vàng nâu vị cay nóng thơm nồng, là gia vị và vị thuốc dân gian trị lạnh bụng, cảm cúm." },
-    { "category": "spice", "name": "Ngải bún", "price": 10000, "image": "images/ngai-bun.webp", "description": "Củ vàng phân nhánh như ngón tay, hương thơm dịu nhẹ ít hăng hơn gừng, là gia vị đặc trưng ẩm thực miền Tây Nam Bộ." },
-    { "category": "spice", "name": "Nghệ", "price": 10000, "image": "images/nghe.webp", "description": "Thân rễ hình trụ phân nhánh màu vàng tươi đậm, cùng họ với gừng, là gia vị và dược liệu quen thuộc giúp lành vết thương, hỗ trợ tiêu hóa." },
-    { "category": "spice", "name": "Lá dứa", "price": 10000, "image": "images/la-dua-thom.webp", "description": "Lá dài hẹp như lưỡi gươm, xanh đậm mọc xoắn từ gốc, tỏa hương thơm nếp đặc trưng dùng nấu chè, làm bánh và tạo màu xanh tự nhiên." },
-
-    { "category": "fruit", "name": "Chanh dây vàng hương ổi", "price": 15000, "image": "images/chanh-day-vang-huong-oi.webp", "description": "Dây leo hoa tím đẹp, quả vỏ vàng bóng khi chín, hương thơm đặc trưng như ổi chín, vị ngọt dịu hài hòa vị chua nhẹ." },
-
-    { "category": "other", "name": "Rau dền nhật", "price": 10000, "image": "images/rau-den-nhat.webp", "description": "Lá dày, giòn, màu xanh đậm hoặc pha tím đỏ bắt mắt, sinh trưởng nhanh, là rau ăn lá bổ dưỡng phổ biến trong bữa cơm gia đình Việt." },
-    { "category": "other", "name": "Cỏ lạc", "price": 10000, "image": "images/co-lac.webp", "description": "Thân bò sát đất tạo thảm dày, lá hình bầu dục phủ lông tơ mịn, hoa vàng nhỏ xinh, dùng phủ đất chống xói mòn và cải tạo đất giàu đạm." },
-
-    { "category": "dried", "name": "Lá sen", "price": 20000, "weight": "100g", "description": "Thu hái từ đầm sen tự nhiên, thái nhỏ và sấy khô giữ nguyên dược tính, dùng hãm trà thanh nhiệt.", "benefit": "Hỗ trợ giảm mỡ máu, ổn định huyết áp, an thần, dễ ngủ." },
-    { "category": "dried", "name": "Lá ổi", "price": 20000, "weight": "100g", "description": "Lá ổi già thu hái tự nhiên, sấy khô giữ dược tính, dùng nấu nước uống hằng ngày.", "benefit": "Hỗ trợ tiêu hoá, ổn định đường huyết, tăng đề kháng." },
-    { "category": "dried", "name": "Lá sa kê", "price": 20000, "weight": "100g", "description": "Lá sa kê già vàng tự nhiên, phơi & sấy đúng độ, dùng nấu nước uống hỗ trợ sức khoẻ.", "benefit": "Lợi tiểu, kháng viêm, hỗ trợ giảm gout và sỏi thận." },
-    { "category": "dried", "name": "Lá đu đủ", "price": 20000, "weight": "100g", "description": "Lá đu đủ già phơi sấy khô tự nhiên, dùng nấu nước uống theo kinh nghiệm dân gian.", "benefit": "Thanh nhiệt, giải độc, hỗ trợ tiêu hoá, tăng đề kháng." },
-    { "category": "dried", "name": "Lá vối", "price": 20000, "weight": "100g", "description": "Lá vối bánh tẻ thu hái tự nhiên, sấy khô đúng độ, dùng hãm nước uống hằng ngày.", "benefit": "Hỗ trợ tiêu hoá, giảm mỡ máu, ổn định đường huyết." },
-    { "category": "dried", "name": "Lá vong nem", "price": 20000, "weight": "100g", "description": "Lá vông nem thu hái tự nhiên, sấy khô nguyên lá, dùng nấu nước hoặc hãm trà buổi tối.", "benefit": "An thần, hỗ trợ giấc ngủ, giảm đau nhức xương khớp." },
-    { "category": "dried", "name": "Chùm bao", "price": 20000, "weight": "100g", "description": "Dây và lá chùm bao (lạc tiên) thu hái tự nhiên, sấy khô, dùng hãm trà hoặc sắc uống trước khi ngủ.", "benefit": "An thần, hỗ trợ giấc ngủ ngon, giảm hồi hộp lo âu." },
-    { "category": "dried", "name": "Trinh nữ (mắc cỡ)", "price": 20000, "weight": "100g", "description": "Trinh nữ (mắc cỡ) thu hái tự nhiên, sấy khô cành lá hoặc rễ, dùng sắc nước uống.", "benefit": "An thần, lợi tiểu, hỗ trợ giảm đau nhức xương khớp." },
-    { "category": "dried", "name": "Lá dứa thơm", "price": 20000, "weight": "100g", "description": "Lá dứa thái sợi, sấy khô giữ trọn hương thơm tự nhiên, dùng nấu nước uống hoặc hãm trà.", "benefit": "Hỗ trợ ổn định đường huyết, kháng viêm, tăng cường đề kháng." },
-    { "category": "dried", "name": "Chùm ngây", "price": 20000, "weight": "100g", "description": "Lá chùm ngây non thu hái tự nhiên, sấy khô giữ dưỡng chất, dùng hãm trà hoặc nấu nước uống.", "benefit": "Giàu vitamin, khoáng chất, tăng đề kháng, kháng viêm." },
-    { "category": "dried", "name": "Cỏ mần trầu", "price": 20000, "weight": "100g", "description": "Cỏ mần trầu thu hái tự nhiên, sấy khô nguyên cây, dùng nấu nước uống thanh nhiệt.", "benefit": "Thanh nhiệt, mát gan, lợi tiểu, giải độc cơ thể." },
-    { "category": "dried", "name": "Lá mơ lông tím", "price": 20000, "weight": "100g", "description": "Lá mơ lông tím thu hái tự nhiên, sấy khô giữ mùi đặc trưng, dùng nấu nước uống hỗ trợ tiêu hoá.", "benefit": "Hỗ trợ tiêu hoá, kháng viêm, tốt cho đường ruột." },
-    { "category": "dried", "name": "Thù lù", "price": 20000, "weight": "100g", "description": "Thù lù (tầm bóp) thu hái tự nhiên, sấy khô nguyên trái, dùng nấu nước uống thanh nhiệt, giải độc.", "benefit": "Giàu vitamin A, C, hỗ trợ tăng đề kháng, tốt cho mắt." },
-    { "category": "dried", "name": "Lá lốt", "price": 20000, "weight": "100g", "description": "Lá lốt già thu hái tự nhiên, sấy khô, dùng hãm hoặc sắc nước uống hỗ trợ sức khoẻ.", "benefit": "Ấm bụng, hỗ trợ tiêu hoá, giảm đau nhức xương khớp." }
+    {
+      "category": "plant",
+      "name": "Chiều hồng",
+      "price": 15000,
+      "image": "images/chieu-hong.webp",
+      "description": "Thân bụi thấp, lá thon dài xanh đậm, hoa hình chuông màu hồng phấn nở liên tục, ưa nắng và dễ trồng ngoài trời.",
+      "research": {
+        "verified": true,
+        "notes": "Tên khoa học: Ruellia simplex (đồng nghĩa: Ruellia brittoniana), giống/dạng hoa hồng phấn thường được bán với tên thương mại 'Chi Chi', thuộc họ Ô rô (Acanthaceae). Đây là loài cây thân thảo lâu năm, cao khoảng 30-100cm tùy giống (có dạng lùn ~30cm), lá thon dài hình mác, dài 15-20cm, xanh đậm. Hoa hình chuông/loa kèn nhỏ, 5 cánh, ở giống này có màu hồng phấn, nở gần như quanh năm, thường nở buổi sáng/chiều và tàn nhanh trong ngày (đặc tính chung của chi Ruellia, cũng là lý do tên gọi 'chiều tím/chiều hồng'). Nguồn gốc Mexico, vùng Caribe và Nam Mỹ; hiện được trồng phổ biến làm cây cảnh viền lối đi, thảm hoa ở Việt Nam vì dễ trồng, ưa nắng, chịu hạn khá tốt.\n\nCông dụng: Đây là cây cảnh trang trí thuần túy (viền lối đi, thảm hoa, chậu cảnh), KHÔNG phải cây thuốc hay gia vị. Không tìm thấy nguồn uy tín nào ghi nhận công dụng ẩm thực hoặc dược liệu truyền thống tại Việt Nam cho Ruellia simplex/chiều hồng. Một số loài khác cùng chi Ruellia (như Ruellia tuberosa - cỏ ngổ dại/bọ mắm) có dùng trong y học dân gian ở một số nước, NHƯNG đây là loài KHÁC, không nên nhầm lẫn và không có cơ sở để gán công dụng dược liệu cho Ruellia simplex.\n\nLưu ý/cảnh báo: Không tìm thấy thông tin về độc tính đáng kể đối với người hoặc vật nuôi từ các nguồn đã tra cứu (Wikipedia tiếng Việt về Chiều tím - loài cùng chi gần giống - không đề cập độc tính). Tuy nhiên đây KHÔNG phải xác nhận là an toàn tuyệt đối để ăn/sử dụng - chỉ đơn thuần chưa có ghi nhận độc tính rõ ràng. Ở một số vùng (Florida, Mỹ) Ruellia simplex được liệt là loài xâm lấn ngoài tự nhiên, nhưng thông tin này ít liên quan đến bối cảnh vườn ươm cảnh tại Việt Nam. Kết luận: đây là cây cảnh, không phải cây thuốc; thông tin về công dụng sức khỏe CHƯA có cơ sở khoa học hay dân gian rõ ràng, không nên quảng bá công dụng dược liệu cho sản phẩm này.",
+        "sources": [
+          "https://vi.wikipedia.org/wiki/Chi%E1%BB%81u_t%C3%ADm",
+          "https://vi.wikipedia.org/wiki/Ruellia_rosea",
+          "https://codai.net/cay-hoa-chieu-tim/",
+          "https://eva.vn/cay-canh-vuon/hoa-chieu-tim-dac-diem-cach-trong-va-y-nghia-it-nguoi-biet-c283a457069.html"
+        ]
+      }
+    },
+    {
+      "category": "plant",
+      "name": "Chiều tím",
+      "price": 15000,
+      "image": "images/chieu-tim.webp",
+      "description": "Thân bụi cao đến 1m, lá thon dài, hoa hình chuông tím nhạt nở quanh năm, chịu hạn tốt, hợp trồng viền lối đi.",
+      "research": {
+        "verified": true,
+        "notes": "Tên khoa học: Ruellia simplex C.Wright (đồng nghĩa: Ruellia brittoniana, Cryphiacanthus angustifolius), thuộc họ Ô rô (Acanthaceae). Tên Việt khác: cỏ nổ thân cao. Đặc điểm: cây thân thảo lâu năm, cao đến khoảng 1m (đúng như mô tả ngắn hiện có), lá thon dài hình mác dài 15-20cm, rộng đến 2cm, xanh đậm. Hoa hình chuông/phễu, 5 cánh, màu tím, đường kính hoa khoảng 7-8cm, nở gần như quanh năm, mỗi hoa chỉ nở trong thời gian ngắn (thường vào sáng và tàn về chiều - đây là nguồn gốc tên gọi 'chiều tím'). Nguồn gốc: Mexico, vùng Caribe, Nam Mỹ. Cây chịu hạn tốt, ưa nắng, dễ trồng, thường dùng trồng viền lối đi, thảm hoa, chậu cảnh - khớp với mô tả sản phẩm.\n\nCông dụng: Là cây cảnh trang trí thuần túy, không phải cây thuốc hay gia vị truyền thống của Việt Nam. Không tìm thấy nguồn uy tín (Wikipedia, tracuuduoclieu.vn, caythuoc.org) ghi nhận công dụng dược liệu hoặc ẩm thực cho loài Ruellia simplex.\n\nLưu ý/cảnh báo: Không có ghi nhận độc tính rõ ràng với người/vật nuôi từ các nguồn tra cứu được. Ruellia simplex được xem là thực vật xâm lấn tại một số bang của Mỹ (Florida) do sinh sản mạnh, nhưng đây không phải vấn đề sức khỏe. Kết luận: đây là cây cảnh phổ biến, đẹp, dễ trồng, không có công dụng dược liệu/ẩm thực được xác nhận - nên trình bày sản phẩm theo hướng cây cảnh trang trí, tránh gán ghép công dụng sức khỏe không có cơ sở.",
+        "sources": [
+          "https://vi.wikipedia.org/wiki/Chi%E1%BB%81u_t%C3%ADm",
+          "https://www.bachhoaxanh.com/kinh-nghiem-hay/y-nghia-dac-diem-cach-trong-va-cham-soc-cay-hoa-chieu-tim-don-gian-1370330",
+          "https://codai.net/cay-hoa-chieu-tim/"
+        ]
+      }
+    },
+    {
+      "category": "plant",
+      "name": "Phát tài lá đỏ nhỏ",
+      "price": 15000,
+      "image": "images/phat-tai-la-do-nho.webp",
+      "tag": "Cây phong thuỷ",
+      "description": "Lá dài nhọn pha đỏ tía và xanh nổi bật, tượng trưng cho may mắn, tài lộc theo phong thủy, hợp trang trí sân vườn, ban công.",
+      "research": {
+        "verified": true,
+        "notes": "Đây thuộc loài Cordyline fruticosa (đồng nghĩa Cordyline terminalis), tên Việt Nam phổ biến là Huyết dụ / Phát tài (khi lá đỏ tía) / Phất dụ đỏ, thuộc họ Măng tây (Asparagaceae) hoặc trước đây xếp họ Huyết dụ (Agavaceae/Laxmanniaceae tùy phân loại cũ. Đặc điểm: cây bụi/thân gỗ nhỏ, thân mảnh, ít phân nhánh, có nhiều đốt (giống thân tre nhỏ). Lá dài, hẹp, hình mác nhọn, dài 20-50cm, màu đỏ tía hoặc pha đỏ-xanh, phiến lá bóng, gân nổi rõ - khớp với mô tả sản phẩm. Hoa nhỏ mọc thành chùm, màu trắng ánh tím/hồng nhạt, thường nở vào mùa đông (ít gặp khi trồng làm cảnh trong chậu). Nguồn gốc Đông Nam Á và các đảo Thái Bình Dương (Polynesia).\n\nCông dụng dược liệu (QUAN TRỌNG - cần phân biệt với sản phẩm cảnh): Loài Cordyline fruticosa (thường gọi Huyết dụ ở Việt Nam khi có lá đỏ hoàn toàn) được ghi nhận trong y học cổ truyền Việt Nam (sách Những cây thuốc và vị thuốc Việt Nam - Đỗ Tất Lợi có đề cập) với công dụng: lá dùng làm thuốc cầm máu, chữa rong kinh, băng huyết, ho ra máu, kiết lỵ ra máu - theo kinh nghiệm dân gian, SẮC UỐNG. Tuy nhiên đây là bằng chứng dân gian truyền miệng/y học cổ truyền, CHƯA có nhiều nghiên cứu khoa học hiện đại kiểm chứng đầy đủ về cơ chế và liều lượng an toàn.\n\nLưu ý/cảnh báo QUAN TRỌNG: Theo ASPCA (Mỹ), Cordyline fruticosa (Ti plant) ĐỘC đối với chó và mèo do chứa saponin - gây nôn (có thể lẫn máu), trầm cảm/lờ đờ, chán ăn, tăng tiết nước bọt, giãn đồng tử ở mèo; triệu chứng thường xuất hiện trong 30-90 phút sau khi ăn phải, cần đưa thú cưng đi khám ngay. Đây là cảnh báo có nguồn uy tín (ASPCA), cần lưu ý rõ khi bán cho gia đình có nuôi chó mèo. Về độc tính với người: không có ghi nhận độc tính đáng kể ở người khi tiếp xúc thông thường (đây là cây được dùng làm thuốc dân gian ở dạng sắc uống), nhưng không nên tự ý dùng liều cao hoặc kéo dài mà không có hướng dẫn của thầy thuốc.",
+        "sources": [
+          "https://vi.wikipedia.org (Cordyline fruticosa / Huyết dụ - qua tham chiếu)",
+          "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/ti-plant",
+          "https://vovankienthuc.com/blog/cay-huyet-du-cordyline-fruticosa.2466",
+          "https://cafeland.vn/xu-huong/dac-diem-y-nghia-va-cach-cham-soc-cay-hong-phat-tai-113186.html",
+          "Đỗ Tất Lợi - Những cây thuốc và vị thuốc Việt Nam (mục Huyết dụ, được nhiều trang dẫn lại)"
+        ]
+      }
+    },
+    {
+      "category": "plant",
+      "name": "Phát tài lá đỏ (kèm bình)",
+      "price": 25000,
+      "image": "images/phat-tai-la-do-vua.webp",
+      "tag": "Cây phong thuỷ",
+      "description": "Lá dài nhọn pha đỏ tía và xanh nổi bật, tượng trưng cho may mắn, tài lộc theo phong thủy, hợp trang trí sân vườn, ban công.",
+      "research": {
+        "verified": true,
+        "notes": "Cùng loài với mục 2 (Cordyline fruticosa - Huyết dụ/Phát tài lá đỏ), chỉ khác về hình thức bán (kèm bình/chậu thủy sinh hoặc chậu trang trí). Xem đầy đủ thông tin thực vật học, công dụng dân gian (cầm máu, chữa rong kinh - theo y học cổ truyền, CHƯA có nhiều nghiên cứu khoa học hiện đại xác nhận cơ chế) và CẢNH BÁO ĐỘC TÍNH với chó mèo (theo ASPCA, do saponin) tại mục 2. Lưu ý thêm: khi trồng kèm bình/thủy sinh, cần đảm bảo vệ sinh nước tránh muỗi sinh sản, và nếu nhà có trẻ nhỏ/thú cưng nên đặt xa tầm với vì có ghi nhận độc tính với động vật.",
+        "sources": [
+          "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/ti-plant",
+          "https://vovankienthuc.com/blog/cay-huyet-du-cordyline-fruticosa.2466",
+          "https://cafeland.vn/xu-huong/dac-diem-y-nghia-va-cach-cham-soc-cay-hong-phat-tai-113186.html"
+        ]
+      }
+    },
+    {
+      "category": "plant",
+      "name": "Phát tài lá đỏ (kèm bình)",
+      "price": 30000,
+      "image": "images/phat-tai-la-do-lon.webp",
+      "tag": "Cây phong thuỷ",
+      "description": "Lá dài nhọn pha đỏ tía và xanh nổi bật, tượng trưng cho may mắn, tài lộc theo phong thủy, hợp trang trí sân vườn, ban công.",
+      "research": {
+        "verified": true,
+        "notes": "Trùng lặp với mục 3 (cùng tên, cùng mô tả) - cùng loài Cordyline fruticosa (Huyết dụ/Phát tài lá đỏ). Xem đầy đủ thông tin tại mục 2 và 3: đặc điểm thực vật học, công dụng dân gian cầm máu/chữa rong kinh (y học cổ truyền, chưa có nhiều nghiên cứu khoa học hiện đại kiểm chứng), và CẢNH BÁO ĐỘC TÍNH với chó mèo theo ASPCA (chứa saponin, gây nôn, lờ đờ, chán ăn). Đây có vẻ là 2 biến thể/kích cỡ khác nhau của cùng một sản phẩm nên nội dung nghiên cứu giống hệt mục 3.",
+        "sources": [
+          "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/ti-plant",
+          "https://vovankienthuc.com/blog/cay-huyet-du-cordyline-fruticosa.2466"
+        ]
+      }
+    },
+    {
+      "category": "plant",
+      "name": "Vàng anh nhỏ",
+      "price": 15000,
+      "image": "images/vang-anh-nho.webp",
+      "tag": "Cây phong thuỷ",
+      "description": "Lá đốm vàng xen xanh nổi bật quanh năm, dáng bụi gọn, hợp trang trí sân vườn và lối đi.",
+      "research": {
+        "verified": true,
+        "notes": "Dựa trên mô tả 'lá đốm vàng xen xanh, dáng bụi gọn', cây này khớp với loài Codiaeum variegatum (tên Việt Nam: Cô tòng lá đốm / Vàng anh lá đốm / Cô tòng vàng anh / Vạn thọ đốm), thuộc họ Thầu dầu (Euphorbiaceae). Tên tiếng Anh phổ biến: Croton, Garden croton. Đặc điểm: cây bụi thường xanh, cao trung bình 1.2-1.8m khi trưởng thành (bản trồng chậu/cảnh nhỏ thường được cắt tỉa gọn, đúng như tên gọi 'Vàng anh nhỏ'), lá có nhiều hình dạng tùy giống (bầu dục, thuôn, xoắn...), phiến lá xanh đậm điểm đốm/vệt màu vàng, cam, đỏ tùy giống - đặc trưng bởi màu sắc rực rỡ quanh năm không theo mùa. Nguồn gốc: Đông Nam Á (Indonesia, Malaysia), các đảo Tây Thái Bình Dương và Úc. Thường dùng trồng viền, bụi cảnh, thảm cây trang trí sân vườn, công viên - đúng như mô tả sản phẩm.\n\nCông dụng: Là cây cảnh trang trí thuần túy, KHÔNG phải cây thuốc hay gia vị trong y học cổ truyền Việt Nam phổ biến. Có một số nghiên cứu khoa học sơ bộ (đăng trên PubMed/NCBI) về hoạt tính sinh học của chiết xuất Codiaeum variegatum (ví dụ nghiên cứu về vai trò bảo vệ chống độc gen do carmustine gây ra trên chuột), nhưng đây là nghiên cứu tiền lâm sàng/độc học cơ bản, KHÔNG đủ cơ sở để khẳng định công dụng sức khỏe cho người, và không phải là cách dùng dân gian phổ biến tại Việt Nam.\n\nLưu ý/cảnh báo QUAN TRỌNG: Toàn bộ cây Croton (Codiaeum variegatum) - lá, thân, rễ, và đặc biệt nhựa mủ trắng - CÓ ĐỘC. Theo Pet Poison Helpline/ASPCA: độc với cả chó và mèo, chứa phorbol esters và hợp chất 5-deoxyingenol, gây kích ứng miệng và đường tiêu hóa (chảy nước dãi, nôn, tiêu chảy), kích ứng da nhẹ khi tiếp xúc nhựa mủ. Đối với người: nhựa mủ có thể gây viêm da tiếp xúc (contact dermatitis); một số nguồn cảnh báo hạt/quả của cây có thể gây tử vong nếu trẻ em ăn phải (mức độ bằng chứng nguồn phổ thông, cần thận trọng khi trích dẫn con số cụ thể). Đây là cảnh báo QUAN TRỌNG cần nêu rõ khi bán làm cây cảnh, đặc biệt cho gia đình có trẻ nhỏ và thú cưng - nên đặt xa tầm với, tránh để trẻ/thú cưng nhai lá hoặc tiếp xúc nhựa mủ.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Codiaeum_variegatum",
+          "https://www.petpoisonhelpline.com/poison/croton/",
+          "https://duonglangarden.com/product/cay-vang-anh-la-dom/",
+          "https://caycanhhanoi.org/cay-co-tong-vang-anh-vang-anh-la-chanh/",
+          "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9515021/ (nghiên cứu tiền lâm sàng, không xác nhận công dụng sức khỏe cho người)"
+        ]
+      }
+    },
+    {
+      "category": "plant",
+      "name": "Vàng anh (kèm bình)",
+      "price": 30000,
+      "image": "images/vang-anh-lon.webp",
+      "tag": "Cây phong thuỷ",
+      "description": "Lá đốm vàng xen xanh nổi bật quanh năm, dáng bụi gọn, hợp trang trí sân vườn và lối đi.",
+      "research": {
+        "verified": true,
+        "notes": "Tên khoa học: Codiaeum variegatum (L.) Blume (thường ghi thêm var. pictum) — họ Thầu dầu (Euphorbiaceae). Tên gọi khác: cô tòng lá đốm, vàng anh lá đốm/lá chanh/lá mít (tên gọi thay đổi theo hình dạng lá của từng giống). Nguồn gốc từ vùng đảo Malaysia/Thái Bình Dương, sau đó được trồng làm cảnh khắp vùng nhiệt đới.\n\nĐặc điểm thực vật: cây bụi nhỏ, lá đơn mọc so le, phiến lá có các đốm/vệt màu vàng xen giữa nền xanh (do đột biến sắc tố diệp lục), hình dạng lá đa dạng tùy giống (thuôn dài, chia thùy, xoắn...). Cây ưa sáng, càng nhiều nắng màu lá càng rực rỡ. Thân có nhựa mủ trắng đặc trưng của họ Thầu dầu.\n\nCông dụng: Chủ yếu dùng làm cây cảnh trang trí (viền, thảm cây, bụi cây sân vườn, công viên). Một nguồn (trungtamthuoc.com) ghi nhận theo kinh nghiệm dân gian cây được dùng ngoài da để hỗ trợ chữa vết thương, gãy xương — đây CHỈ LÀ GHI NHẬN DÂN GIAN, chưa có nghiên cứu khoa học kiểm chứng rõ ràng về hiệu quả hay cơ chế tác dụng.\n\nLưu ý/cảnh báo: Cây thuộc họ Thầu dầu (Euphorbiaceae) — nhiều loài trong họ này có nhựa mủ gây kích ứng da/niêm mạc, cần thận trọng khi tiếp xúc, đặc biệt với trẻ nhỏ và vật nuôi (dù các nguồn tìm được không nêu cụ thể độc tính của loài này). Nên khuyến cáo cẩn thận thay vì khẳng định an toàn tuyệt đối do thiếu nguồn dược lý học chính thức.",
+        "sources": [
+          "https://trungtamthuoc.com/duoc-lieu/lom-dom-vang",
+          "https://caycanhhanoi.net.vn/cay-co-tong-vang-anh-vang-anh-la-chanh",
+          "https://saigonhoa.com/product/cay-co-tong-la-dom/"
+        ]
+      }
+    },
+    {
+      "category": "plant",
+      "name": "Cỏ nhện/Lan chi",
+      "price": 15000,
+      "image": "images/lan-chi.webp",
+      "tag": "Cây nội thất",
+      "description": "Lá dài mảnh viền trắng xanh, mọc toả tròn như tia nắng, dễ trồng và có khả năng lọc không khí tốt.",
+      "research": {
+        "verified": true,
+        "notes": "Tên khoa học: Chlorophytum comosum — họ Asparagaceae (một số tài liệu cũ xếp vào họ Loa kèn/Liliaceae). Tên gọi khác: cỏ lan chi, cây dây nhện, cây mẫu tử, lục thảo trổ hoa.\n\nĐặc điểm thực vật: cây thân thảo lâu năm, lá dài mảnh mọc tỏa tròn từ gốc như tia nắng, có sọc trắng/kem xen giữa nền xanh (tùy giống, có giống lá xanh thuần). Cây đẻ nhánh con (cây con) từ các ngồng hoa/thân bò, dễ nhân giống. Chịu bóng bán phần tốt, dễ trồng, ít cần chăm sóc.\n\nCông dụng: chủ yếu làm cây cảnh trang trí nội thất/ngoại thất, được nhiều nguồn tiếp thị dẫn lại nghiên cứu của NASA (nghiên cứu Clean Air Study thập niên 1980) xếp cây này vào nhóm có khả năng hấp thụ một số hợp chất bay hơi trong không khí như formaldehyde, benzen, carbon monoxide, xylene, trichloroethylene. Đây LÀ NGHIÊN CỨU CÓ THẬT (NASA Clean Air Study) nhưng cần lưu ý: nghiên cứu gốc thực hiện trong buồng kín thí nghiệm với nồng độ hóa chất cao hơn nhiều so với không khí nhà ở thực tế, và các nghiên cứu sau này (ví dụ tổng quan của các nhà khoa học môi trường) cho rằng hiệu quả lọc không khí thực tế trong nhà ở là RẤT HẠN CHẾ, không đủ để thay thế thông gió. Số liệu \"làm sạch không khí cho không gian 200m2\" trong các nguồn thương mại tiếng Việt là con số phóng đại/marketing, KHÔNG có cơ sở khoa học xác thực rõ ràng — cần ghi chú thận trọng, tránh dùng số liệu này.\n\nLưu ý: Nhìn chung cây an toàn, không độc, phù hợp trồng trong nhà kể cả phòng ngủ.",
+        "sources": [
+          "https://fptshop.com.vn/tin-tuc/dien-may/co-lan-chi-180724",
+          "https://baokhuyennong.com/co-lan-chi/",
+          "https://www.bachhoaxanh.com/kinh-nghiem-hay/cay-lan-chi-loai-cay-trong-co-cong-dung-chua-benh-cuc-hay-1371866"
+        ]
+      }
+    },
+    {
+      "category": "plant",
+      "name": "Ráy voi",
+      "price": 15000,
+      "image": "images/ray-voi.webp",
+      "tag": "Cây lá lớn",
+      "description": "Lá to bản, xanh mướt, dáng vươn khoẻ khoắn, hợp trồng sân vườn hoặc ban công nhiều nắng.",
+      "research": {
+        "verified": true,
+        "notes": "Tên khoa học: chi Alocasia (họ Ráy - Araceae). \"Ráy voi\" là tên gọi chung tiếng Việt cho một số loài Alocasia lá to bản (ví dụ Alocasia odora, Alocasia macrorrhizos...); do các nguồn không thống nhất loài cụ thể nên KHÔNG XÁC ĐỊNH được chính xác loài nào ứng với sản phẩm này — cần làm rõ thêm nếu muốn ghi tên khoa học chính xác đến loài.\n\nĐặc điểm thực vật: cây thân thảo lâu năm, thân mềm chứa nhiều nước, lá to bản mọc so le, cuống dài, phiến lá hình trái tim hoặc mũi giáo, dài 30-90cm tùy loài, màu xanh mướt bóng.\n\nCông dụng: chủ yếu làm cảnh (dáng vươn khỏe, hợp sân vườn/ban công có nắng). Một số loài Alocasia (như A. macrorrhizos - Ráy voi/Dọc mùng dại) có thân/củ được chế biến làm thực phẩm sau khi xử lý kỹ (luộc, ngâm) để loại bỏ độc tố, hoặc dùng trong y học cổ truyền một số nước — nhưng đây là thông tin CHƯA KIỂM CHỨNG RÕ với đúng loài trong sản phẩm này, cần thận trọng không khẳng định.\n\nLưu ý/cảnh báo QUAN TRỌNG: Toàn cây (đặc biệt nhựa và lá) chứa tinh thể canxi oxalat (calcium oxalate) — đây là đặc điểm chung, có cơ sở khoa học vững chắc của họ Ráy (Araceae). Tiếp xúc nhựa cây gây ngứa, kích ứng da và niêm mạc; nếu ăn phải gây bỏng rát miệng, họng. Cần tránh xa trẻ em và thú cưng, không được ăn khi chưa qua chế biến/xử lý đúng cách.",
+        "sources": [
+          "https://tinhte.vn/thread/dac-diem-va-cach-cham-soc-alocasia-odora.3977273/",
+          "https://kansoplant.com/tin-tuc/ray-alocasia-30",
+          "https://caycanhdanang.com.vn/cay-mon-alocasia/"
+        ]
+      }
+    },
+    {
+      "category": "plant",
+      "name": "Hoàng yến",
+      "price": 10000,
+      "image": "images/hoang-yen.webp",
+      "description": "Hoa vàng tươi hình chuông, nở rộ thành chùm rủ vào mùa xuân, cây ưa nắng, thường trồng chậu hoặc tạo bụi trang trí sân vườn.",
+      "research": {
+        "verified": true,
+        "notes": "Tên khoa học: Cassia fistula L. — họ Đậu (Fabaceae), phân họ Vang. Tên gọi khác: muồng hoàng yến, bò cạp nước, osaka (một số vùng), cây hoa hạ.\n\nĐặc điểm thực vật: cây gỗ nhỏ đến trung bình, lá kép lông chim với 3-8 đôi lá chét. Hoa màu vàng tươi, cánh hoa hình trứng rộng, mọc thành chùm rủ xuống dài 30-60cm, nở rộ vào mùa hè (một số nguồn ghi mùa xuân-hè tùy vùng khí hậu). Quả dạng quả đậu hình trụ dài, khi chín có màu đen (\"bọ cạp nước\"). Cây ưa sáng, thường trồng làm cây cảnh quan đường phố, công viên, sân vườn.\n\nCông dụng dược liệu: Y học cổ truyền dùng cơm quả (thịt quả chín) làm thuốc nhuận tràng, trị táo bón (do chứa nhiều pectin, chất nhầy và anthraquinone glycoside — cơ chế nhuận tràng của nhóm anthraquinone có cơ sở dược lý được ghi nhận trong nhiều loài họ Đậu/Muồng tương tự). Một số nghiên cứu sơ bộ (được các trang dược liệu trích dẫn) cho thấy chiết xuất hoa/vỏ quả có hoạt tính kháng khuẩn Gram dương và chống oxy hóa (chứa phenolic, proanthocyanidin, flavonoid) — MỨC ĐỘ BẰNG CHỨNG: các nghiên cứu này đa phần là in-vitro/sơ bộ, chưa phải thử nghiệm lâm sàng trên người, cần thận trọng khi diễn giải là \"đã được khoa học chứng minh có tác dụng điều trị\".\n\nLưu ý/cảnh báo QUAN TRỌNG: Toàn cây (lá, hoa, quả, hạt) đều chứa hoạt chất có thể gây ĐỘC nếu dùng sai liều — dùng quá liều quả có thể gây ngộ độc, tiêu chảy nặng, rối loạn tiêu hóa. Liều khuyến cáo trong y học cổ truyền: quả tươi nhuận tràng nhẹ 4-6g, liều tẩy xổ 10-20g; sắc uống 10-25g quả/ngày. Không tự ý dùng liều cao, cần tham vấn thầy thuốc. Đây là cây có ĐỘC TÍNH THẬT SỰ cần cảnh báo rõ nếu đưa vào nội dung liên quan đến ăn uống/dược liệu, dù thường được trồng làm cảnh và an toàn nếu chỉ ngắm hoa.",
+        "sources": [
+          "https://trungtamthuoc.com/duoc-lieu/muong-hoang-yen",
+          "https://caythuoc.org/muong-hoang-yen-bo-cap-nuoc-va-cong-dung-lam-thuoc.html",
+          "https://suckhoecongdongonline.vn/muong-hoang-yen-va-cong-dung-lam-thuoc"
+        ]
+      }
+    },
+    {
+      "category": "plant",
+      "name": "Phú quí",
+      "price": 15000,
+      "image": "images/phu-qui.webp",
+      "tag": "Cây phong thuỷ",
+      "description": "Lá viền hồng đỏ nổi bật trên nền xanh, tượng trưng cho phú quý, tài lộc, hợp trang trí bàn làm việc và phòng khách.",
+      "research": {
+        "verified": true,
+        "notes": "Tên khoa học: Aglaonema hybrid (thường gọi Aglaonema \"Red\"/Aglaonema Siam Aurora hoặc các giống lai đỏ tương tự) — họ Ráy (Araceae). Theo một nguồn, giống lá xanh viền đỏ hồng này do nhà thực vật học người Indonesia lai tạo (ghi nhận năm 1982) — CHI TIẾT NÀY CHỈ CÓ TỪ MỘT NGUỒN THƯƠNG MẠI, chưa được đối chiếu với nguồn học thuật/Wikipedia nên cần xem là CHƯA KIỂM CHỨNG CHẮC CHẮN.\n\nĐặc điểm thực vật: cây thân thảo, thân màu trắng hồng, lá xanh đậm viền đỏ/hồng nổi bật, cao trung bình 35-50cm, dạng bụi gọn hợp trồng chậu để bàn/phòng khách.\n\nCông dụng: chủ yếu là cây cảnh phong thủy — tên gọi \"phú quý\" gắn với ý nghĩa may mắn, tài lộc, giàu sang (thành ngữ \"phú quý cát tường\"), hợp mệnh Hỏa và Thổ theo quan niệm phong thủy dân gian (đây là niềm tin văn hóa, KHÔNG phải khoa học, cần trình bày như vậy).\n\nMột số nguồn cho rằng cây có khả năng lọc một phần khí độc (formaldehyde, benzen) tương tự các loài Aglaonema khác — tương tự cỏ lan chi, đây là suy diễn từ nghiên cứu NASA Clean Air Study cũ, mức độ hiệu quả thực tế trong nhà ở CHƯA RÕ RÀNG, cần thận trọng.\n\nLưu ý/cảnh báo: Về độc tính, các nguồn Việt Nam khảo sát khẳng định \"cây phú quý không có độc\". Tuy nhiên cây thuộc họ Ráy (Araceae) — họ này nhìn chung có nhiều loài chứa tinh thể canxi oxalat trong nhựa (như Ráy voi, Vạn niên thanh, Trầu bà...). Việc khẳng định tuyệt đối \"không độc\" cho toàn bộ chi Aglaonema CẦN THẬN TRỌNG vì mâu thuẫn với đặc tính chung của họ thực vật; trên thực tế nhiều tài liệu quốc tế (ASPCA, ...) xếp Aglaonema vào nhóm có độc nhẹ với vật nuôi (gây kích ứng miệng, chảy nước dãi khi nhai lá) — nguồn tiếng Việt tìm được không đề cập điều này nên coi là THÔNG TIN CHƯA THỐNG NHẤT giữa nguồn trong nước và quốc tế, nên khuyến cáo thận trọng với trẻ nhỏ/thú cưng thay vì khẳng định hoàn toàn an toàn.",
+        "sources": [
+          "https://www.bachhoaxanh.com/kinh-nghiem-hay/cach-trong-cham-soc-va-y-nghia-cay-phu-quy-tai-loc-cat-tuong-1370306",
+          "https://hoanghamobile.com/tin-tuc/cay-phu-quy/",
+          "https://agslandscape.vn/cay-phu-quy-do/"
+        ]
+      }
+    },
+    {
+      "category": "plant",
+      "name": "Vạn niên thanh nhỏ",
+      "price": 10000,
+      "image": "images/van-nien-thanh-nho.webp",
+      "description": "Lá loang màu xanh trắng hoặc xanh đốm, phiến lá hình bầu dục, dễ sống trong nhà, tượng trưng cho tài lộc và thịnh vượng.",
+      "research": {
+        "verified": true,
+        "notes": "LƯU Ý QUAN TRỌNG VỀ TÊN GỌI: Tại Việt Nam, \"vạn niên thanh\" là tên gọi chung KHÔNG THỐNG NHẤT, dùng cho ít nhất 2 chi thực vật khác nhau dễ gây nhầm lẫn: (1) chi Aglaonema (có loài lá bầu dục loang xanh-trắng, kích thước nhỏ gọn — khớp với mô tả \"lá loang xanh trắng/đốm, phiến bầu dục, dễ sống trong nhà\" trong đề bài) và (2) chi Dieffenbachia (lá to hơn, đốm/vệt trắng-kem-vàng loang lổ, ĐƯỢC BIẾT ĐẾN VỚI ĐỘC TÍNH CAO). Dựa trên mô tả \"nhỏ\", \"phiến lá bầu dục\", nhiều khả năng đây là Aglaonema commutatum hoặc giống Aglaonema cẩm thạch tương tự — nhưng KHÔNG THỂ XÁC ĐỊNH CHẮC CHẮN 100% nếu không có ảnh/tên giống cụ thể từ vườn ươm.\n\nĐặc điểm thực vật (theo hướng Aglaonema): cây thân thảo mọc bụi, cao 40-50cm, lá hình bầu dục thuôn dài đầu nhọn, xanh đậm bóng, có đốm/vệt trắng, mép lá trơn. Chịu bóng tốt, dễ sống trong nhà, ít cần chăm sóc.\n\nCông dụng: chủ yếu làm cây cảnh nội thất, được cho là có khả năng lọc một phần khí độc trong nhà tương tự các loài Araceae khác (formaldehyde, benzen) — mức độ hiệu quả thực tế còn hạn chế như đã nêu ở mục cỏ lan chi, cần thận trọng khi quảng bá là \"lọc không khí hiệu quả\".\n\nÝ nghĩa phong thủy: tên \"vạn niên thanh\" (mãi mãi xanh tươi) gắn với ý nghĩa trường tồn, tài lộc, thịnh vượng — đây là niềm tin văn hóa dân gian, không phải cơ sở khoa học.\n\nLưu ý/cảnh báo ĐỘC TÍNH — CẦN HẾT SỨC THẬN TRỌNG: Nếu sản phẩm thực tế là Dieffenbachia, đây là loài có ĐỘC TÍNH ĐÃ ĐƯỢC XÁC NHẬN RÕ: toàn cây chứa tinh thể canxi oxalat, nhựa cây gây bỏng rát, ngứa da; nhai/nuốt lá gây tê lưỡi, sưng đỏ họng, chảy nước dãi, có thể gây khó thở nếu sưng nghiêm trọng vùng họng — đặc biệt nguy hiểm với trẻ nhỏ và thú cưng, tên tiếng Anh dân gian là \"dumb cane\" chính vì gây á khẩu tạm thời khi nhai phải. Nếu là Aglaonema thì độc tính nhẹ hơn nhiều nhưng nhựa vẫn có thể gây kích ứng nhẹ da/niêm mạc (đặc tính chung họ Ráy). KHUYẾN NGHỊ: cần xác minh chính xác loài (Aglaonema hay Dieffenbachia) trước khi đăng thông tin công khai, vì mức độ cảnh báo độc tính khác nhau đáng kể giữa hai chi này.",
+        "sources": [
+          "https://cafeland.vn/xu-huong/van-nien-thanh-loai-cay-thanh-loc-khong-khi-nhung-doc-88567.html",
+          "https://vnexpress.net/su-that-tin-don-cay-xanh-trong-nha-co-doc-chet-nguoi-2272609.html",
+          "https://vnras.com/cay-van-nien-thanh-nhung-cay-thuoc-va-vi-thuoc-viet-nam-do-tat-loi/",
+          "https://codai.net/chinese-evergreen-aglaonema-care-and-growing-tips-the-houseplants-with-the-fabulous-foliage/"
+        ]
+      }
+    },
+    {
+      "category": "plant",
+      "name": "Vạn niên thanh lớn",
+      "price": 25000,
+      "image": "images/van-nien-thanh-lon.webp",
+      "description": "Lá loang màu xanh trắng hoặc xanh đốm, phiến lá hình bầu dục, dễ sống trong nhà, tượng trưng cho tài lộc và thịnh vượng.",
+      "research": {
+        "verified": true,
+        "notes": "Tên gọi 'vạn niên thanh' trong tiếng Việt được dùng cho nhiều loài khác nhau, dễ gây nhầm lẫn: (1) Rohdea japonica (họ Ráy/Thiên môn - Asparagaceae) là loài vạn niên thanh cổ truyền trong y học cổ truyền Trung Hoa/Việt Nam; (2) Dieffenbachia amoena/Dieffenbachia spp. (họ Ráy - Araceae), có nguồn gốc Trung Mỹ, là loại phổ biến làm cây cảnh nội thất lá loang xanh-trắng/đốm như mô tả trong sản phẩm này. Với mô tả 'lá loang màu xanh trắng hoặc xanh đốm, phiến lá hình bầu dục' thì khả năng cao đây là Dieffenbachia (thường gọi 'vạn niên thanh lớn' hoặc 'minh ty' để phân biệt với vạn niên thanh lá nhỏ). Đặc điểm: thân thảo sống nhiều năm, thân có thể cao 40cm-1m tùy loài, lá to bản hình bầu dục/mũi mác, có các mảng loang xanh đậm xen trắng/kem/vàng. Độc tính: QUAN TRỌNG - toàn cây (đặc biệt nhựa) chứa tinh thể canxi oxalat kim (raphides) và có thể cả enzyme protein phân giải, khi nhai/cắn phải gây bỏng rát, sưng phù niêm mạc miệng - họng, chảy nước dãi, khó nói, trường hợp nặng có thể gây khó thở nếu sưng lan đến đường thở; nhựa cây dính vào da/mắt gây kích ứng, đỏ, rát. Đây là thông tin được nhiều nguồn y khoa quốc tế (Poison Control, các bệnh viện) và các trang dược liệu Việt Nam xác nhận thống nhất - cây thuộc nhóm Araceae có độc tính này là đặc điểm chi Dieffenbachia đã được ghi nhận rộng rãi. Cần cảnh báo rõ cho người dùng có trẻ nhỏ, thú cưng. Công dụng lọc không khí (hấp thụ formaldehyde) được một số nguồn nhắc đến nhưng mức bằng chứng chủ yếu dựa trên nghiên cứu NASA Clean Air Study chung cho nhóm cây lá lớn, không phải nghiên cứu riêng cho loài này - nên xem là thông tin tham khảo, chưa có nghiên cứu định lượng riêng biệt đáng tin cậy. Không có công dụng ẩm thực (không ăn được, độc). Đỗ Tất Lợi trong 'Những cây thuốc và vị thuốc Việt Nam' có ghi nhận vạn niên thanh (Rohdea japonica) dùng làm thuốc thanh nhiệt giải độc trong y học cổ truyền nhưng đây là loài khác, cần phân biệt rõ, tránh gây hiểu nhầm là cây cảnh này dùng được làm thuốc.",
+        "sources": [
+          "https://nhathuoclongchau.com.vn/bai-viet/cay-van-nien-thanh-co-doc-khong.html",
+          "https://lyn.com.vn/van-nien-thanh-loai-cay-thanh-loc-khong-khi-nhung-doc/",
+          "https://youmed.vn/tin-tuc/van-nien-thanh-loai-cay-canh-co-tac-dung-thanh-nhiet-giai-doc/",
+          "https://kiengla.vn/cay-van-nien-thanh-co-may-loai/"
+        ]
+      }
+    },
+    {
+      "category": "plant",
+      "name": "Lưỡi hổ",
+      "price": 15000,
+      "image": "images/luoi-ho.webp",
+      "tag": "Cây phong thuỷ",
+      "description": "Lá dày, mọc thẳng đứng, sức sống bền bỉ, ít cần chăm sóc, được xem là mang lại may mắn cho gia chủ.",
+      "research": {
+        "verified": true,
+        "notes": "Tên khoa học: Sansevieria trifasciata (đồng nghĩa hiện nay là Dracaena trifasciata sau khi phân loại lại chi Sansevieria vào Dracaena), họ Măng tây (Asparagaceae), có nguồn gốc Tây Phi nhiệt đới (Nigeria, Congo). Đặc điểm: lá dày, mọng nước, mọc thẳng đứng từ gốc thành bụi, hình kiếm/dải dài, màu xanh đậm có vằn ngang xanh nhạt hoặc viền vàng tùy giống; chịu hạn, chịu bóng râm rất tốt, ít cần chăm sóc, quang hợp theo cơ chế CAM (hấp thụ CO2 ban đêm) nên đặc biệt phù hợp đặt trong phòng ngủ. Công dụng lọc không khí: Đây là loài NẰM TRONG nghiên cứu NASA Clean Air Study (cuối thập niên 1980) được trích dẫn rộng rãi - nghiên cứu gốc của NASA thực hiện trong môi trường buồng kín thí nghiệm, cho thấy khả năng hấp thụ formaldehyde, benzene, trichloroethylene, xylene, toluene. Đây là bằng chứng khoa học có nguồn gốc nghiên cứu thực sự (không chỉ truyền miệng), tuy nhiên cần lưu ý nghiên cứu NASA thực hiện trong buồng kín thí nghiệm, hiệu quả trong không gian sống thực tế (phòng ở, văn phòng thông thường) được giới khoa học sau này đánh giá là hạn chế hơn nhiều so với quảng cáo phổ biến (một số nghiên cứu sau này của các nhà khoa học môi trường trong nhà chỉ ra cần rất nhiều cây mới có hiệu quả đáng kể). Độc tính: theo ASPCA (nguồn thú y uy tín), cây độc với chó và mèo, chứa saponin là hoạt chất độc chính, gây buồn nôn, nôn mửa, tiêu chảy khi vật nuôi ăn phải; cây cũng chứa canxi oxalat gây kích ứng miệng-tiêu hóa. Đối với người, nhựa cây có thể gây kích ứng da nhẹ, không nên ăn. Không có công dụng ẩm thực. Trong y học cổ truyền một số nước (không phải Việt Nam chính thống) có ghi nhận dùng ngoài da trị một số bệnh nhưng đây là kinh nghiệm dân gian, chưa được y học hiện đại kiểm chứng, cần thận trọng không khuyến nghị sử dụng làm thuốc.",
+        "sources": [
+          "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/snake-plant",
+          "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/mother-laws-tongue",
+          "https://www.petpoisonhelpline.com/poison/sansevieria/",
+          "https://nhathuoclongchau.com.vn/bai-viet/cay-luoi-ho-co-doc-khong-nhung-tac-dung-cua-cay-luoi-ho.html"
+        ]
+      }
+    },
+    {
+      "category": "plant",
+      "name": "Phát tài búp sen",
+      "price": 15000,
+      "image": "images/phat-tai-bup-sen.webp",
+      "description": "Lá mọc xếp lớp quanh thân tạo hình búp sen, thân thẳng nhiều đốt, rễ chùm trắng khỏe, tượng trưng may mắn và tài lộc.",
+      "research": {
+        "verified": true,
+        "notes": "Tên khoa học: Dracaena deremensis (hiện một số phân loại xếp vào Dracaena fragrans), họ Măng tây/Tóc tiên (Asparagaceae, trước đây xếp Ruscaceae hoặc Dracaenaceae tùy hệ thống phân loại), có nguồn gốc châu Phi nhiệt đới (không phải châu Á như một nguồn tiếng Việt ghi - đây là điểm cần lưu ý vì thông tin từ các trang thương mại Việt Nam về nguồn gốc chưa nhất quán/chưa được kiểm chứng qua nguồn khoa học, khả năng cao bị nhầm lẫn nguồn gốc). Đặc điểm: thân đơn, mọc thẳng, có nhiều đốt, lá thuôn dài xếp lớp sát nhau ôm quanh thân tạo hình búp/hoa sen ở đỉnh, lá xanh đậm bóng. Cây thường được trồng thủy sinh (rễ chùm trắng trong nước) hoặc trồng đất, dễ chăm sóc, chịu bóng bán phần. Không tìm thấy nguồn y khoa/khoa học uy tín nào ghi nhận công dụng dược liệu hoặc ẩm thực cho loài này - đây thuần túy là cây cảnh nội thất trang trí phong thủy. Độc tính: các loài Dracaena nói chung (như Dracaena marginata, D. fragrans) được ASPCA ghi nhận có độc nhẹ với chó mèo do chứa saponin, gây nôn, tiết nước dãi, mất phối hợp vận động, giãn đồng tử (đặc biệt ở mèo) - tuy thông tin này áp dụng cho chi Dracaena nói chung, chưa tìm được nguồn xác nhận riêng cho D. deremensis, nên khuyến cáo thận trọng tương tự theo nguyên tắc chung của chi. Thông tin về công dụng sức khỏe/phong thủy chủ yếu mang tính truyền miệng/tín ngưỡng dân gian, không có bằng chứng khoa học.",
+        "sources": [
+          "https://tripi.vn/blog/vi/kinh-nghiem-hay/cay-phat-tai-bup-sen-la-loai-cay-gi-kham-pha-dac-diem-y-nghia-va-cach-trong-cay-nay-de-tan-dung-toi-da-cong-dung-cua-no-tripi",
+          "https://www.bachhoaxanh.com/kinh-nghiem-hay/cay-phat-tai-bup-sen-la-cay-gi-dac-diem-y-nghia-va-cach-trong-1432057",
+          "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants (tham khảo chung về chi Dracaena)"
+        ]
+      }
+    },
+    {
+      "category": "plant",
+      "name": "Lưỡi mèo thái xanh",
+      "price": 15000,
+      "image": "images/luoi-meo-thai-xanh.webp",
+      "description": "Lá dày hình kiếm ngắn, xếp cuộn xoáy sát gốc tạo hoa thị, có vằn ngang bóng, cây nhỏ gọn, bền, ít cần chăm sóc.",
+      "research": {
+        "verified": true,
+        "notes": "Tên khoa học: Sansevieria trifasciata var. hahnii (còn gọi là 'Hahnii' hoặc 'Bird's Nest snake plant'), là một giống lùn/biến thể của cùng loài với cây lưỡi hổ (Sansevieria trifasciata / Dracaena trifasciata), họ Măng tây (Asparagaceae). Đặc điểm: dạng bụi thấp, lá ngắn dày hình kiếm/tam giác, xếp xoáy so le sát gốc tạo hình hoa thị (rosette) giống tổ chim, cao chỉ 10-20cm, lá có vằn ngang bóng màu xanh xám hoặc đốm, một số giống viền vàng kem. Ra hoa chùm trắng có mùi thơm (hiếm gặp khi trồng nội thất). Vì cùng loài với lưỡi hổ (chỉ khác giống/biến thể hình thái), độc tính và đặc tính sinh học được suy ra là tương tự lưỡi hổ: theo ASPCA, độc với chó mèo do saponin và canxi oxalat, gây kích ứng miệng, nôn, tiêu chảy khi ăn phải - đây là suy luận hợp lý dựa trên cùng loài thực vật (không tìm thấy nghiên cứu độc tính tách riêng cho biến thể 'hahnii', nhưng về mặt thực vật học cùng loài nên đặc tính hóa học tương tự là hợp lý). Không có công dụng ẩm thực hoặc dược liệu được ghi nhận qua nguồn uy tín cho biến thể này; các trang thương mại chỉ đề cập công dụng trang trí và phong thủy, mang tính dân gian/thương mại, không có cơ sở khoa học.",
+        "sources": [
+          "https://nhathuoclongchau.com.vn/bai-viet/cay-luoi-meo-va-cong-dung-chua-benh-cuc-ky-hieu-qua-69716.html",
+          "https://khuvuonxanh.com/cay-luoi-meo/",
+          "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/snake-plant (suy luận từ cùng loài S. trifasciata)"
+        ]
+      }
+    },
+    {
+      "category": "plant",
+      "name": "Dương xỉ lá me",
+      "price": 15000,
+      "image": "images/duong-xi-la-me.webp",
+      "description": "Lá kép nhỏ mảnh như lá me, mọc thành cụm rậm rạp xanh quanh năm, ưa bóng râm, có khả năng lọc không khí.",
+      "research": {
+        "verified": true,
+        "notes": "Tên khoa học: có sự KHÔNG THỐNG NHẤT giữa các nguồn tiếng Việt - một số ghi Nephrolepis exaltata (dương xỉ Boston, lá lớn hơn), một số khác ghi Nephrolepis cordifolia (loài lá nhỏ mảnh hơn, tên gọi tiếng Anh 'fishbone fern' hoặc 'tuberous sword fern', phổ biến ở Việt Nam và có củ nhỏ dưới đất). Với mô tả 'lá kép nhỏ mảnh như lá me' phù hợp hơn với đặc điểm của Nephrolepis cordifolia. Đây là điểm CHƯA THỂ KHẲNG ĐỊNH CHẮC CHẮN vì tên thương mại tiếng Việt 'dương xỉ lá me' không có định danh khoa học thống nhất/chính thức, cần ghi rõ có thể là một trong hai loài trên, cùng họ Lomariopsidaceae (hoặc Nephrolepidaceae tùy hệ thống phân loại). Đặc điểm chung của chi: lá kép lông chim mọc thành cụm rậm rạp, ưa ẩm và bóng râm/bán phần, không chịu được nắng gắt hoặc khô hạn kéo dài. Công dụng lọc không khí: Nephrolepis exaltata (dương xỉ Boston) là một trong những loài NẰM TRONG nghiên cứu gốc của NASA Clean Air Study, được ghi nhận hấp thụ formaldehyde hiệu quả - đây là bằng chứng có nguồn nghiên cứu, nhưng cùng lưu ý hạn chế như đã nêu (thí nghiệm trong buồng kín, hiệu quả thực tế trong nhà ở còn tranh cãi). Không có công dụng ẩm thực hoặc dược liệu được ghi nhận qua nguồn uy tín cho các loài dương xỉ cảnh này (khác với một số loài dương xỉ khác như dớn, rau dớn được dùng làm rau ăn - không nên nhầm lẫn). Không phát hiện thông tin về độc tính đáng kể, nhìn chung dương xỉ cảnh được xem là an toàn tương đối với vật nuôi theo ASPCA đối với Nephrolepis exaltata (Boston fern) - được liệt kê là không độc (non-toxic) với chó mèo, nhưng nên kiểm chứng thêm nếu cần khẳng định tuyệt đối cho từng loài cụ thể.",
+        "sources": [
+          "https://kiengla.vn/duong-xi-la-me/",
+          "https://vuonannhien.vn/cay-duong-xi-la-me-dac-diem-cong-dung-va-cach-cham-soc",
+          "https://kenh14.vn/loai-cay-rat-nen-trong-trong-nha-lot-top-dau-danh-sach-cua-nasa-loc-duoc-ca-loat-chat-doc-hai-215250407202633117.chn"
+        ]
+      }
+    },
+    {
+      "category": "plant",
+      "name": "Lộc vừng",
+      "price": 25000,
+      "image": "images/loc-vung.webp",
+      "description": "Hoa nhỏ đỏ mọc thành chùm rủ dài như dây pháo, nở vào đầu hè và cuối thu, tượng trưng cho tài lộc và may mắn.",
+      "research": {
+        "verified": true,
+        "notes": "Tên khoa học: Barringtonia acutangula (L.) Gaertn., họ Lộc vừng/Chiếc (Lecythidaceae). Tên gọi khác: cây Chiếc, Tam lang. Đặc điểm thực vật: cây gỗ cao 5-10m (có nguồn ghi đến 8-10m), lá mọc so le, dày, hình bầu dục thuôn dài 5-12cm, hoa nhỏ màu đỏ (hoặc trắng tùy loài/giống) mọc thành chùm dài rủ xuống như dây pháo, nở rộ có mùi thơm, thường nở vào đầu hè, quả chín khoảng tháng 9. Phân bố tự nhiên ở vùng ven sông, ao hồ nhiệt đới Đông Nam Á và Nam Á; tại Việt Nam có ở nhiều tỉnh như Tuyên Quang, Phú Thọ, Thanh Hóa. Công dụng dược liệu (y học cổ truyền, có ghi nhận trong sách dược liệu Việt Nam như trungtamthuoc.com, ydhvn.com, và được trích dẫn tương tự trong tài liệu về cây thuốc Việt Nam): vỏ thân dùng chữa đau bụng, sốt, tiêu chảy, liều dùng 8-16g sắc uống; lá chứa tannin, flavonoid, saponin, polyphenol - dùng ngoài da, trị trĩ, tiêu chảy, các bệnh ngoài da; quả xanh giã dùng chữa đau răng, làm mờ vết chàm da; rễ có tác dụng kích thích tiêu hóo. Một số nghiên cứu in vitro sơ bộ (được các trang dược liệu trích dẫn, chưa xác định được nghiên cứu gốc/tạp chí cụ thể) cho thấy chiết xuất lá có khả năng ức chế một số vi khuẩn/nấm (Staphylococcus aureus, E. coli, Candida albicans) - đây là mức bằng chứng THẤP đến TRUNG BÌNH (in vitro, chưa có thử nghiệm lâm sàng trên người được xác minh qua nguồn tôi tiếp cận được). Cảnh báo/độc tính QUAN TRỌNG: HẠT lộc vừng chứa saponin độc gọi là barringtonin (một loại glycosid-saponin), có thể gây độc nếu ăn phải - đây là lưu ý cần thiết nếu người dùng nhầm hạt là thứ ăn được. Không có công dụng ẩm thực phổ biến (không phải rau/quả ăn được thông thường), quả chỉ dùng làm thuốc dân gian với liều lượng kiểm soát chứ không phải thực phẩm. Sách 'Những cây thuốc và vị thuốc Việt Nam' của Đỗ Tất Lợi có ghi nhận lộc vừng là cây thuốc dân gian nhưng tôi chưa trực tiếp trích dẫn được nội dung gốc từ sách này qua tìm kiếm, thông tin trên chủ yếu tổng hợp từ các trang dược liệu trích dẫn lại - cần lưu ý mức độ bằng chứng dân gian truyền thống, chưa phải nghiên cứu lâm sàng hiện đại được kiểm chứng đầy đủ.",
+        "sources": [
+          "https://trungtamthuoc.com/duoc-lieu/loc-vung",
+          "https://www.ydhvn.com/lists/cay-duoc-lieu-cay-loc-vung-chiec-barringtonia-acutangula-l-gaertn",
+          "https://nhathuoclongchau.com.vn/bai-viet/la-loc-vung-cong-dung-cach-dung-va-luu-y-y-khoa-khi-su-dung-lam-duoc-lieu.html",
+          "https://ytevinhcuu.com/y-hoc-co-truyen/cay-thuoc-quanh-ta/mot-so-bai-thuoc-tu-cay-loc-vung"
+        ]
+      }
+    },
+    {
+      "category": "plant",
+      "name": "Giữ tiền/lan tuyết",
+      "price": 25000,
+      "image": "images/giu-tien.webp",
+      "description": "Lá thuôn dài xanh đậm với gân và mảng trắng như tuyết phủ, thân mảnh mềm mại, được cho là giúp giữ của cải cho gia chủ.",
+      "research": {
+        "verified": true,
+        "notes": "Tên khoa học: Aglaonema sp. (thường được gán là Aglaonema pictum 'Tricolor' hoặc các giống Aglaonema lá có gân/mảng trắng, tên tiếng Việt phổ biến 'lân tuyết'/'lan tuyết'; tuy nhiên tên gọi thương mại 'cây giữ tiền' trên các trang bán cây tại Việt Nam không thống nhất về loài cụ thể trong chi Aglaonema — nhiều trang chỉ ghi chung 'Aglaonema sp'). Họ Ráy (Araceae). Đặc điểm thực vật: thân thảo, mảnh, mềm, không phân nhánh, cao trung bình 40-50cm, lá thuôn dài với gân/mảng trắng như tuyết, hoa hiếm gặp, màu trắng, dạng mo điển hình của họ Ráy. Nguồn gốc nhiệt đới châu Á. Công dụng: cây cảnh trang trí nội thất, không phải cây dược liệu/ẩm thực. Sức khỏe: KHÔNG có công dụng dược liệu được ghi nhận; ngược lại các loài Aglaonema (họ Ráy) nói chung đều chứa tinh thể canxi oxalat trong nhựa cây, có ĐỘC TÍNH NHẸ nếu ăn phải hoặc tiếp xúc nhựa cây — gây kích ứng miệng, họng, da khi tiếp xúc trực tiếp. Ý nghĩa 'giữ của cải cho gia chủ' hoàn toàn thuộc phạm trù phong thủy/tín ngưỡng dân gian, KHÔNG có cơ sở khoa học, cần nói rõ đây chỉ là quan niệm truyền miệng. Lưu ý/cảnh báo: để xa tầm tay trẻ em và thú cưng do độc tính nhựa cây (đặc trưng chung của họ Araceae); đeo găng tay khi cắt tỉa.",
+        "sources": [
+          "https://eva.vn/cay-canh-vuon/cay-giu-tien-y-nghia-menh-hop-va-cach-trong-ra-hoa-dep-c283a479863.html",
+          "https://www.bachhoaxanh.com/kinh-nghiem-hay/cay-ngoc-ngan-co-doc-khong-dac-diem-va-y-nghia-phong-thuy-cua-cay-ngoc-ngan-1371470 (thông tin độc tính chung họ Araceae, dùng đối chiếu)",
+          "https://vi.wikipedia.org/wiki/Chi_Minh_ty (Chi Aglaonema - Minh ty)"
+        ]
+      }
+    },
+    {
+      "category": "plant",
+      "name": "Dương xỉ tóc tiên",
+      "price": 15000,
+      "image": "images/duong-xi-toc-tien.webp",
+      "description": "Lá nhỏ mảnh mai hình quạt, buông rủ mềm mại như tóc, ưa bóng râm và ẩm, tạo nét thanh nhã dịu mắt cho không gian sống.",
+      "research": {
+        "verified": true,
+        "notes": "Tên khoa học: chi Adiantum (họ Pteridaceae, trước đây phân vào Adiantaceae), tên tiếng Việt phổ biến 'dương xỉ tóc thần' hoặc 'tóc thần vệ nữ' (tiếng Anh: maidenhair fern). Loài phổ biến trồng làm cảnh: Adiantum raddianum, Adiantum capillus-veneris, Adiantum caudatum. Có Wikipedia tiếng Việt riêng cho 'Dương xỉ tóc thần'. Đặc điểm thực vật: cây dương xỉ lâu năm, lá chét (lá nhỏ) hình quạt, mỏng manh, mọc thành cụm rủ mềm mại trên cuống lá màu đen/nâu sẫm bóng, cứng; ưa ẩm cao (>70%), ánh sáng gián tiếp, nhiệt độ mát 18-29°C; nguồn gốc từ rừng nhiệt đới Nam Mỹ, châu Phi, Úc, New Zealand. Công dụng: chủ yếu là cây cảnh trang trí, tạo không gian xanh mát, dịu mắt — không phải cây dược liệu/ẩm thực phổ biến ở Việt Nam. Có một số nguồn nhắc tới ứng dụng dương xỉ Maidenhair trong y học cổ truyền một số nước (ví dụ dùng làm thuốc trị ho, lợi tiểu ở y học dân gian phương Tây) nhưng ĐÂY LÀ THÔNG TIN CHƯA ĐƯỢC KIỂM CHỨNG RÕ RÀNG bằng nghiên cứu khoa học đáng tin cậy tại nguồn tiếng Việt, cần thận trọng khi đưa ra công dụng dược liệu. Không tìm thấy cảnh báo độc tính đáng kể. Lưu ý: cây khá nhạy cảm, dễ khô lá nếu độ ẩm không khí thấp — đây là lưu ý chăm sóc, không phải cảnh báo sức khỏe.",
+        "sources": [
+          "https://vi.wikipedia.org/wiki/D%C6%B0%C6%A1ng_x%E1%BB%89_t%C3%B3c_th%E1%BA%A7n",
+          "https://kla.vn/plant/duong-xi-toc-than-ve-nu/",
+          "https://kiengla.vn/duong-xi-toc-than/",
+          "https://istyle.com.vn/tin-tuc/cap-nhat-kien-thuc/cay-duong-xi-maidenhair.html (thông tin y học cổ truyền/hiện đại - chưa kiểm chứng độc lập)"
+        ]
+      }
+    },
+    {
+      "category": "plant",
+      "name": "Dứa vạn phát",
+      "price": 15000,
+      "image": "images/dua-van-phat.webp",
+      "description": "Lá dài hẹp xanh sọc vàng ở giữa, mọc thành bụi gọn dạng dứa cảnh, ưa nắng, được xem là biểu tượng cho may mắn và tài lộc.",
+      "research": {
+        "verified": false,
+        "notes": "THÔNG TIN CHƯA RÕ RÀNG/MÂU THUẪN VỀ TÊN KHOA HỌC: các nguồn tiếng Việt không thống nhất — một số ghi Pandanus baptistii 'Aureus' hoặc Pandanus sanderi (họ Dứa dại - Pandanaceae), một số khác lại nhầm lẫn với Dyckia brevifolia hoặc Aechmea (họ Dứa cảnh - Bromeliaceae). Dựa trên mô tả sản phẩm ('lá dài hẹp xanh sọc vàng ở giữa, mọc thành bụi gọn dạng dứa cảnh, ưa nắng') thì khả năng cao đây là một giống Pandanus (dứa cảnh lá sọc vàng, ví dụ Pandanus veitchii hoặc Pandanus baptistii dạng biến thể lá vàng) hoặc có thể là Dracaena reflexa 'Song of India' (cũng có lá sọc vàng dạng dứa, tên khoa học xác nhận qua Wikipedia tiếng Anh, họ Măng tây - Asparagaceae) — nhưng KHÔNG ĐỦ CĂN CỨ để khẳng định loài chính xác vì tên thương mại 'dứa vạn phát' không có trang khoa học/Wikipedia chính thức đối chiếu. Đặc điểm chung ghi nhận: thân thảo dạng bụi, cao 20-50cm, lá dài hẹp có sọc vàng-xanh, ưa nắng, nguồn gốc Đông Nam Á theo một số nguồn (mâu thuẫn với gốc Madagascar/Ấn Độ Dương nếu là Dracaena reflexa). Công dụng: cây cảnh trang trí, không phải cây dược liệu/ẩm thực. Ý nghĩa 'may mắn tài lộc' thuộc phong thủy dân gian, không có cơ sở khoa học. Không có thông tin về độc tính/lợi ích sức khỏe được kiểm chứng. CẦN GHI RÕ: tên khoa học chưa xác định chắc chắn do các nguồn mâu thuẫn nhau, nên thận trọng khi công bố tên khoa học cụ thể trên sản phẩm.",
+        "sources": [
+          "https://vuontrungtam.com/san-pham/cay-canh/dua-van-phat.html",
+          "http://caycanhtamky.com/san-pham/cay-dua-van-phat/",
+          "https://en.wikipedia.org/wiki/Dracaena_reflexa (đối chiếu loài có đặc điểm tương tự)"
+        ]
+      }
+    },
+    {
+      "category": "plant",
+      "name": "Hoa hạnh phúc",
+      "price": 15000,
+      "image": "images/hoa-hanh-phuc.webp",
+      "tag": "Cây cảnh",
+      "description": "Lá dài xanh đậm, cụm hoa đỏ tươi nổi bật hình tháp, mang ý nghĩa may mắn và hạnh phúc cho không gian sống.",
+      "research": {
+        "verified": false,
+        "notes": "THÔNG TIN MÂU THUẪN CẦN LƯU Ý: Cây 'hạnh phúc' được các nguồn thương mại tiếng Việt gọi tên khoa học là Radermachera sinica (họ Chùm ớt - Bignoniaceae), có mục Wikipedia tiếng Anh riêng, nguồn gốc vùng núi cận nhiệt đới miền Nam Trung Quốc và Đài Loan. Theo Wikipedia và các nguồn làm vườn quốc tế (Missouri Botanical Garden...), hoa của Radermachera sinica có màu TRẮNG, dạng loa kèn, nở về đêm, RẤT HIẾM khi ra hoa trong nhà/khi trồng làm cảnh trong chậu. Điều này MÂU THUẪN với mô tả sản phẩm hiện có ('cụm hoa đỏ tươi nổi bật hình tháp') và với một số trang bán hoa tiếng Việt mô tả 'hoa hạnh phúc màu đỏ rực rỡ dạng đuôi chồn'. Khả năng cao là có sự NHẦM LẪN THƯƠNG MẠI giữa (a) cây cảnh lá 'hạnh phúc' (Radermachera sinica, thường bán dạng cây lá, không hoa hoặc hoa trắng hiếm gặp) và (b) một loại 'hoa hạnh phúc' cắm bình/hoa cắt cành khác có hoa đỏ dạng cụm hình tháp/đuôi chồn (có thể là một loài khác, tên gọi thương mại, chưa xác định được tên khoa học chính xác). Do đó CẦN GHI RÕ: nếu sản phẩm là cây trồng chậu lá xanh đậm dạng cây gỗ nhỏ thì đúng là Radermachera sinica (hoa trắng hiếm, không phải hoa đỏ); còn nếu mô tả 'cụm hoa đỏ hình tháp' là chính xác thì tên khoa học Radermachera sinica có thể KHÔNG ĐÚNG với sản phẩm này, cần xác minh lại thực tế cây đang bán trước khi công bố tên khoa học. Công dụng: cây cảnh phong thủy, không phải dược liệu. Không có thông tin độc tính hoặc lợi ích sức khỏe được kiểm chứng khoa học; ý nghĩa 'hạnh phúc, may mắn' thuần túy dân gian/phong thủy.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Radermachera_sinica",
+          "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=277931",
+          "https://hoanghamobile.com/tin-tuc/cay-hanh-phuc/",
+          "https://mytour.vn/vi/blog/bai-viet/hoa-hanh-phuc-hoa-gi-va-y-nghia.html (mô tả hoa đỏ - mâu thuẫn với nguồn khoa học)"
+        ]
+      }
+    },
+    {
+      "category": "plant",
+      "name": "Ngọc ngân",
+      "price": 25000,
+      "image": "images/ngoc-ngan.webp",
+      "description": "Lá bầu dục xanh đậm điểm vân trắng bạc nổi bật, mọc bụi gọn, tượng trưng cho sự thịnh vượng và may mắn tài lộc.",
+      "research": {
+        "verified": true,
+        "notes": "Tên khoa học: các nguồn tiếng Việt ghi phổ biến là Aglaonema oblongifolium hoặc Aglaonema commutatum (thuộc chi Aglaonema, họ Ráy - Araceae); một vài nguồn nhầm lẫn ghi thêm 'Dieffenbachia picta' (đây là loài KHÁC, cũng họ Ráy nhưng khác chi — có khả năng nhầm lẫn giữa 'ngọc ngân' và 'vạn niên thanh' trên thị trường, cần lưu ý khi công bố). Đặc điểm thực vật: thân thảo, lá bầu dục xanh đậm với mảng/vân trắng bạc lớn ở giữa lá, mọc thành bụi gọn, phù hợp trồng trong nhà thiếu sáng. Công dụng: cây cảnh trang trí, KHÔNG phải cây dược liệu/ẩm thực. ĐỘC TÍNH: đây là điểm quan trọng — nhựa cây ngọc ngân (giống các loài họ Ráy khác) chứa tinh thể canxi oxalat, có ĐỘC TÍNH NHẸ, gây kích ứng khi tiếp xúc hoặc ăn phải: nóng rát miệng/lưỡi/họng, trường hợp nặng có thể đau cổ, khó thở, nôn mửa (đặc biệt nguy hiểm với trẻ nhỏ và thú cưng nếu nhai/nuốt phải). Đây là thông tin được nhiều nguồn tiếng Việt xác nhận tương đối nhất quán, phù hợp với đặc tính chung của họ Araceae. Ý nghĩa 'thịnh vượng, tài lộc' thuộc phong thủy dân gian. Lưu ý/cảnh báo BẮT BUỘC: đeo găng tay khi cắt tỉa, đặt xa tầm tay trẻ em và vật nuôi, rửa tay sau khi tiếp xúc nhựa cây.",
+        "sources": [
+          "https://www.bachhoaxanh.com/kinh-nghiem-hay/cay-ngoc-ngan-co-doc-khong-dac-diem-va-y-nghia-phong-thuy-cua-cay-ngoc-ngan-1371470",
+          "https://khbvptr.vn/cay-ngoc-ngan/",
+          "https://ngoctangarden.com/cay-ngoc-ngan/"
+        ]
+      }
+    },
+    {
+      "category": "plant",
+      "name": "Da quy",
+      "price": 25000,
+      "image": "images/da-quy.webp",
+      "description": "Lá bầu dục bóng, mép lá thường pha sắc đỏ hoặc xanh thẫm, cây bụi nhỏ dùng viền bồn hoa, trang trí sân vườn và nội thất.",
+      "research": {
+        "verified": true,
+        "notes": "Xác định được đây là cách gọi rút gọn/khác của 'cây cô tòng đuôi lươn' (còn gọi là vàng anh đuôi lươn, ngũ sắc). Tên khoa học: Codiaeum variegatum (L.) Blume, thường ghi thêm var. pictum Muell., họ Thầu dầu (Euphorbiaceae). Có trang chuyên về dược liệu tracuuduoclieu.vn ghi nhận loài này. Nguồn gốc Đông Nam Á/quần đảo Malaysia, Úc, Nam Thái Bình Dương. Đặc điểm thực vật: cây bụi nhỏ, thân nâu sần sùi nhiều đốt, lá thuôn dài đầu nhọn, mặt trên bóng, màu sắc đa dạng (xanh, vàng, đỏ, cam, nâu, trắng pha trộn) — khớp với mô tả sản phẩm 'lá bầu dục bóng, mép lá pha sắc đỏ hoặc xanh thẫm'. Hoa nhỏ dạng chùm giống đuôi sóc, màu trắng kem, ít được chú ý (cây chủ yếu được trồng vì lá màu sắc, không phải vì hoa). Công dụng: chủ yếu làm cây cảnh viền bồn hoa, trang trí sân vườn/nội thất — ĐÚNG như mô tả sản phẩm. Về dược liệu: tracuuduoclieu.vn có đề cập đến 'công dụng' của Codiaeum variegatum trong y học cổ truyền một số nước (dùng ngoài da, trị một số bệnh) NHƯNG thông tin này CHƯA ĐƯỢC KIỂM CHỨNG ĐẦY ĐỦ bằng nghiên cứu khoa học hiện đại đáng tin cậy, cần thận trọng, không nên đưa ra công dụng dược liệu cụ thể nếu chưa xác minh thêm. CẢNH BÁO QUAN TRỌNG: một số nguồn quốc tế (không kiểm tra sâu trong lần tìm kiếm này) ghi nhận Codiaeum variegatum (croton) có nhựa mủ có thể gây kích ứng da và ĐỘC NHẸ nếu ăn phải (thuộc họ Thầu dầu - Euphorbiaceae, họ này nhìn chung có nhiều loài chứa nhựa mủ kích ứng) — ĐÂY LÀ ĐIỂM CẦN XÁC MINH THÊM TỪ NGUỒN Y KHOA TRƯỚC KHI CÔNG BỐ CHÍNH THỨC, vì trong lần tìm kiếm này chưa lấy được nguồn tiếng Việt xác nhận trực tiếp độc tính của loài cụ thể này.",
+        "sources": [
+          "https://tracuuduoclieu.vn/codiaeum-variegatum-l-blume.html",
+          "http://faunaandfloraofvietnam.blogspot.com/2020/02/codiaeum-variegatum-cay-co-tong-uoi.html",
+          "https://vuacayxanh.net/cay-co-tong/"
+        ]
+      }
+    },
+    {
+      "category": "plant",
+      "name": "Đại phú gia",
+      "price": 40000,
+      "image": "images/dai-phu-gia.webp",
+      "description": "Lá to bản xanh đốm trắng bắt mắt, dáng bụi sum suê, thanh lọc không khí tốt nhưng nhựa cây có thể gây kích ứng da, cần tránh trẻ nhỏ.",
+      "research": {
+        "verified": true,
+        "notes": "Tên khoa học phổ biến là Aglaonema modestum (hoặc các giống thuộc chi Aglaonema nói chung, họ Ráy - Araceae). Lưu ý: các trang bán cây tiếng Việt gọi tên khoa học không thống nhất (có nơi ghi 'Aglaonema SP' chung chung), nên cần xem đây là tên chi/loài tương đối, chưa có nguồn phân loại thực vật học chính thức (như Wikipedia hay cơ sở dữ liệu thực vật) xác nhận riêng cho giống 'Đại phú gia' cụ thể tại Việt Nam. Đặc điểm: cây bụi thân thảo, lá tập trung ở ngọn, hình bầu dục, mọc theo dạng bụi sum suê; một số giống trong chi Aglaonema có lá đốm trắng/xanh đậm (như Ngân Hậu). Đặc điểm 'lá to bản xanh đốm trắng' phù hợp với mô tả chung của các giống Aglaonema cảnh phổ biến. Công dụng: cây cảnh nội thất/văn phòng, được cho là có khả năng thanh lọc không khí (thông tin phổ biến trong ngành cây cảnh, chưa thấy trích dẫn nghiên cứu khoa học độc lập nào được nêu cụ thể trong các nguồn tìm được). Cảnh báo độc tính: NHIỀU nguồn (bigone.vn, hatalandscape.com, mientay.giadinhonline.vn, anbaogarden.com...) thống nhất rằng nhựa cây (mủ) chứa tinh thể calci oxalat, có thể gây kích ứng da và mắt khi tiếp xúc trực tiếp; nếu trẻ nhỏ cắn/ngậm lá hoặc thân có thể gây bỏng rát, sưng miệng họng, thậm chí nôn ói, chóng mặt nếu nuốt phải nhựa. Khuyến cáo đeo găng tay khi cắt tỉa và để xa tầm tay trẻ em. Đây là đặc điểm độc tính chung của nhiều loài trong họ Ráy (Araceae) do chứa calci oxalat, phù hợp với kiến thức thực vật học đã biết. Mức độ bằng chứng: thông tin về độc tính được nhiều nguồn tin cậy mức trung bình (trang chăm sóc cây, không phải y khoa chuyên sâu) đồng thuận, phù hợp với đặc tính đã biết của họ Araceae nên có độ tin cậy khá; thông tin về thanh lọc không khí là truyền miệng/marketing ngành cây cảnh, chưa kiểm chứng khoa học rõ ràng.",
+        "sources": [
+          "https://tracuuduoclieu.vn/aglaonema-modestum-schott-ex-engl.html",
+          "https://bigone.vn/nhua-cay-dai-phu-gia-co-doc-khong-a1266.html",
+          "https://hatalandscape.com/cay-dai-phu-gia-co-doc-khong",
+          "https://mientay.giadinhonline.vn/can-trong-voi-nhua-cay-dai-phu-gia-d9693.html",
+          "https://anbaogarden.com/cay-dai-phu-gia-co-doc-khong/",
+          "https://caycanhviet.vn/19-loai-cay-canh-co-doc/"
+        ]
+      }
+    },
+    {
+      "category": "plant",
+      "name": "Sương sáo",
+      "price": 10000,
+      "image": "images/suong-sao.webp",
+      "description": "Thân thảo mọc thẳng cao 40-60cm, lá và thân chứa chất tạo keo, nấu lên đông thành thạch đen dùng làm món giải khát mùa hè.",
+      "research": {
+        "verified": true,
+        "notes": "Tên khoa học: Mesona chinensis Benth. (còn gọi là cây thạch đen, tiên thảo), thuộc họ Hoa môi/Bạc hà (Lamiaceae/Labiatae). Nguồn gốc từ miền nam Trung Quốc, du nhập và trồng phổ biến ở Việt Nam (Cao Bằng, Lạng Sơn, Lâm Đồng, Đồng Tháp...). Đặc điểm thực vật: thân thảo mọc bò lan sát đất hoặc gần thẳng, cao khoảng 40-60cm, ưa sáng và ẩm nhưng không chịu úng; lá mọc đối, hình bầu dục hoặc thuôn dài, dài 2-4cm, rộng 1-1,5cm. Công dụng ẩm thực: thân và lá (thường phơi khô) nấu lấy nước, có chất tạo keo/pectin khiến nước cô đặc và đông lại thành thạch đen (dùng làm món giải khát mùa hè - thạch sương sáo/grass jelly). Công dụng dược liệu (Đông y): vị ngọt nhạt, tính mát; có tác dụng thanh nhiệt giải thử (giải nắng nóng), mát gan, nhuận tràng; dân gian dùng chữa cảm mạo do nắng, hỗ trợ hạ huyết áp, hỗ trợ người tiểu đường, đau nhức xương khớp, viêm gan cấp. Có nghiên cứu khoa học bước đầu (đăng trên tạp chí TNU Journal of Science and Technology và PMC/NCBI) về polysaccharide trong Mesona chinensis có tiềm năng hỗ trợ giảm béo phì trên chuột và các đặc tính có lợi cho sức khỏe, nhưng đây là nghiên cứu tiền lâm sàng (trên động vật/in vitro), CHƯA phải bằng chứng lâm sàng trên người mạnh. Phần lớn công dụng chữa bệnh (hạ huyết áp, tiểu đường, viêm gan...) vẫn chủ yếu dựa trên kinh nghiệm dân gian/Đông y truyền thống, chưa có RCT trên người được nêu trong các nguồn tìm được. Lưu ý/cảnh báo: liều khuyến cáo khoảng 10-20g lá khô/ngày (một số nguồn ghi 30-60g dạng sắc); không dùng cho người thể trạng dương hư, âm hư, khí hư (theo Đông y); trẻ nhỏ ăn thạch sương sáo lượng lớn có thể giảm cảm giác thèm ăn, ảnh hưởng hấp thu dưỡng chất. Nhìn chung được xem là không độc khi dùng đúng liều lượng ẩm thực thông thường.",
+        "sources": [
+          "https://tracuuduoclieu.vn/suong-sao.html",
+          "https://bvnguyentriphuong.com.vn/duoc-lieu/cay-thach-den",
+          "https://www.vinmec.com/vie/bai-viet/cay-thach-den-co-tac-dung-gi-vi",
+          "https://en.wikipedia.org/wiki/Grass_jelly",
+          "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11011351/",
+          "https://medlatec.vn/tin-tuc/suong-sao-ky-voi-gi-nhung-luu-y-quan-trong-can-biet-khi-an-suong-sao"
+        ]
+      }
+    },
+    {
+      "category": "plant",
+      "name": "Mắt nai",
+      "price": 15000,
+      "image": "images/mat-nai.webp",
+      "description": "Lá hình trái xoan màu tím đặc trưng, thân mềm mọng nước, cây bụi nhỏ dễ trồng, hoa trắng nhỏ mang ý nghĩa thịnh vượng bình yên.",
+      "research": {
+        "verified": false,
+        "notes": "CHƯA KIỂM CHỨNG ĐƯỢC HOÀN TOÀN: Các nguồn tìm được đều là trang bán cây cảnh (caycanh4mua.com, trungquang.com, cayxanhanphu.com...), không có nguồn phân loại thực vật học học thuật (Wikipedia, sách thực vật chí) xác nhận tên khoa học chính xác cho 'cây mắt nai lá tím' này. Tên khoa học Graptophyllum pictum (cây lá gấm/mắt nai - họ Ô rô, Acanthaceae) là tên tôi đưa ra để tìm kiếm dựa trên đặc điểm mô tả (lá tím, cây bụi nhỏ), nhưng kết quả tìm kiếm KHÔNG xác nhận rõ ràng đây có phải đúng là loài được gọi là 'mắt nai lá tím' hay không - cần thận trọng vì tên 'mắt nai' trong tiếng Việt cũng có thể ứng với vài loài cây cảnh viền/nền khác nhau. Đặc điểm ghi nhận từ các trang bán cây: thân/cành lá màu tím đặc trưng, lá hình elip nhọn đầu, mọc đối, dài khoảng 3-6cm; cây cao trung bình 30-40cm, ưa sáng nhưng chịu được bóng bán phần, sinh trưởng nhanh, chịu hạn, không kén đất; hoa nở mùa hè màu trắng, sau đó kết quả nâu chứa 1 hạt. Công dụng: chủ yếu dùng làm cây cảnh viền/nền trong công viên, tiểu cảnh, sân vườn - KHÔNG tìm thấy thông tin về công dụng ẩm thực hoặc dược liệu nào đáng tin cậy cho loài cây này trong các nguồn tìm được. Ý nghĩa phong thủy 'thịnh vượng, bình yên' nêu trong mô tả sản phẩm là quan niệm dân gian/marketing cây cảnh, không có cơ sở khoa học hoặc nguồn văn hóa học chính thống để kiểm chứng. Không tìm thấy thông tin về độc tính hoặc lưu ý an toàn của cây này.",
+        "sources": [
+          "https://caycanh4mua.com/chi-tiet/cay-mat-nai-la-tim",
+          "https://trungquang.com/cay-canh-ngoai-troi/cay-trong-nen/cay-mat-nai-la-tim.html",
+          "https://cayxanhanphu.com/product/cay-mat-nai/"
+        ]
+      }
+    },
+    {
+      "category": "plant",
+      "name": "Cà na",
+      "price": 15000,
+      "image": "images/ca-na.webp",
+      "description": "Quả hạch bầu dục nhỏ, xanh khi non chuyển vàng nhạt lúc chín, vị chua giòn đặc trưng, thường dùng ăn vặt và làm mứt ở miền Tây.",
+      "research": {
+        "verified": true,
+        "notes": "Tên khoa học: Elaeocarpus hygrophilus Kurz (đồng danh: E. madopetalus Pierre), thuộc họ Côm (Elaeocarpaceae). Lưu ý quan trọng: cần phân biệt với 'cà na trắng' (Canarium album, họ Trám - Burseraceae, ở miền Bắc gọi là trám trắng) và với chi Spondias (cây cóc) - đây là các loài khác nhau dù đôi khi bị nhầm lẫn tên gọi theo vùng miền. Đặc điểm quả: quả hạch hình bầu dục/oval, dài khoảng 3cm, vỏ láng, màu xanh khi non chuyển vàng nhạt/vàng óng khi chín, thịt quả dày, hạt cứng hình thoi ở giữa (đôi khi có rãnh dọc), vị chua. Thu hoạch khoảng tháng 7-8 âm lịch. Công dụng ẩm thực: ăn vặt (ngâm chua ngọt, làm mứt, cà na đập dập chấm muối ớt), đặc sản phổ biến ở miền Tây Nam Bộ. Thành phần dinh dưỡng: chứa protein, lipid, carbohydrate, canxi, sắt, vitamin C, phospho, và các hợp chất flavonoid, tanin, triterpen - ít calo, giàu chất xơ. Công dụng dược liệu (y học cổ truyền + một số nghiên cứu sơ bộ được các trang y tế trích dẫn): vị chua ngọt, tính ôn, hỗ trợ tiêu hóa, thanh nhiệt; các hợp chất trong quả có đặc tính chống oxy hóa, hỗ trợ kháng viêm, bảo vệ gan, hỗ trợ kiểm soát đường huyết, có tác dụng ức chế vi khuẩn Helicobacter pylori. Mức độ bằng chứng: các công dụng dược liệu chủ yếu được trích dẫn từ các trang sức khỏe phổ thông (medlatec.vn, nhathuoclongchau.com.vn, hoanmy.com) mà không dẫn nguồn nghiên cứu khoa học cụ thể (không có link tới paper/PMC), do đó nên xem là thông tin y học cổ truyền/phổ thông, CHƯA có bằng chứng khoa học mạnh (RCT) được xác minh trực tiếp. Không tìm thấy cảnh báo độc tính hoặc chống chỉ định đáng kể nào đối với cà na trong các nguồn.",
+        "sources": [
+          "https://hoanmy.com/ca-na/",
+          "https://nhathuoclongchau.com.vn/bai-viet/qua-tram-va-ca-na-co-phai-la-mot-hay-khong.html",
+          "https://nhathuoclongchau.com.vn/bai-viet/trai-ca-na-va-nhung-cong-dung-huu-ich.html",
+          "https://medlatec.vn/tin-tuc/trai-ca-na-co-tac-dung-gi-loi-ich-suc-khoe-va-nhung-luu-y-khi-su-dung"
+        ]
+      }
+    },
+    {
+      "category": "plant",
+      "name": "Bình tinh",
+      "price": 10000,
+      "image": "images/binh-tinh.webp",
+      "description": "Lá to hình bầu dục gân song song rõ nét, củ trắng ngà bọc vảy mỏng, chứa nhiều tinh bột dùng làm bột bình tinh truyền thống.",
+      "research": {
+        "verified": true,
+        "notes": "Tên khoa học: Maranta arundinacea, thuộc họ Hoàng tinh/Dong (Marantaceae). Tên gọi khác: hoàng tinh trắng, dong ta, bột huỳnh tinh, arrowroot (tiếng Anh). Cần lưu ý phân biệt: 'dong riềng' (Canna edulis, họ Chuối hoa - Cannaceae) là một loài KHÁC dùng làm miến dong, dù thường bị nhầm lẫn/gộp chung với 'bình tinh/dong ta' trong ngôn ngữ dân gian Việt Nam - đây là điểm mâu thuẫn/nhầm lẫn thuật ngữ phổ biến giữa các nguồn nên cần thận trọng khi trình bày. Đặc điểm thực vật: cây thân thảo, có củ (thân rễ) dưới đất; lá to hình bầu dục/trứng với gân song song rõ; củ có vỏ ngoài màu trắng ngà bọc vảy mỏng, chứa hàm lượng tinh bột cao (85-90% theo một số nguồn). Công dụng: củ được chế biến thành bột bình tinh (bột huỳnh tinh/arrowroot powder) - loại tinh bột truyền thống dùng làm bánh, nấu chè, làm nguyên liệu thực phẩm mịn dễ tiêu. Công dụng sức khỏe: dân gian/các trang sức khỏe phổ thông (Vinmec, 24h.com.vn, vietnamnet.vn) cho rằng củ dong/bột bình tinh hỗ trợ tiêu hóa, giải rượu, hỗ trợ kiểm soát đường huyết (phù hợp cho người tiểu đường do chỉ số đường huyết thấp), tăng cường miễn dịch. Mức độ bằng chứng: các công dụng này chủ yếu là thông tin y tế phổ thông không trích dẫn nghiên cứu khoa học cụ thể, nên xếp vào kinh nghiệm dân gian/truyền thống, chưa kiểm chứng bằng nghiên cứu lâm sàng rõ ràng trong phạm vi tìm kiếm được. Không tìm thấy cảnh báo độc tính đáng kể; đây là thực phẩm tinh bột được xem là an toàn khi dùng làm thực phẩm thông thường.",
+        "sources": [
+          "https://vi.wikipedia.org/wiki/M%C3%AC_tinh",
+          "https://www.pharmacity.vn/cu-binh-tinh.htm",
+          "https://www.vinmec.com/vie/bai-viet/cu-dong-co-tac-dung-gi-vi",
+          "https://bienxua.wordpress.com/2020/12/07/bot-mi-tinh-arrowroot/"
+        ]
+      }
+    },
+    {
+      "category": "plant",
+      "name": "Đậu biếc",
+      "price": 15000,
+      "image": "images/dau-biec.webp",
+      "description": "Dây leo hoa xanh tím đặc trưng, dùng nấu nước hoặc nhuộm màu thực phẩm tự nhiên, còn là dược liệu dân gian hỗ trợ an thần, chống oxy hóa.",
+      "research": {
+        "verified": true,
+        "notes": "Tên khoa học: Clitoria ternatea L., thuộc họ Đậu (Fabaceae). Tên gọi khác: bông biếc, đậu hoa tím, butterfly pea (tiếng Anh). Đặc điểm thực vật: dây leo thân thảo sống nhiều năm, hoa có màu xanh lam đậm/xanh tím đặc trưng (hiếm khi màu trắng). Công dụng ẩm thực: hoa dùng nấu nước uống hoặc làm màu nhuộm thực phẩm tự nhiên (xôi, chè, bánh...) nhờ sắc tố anthocyanin cho màu xanh tím đặc trưng, đổi màu theo độ pH (thường dùng để tạo hiệu ứng đổi màu khi pha với chanh). Công dụng dược liệu/lợi ích sức khỏe: (1) Chống oxy hóa - có bằng chứng khoa học ở mức nghiên cứu in vitro: một nghiên cứu đăng trên Tạp chí Y học Việt Nam đánh giá tác động chống oxy hóa và kháng viêm in vitro của cao hoa đậu biếc bằng phương pháp DPPH; một nghiên cứu khác trên Tạp chí Khoa học Đại học Quốc tế Hồng Bàng về tác dụng chống oxy hóa và điều hòa đường huyết của cao chiết hoa đậu biếc - đây là bằng chứng khoa học sơ bộ (in vitro/tiền lâm sàng đăng trên tạp chí trong nước), CHƯA phải bằng chứng lâm sàng mạnh trên người. (2) An thần/hỗ trợ trí nhớ, giảm lo âu - chủ yếu dựa trên cơ chế giả định (proanthocyanidin tăng lưu thông máu não) được nêu trên các trang sức khỏe phổ thông (medlatec.vn, youmed.vn), thuộc dạng kinh nghiệm Đông y/thông tin phổ thông hơn là bằng chứng khoa học chặt chẽ. (3) Lợi tiểu, giải độc - theo Đông y, kinh nghiệm dân gian. CẢNH BÁO/CHỐNG CHỈ ĐỊNH quan trọng: hoa đậu biếc có tính hàn, có thể gây lạnh bụng, chóng mặt, buồn nôn ở người huyết áp thấp/đường huyết thấp; CHỐNG CHỈ ĐỊNH cho phụ nữ mang thai vì anthocyanin có thể gây co bóp tử cung dẫn đến nguy cơ sẩy thai; phụ nữ đang trong kỳ kinh nguyệt không nên dùng vì anthocyanin có tính chống đông máu nhẹ, có thể gây rong kinh kéo dài; không nên lạm dụng, khuyến cáo chỉ 1-2 ly/ngày (khoảng 5-10 bông hoa). Đây là các cảnh báo được nhiều nguồn y tế phổ thông (Vinmec, MedLatec, Nhà thuốc Long Châu) đồng thuận nên có độ tin cậy khá tốt dù không dẫn trực tiếp nghiên cứu lâm sàng gốc.",
+        "sources": [
+          "https://www.vinmec.com/vie/bai-viet/tra-hoa-dau-biec-co-tac-dung-gi-vi",
+          "https://medlatec.vn/tin-tuc/tac-dung-hoa-dau-biec-la-gi-ma-ai-cung-me-met-loai-hoa-nay-s51-n29384",
+          "https://tapchiyhocvietnam.vn/index.php/vmj/article/view/4820",
+          "https://tapchikhoahochongbang.vn/js/article/view/310",
+          "https://youmed.vn/tin-tuc/hoa-dau-biec-co-tac-dung-gi/",
+          "https://nhathuoclongchau.com.vn/bai-viet/mot-so-tac-dung-cua-hoa-dau-biec-doi-voi-suc-khoe-ban-co-the-tham-khao.html"
+        ]
+      }
+    },
+    {
+      "category": "plant",
+      "name": "Xá xị",
+      "price": 10000,
+      "image": "images/xa-xi.webp",
+      "description": "Còn gọi rau quế vị/quế đất, lá mọc đối hình bầu dục thuôn dài, thân thảo mọc thẳng, có mùi thơm đặc trưng như xá xị, thường dùng ăn kèm gỏi cuốn, lẩu.",
+      "research": {
+        "verified": true,
+        "notes": "Tên gọi khác: rau quế vị, quế đất, rau vị, om sần, hồi nước, hồi đất. Tên khoa học: Limnophila rugosa, thuộc họ Mã đề (Plantaginaceae, một số nguồn cũ xếp vào họ Hoa mõm chó/Scrophulariaceae). Đặc điểm thực vật: cây thân thảo mọc thẳng đứng, cao 30-60cm, lá mọc đối, hình thuôn dài dạng mác hoặc trứng, gốc lá thuôn nhỏ, đầu lá hơi tù hoặc nhọn, toàn cây có mùi thơm đặc trưng giống mùi xá xị/rễ cây xá xị (Sassafras) dù không cùng họ. Công dụng ẩm thực: lá non dùng ăn sống kèm gỏi cuốn, lẩu, bún, phổ biến ở Nam Bộ; ở Ấn Độ dùng làm gia vị và hương liệu cho tóc. Công dụng dược liệu/sức khỏe: theo kinh nghiệm dân gian giúp tiêu hóa tốt, chống đầy hơi, làm dịu triệu chứng cảm lạnh, lợi tiểu, thanh nhiệt. Mức độ bằng chứng: chủ yếu là kinh nghiệm dân gian và tài liệu dược liệu phổ thông (trungtamthuoc.com), CHƯA tìm thấy nghiên cứu khoa học/lâm sàng đối chứng nào được trích dẫn cụ thể để xác nhận các công dụng này — cần ghi nhận là thông tin dân gian truyền miệng, chưa kiểm chứng bằng nghiên cứu. Lưu ý/cảnh báo: không tìm thấy thông tin về độc tính hoặc chống chỉ định cụ thể trong các nguồn tra cứu được.",
+        "sources": [
+          "https://trungtamthuoc.com/duoc-lieu/cay-rau-que-vi",
+          "https://lovingtree.com.vn/cay-rau-que-vi-xa-xi-limnophila-rugosa.html",
+          "https://vuonsaigon.vn/huong-dan-cach-trong-cay-xa-xi-que-vi-don-gian-tai-nha.html"
+        ]
+      }
+    },
+    {
+      "category": "plant",
+      "name": "So đũa hoa trắng",
+      "price": 15000,
+      "image": "images/so-dua-hoa-trang.webp",
+      "description": "Cây thân gỗ nhỏ, lá kép lông chim, hoa trắng lớn mọc chùm, là đặc sản miền Tây dùng nấu canh chua hoặc xào, đồng thời là vị thuốc dân gian.",
+      "research": {
+        "verified": true,
+        "notes": "Tên khoa học: Sesbania grandiflora (L.) Poir., thuộc họ Đậu (Fabaceae). Được ghi nhận trong sách 'Những cây thuốc và vị thuốc Việt Nam' của Đỗ Tất Lợi (theo trích dẫn từ vnras.com). Đặc điểm thực vật: cây thân gỗ nhỏ, mọc nhanh, lá kép lông chim, hoa to mọc thành chùm, màu trắng hoặc đỏ hồng tùy giống. Trồng phổ biến ở miền Trung và miền Nam Việt Nam. Công dụng ẩm thực: hoa so đũa là đặc sản miền Tây, dùng nấu canh chua cá, xào, làm gỏi. Công dụng dược liệu: vỏ cây dùng trợ tiêu hóa, tăng cảm giác ngon miệng, làm thuốc bổ, hỗ trợ điều trị tiêu chảy, viêm ruột, viêm họng, viêm miệng, nhức răng, lỵ; lá cây có tác dụng thanh nhiệt, sát khuẩn, nhai và nhổ bỏ giúp giảm viêm miệng; canh hoa so đũa dân gian cho là giúp giảm nhức đầu, cảm cúm. Mức độ bằng chứng: chủ yếu là kinh nghiệm y học cổ truyền/dân gian được các trang thuốc Đông y và bài báo phổ thông ghi nhận (caythuoc.org, nhathuoclongchau, ultv.edu.vn - trường đại học Y học cổ truyền), CHƯA thấy nghiên cứu lâm sàng đối chứng cụ thể được trích dẫn trong các nguồn tìm được. Lưu ý/cảnh báo: không tìm thấy cảnh báo độc tính cụ thể trong các nguồn tra cứu; nên xác minh thêm nếu dùng liều cao hoặc kéo dài.",
+        "sources": [
+          "https://caythuoc.org/cay-so-dua-tu-mon-an-ngon-den-bai-thuoc-quy.html",
+          "https://vnras.com/cay-so-dua-nhung-cay-thuoc-va-vi-thuoc-viet-nam-do-tat-loi/",
+          "https://ultv.edu.vn/thay-thuoc-y-hoc-co-truyen-chia-se-cong-dung-chua-benh-tu-cay-so-dua-d9092.html",
+          "https://nhathuoclongchau.com.vn/thanh-phan/so-dua"
+        ]
+      }
+    },
+    {
+      "category": "plant",
+      "name": "Lá giang",
+      "price": 15000,
+      "image": "images/la-giang.webp",
+      "description": "Dây leo lá hình trứng vị chua thanh, nguyên liệu quen thuộc để nấu canh chua, đồng thời là dược liệu dân gian giúp tiêu thũng, chống viêm.",
+      "research": {
+        "verified": true,
+        "notes": "Tên khoa học: trước đây gọi là Aganonerion polymorphum, tên khoa học cập nhật hiện nay là Urceola polymorpha (Pierre) D.J.Middleton & Livsh. (theo nghiên cứu đăng trên TNU Journal of Science and Technology), thuộc họ Trúc đào (Apocynaceae). Đặc điểm thực vật: dây leo, lá hình trứng, vị chua thanh do chứa acid hữu cơ. Thành phần hóa học (trong 100g lá tươi): 85,3g nước, 26mg vitamin C, 0,6mg caroten, 3,5g glucosid, acid tartric 1,7%, saponin 2,44%, flavonoid 2,24%, sterol, coumarin, cùng các nguyên tố vi lượng Na, Ca, Mn, Sr, Fe. Công dụng ẩm thực: nguyên liệu phổ biến nấu canh chua (gà, cá) ở Nam Bộ. Công dụng dược liệu: y học cổ truyền dùng giải khát, thanh nhiệt, sát khuẩn, giảm viêm, tiêu thũng, hỗ trợ tiêu hóa, trị đầy bụng khó tiêu, mụn nhọt; thân dùng trị bệnh đường tiết niệu (viêm thận mãn, viêm đường tiết niệu, sỏi thận, sỏi bàng quang); lá dùng ngoài trị lở ngứa, mụn nhọt, viêm da mủ. Mức độ bằng chứng: có một số nghiên cứu bước đầu về hoạt tính sinh học (kháng khuẩn của saponin ức chế Klebsiella, Salmonella typhi, Bacillus subtilis, Bacillus cereus - theo trungtamthuoc.com dẫn nghiên cứu), cộng với kinh nghiệm y học cổ truyền lâu đời — mức bằng chứng trung bình, kết hợp dân gian và một số nghiên cứu sơ bộ trong nước, chưa phải nghiên cứu lâm sàng quy mô lớn. Liều dùng tham khảo: 100-200g lá tươi/ngày hoặc 20g lá khô/ngày. Lưu ý/cảnh báo: được ghi nhận là không có độc tính đáng kể ('không có độc nên có thể dùng với liều lượng lớn' - theo trungtamthuocdantoc.com), tuy nhiên nên tham vấn y khoa khi dùng lâu dài hoặc liều cao; không tìm thấy chống chỉ định cụ thể rõ ràng trong các nguồn.",
+        "sources": [
+          "https://trungtamthuoc.com/duoc-lieu/la-giang",
+          "https://tracuuduoclieu.vn/la-giang.html",
+          "https://bvnguyentriphuong.com.vn/duoc-lieu/la-giang",
+          "https://jst.tnu.edu.vn/jst/article/view/14402",
+          "https://trungtamthuocdantoc.com/duoc-lieu/la-giang"
+        ]
+      }
+    },
+    {
+      "category": "plant",
+      "name": "Cây mỏ két",
+      "price": 15000,
+      "image": "images/cay-mo-ket.webp",
+      "description": "Cây bụi nhỏ lá to giống lá chuối, hoa hình mỏ chim màu đỏ cam sặc sỡ, cây cảnh phong thủy được ưa chuộng vì tượng trưng tài lộc, may mắn.",
+      "research": {
+        "verified": true,
+        "notes": "Tên khoa học: Heliconia psittacorum, thuộc họ Chuối rẻ quạt/Thiên điểu (Heliconiaceae), tên thường gọi khác: chuối mỏ két. Nguồn gốc: Trung Mỹ/Nam Mỹ. Đặc điểm thực vật: cây thân thảo dạng bụi, cao trung bình 1-1.5m, lá to giống lá chuối, cụm hoa mọc thành chùm có hình dạng giống mỏ chim két, màu đỏ rực rỡ xen viền vàng và xanh lá (cũng có các giống màu khác như cam, hồng). Ưa khí hậu nhiệt đới ẩm, nhiệt độ 25-35°C, ưa sáng. Công dụng: chủ yếu là cây cảnh trang trí sân vườn, không phải cây thuốc hay cây ẩm thực — không tìm thấy nguồn nào ghi nhận công dụng dược liệu hoặc ẩm thực của loài này. Ý nghĩa phong thủy: tượng trưng cho sự phát triển, may mắn, tài lộc, tự do, lạc quan; hợp mệnh Hỏa và Thổ (đây là quan niệm dân gian/phong thủy, không phải thông tin khoa học kiểm chứng được). Lưu ý: đây là cây cảnh, không phải dược liệu — cần lưu ý mô tả sản phẩm không nên gán công dụng sức khỏe cho cây này vì không có căn cứ. Không tìm thấy cảnh báo độc tính trong các nguồn tra cứu.",
+        "sources": [
+          "https://caycanhsaigon.life/bai-viet/tong-quan-cay-chuoi-mo-ket-20253110",
+          "https://sfarm.vn/chuoi-mo-ket-cach-trong-va-cham-soc-0400/",
+          "https://cayxanh.canhquannhaxanh.com/sample-product/cay-mo-ket-heliconia-psittacorum/"
+        ]
+      }
+    },
+    {
+      "category": "plant",
+      "name": "Tùng nam mỹ (thì là kiểng)",
+      "price": 15000,
+      "image": "images/tung-nam-my.webp",
+      "description": "Lá kim nhỏ xẻ mảnh như lá thì là, tán lá xanh mướt dạng bụi, dáng cây thanh mảnh, thường trồng chậu làm cây cảnh trang trí.",
+      "research": {
+        "verified": true,
+        "notes": "Tên khoa học: Artemisia scoparia (Waldst. & Kit.), thuộc họ Cúc (Asteraceae) — thường gọi ở Việt Nam là Tùng Nam Mỹ, Thì Là Thân Gỗ, Ngải Chổi, Thì Là Mỹ. Lưu ý: một số trang bán cây tại Việt Nam ghi nhầm là thuộc 'họ Măng Tây', nhưng theo phân loại thực vật học chuẩn (Wikipedia, tài liệu dược liệu Trung Quốc), loài này thuộc chi Ngải (Artemisia) trong họ Cúc, cùng họ với ngải cứu. Nguồn gốc: cây bản địa vùng Á-Âu, phân bố rộng từ Pháp đến Nhật Bản, là loài mới du nhập vào Việt Nam gần đây để làm cây cảnh. Đặc điểm thực vật: cây thân thảo/hơi hóa gỗ, cao khoảng 45cm-1,5m, thân phân nhiều nhánh, gốc thân hơi ngả tím; lá màu xanh non khi non chuyển vàng khi già, xẻ thùy nhỏ mảnh nhiều lần giống lá thì là, không lông; hoa nhỏ màu trắng vàng mọc thành chùm ở đầu cành. Công dụng: ở Việt Nam chủ yếu trồng làm cây cảnh trang trí (sân vườn, lối đi, chậu cảnh, cắt tỉa tạo dáng); một số trang thương mại VN ghi lá có thể dùng làm rau gia vị nhưng chưa được nguồn khoa học độc lập xác nhận. Đáng chú ý, trong y học cổ truyền Trung Quốc, loài này (gọi là nhân trần/nhân trần cao) được dùng hỗ trợ chức năng gan mật và lợi tiểu — công dụng dược liệu này không được các trang bán cây cảnh ở Việt Nam đề cập. Chăm sóc: ưa sáng, chịu bán râm, tưới vừa phải, đất tơi xốp thoát nước tốt, nhiệt độ thích hợp 20-30°C, chịu lạnh kém. CẢNH BÁO: phấn hoa có thể gây viêm mũi dị ứng ở người nhạy cảm, cây chứa sesquiterpene lactone có khả năng gây dị ứng da khi tiếp xúc.",
+        "sources": [
+          "https://vuonbachthao.vn/cay-thi-la-than-go-tung-nam-my",
+          "https://greenfield.com.vn/vi/p/tung-nam-my.126",
+          "https://en.wikipedia.org/wiki/Artemisia_scoparia",
+          "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6918244/"
+        ]
+      }
+    },
+    {
+      "category": "plant",
+      "name": "Thanh tú",
+      "price": 15000,
+      "image": "images/thanh-tu.webp",
+      "description": "Cây bụi nhỏ, lá thuôn dài mọc đối xanh đậm, thân cứng cáp phân nhánh nhiều, dễ trồng, thường dùng làm cây cảnh chậu hoặc trồng viền.",
+      "research": {
+        "verified": false,
+        "notes": "Không xác minh được khớp hoàn toàn với mô tả hình thái. Trên thị trường cây cảnh Việt Nam, tên thương mại 'Thanh tú' (hay 'Hoa thanh tú', 'Blue Daze') hầu như chỉ ứng với một loài được ghi nhận thống nhất trên Wikipedia tiếng Việt và các nguồn bán cây: Evolvulus glomeratus, thuộc họ Bìm bìm (Convolvulaceae). Tuy nhiên loài này là cây thân thảo, cành mềm, dạng bò lan/rủ nhẹ, lá đơn mọc so le (không phải mọc đối) hình trái xoan nhỏ có phủ lông mịn, đặc trưng nổi bật với hoa xanh lam — không khớp với mô tả sản phẩm này (cây bụi thân cứng cáp, lá thuôn dài mọc đối, xanh đậm, không thấy hoa trong ảnh). Đặc điểm mô tả lại gần với Duranta erecta hơn, nhưng loài này ở Việt Nam được gọi phổ biến là 'Thanh quan'/'Chuỗi ngọc' (họ Cỏ roi ngựa - Verbenaceae), không có nguồn nào xác nhận gọi là 'Thanh tú'. Có thể đây là nhầm lẫn tên gọi giữa người bán/vùng miền, hoặc còn một loài khác chưa xác định được qua tra cứu. Cần đối chiếu thêm bằng hình ảnh thực tế hoặc hỏi trực tiếp người bán trước khi khẳng định tên khoa học và công dụng.",
+        "sources": [
+          "https://vi.wikipedia.org/wiki/Thanh_t%C3%BA",
+          "https://fptshop.com.vn/tin-tuc/for-gamers/hoa-thanh-tu-198765",
+          "https://vi.wikipedia.org/wiki/Thanh_quan",
+          "https://tracuuduoclieu.vn/duranta-repens-l.html"
+        ]
+      }
+    },
+    {
+      "category": "plant",
+      "name": "Xương khỉ",
+      "price": 15000,
+      "image": "images/xuong-khi.webp",
+      "description": "Cây bụi nhỏ, lá thuôn dài xanh đậm mọc đối, gân lá nổi rõ, dễ trồng và ưa bóng bán phần.",
+      "research": {
+        "verified": true,
+        "notes": "Tên khoa học: Clinacanthus nutans (Burm.f.) Lindau (đồng danh: Justicia nutans Burm.f.), thuộc họ Ô rô (Acanthaceae). Ở Việt Nam còn gọi là bìm bịp, mảnh cộng, lá cầm, ưu độn thảo. Đặc điểm thực vật: cây bụi nhỏ, cao 1-3m, thân hình trụ có vân, lá hình mác/thuôn dài, hẹp, mọc đối xứng, gân lá nổi rõ, ưa bóng bán phần, dễ trồng bằng giâm cành. Công dụng dân gian (Đông y): lá sắc uống có tác dụng bổ, lợi tiểu, tiêu sưng viêm; lá giã đắp trị đau mắt đỏ, sưng vú, hỗ trợ liền xương, giảm sưng khớp, bong gân; ở Thái Lan dùng lá tươi trị bỏng, côn trùng cắn, chàm; được biết đến ở Đông Nam Á với khả năng giải độc nọc rắn. Mức độ bằng chứng khoa học: các nghiên cứu PubMed (in vitro/tiền lâm sàng) cho thấy hoạt tính kháng virus (herpes simplex, varicella-zoster), kháng viêm, chống oxy hóa, hỗ trợ ức chế một số dòng tế bào ung thư nhờ hàm lượng flavonoid cao — tuy nhiên chủ yếu là nghiên cứu trên tế bào/động vật, CHƯA có đủ thử nghiệm lâm sàng trên người. CẢNH BÁO: liều dùng khuyến nghị (dạng khô) không quá 40g/lần, pha trà chỉ nên dùng khoảng 10g khô, không lạm dụng kéo dài; không dùng cho người huyết áp thấp, người có biểu hiện hàn khí xâm nhập (tay chân lạnh); phụ nữ có thai và cho con bú cần thận trọng do chưa có đầy đủ dữ liệu an toàn; nếu đang dùng thuốc Tây y nên uống cách thời gian dùng thuốc ít nhất 1 tiếng để tránh tương tác. Đây là cây thuốc dân gian, không thay thế điều trị y khoa chính thống cho các bệnh nặng.",
+        "sources": [
+          "https://tracuuduoclieu.vn/clinacanthus-nutans-burm-f-lindau.html",
+          "https://www.vinmec.com/vie/bai-viet/cac-cong-dung-cua-cay-xuong-khi-vi",
+          "https://www.vinmec.com/vie/bai-viet/tac-dung-phu-cua-cay-xuong-khi-vi",
+          "https://trungtamthuoc.com/duoc-lieu/cay-lien-xuong",
+          "https://pubmed.ncbi.nlm.nih.gov/30105077/",
+          "https://pubmed.ncbi.nlm.nih.gov/28198202/"
+        ]
+      }
+    },
+    {
+      "category": "plant",
+      "name": "Lá cẩm",
+      "price": 10000,
+      "image": "images/la-cam.webp",
+      "description": "Cây bụi nhỏ, lá hình bầu dục xanh đậm, gân lá nổi rõ, dân gian hay dùng lá tạo màu tự nhiên cho món ăn (xôi, bánh).",
+      "research": {
+        "verified": false,
+        "notes": "Danh pháp khoa học có sự chuyển đổi giữa các hệ thống phân loại: tên đồng nghĩa cũ Peristrophe roxburghiana được cập nhật thành Peristrophe bivalvis (L.) Merr., và theo Plants of the World Online (Kew) tên hiện được chấp nhận là Dicliptera tinctoria (Nees) Kostel. — cả ba tên chỉ cùng một loài, thuộc họ Ô rô (Acanthaceae), nguồn gốc Nam và Đông Nam Á. Đặc điểm thực vật: cây thân thảo/bụi nhỏ sống lâu năm, cao 30-100cm, thân có 4 cạnh với rãnh dọc sâu, lá mọc đối, hình bầu dục, dài khoảng 2-10cm. Tuy nhiên trong dân gian có NHIỀU GIỐNG lá cẩm khác nhau (cẩm tím/tím Huế, cẩm đỏ, cẩm vàng...) phân biệt qua chi tiết như có lông hay không, có đốm/sọc trắng dọc gân lá hay không — mô tả sản phẩm hiện tại (lá bầu dục xanh đậm, gân nổi rõ) chưa đủ chi tiết để xác định chính xác đây là giống nào, cần quan sát thêm hoặc đối chiếu ảnh thực tế. Công dụng: dùng phổ biến để nhuộm màu tự nhiên (tím, đỏ tùy giống) cho xôi, bánh tét, bánh bao, chè, thay thế phẩm màu tổng hợp. Y học cổ truyền dùng lá cẩm vị ngọt nhạt, tính mát, có tác dụng thanh phế nhiệt, chỉ huyết, tiêu thũng, giải độc, hỗ trợ trị ho, viêm phế quản. Một số nghiên cứu hiện đại ghi nhận hoạt tính kháng khuẩn, kháng nấm và chống viêm từ dịch chiết lá. Về độc tính: các nguồn tra cứu cho rằng lá cẩm an toàn, không ghi nhận độc tính đáng kể, nhưng đây chủ yếu là thông tin dân gian/truyền thông phổ thông, chưa có nghiên cứu độc tính lâm sàng chính thức.",
+        "sources": [
+          "https://vi.wikipedia.org/wiki/L%C3%A1_c%E1%BA%A9m",
+          "https://powo.science.kew.org/taxon/47708-1",
+          "https://thuocdantoc.vn/duoc-lieu/cay-la-cam",
+          "https://suckhoedoisong.vn/la-cam-duoc-lieu-chat-tao-mau-tu-nhien-an-toan-cho-thuc-pham-169260122210641887.htm"
+        ]
+      }
+    },
+    {
+      "category": "plant",
+      "name": "Dr Thanh",
+      "price": 15000,
+      "image": "images/dr-thanh.webp",
+      "description": "Cây thân thảo nhỏ, lá bầu dục có gân màu tía nổi bật trên nền xanh xám, thường trồng chậu làm cây cảnh lá màu.",
+      "research": {
+        "verified": true,
+        "notes": "Tên khoa học: Strobilanthes alternata (Burm.f.) Moylan ex J.R.I.Wood, đồng nghĩa (tên cũ thường gặp) Hemigraphis alternata (Burm.f.) T.Anderson, thuộc họ Ô rô (Acanthaceae). Được bán phổ biến ở Việt Nam dưới tên thương mại 'cây trà Dr Thanh' hoặc tên dân gian 'bán tự cảnh', do lá khi hãm nước uống có hương vị gần giống trà thảo mộc Dr Thanh đóng chai. Đặc điểm thực vật: cây thân thảo nhỏ, mọc bò lan/thân bán đứng, thân vuông màu tía, dễ ra rễ tại các đốt khi bò trên đất; lá hình bầu dục, mép răng cưa/khía tròn, dài 4-8cm, bề mặt hơi nhăn/gợn nổi rõ gân (giống hoa văn bánh waffle, tên tiếng Anh 'Purple Waffle Plant'); mặt trên lá xanh xám ánh bạc, mặt dưới và gân lá màu tía/đỏ tím nổi bật, độ đậm màu tím phụ thuộc lượng ánh sáng; hoa nhỏ màu trắng hình phễu mọc ở đầu cành. Công dụng: chủ yếu trồng làm cây cảnh lá màu, cây phủ đất hoặc trồng chậu trang trí; dân gian cũng dùng lá nấu nước uống với quan niệm tính mát, thanh nhiệt (công dụng truyền miệng, chưa được y học kiểm chứng đầy đủ). Về độc tính: theo cơ sở dữ liệu ASPCA, loài này được xếp loại KHÔNG độc đối với chó, mèo và ngựa; nếu thú cưng ăn số lượng lớn có thể gây khó chịu tiêu hóa nhẹ do kết cấu lá, nên vẫn cần để cây tránh xa tầm với của thú nuôi như biện pháp phòng ngừa.",
+        "sources": [
+          "https://mocnhienfarm.com/products/cay-tra-dr-thanh",
+          "https://chohoaonline.com/p/cay-ban-tu-canh-cay-tra-dr-thanh",
+          "https://en.wikipedia.org/wiki/Strobilanthes_alternata",
+          "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/purple-waffle-plant"
+        ]
+      }
+    },
+    {
+      "category": "plant",
+      "name": "Mơ lông tím",
+      "price": 15000,
+      "image": "images/mo-long-tim.webp",
+      "description": "Cây leo/bụi nhỏ, lá bầu dục có lông tơ mịn, mặt dưới lá thường ánh tím, dân gian hay dùng lá làm rau ăn kèm hoặc dược liệu.",
+      "research": {
+        "verified": true,
+        "notes": "Tên khoa học: Paederia foetida L. (một số tài liệu Việt Nam như uphcm.edu.vn và Wikipedia tiếng Việt dùng tên Paederia lanuginosa Wall. cho loài phổ biến tại Việt Nam có thân/lá lông trắng cứng, mặt dưới lá tím — danh pháp giữa các nguồn tiếng Việt chưa hoàn toàn thống nhất, cả hai đều thuộc họ Cà phê/Rubiaceae và được gọi chung là 'mơ lông'/'mơ tam thể'). Đặc điểm thực vật: dây leo bằng thân quấn, sống nhiều năm, thân có lông mịn; lá mọc đối, hình bầu dục/hình tim, mặt trên xanh, mặt dưới thường ánh tím, cả hai mặt phủ lông tơ mịn; hoa trắng hoặc tím nhạt mọc thành xim kép; lá vò có mùi hăng đặc trưng. Nguồn gốc Ấn Độ - Malaysia, phân bố rộng khắp Đông Nam Á, mọc hoang và được trồng phổ biến ở Việt Nam. Công dụng ẩm thực: rau gia vị quen thuộc, ăn sống kèm món cuốn, đặc biệt món chả lá mơ và ăn kèm thịt chó — dân gian cho rằng hỗ trợ tiêu hóa và giảm dị ứng khi ăn protein lạ. Y học cổ truyền: vị hơi đắng, hơi mặn, tính mát, tác dụng thanh nhiệt, giải độc, sát trùng, trừ phong hoạt huyết, chỉ thống, tiêu thực đạo trệ; dùng dân gian chữa kiết lỵ, đau bụng, tiêu chảy, đầy bụng khó tiêu, phong thấp đau nhức. Liều dùng tham khảo (thuốc sắc) khoảng 15-30g/ngày, một số tài liệu cho biết có thể dùng tới 50g. CẢNH BÁO: lá cần rửa thật sạch trước khi ăn sống (thường trồng sát đất, dễ nhiễm khuẩn/ký sinh trùng); một số người có thể dị ứng (phát ban, sưng môi/lưỡi) nên thận trọng khi dùng lần đầu; là công dụng dân gian, không thay thế điều trị y khoa — kiết lỵ/tiêu chảy nặng hoặc kéo dài cần đi khám bác sĩ; phụ nữ có thai, trẻ nhỏ, người có bệnh nền nên hỏi ý kiến thầy thuốc trước khi dùng làm dược liệu.",
+        "sources": [
+          "https://tracuuduoclieu.vn/mo-long.html",
+          "https://www.vinmec.com/vie/bai-viet/cay-mo-long-co-tac-dung-gi-vi",
+          "https://trungtamthuoc.com/duoc-lieu/mo-long",
+          "https://vi.wikipedia.org/wiki/M%C6%A1_tam_th%E1%BB%83"
+        ]
+      }
+    },
+    {
+      "category": "plant",
+      "name": "Ngải cứu",
+      "price": 15000,
+      "image": "images/ngai-cuu.webp",
+      "description": "Cây bụi nhỏ, lá xẻ thùy sâu như lông chim, mặt dưới lá có lông trắng mịn, mùi thơm hắc đặc trưng, dân gian dùng làm rau và dược liệu.",
+      "research": {
+        "verified": true,
+        "notes": "Tên khoa học: Artemisia vulgaris L., thuộc họ Cúc (Asteraceae), còn gọi là ngải diệp, thuốc cứu. Đặc điểm thực vật: cây thân thảo sống lâu năm, cao khoảng 50-60cm, thân có rãnh dọc phủ lông mịn; lá mọc so le, xẻ thùy sâu như lông chim, mặt trên lá màu lục sẫm, mặt dưới phủ đầy lông nhung trắng mịn; toàn cây có mùi thơm hắc đặc trưng do chứa tinh dầu (cineol, borneol, thuyol...). Công dụng ẩm thực: lá và ngọn non dùng làm rau trong các món quen thuộc như trứng chiên ngải cứu, gà hầm/tần ngải cứu, canh ngải cứu nấu với óc heo hoặc trứng. Công dụng dược liệu dân gian: điều hòa kinh nguyệt, giảm đau bụng kinh, làm ấm tử cung, an thai, trừ hàn thấp, cầm máu, hỗ trợ điều trị đau nhức xương khớp, và là nguyên liệu chính trong châm cứu (ngải nhung dùng để cứu). CẢNH BÁO: không nên dùng tùy tiện với liều cao hoặc kéo dài. Phụ nữ mang thai, đặc biệt 3 tháng đầu, cần thận trọng hoặc tránh dùng vì hoạt chất thujone có thể kích thích co bóp tử cung, làm tăng nguy cơ sảy thai hoặc sinh non; phụ nữ đang cho con bú cũng không nên dùng vì các hợp chất có thể bài tiết qua sữa mẹ. Người có bệnh gan cần lưu ý vì dùng liều cao, kéo dài có thể gây rối loạn chuyển hóa tại gan. Chỉ nên dùng như một loại rau/gia vị với lượng vừa phải (1-2 lần/tuần), không tự ý dùng liều cao hoặc kéo dài như thuốc mà không có chỉ định của thầy thuốc/bác sĩ y học cổ truyền.",
+        "sources": [
+          "https://trungtamthuoc.com/duoc-lieu/ngai-cuu-82",
+          "https://www.vinmec.com/vie/bai-viet/ngai-cuu-vi-thuoc-tuyet-voi-cho-suc-khoe-vi",
+          "https://vi.wikipedia.org/wiki/Ng%E1%BA%A3i_c%E1%BB%A9u",
+          "https://nhathuoclongchau.com.vn/bai-viet/tac-dung-cua-la-ngai-cuu-doi-voi-phu-nu-va-nhung-luu-y-khi-su-dung.html",
+          "https://mplant.ump.edu.vn/index.php/ngai-cuu-artemisia-vulgaris-asteraceae/"
+        ]
+      }
+    },
+    {
+      "category": "herb",
+      "name": "Rẻ quạt/Xạ can",
+      "price": 15000,
+      "image": "images/re-quat.webp",
+      "description": "Lá dạng kiếm xếp hình quạt, hoa vàng cam đốm tía, là dược liệu cổ truyền nổi tiếng chữa viêm họng, ho có đờm.",
+      "research": {
+        "verified": true,
+        "notes": "Tên khoa học: Iris domestica (L.) Goldblatt (tên khoa học cập nhật), tên đồng nghĩa cũ Belamcanda chinensis (L.) DC., thuộc họ Lay ơn/Diên vĩ (Iridaceae). Tên vị thuốc: Xạ can (rễ thân rửa sạch phơi khô), tên cây: Rẻ quạt, lưỡi đòng. Đặc điểm thực vật: lá dạng kiếm dài, xếp thành hình quạt, hoa màu vàng cam có đốm tía. Đặc tính dược liệu theo YHCT: vị đắng, tính hàn (lạnh), quy kinh Phế và Can, có tác dụng thanh nhiệt giải độc, lợi yết hầu (làm dịu họng), tiêu đờm. Công dụng: chữa đau họng, viêm amidan, họng sưng đau khó nuốt, ho có đờm nhiều, khàn tiếng, sốt, tắc tia sữa, thống kinh (đau bụng kinh). Có ghi nhận tác dụng kháng khuẩn, kháng viêm giúp giảm đau, sưng họng. Mức độ bằng chứng: đây là vị thuốc cổ truyền lâu đời, được nhiều tài liệu YHCT/Đông y ghi nhận thống nhất về công dụng chữa viêm họng — mức độ bằng chứng chủ yếu là kinh nghiệm y học cổ truyền được hệ thống hóa (không phải chỉ truyền miệng đơn thuần) nhưng CHƯA thấy trích dẫn nghiên cứu lâm sàng hiện đại cụ thể trong các nguồn tìm được. Liều dùng: 3-6g/ngày dạng sắc hoặc bột; hoặc rễ tươi giã 10-20g vắt lấy nước uống. Lưu ý/cảnh báo QUAN TRỌNG: dược liệu có TÍNH HÀN và ĐỘC TÍNH NHẸ (hơi độc) — dùng kéo dài có thể gây suy nhược cơ thể và tiêu chảy/rối loạn tiêu hóa; CHỐNG CHỈ ĐỊNH cho người tỳ vị hư hàn (tiêu hóa kém, hay lạnh bụng), trẻ em dưới 7 tuổi, và PHỤ NỮ CÓ THAI không nên dùng. Cần tham vấn thầy thuốc trước khi sử dụng.",
+        "sources": [
+          "https://nhathuoclongchau.com.vn/thanh-phan/xa-can",
+          "https://nhathuocthanthien.com.vn/thanh-phan/xa-can/",
+          "https://thuocdantoc.vn/duoc-lieu/cay-xa-can",
+          "https://hellobacsi.com/duoc-lieu/thao-duoc/cay-re-quat/",
+          "https://www.vinmec.com/vie/bai-viet/cac-cong-dung-cua-cay-re-quat-vi"
+        ]
+      }
+    },
+    {
+      "category": "herb",
+      "name": "Nha đam",
+      "price": 10000,
+      "image": "images/nha-dam.webp",
+      "description": "Lá dày mọng nước xếp hình hoa thị, mép có răng cưa, chứa gel trong dùng làm đẹp da và hỗ trợ tiêu hóa, làm lành vết thương.",
+      "research": {
+        "verified": true,
+        "notes": "Tên khoa học: Aloe vera (L.) Burm.f. (var. Aloe vera), tên gọi khác: lô hội, long tu, thuộc họ Lô hội/Xương rồng (Asphodelaceae, một số nguồn cũ xếp vào họ Xương rồng/Liliaceae). Đặc điểm thực vật: lá dày, mọng nước, xếp hình hoa thị, mép lá có răng cưa/gai nhỏ, bên trong chứa phần gel/thịt trong suốt, phần vỏ ngoài màu xanh chứa nhựa vàng (nhựa mủ). Công dụng ẩm thực: gel dùng làm nước giải khát, chè, thạch (phổ biến ở Việt Nam mùa hè). Công dụng làm đẹp: gel bôi ngoài da dùng dưỡng ẩm, làm dịu da, hỗ trợ trị các rối loạn da, hỗ trợ lành vết thương nhẹ, rụng tóc (theo kinh nghiệm dân gian được hệ thống trong y học cổ truyền và các trang sức khỏe phổ thông). Công dụng tiêu hóa theo Đông y: vị đắng, tính hàn, có tác dụng nhuận tràng (thông đại tiện), thanh nhiệt, mát gan, sát trùng — hỗ trợ người bị táo bón. Mức độ bằng chứng: các công dụng làm dịu da, dưỡng ẩm có một số nghiên cứu và ứng dụng mỹ phẩm phổ biến trên thế giới, nhưng nhiều công dụng khác (trị vết thương, rụng tóc, tiêu hóa) chủ yếu dựa trên kinh nghiệm dân gian/Đông y truyền thống, mức bằng chứng khoa học hiện đại còn hạn chế hoặc chưa nhất quán theo các nguồn tra cứu được. CẢNH BÁO ĐỘC TÍNH QUAN TRỌNG: lớp nhựa mủ màu vàng (chứa Aloin) chảy ra từ vỏ xanh có ĐỘC TÍNH NHẸ, gây kích ứng da và co thắt nhu động ruột — cần sơ chế loại bỏ kỹ lớp vỏ và nhựa vàng trước khi ăn/uống. Dùng quá liều hoặc kéo dài có thể gây: tiêu chảy, đau bụng, VIÊM GAN CẤP, tăng men gan, SUY THẬN, ảnh hưởng đến thai nhi (phụ nữ mang thai nên tránh hoặc rất thận trọng), táo bón nặng hơn nếu lạm dụng, nước tiểu đổi màu đỏ, và có cảnh báo về nguy cơ tăng khả năng liên quan ung thư nếu dùng lâu dài liều cao (cần thêm nghiên cứu để khẳng định chắc chắn, đây là cảnh báo được nêu trên báo chí y tế trong nước). Đây là loại cây thuốc dân gian phổ biến NHƯNG có rủi ro thực sự nếu dùng sai cách — cần khuyến cáo người dùng sơ chế đúng và không lạm dụng liều cao/kéo dài.",
+        "sources": [
+          "https://tuoitre.vn/nha-dam-giai-nhiet-mua-he-nhung-can-trong-voi-tinh-doc-20230612111800605.htm",
+          "https://tienphong.vn/dung-nha-dam-kieu-nay-khong-khac-nao-dua-thuoc-doc-vao-nguoi-post1443604.tpo",
+          "https://giadinh.suckhoedoisong.vn/nha-dam-doc-khi-su-dung-khong-dung-cach-172111130044748857.htm",
+          "https://nhathuoclongchau.com.vn/thanh-phan/aloe-vera",
+          "https://hellobacsi.com/an-uong-lanh-manh/thong-tin-dinh-duong/aloe-vera/"
+        ]
+      }
+    },
+    {
+      "category": "herb",
+      "name": "Lá é",
+      "price": 10000,
+      "image": "images/la-e.webp",
+      "description": "É trắng, lá thơm dạng húng quế, dùng ăn kèm món cuốn hoặc nấu canh, có tinh dầu kháng viêm hỗ trợ tiêu hóa trong y học dân gian.",
+      "research": {
+        "verified": true,
+        "notes": "Tên gọi 'é' hoặc 'é trắng' ở Việt Nam thường chỉ nhiều loài trong chi Ocimum (họ Hoa môi - Lamiaceae) và có sự nhầm lẫn tên gọi giữa các nguồn: (1) Trung Tâm Thuốc gọi 'É trắng' là tên khác của Húng quế (Ocimum basilicum) hoặc 'Trà tiên'; (2) một số nguồn khác lại gọi 'Hương nhu trắng' (Ocimum gratissimum) là 'é trắng'. Vì mô tả sản phẩm ghi 'É trắng, lá thơm dạng húng quế, dùng ăn kèm món cuốn' nên nhiều khả năng đây là Húng quế/É trắng (Ocimum basilicum var. pilosum), không phải Hương nhu trắng (đã có mục riêng ở sản phẩm khác trong vườn). Đặc điểm thực vật: cây thảo, cao 30-60cm, thân vuông, lá hình bầu dục nhọn, mép có răng cưa nhỏ, toàn cây có mùi thơm đặc trưng do chứa tinh dầu (thành phần chính gồm eugenol, linalool, methyl chavicol tùy giống). Công dụng ẩm thực: là rau gia vị phổ biến, ăn sống kèm các món cuốn, gỏi, phở, bún; dùng để tăng hương vị món ăn. Công dụng dược liệu dân gian: tinh dầu được cho có tính kháng khuẩn, kháng viêm nhẹ, hỗ trợ tiêu hóa, trị đầy hơi, cảm cúm, nghẹt mũi (theo kinh nghiệm dân gian, ghi trong các trang dược liệu như Trung Tâm Thuốc, Pharmacity). Mức độ bằng chứng: chủ yếu là kinh nghiệm dân gian và mô tả từ các trang dược liệu thương mại (không phải nghiên cứu lâm sàng ở người); tinh dầu Ocimum có một số nghiên cứu in vitro về hoạt tính kháng khuẩn/kháng viêm nhưng chưa đủ để khẳng định hiệu quả lâm sàng rõ ràng. Lưu ý: chưa ghi nhận độc tính đáng kể khi dùng làm rau ăn ở liều thông thường; nên thận trọng dùng lượng lớn tinh dầu đậm đặc, đặc biệt phụ nữ mang thai (thiếu dữ liệu an toàn). Cần lưu ý: định danh chính xác loài 'lá é' của vườn ươm cụ thể này chưa được xác nhận 100% - cần đối chiếu thêm hình ảnh thực tế cây tại vườn để phân biệt với Hương nhu trắng.",
+        "sources": [
+          "https://trungtamthuoc.com/duoc-lieu/la-e",
+          "https://www.pharmacity.vn/la-e-la-gi-tac-dung-va-nhung-luu-y-khi-su-dung-la-e.htm",
+          "https://trungtamthuoc.com/duoc-lieu/hung-que"
+        ]
+      }
+    },
+    {
+      "category": "herb",
+      "name": "Mã đề",
+      "price": 10000,
+      "image": "images/ma-de.webp",
+      "tag": "Dược liệu",
+      "description": "Lá to bản hình bầu dục, mọc sát gốc, là dược liệu dân gian quen thuộc, dễ trồng trong vườn nhà.",
+      "research": {
+        "verified": true,
+        "notes": "Tên khoa học: Plantago major L. (một số vùng còn dùng Plantago asiatica), họ Mã đề (Plantaginaceae). Tên khác: xa tiền thảo (phần cây trên mặt đất), xa tiền tử (hạt). Đặc điểm thực vật học: cây thảo sống lâu năm, lá mọc thành hình hoa thị sát gốc, phiến lá hình bầu dục hoặc trứng ngược, gân lá hình cung song song đặc trưng, cuống lá dài; cụm hoa dạng bông mọc từ giữa túm lá. Công dụng dược liệu: theo y học cổ truyền, lá và hạt mã đề có vị ngọt, tính hàn, quy kinh Can, Thận, Tiểu trường; dùng lợi tiểu, thanh nhiệt, trừ đờm, chữa ho, viêm phế quản, viêm bàng quang, sỏi tiết niệu, tiểu buốt tiểu rắt, phù thũng, chảy máu cam. Mức độ bằng chứng: một số tác dụng dược lý (lợi tiểu, kháng viêm, làm lành vết thương, hạ sốt, cầm máu, nhuận tràng) đã được nghiên cứu dược lý hiện đại bước đầu xác nhận (theo trang dược liệu tổng hợp), tuy nhiên phần lớn công dụng vẫn dựa trên y học cổ truyền và kinh nghiệm dân gian truyền miệng, thiếu các thử nghiệm lâm sàng quy mô lớn ở người. Lưu ý: mã đề có tính lợi tiểu mạnh, không nên dùng quá liều hoặc dùng kéo dài cho người thận yếu, người bị chứng di tinh, tiểu đêm nhiều; phụ nữ mang thai cần thận trọng do tác dụng lợi tiểu và một số tài liệu Đông y khuyến cáo hạn chế dùng mã đề khi mang thai (chưa có nguồn khoa học hiện đại xác nhận rõ ràng mức độ nguy hiểm, cần hỏi ý kiến thầy thuốc).",
+        "sources": [
+          "https://caythuoc.org/product/la-ma-de",
+          "https://trungtamthuoc.com/duoc-lieu/ma-de",
+          "https://mplant.ump.edu.vn/index.php/ma-de-plantago-major-plantaginaceae/"
+        ]
+      }
+    },
+    {
+      "category": "herb",
+      "name": "Thù lù/Tầm bóp",
+      "price": 10000,
+      "image": "images/thu-lu.webp",
+      "description": "Quả nhỏ bọc trong lớp đài mỏng hình lồng đèn, chín ngả vàng cam, vị chua ngọt nhẹ, ăn tươi trực tiếp hoặc làm mứt, dễ trồng trong vườn nhà.",
+      "research": {
+        "verified": true,
+        "notes": "Tên khoa học: Physalis angulata L., họ Cà (Solanaceae). Tên khác: thù lù cạnh, bôm bốp, bùm bụp, lồng đèn. Đặc điểm thực vật: cây thảo mọc hoang, cao 50-90cm, quả mọng tròn nhỏ được bao bọc bởi đài hoa phát triển thành lớp túi mỏng hình lồng đèn, quả chín có màu vàng cam, vị chua ngọt nhẹ. Công dụng ẩm thực: quả chín ăn tươi trực tiếp, có thể làm mứt, lá non đôi khi dùng nấu canh. Công dụng dược liệu dân gian: toàn cây (rễ, thân, lá, quả) được dùng làm thuốc thanh nhiệt, giải độc, lợi tiểu, tiêu đờm, trị ho, trị mụn nhọt; quả và rễ dùng trong các bài thuốc dân gian trị viêm họng, cảm cúm. Nghiên cứu khoa học: cây chứa các hợp chất physalin (A, B, E, F, G, H, I, J) và withangulin A; một nghiên cứu tại Đại học Quốc gia Đài Loan (theo nguồn thứ cấp trích dẫn) ghi nhận physalin F và D có hoạt tính ức chế một số dòng tế bào ung thư (gan, cổ tử cung) trong điều kiện in vitro - đây là bằng chứng tiền lâm sàng, KHÔNG phải bằng chứng lâm sàng ở người, không nên diễn giải thành 'trị ung thư'. Lưu ý/cảnh báo: phụ nữ mang thai và cho con bú cần thận trọng, không dùng liều cao hoặc nước sắc đậm đặc vì có thể gây co bóp tử cung, buồn nôn, đau bụng, ảnh hưởng thai nhi (theo Nhà thuốc Long Châu, Hello Bacsi); nên hỏi ý kiến bác sĩ trước khi dùng làm thuốc, đặc biệt với phụ nữ mang thai. Cây thuộc họ Cà (Solanaceae) - một số loài cùng họ có độc tính (lá và quả xanh của một số Physalis khác chứa solanine), nên cần phân biệt đúng loài và chỉ ăn quả đã chín.",
+        "sources": [
+          "https://tracuuduoclieu.vn/physalis-angulata-l.html",
+          "https://youmed.vn/tin-tuc/tam-bop-cay-thuoc-voi-nhung-chum-qua-long-den/",
+          "https://nhathuoclongchau.com.vn/bai-viet/nhung-ai-khong-nen-an-rau-tam-bop-tac-hai-khi-an-sai-cach.html",
+          "https://hellobacsi.com/duoc-lieu/thao-duoc/tac-dung-khong-ngo-cua-cay-tam-bop/"
+        ]
+      }
+    },
+    {
+      "category": "herb",
+      "name": "Hương nhu",
+      "price": 10000,
+      "image": "images/huong-nhu.webp",
+      "description": "Cây nhỏ toàn thân có lông, mùi thơm đặc trưng chứa eugenol, là dược liệu dân gian quen thuộc để xông giải cảm, hạ sốt.",
+      "research": {
+        "verified": true,
+        "notes": "Có hai loài phổ biến mang tên 'hương nhu' ở Việt Nam: Hương nhu tía (Ocimum tenuiflorum L., đồng nghĩa Ocimum sanctum L.) và Hương nhu trắng (Ocimum gratissimum L.), cùng họ Hoa môi (Lamiaceae). Mô tả sản phẩm ('cây nhỏ toàn thân có lông, mùi thơm chứa eugenol, dùng xông giải cảm hạ sốt') phù hợp đặc điểm chung của cả hai loài, phổ biến nhất trong dân gian là Hương nhu tía. Đặc điểm thực vật: cây thảo nhỏ, thân vuông có lông, lá mọc đối, mép lá có răng cưa, toàn cây có mùi thơm nồng đặc trưng. Công dụng dược liệu: theo y học cổ truyền, vị cay, tính ấm, có tác dụng phát tán phong hàn (giải cảm), làm ra mồ hôi, hạ sốt, lợi thấp; dùng trị cảm mạo, nhức đầu, sốt, đau bụng, nôn mửa, thường dùng dạng nấu nước xông hoặc sắc uống (liều xông tươi 50-100g, sắc uống 6-12g/ngày). Công dụng dược lý hiện đại: tinh dầu hương nhu (chứa eugenol, limonene, caryophyllene, selinene...) đã được nghiên cứu in vitro cho thấy có tác dụng kháng khuẩn (ức chế E. coli, B. anthracis, Pseudomonas aeruginosa), kháng viêm, giảm đau, hạ sốt, trị giun sán, chống oxy hóa. Mức độ bằng chứng: tác dụng giải cảm, xông hạ sốt chủ yếu dựa trên kinh nghiệm y học cổ truyền lâu đời; các tác dụng kháng khuẩn/kháng viêm/chống oxy hóa có một số nghiên cứu dược lý in vitro hỗ trợ, nhưng thiếu thử nghiệm lâm sàng ở người quy mô lớn. Lưu ý/cảnh báo: tinh dầu chứa eugenol - dùng liều cao kéo dài có thể ảnh hưởng chức năng gan, làm chậm đông máu (cần thận trọng với người dùng thuốc chống đông); phụ nữ mang thai và cho con bú nên hỏi ý kiến bác sĩ trước khi dùng do thiếu dữ liệu an toàn đầy đủ (theo Nhà thuốc Long Châu, Medigoapp về eugenol/đinh hương - suy luận tương tự do cùng hoạt chất, cần thận trọng khi áp dụng trực tiếp cho hương nhu vì đây là dữ liệu về eugenol nói chung/đinh hương, không phải nghiên cứu riêng trên hương nhu).",
+        "sources": [
+          "https://trungtamthuoc.com/duoc-lieu/huong-nhu",
+          "https://pharmacy.tdtu.edu.vn/duoc-lieu/huong-nhu-tia",
+          "https://mplant.ump.edu.vn/index.php/huong-nhu-tia-ocimum-tenuiflorum-lamiaceae/",
+          "https://www.nhathuocankhang.com/hoat-chat/eugenol",
+          "https://nhathuoclongchau.com.vn/bai-viet/dinh-huong-la-gi-cong-dung-cach-dung-va-luu-y-an-toan-cho-suc-khoe.html"
+        ]
+      }
+    },
+    {
+      "category": "herb",
+      "name": "Đinh lăng",
+      "price": 15000,
+      "image": "images/dinh-lang.webp",
+      "description": "Lá kép xẻ nhỏ như lông chim, mùi thơm nhẹ khi vò, rễ được dùng làm thuốc bổ dân gian, ví như 'sâm của người nghèo'.",
+      "research": {
+        "verified": true,
+        "notes": "Tên khoa học: Polyscias fruticosa (L.) Harms (đồng nghĩa Nothopanax fruticosus), họ Ngũ gia bì/Nhân sâm (Araliaceae). Tên dân gian: cây gỏi cá (do lá thường ăn kèm gỏi cá), 'sâm của người nghèo'/'nhân sâm bình dân'. Loại được dùng làm dược liệu là đinh lăng lá nhỏ (lá xẻ như lông chim, còn gọi đinh lăng lá nếp), khác với các giống đinh lăng lá tròn, lá to, lá răng chủ yếu dùng làm cảnh. Đặc điểm thực vật: cây bụi nhỏ, lá kép lông chim 2-3 lần, mép lá có răng cưa, toàn cây có mùi thơm nhẹ đặc trưng khi vò nát. Công dụng ẩm thực: lá non ăn sống kèm gỏi cá, nem, các món cuốn. Công dụng dược liệu: rễ (thường dùng rễ cây từ 3-5 năm tuổi trở lên) được dùng làm thuốc bổ trong y học cổ truyền, chứa saponin triterpenoid, vitamin nhóm B, acid amin; công dụng được ghi nhận gồm bồi bổ cơ thể, tăng cường thể lực, chống mệt mỏi, hỗ trợ lợi sữa cho phụ nữ sau sinh, hỗ trợ tiêu hóa, tiêu sưng viêm, giải độc. Mức độ bằng chứng: có một số nghiên cứu dược lý (chủ yếu tại Việt Nam) về tác dụng tăng lực, chống mệt mỏi, tăng cường miễn dịch trên động vật thí nghiệm; công dụng bồi bổ tổng thể ở người chủ yếu dựa trên kinh nghiệm y học cổ truyền lâu đời, chưa có nhiều thử nghiệm lâm sàng đối chứng quy mô lớn. Lưu ý/cảnh báo QUAN TRỌNG: saponin trong lá/rễ đinh lăng nếu dùng liều cao, kéo dài hoặc thay thế hoàn toàn nước uống hàng ngày có thể gây tán huyết (vỡ hồng cầu), dẫn đến nôn nao, hoa mắt, chóng mặt, tiêu chảy, mệt mỏi; liều khuyến nghị khoảng 10-20g dược liệu khô/ngày, không nên lạm dụng; lá đinh lăng có thể ức chế alpha-glucosidase gây hạ đường huyết, cần thận trọng khi dùng chung với thuốc điều trị tiểu đường (nguy cơ tụt đường huyết); nên tham khảo ý kiến thầy thuốc/bác sĩ trước khi dùng liều cao hoặc dùng lâu dài, đặc biệt phụ nữ mang thai.",
+        "sources": [
+          "https://hellobacsi.com/duoc-lieu/thao-duoc/dinh-lang/",
+          "https://hellobacsi.com/duoc-lieu/thao-duoc/tac-dung-cay-dinh-lang/",
+          "https://suckhoedoisong.vn/4-sai-lam-khi-dung-la-dinh-lang-co-the-gay-hai-cho-suc-khoe-169260727102233006.htm",
+          "https://www.vinmec.com/vie/bai-viet/cu-dinh-lang-co-tac-dung-gi-vi",
+          "https://tuoitre.vn/la-dinh-lang-duoc-coi-la-sam-cua-nguoi-ngheo-vi-sao-20250504085758723.htm"
+        ]
+      }
+    },
+    {
+      "category": "herb",
+      "name": "Đinh lăng lá tròn",
+      "price": 15000,
+      "image": "images/dinh-lang-la-tron.webp",
+      "tag": "Dược liệu",
+      "description": "Lá tròn xanh mướt, thân nhỏ dễ trồng, vừa làm cảnh vừa là dược liệu quen thuộc trong vườn nhà.",
+      "research": {
+        "verified": false,
+        "notes": "THÔNG TIN MÂU THUẪN GIỮA CÁC NGUỒN - cần lưu ý khi dùng cho nội dung sản phẩm. Tên khoa học: Polyscias balfouriana (L.) Bailey, cùng họ Nhân sâm/Ngũ gia bì (Araliaceae) với đinh lăng lá nhỏ, nhưng là LOÀI KHÁC. Đặc điểm thực vật: lá đơn hoặc kép hình tròn/bầu dục, mép lá trơn nhẵn không răng cưa (khác biệt rõ với đinh lăng lá nhỏ có lá xẻ như lông chim), thân nhỏ, có giống lá xanh và giống lá đốm trắng-xanh (cẩm thạch). MÂU THUẪN: (1) Đa số nguồn thương mại về cây cảnh và một số bài sức khỏe (youmed.vn, memart.vn, giadinhmedic.com) khẳng định RÕ RÀNG rằng chỉ đinh lăng lá nhỏ (lá xẻ lông chim) mới được dùng làm dược liệu, còn đinh lăng lá tròn CHỈ dùng làm cây cảnh, KHÔNG dùng làm thuốc. (2) Tuy nhiên một số nguồn khác (ví dụ lovingtree.com.vn - trang bán cây cảnh, và mô tả gốc trong yêu cầu) vẫn gán cho nó công dụng dược liệu như tăng thể lực, giảm stress, đắp vết thương, kháng viêm khớp nhờ chứa saponin/polysciasaponin - nhưng đây là các trang thương mại bán cây cảnh, không phải nguồn y khoa/dược liệu uy tín, và tuyên bố này KHÔNG được các trang dược liệu chuyên sâu như tracuuduoclieu.vn xác nhận rõ ràng về công dụng làm thuốc (trang này chủ yếu mô tả đặc điểm thực vật, chưa khẳng định công dụng chữa bệnh cụ thể được kiểm chứng). KẾT LUẬN: Chưa kiểm chứng được liệu Đinh lăng lá tròn có thực sự có giá trị dược liệu tương đương đinh lăng lá nhỏ hay không - bằng chứng nghiêng về hướng đây chủ yếu là CÂY CẢNH, không phải cây thuốc chính thống trong y học cổ truyền Việt Nam. Mô tả sản phẩm hiện tại ('vừa làm cảnh vừa là dược liệu quen thuộc') có thể chưa chính xác hoặc gây hiểu nhầm - khuyến nghị điều chỉnh mô tả nhấn mạnh công dụng làm CẢNH là chính, phần dược liệu nên ghi rõ là 'theo một số tài liệu dân gian chưa được xác nhận rộng rãi' thay vì khẳng định chắc chắn là dược liệu như đinh lăng lá nhỏ.",
+        "sources": [
+          "https://tracuuduoclieu.vn/polyscias-balfouriana-l-bailey.html",
+          "https://youmed.vn/tin-tuc/dinh-lang-vi-thuoc-bo-khong-kem-nhan-sam/",
+          "https://memart.vn/tin-tuc/suc-khoe-6/hieu-ro-ve-cay-dinh-lang-la-tron-co-tac-dung-gi-va-cac-ung-dung-chua-benh-vi-cb.html",
+          "https://vi.wikipedia.org/wiki/%C4%90inh_l%C4%83ng_l%C3%A1_tr%C3%B2n",
+          "https://lovingtree.com.vn/cay-dinh-lang-la-tron-cam-thach-polyscias-balfouriana.html"
+        ]
+      }
+    },
+    {
+      "category": "spice",
+      "name": "Hương thảo",
+      "price": 15000,
+      "image": "images/huong-thao.webp",
+      "description": "Lá nhỏ dài như kim, xanh đậm, thân gỗ nhỏ mùi thơm nồng đặc trưng, thường dùng làm gia vị và trang trí giúp thư giãn tinh thần.",
+      "research": {
+        "verified": true,
+        "notes": "Tên khoa học: Rosmarinus officinalis L. (một số phân loại hiện đại xếp vào Salvia rosmarinus), họ Hoa môi (Lamiaceae). Tên gọi khác: Tây dương chổi.\n\nĐặc điểm thực vật học: Cây thân gỗ nhỏ, phân nhánh nhiều, lá nhỏ dài hình kim, mép cong xuống, mặt trên xanh đậm bóng, mặt dưới có lông trắng, toàn cây có mùi thơm nồng đặc trưng do tinh dầu. Hoa nhỏ màu xanh lam/tím nhạt, ra hoa tháng 3-5. Nguồn gốc vùng Địa Trung Hải, ở Việt Nam trồng được ở vùng khí hậu mát như Sa Pa (Lào Cai), Đà Lạt.\n\nCông dụng ẩm thực: Lá tươi/khô dùng làm gia vị ướp thịt (đặc biệt thịt cừu, gà, khoai tây), tạo hương cho món nướng, dầu ô liu.\n\nCông dụng dược liệu (y học cổ truyền, chủ yếu dân gian, một phần có nghiên cứu dược lý sơ bộ):\n- Lá: chữa thấp khớp, đau nửa đầu.\n- Nước sắc lá: rửa mắt khi viêm giác mạc.\n- Toàn cây: chữa đầy hơi, khó tiêu.\n- Tinh dầu hương thảo được nhiều nguồn (Vinmec, Long Châu, Nhà thuốc An Khang...) nhắc đến với các công dụng: hỗ trợ trí nhớ/tập trung, chống viêm, kháng khuẩn, hỗ trợ tuần hoàn, làm đẹp da/tóc — phần lớn dựa trên nghiên cứu in vitro/động vật hoặc kinh nghiệm dân gian, CHƯA có nhiều bằng chứng lâm sàng mạnh trên người.\n\nMức độ bằng chứng: Chủ yếu là kinh nghiệm dân gian/y học cổ truyền, kết hợp một số nghiên cứu dược lý sơ bộ (in vitro, động vật) về hoạt tính chống oxy hóa, kháng viêm của acid rosmarinic. Thiếu thử nghiệm lâm sàng quy mô lớn trên người.\n\nLưu ý/cảnh báo (khá quan trọng, cần nêu rõ nếu bán cho người dùng):\n- Phụ nữ mang thai: liều cao có thể gây co bóp tử cung, tăng nguy cơ sảy thai — cảnh báo từ nhiều nguồn y tế (Long Châu, Vinmec).\n- Người huyết áp cao: khuyến cáo hạn chế dùng vì hương thảo có thể ảnh hưởng huyết áp.\n- Người động kinh/co giật: một số nguồn khuyến cáo thận trọng hoặc tránh dùng liều cao/tinh dầu vì có thể kích thích thần kinh.\n- Có thể tương tác với thuốc chống đông máu (tăng nguy cơ chảy máu) và thuốc huyết áp.\n- Đây là cảnh báo tổng hợp từ các trang y tế tiêu dùng Việt Nam (không phải nghiên cứu đối chứng ngẫu nhiên), nên nêu ở mức 'cần thận trọng', không khẳng định tuyệt đối.",
+        "sources": [
+          "https://tracuuduoclieu.vn/rosmarinus-officinalis-l.html",
+          "https://nhathuoclongchau.com.vn/bai-viet/rosemary-la-huong-thao-la-gi-cong-dung-cach-su-dung-va-luu-y-khi-dung.html",
+          "https://nhathuoclongchau.com.vn/bai-viet/canh-bao-mot-so-tac-hai-cua-cay-huong-thao.html",
+          "https://www.vinmec.com/vie/bai-viet/14-loi-ich-va-cong-dung-cua-tinh-dau-huong-thao-vi"
+        ]
+      }
+    },
+    {
+      "category": "spice",
+      "name": "Lá lốt",
+      "price": 10000,
+      "image": "images/la-lot.webp",
+      "description": "Lá hình tim xanh đậm bóng mượt, thân bò lan sát đất, thường dùng cuốn thịt bò nướng hoặc làm chả, kèm công dụng giảm đau kháng viêm.",
+      "research": {
+        "verified": true,
+        "notes": "Tên khoa học: Piper lolot C. DC., họ Hồ tiêu (Piperaceae). Tên khác: Tất bát.\n\nĐặc điểm thực vật học: Cây thảo cao 40-50cm, thân có rãnh dọc, mọc bò lan sát đất rồi vươn thẳng ở ngọn. Lá đơn, nguyên, hình tim, có 5 gân hình cung tỏa từ cuống lá, mặt trên xanh bóng, mùi thơm đặc trưng khi vò.\n\nCông dụng ẩm thực: Lá dùng cuốn thịt bò/thịt heo nướng (bò lá lốt), làm chả, gia vị tạo mùi thơm cho các món xào, canh.\n\nCông dụng dược liệu (Y học cổ truyền + một số nghiên cứu dược lý hiện đại):\n- YHCT: trị tay chân lạnh, rối loạn tiêu hóa, đầy trướng bụng, nôn, tê bại chân tay, đau bụng, đau lưng, đau đầu, giải độc do ngộ độc nấm, hỗ trợ khi rắn cắn (sơ cứu ban đầu, không thay thế cấp cứu y tế). Liều dùng dân gian: 6-12g khô/ngày (dạng sắc).\n- Nghiên cứu hiện đại (invitro/động vật) ghi nhận hoạt tính kháng khuẩn, chống viêm, hạ đường huyết, có tiềm năng chống ung thư và hạ huyết áp — đa số là nghiên cứu sơ bộ, chưa phải bằng chứng lâm sàng mạnh trên người.\n- Công dụng giảm đau, kháng viêm với xương khớp (đau nhức xương khớp, thoái hóa khớp) chủ yếu dựa trên kinh nghiệm dân gian và các flavonoid/alkaloid có trong lá, chưa có RCT lớn xác nhận trên người.\n\nMức độ bằng chứng: Chủ yếu dân gian truyền miệng + y học cổ truyền, có một số nghiên cứu dược lý sơ bộ hỗ trợ cơ chế kháng viêm/kháng khuẩn.\n\nLưu ý/cảnh báo: Dùng liều vừa phải (thường 50-150g lá tươi/ngày theo một số nguồn, hoặc 6-12g khô theo trungtamthuoc.com — có sự khác biệt về liều giữa các nguồn, cần thận trọng khi trích dẫn con số cụ thể). Dùng quá liều có thể gây kích ứng dạ dày, buồn nôn, tiêu chảy. Do tính ấm nóng, người bị nhiệt miệng, táo bón, đang sốt nên hạn chế dùng nhiều (khuyến cáo phổ biến trong dân gian, không phải nghiên cứu đối chứng).",
+        "sources": [
+          "https://trungtamthuoc.com/duoc-lieu/la-lot",
+          "https://vttu.edu.vn/la-lot-vua-la-gia-vi-vua-la-duoc-lieu-trong-dieu-tri-benh/",
+          "https://www.pharmacity.vn/la-lot.htm",
+          "https://www.nhathuocankhang.com/ban-tin-suc-khoe/la-lot-co-tac-dung-gi-cach-dung-lieu-dung-va-tac-1516538"
+        ]
+      }
+    },
+    {
+      "category": "spice",
+      "name": "Gừng",
+      "price": 10000,
+      "image": "images/gung.webp",
+      "description": "Thân rễ (củ) phân nhánh như bàn tay, vỏ vàng nâu vị cay nóng thơm nồng, là gia vị và vị thuốc dân gian trị lạnh bụng, cảm cúm.",
+      "research": {
+        "verified": true,
+        "notes": "Tên khoa học: Zingiber officinale (Willd.) Roscoe, họ Gừng (Zingiberaceae). Tên khác: Khương.\n\nĐặc điểm thực vật học: Cây thảo cao khoảng 1m, thân rễ (củ) phân nhánh dạng bàn tay, màu vàng nhạt đến nâu vàng, có mùi thơm cay nồng đặc trưng. Lá mọc so le hình mác dài, gân giữa hơi trắng nhạt. Hoa mọc thành cụm dày dài khoảng 20cm, đài hoa màu vàng-xanh, môi hoa tím có đốm vàng.\n\nCông dụng ẩm thực: Gia vị phổ biến trong nấu ăn (kho, xào, nấu súp, làm mứt, trà gừng...), khử mùi tanh.\n\nCông dụng dược liệu:\n- YHCT: vị cay, tính ấm/nóng, quy kinh Phế-Tỳ-Vị. Trị lạnh bụng, đầy hơi, ăn không tiêu, đau bụng, tiêu chảy, chống nôn/say tàu xe, cảm cúm, làm ra mồ hôi giải cảm, nhức đầu, ho có đờm loãng (đờm lạnh). Dùng dạng sinh khương (tươi), can khương (khô), thán khương/bào khương (sao/nướng) tùy mục đích.\n- Y học hiện đại: nhiều nghiên cứu (kể cả một số thử nghiệm lâm sàng) ghi nhận gừng có tác dụng chống buồn nôn/nôn (đặc biệt nôn do thai nghén, say tàu xe, hóa trị — có bằng chứng khá tốt), kháng viêm, giảm đau (một số bằng chứng trong đau bụng kinh, thoái hóa khớp), chống oxy hóa, hỗ trợ tiêu hóa, có tác dụng trên đông máu (ức chế kết tập tiểu cầu) và hạ huyết áp nhẹ ở một số nghiên cứu.\n\nMức độ bằng chứng: Đây là một trong số ít gia vị có bằng chứng khoa học tương đối vững (nhiều RCT về chống nôn), bên cạnh nền tảng y học cổ truyền lâu đời.\n\nLưu ý/cảnh báo: Do gừng có tác dụng chống kết tập tiểu cầu, người đang dùng thuốc chống đông máu (warfarin, aspirin...) hoặc chuẩn bị phẫu thuật cần thận trọng/tham khảo ý kiến bác sĩ vì tăng nguy cơ chảy máu. Người bị sỏi mật hoặc viêm loét dạ dày nặng nên thận trọng khi dùng liều cao. Phụ nữ mang thai dùng liều vừa phải (theo khuyến cáo y tế) thường được xem là an toàn để giảm buồn nôn, nhưng liều rất cao chưa được khuyến khích.",
+        "sources": [
+          "https://trungtamthuoc.com/duoc-lieu/gung-14",
+          "https://bvnguyentriphuong.com.vn/tin-tu-cac-co-so-y-te/tong-quan-ve-tac-dung-duoc-ly-va-tiem-nang-ung-dung-lam-sang-cua-gung-zingiber-officinale",
+          "https://mplant.ump.edu.vn/index.php/gung-zingiber-officinale-zingiberaceae/"
+        ]
+      }
+    },
+    {
+      "category": "spice",
+      "name": "Ngải bún",
+      "price": 10000,
+      "image": "images/ngai-bun.webp",
+      "description": "Củ vàng phân nhánh như ngón tay, hương thơm dịu nhẹ ít hăng hơn gừng, là gia vị đặc trưng ẩm thực miền Tây Nam Bộ.",
+      "research": {
+        "verified": true,
+        "notes": "Tên khoa học: Boesenbergia rotunda (L.) Mansf. (đồng nghĩa: Boesenbergia pandurata (Roxb.) Schltr., ban đầu Linnaeus mô tả là Curcuma rotunda năm 1753), họ Gừng (Zingiberaceae). Tên khác: Bồng nga truật, cam địa la, ngải bún, lưỡi cọp, 'fingerroot' (tiếng Anh).\n\nĐặc điểm thực vật học: Cây thảo cao khoảng 50cm, thân rễ (củ) hình trứng đến hình cầu, màu vàng tươi, phân nhánh như ngón tay, mùi thơm mạnh, rễ dạng sợi. Hoa màu hồng, thơm, nở tháng 7-8. Phân bố ở Nam Vân Nam (Trung Quốc), Đông Dương, Java, Malaysia, Sumatra, quần đảo Andaman; mọc trong rừng nhiệt đới ở độ cao 300-1000m, được trồng rộng rãi ở vùng Đông Dương, đặc biệt các tỉnh miền Tây Nam Bộ có cộng đồng người Khmer (Trà Vinh, Sóc Trăng, Kiên Giang, An Giang).\n\nCông dụng ẩm thực: Củ là gia vị đặc sản không thể thiếu trong món bún cá, bún ốc ở miền Tây Nam Bộ — dùng khử mùi tanh của cá, tạo hương thơm dịu đặc trưng cho nước lèo. Hương thơm nhẹ hơn, ít hăng hơn gừng/nghệ.\n\nCông dụng dược liệu: Y học cổ truyền Đông Nam Á dùng chữa lở miệng (áp-tơ), khô miệng, đau bụng, huyết trắng (khí hư), lỵ, tiêu chảy, viêm da, ho khan, u xơ. Y học cổ truyền Việt Nam còn dùng chữa đau mắt, viêm mắt.\n\nNghiên cứu khoa học hiện đại: Nhiều nghiên cứu in vitro/động vật (không phải lâm sàng trên người) ghi nhận hoạt tính chống oxy hóa, kháng khuẩn, kháng viêm, kháng nấm, chống viêm nha chu, kháng virus, kháng khối u (in vitro trên dòng tế bào ung thư vú), chống lão hóa, hỗ trợ chuyển hóa đường (ức chế enzym tiêu hóa carbohydrate). Hai hoạt chất chính được nghiên cứu là panduratin A và pinostrobin. Một nghiên cứu độc tính bán trường diễn trên chuột Wistar (liều đến 100mg/kg/ngày) không ghi nhận độc tính đáng kể (NOAEL = 100mg/kg/ngày).\n\nCẢNH BÁO QUAN TRỌNG cần nêu: Trong đại dịch COVID-19 tại Việt Nam, có tin đồn lan truyền rằng ngải bún giúp phòng ngừa COVID-19 — các cơ quan y tế (VnExpress, Sở Y tế, Trung tâm Kiểm soát bệnh tật) đã bác bỏ, khẳng định KHÔNG có bằng chứng khoa học nào cho thấy ngải bún phòng ngừa hay điều trị được COVID-19. Đây là ví dụ điển hình về thông tin dân gian bị thổi phồng, cần thận trọng khi truyền thông về công dụng của cây này, tránh gây hiểu lầm.\n\nMức độ bằng chứng: Công dụng ẩm thực đã kiểm chứng rõ ràng qua văn hóa ẩm thực miền Tây. Công dụng dược liệu chủ yếu là y học cổ truyền Đông Nam Á + nghiên cứu in vitro/động vật sơ bộ, CHƯA có thử nghiệm lâm sàng người quy mô lớn xác nhận hiệu quả điều trị bệnh cụ thể nào. Tuyệt đối không nên quảng bá công dụng phòng/chữa bệnh (như COVID-19) chưa được khoa học xác nhận.",
+        "sources": [
+          "https://vi.wikipedia.org/wiki/B%E1%BB%93ng_nga_tru%E1%BA%ADt",
+          "https://vnexpress.net/ngai-bun-khong-giup-phong-ngua-covid-19-4281911.html",
+          "https://nongsanmekong.com/cay-ngai-bun-linh-hon-cua-am-thuc-mien-tay/",
+          "https://caythuocvithuoc.com/ngai-bun-bong-nga-truat-boesenbergia-pandurata-roxb-schlecht",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC10847838/ (Oral sub-chronic toxicity of fingerroot rhizome extract in Wistar rats)"
+        ]
+      }
+    },
+    {
+      "category": "spice",
+      "name": "Nghệ",
+      "price": 10000,
+      "image": "images/nghe.webp",
+      "description": "Thân rễ hình trụ phân nhánh màu vàng tươi đậm, cùng họ với gừng, là gia vị và dược liệu quen thuộc giúp lành vết thương, hỗ trợ tiêu hóa.",
+      "research": {
+        "verified": true,
+        "notes": "Tên khoa học: Curcuma longa L., họ Gừng (Zingiberaceae). Tên khác: Khương hoàng, Uất kim (thường chỉ phần củ nhánh nhỏ).\n\nĐặc điểm thực vật học: Cây thảo cao khoảng 1m, thân rễ (củ) phát triển thành khối hình trụ/khối phân nhánh, màu vàng cam tươi đậm, mọc nhiều rễ củ hình trụ cũng màu vàng cam. Cùng họ Gừng (Zingiberaceae) với gừng, ngải bún.\n\nCông dụng ẩm thực: Gia vị tạo màu vàng và hương vị cho nhiều món ăn Việt Nam (cà ri, kho, các món chiên/xào), dùng làm bột nghệ, ướp thực phẩm.\n\nCông dụng dược liệu: Thành phần chính là curcuminoid, đặc biệt curcumin (hàm lượng khoảng 0,3-1,5% trong củ khô). YHCT dùng nghệ trị đau dạ dày (loét dạ dày-tá tràng), hỗ trợ lành vết thương, kháng khuẩn, hành khí phá huyết (thông kinh). Liều khuyến cáo dạng bột/sắc: 6-12g/ngày (hoặc 2-4g bột chia 2 lần theo một số nguồn khác).\n\nNghiên cứu khoa học về curcumin: Đây là một trong những hoạt chất tự nhiên được nghiên cứu nhiều nhất — có nhiều nghiên cứu tiền lâm sàng và một số thử nghiệm lâm sàng (dù quy mô còn hạn chế) về tác dụng chống viêm, chống oxy hóa mạnh, hỗ trợ sức khỏe xương khớp, chống loét dạ dày. Cũng đang được nghiên cứu (giai đoạn sớm, invitro/động vật, một phần lâm sàng nhỏ) trong hỗ trợ điều trị ung thư vú, đa u tủy, trầm cảm, ung thư phổi, suy giảm nhận thức — CẦN NÊU RÕ các nghiên cứu này còn hạn chế, chưa đủ để khẳng định hiệu quả điều trị lâm sàng rộng rãi, không nên coi là thuốc chữa bệnh.\n\nMức độ bằng chứng: Công dụng chống viêm/chống oxy hóa của curcumin có nền tảng khoa học tương đối tốt (nhiều nghiên cứu, một số RCT), nhưng vấn đề sinh khả dụng thấp của curcumin khi uống thông thường (hấp thu kém) là hạn chế lớn được nhiều nghiên cứu ghi nhận — cần lưu ý khi truyền thông về hiệu quả thực tế.\n\nLưu ý/cảnh báo: Chống chỉ định ở người dị ứng với thành phần, tắc nghẽn đường mật, loét dạ dày đang tiến triển (curcumin liều cao có thể kích ứng). Dùng quá 1000mg/ngày (dạng chiết xuất curcumin) có thể gây chướng bụng, trào ngược acid, đầy hơi, tiêu chảy. Người dùng thuốc chống đông máu cần thận trọng vì nghệ có thể ảnh hưởng đến đông máu.",
+        "sources": [
+          "https://trungtamthuoc.com/duoc-lieu/nghe-21",
+          "https://nhathuoclongchau.com.vn/thanh-phan/curcumin",
+          "https://bvdkquangnam.vn/index.php/tin-tc/y-hc-thng-thc/1785-tac-dng-ca-cay-ngh-curcuma-longa-va-cac-ch-phm-trong-vic-h-tr-iu-tr-mt-s-bnh-phn-3"
+        ]
+      }
+    },
+    {
+      "category": "spice",
+      "name": "Lá dứa",
+      "price": 10000,
+      "image": "images/la-dua-thom.webp",
+      "description": "Lá dài hẹp như lưỡi gươm, xanh đậm mọc xoắn từ gốc, tỏa hương thơm nếp đặc trưng dùng nấu chè, làm bánh và tạo màu xanh tự nhiên.",
+      "research": {
+        "verified": true,
+        "notes": "Tên khoa học: Pandanus amaryllifolius Roxb., họ Dứa dại (Pandanaceae). Tên khác: lá nếp, dứa thơm.\n\nĐặc điểm thực vật học: Cây bụi cao khoảng 1m, lá hình mũi mác, nhẵn, xếp thành hình máng (dạng lòng máng), dài 40-50cm, rộng 3-4cm, mọc xoắn/tỏa từ gốc thành cụm. Không ra hoa/quả trong điều kiện trồng phổ biến ở Việt Nam (nhân giống chủ yếu bằng tách bụi).\n\nCông dụng ẩm thực: Tạo hương thơm và màu xanh tự nhiên cho xôi, chè, các loại bánh (bánh da lợn, bánh bò...), thạch, nước giải khát. Hương thơm đặc trưng ('mùi nếp/mùi cốm') đến từ hợp chất thơm 2-Acetyl-1-pyrroline (chất này cũng chính là hợp chất tạo mùi thơm đặc trưng của gạo nếp/gạo thơm).\n\nThành phần hóa học: Lá chứa tannin, alkaloid, flavonoid, polyphenol; đã phân lập được các hợp chất phenolic như vanillin, acid vanillic, p-hydroxybenzaldehyde, methyl gallate.\n\nCông dụng dược liệu (chủ yếu dân gian, một số nghiên cứu invitro về chiết xuất): Dân gian dùng lá khô sắc/hãm trà hỗ trợ điều hòa đường huyết, hỗ trợ tiêu hóa, an thần nhẹ, giải nhiệt cơ thể. Có bài thuốc dân gian kết hợp lá dứa khô với cỏ sữa đất khô hỗ trợ người tiểu đường type 2. Một số nghiên cứu trong nước (chiết xuất bằng vi sóng) ghi nhận hoạt tính chống oxy hóa của polyphenol/flavonoid chiết từ lá dứa (invitro).\n\nLưu ý về nguồn: Một nguồn (suckhoeviet.org.vn) có tuyên bố rằng lá dứa 'được WHO công nhận tiềm năng dược liệu từ năm 2023' — THÔNG TIN NÀY CHƯA KIỂM CHỨNG ĐƯỢC, không tìm thấy tài liệu chính thức nào từ WHO xác nhận claim này; cần loại bỏ hoặc không sử dụng chi tiết này vì có khả năng là thông tin marketing/không chính xác từ trang thông tin sức khỏe không phải nguồn học thuật.\n\nMức độ bằng chứng: Công dụng ẩm thực (tạo hương, màu) đã được xác nhận rõ ràng và phổ biến. Công dụng dược liệu (hạ đường huyết, an thần, giải nhiệt) chủ yếu là kinh nghiệm dân gian, có một số nghiên cứu invitro sơ bộ về hoạt tính chống oxy hóa của chiết xuất, nhưng CHƯA có thử nghiệm lâm sàng trên người xác nhận hiệu quả điều trị bệnh cụ thể (như tiểu đường). Không phát hiện cảnh báo độc tính đáng kể trong các nguồn tra cứu được.",
+        "sources": [
+          "https://pharmacy.tdtu.edu.vn/duoc-lieu/la-dua",
+          "https://youmed.vn/tin-tuc/cay-la-dua-khong-chi-la-nguyen-lieu-trong-am-thuc/",
+          "https://journalofscience.ou.edu.vn/index.php/tech-vi/article/view/4289",
+          "https://suckhoeviet.org.vn/la-dua-than-duoc-tu-nhien-cho-he-tieu-hoa-va-giai-nhiet-co-the-17803.html (lưu ý: claim về WHO chưa kiểm chứng được)"
+        ]
+      }
+    },
+    {
+      "category": "fruit",
+      "name": "Chanh dây vàng hương ổi",
+      "price": 15000,
+      "image": "images/chanh-day-vang-huong-oi.webp",
+      "description": "Dây leo hoa tím đẹp, quả vỏ vàng bóng khi chín, hương thơm đặc trưng như ổi chín, vị ngọt dịu hài hòa vị chua nhẹ.",
+      "research": {
+        "verified": true,
+        "notes": "Tên khoa học: Passiflora edulis f. flavicarpa (biến chủng vỏ vàng của loài Passiflora edulis, họ Lạc tiên - Passifloraceae). Đây là giống chanh dây (chanh leo) mới được trồng ở Việt Nam (Lâm Đồng), dây leo, hoa màu tím đẹp, lá lớn hơn và ít lá hơn so với chanh dây tím thông thường. Quả khi chín vỏ vàng bóng, thơm đặc trưng, có ghi nhận hương thoảng giống xoài, đào, ổi tùy nguồn mô tả (mô tả 'hương ổi' là tên thương mại/marketing phổ biến ở các vườn ươm Đà Lạt, chưa thấy tài liệu khoa học phân tích hương liệu xác nhận cụ thể mùi 'ổi' — cần lưu ý đây có thể là mô tả cảm quan chủ quan của người bán, không phải đặc tính khoa học đã kiểm chứng). Vị quả: khoảng 7 phần ngọt, 3 phần chua (hài hòa ngọt chua nhẹ, phù hợp mô tả sản phẩm hiện có). Về dinh dưỡng: chanh dây giàu vitamin A, vitamin C, chất xơ, polyphenol và carotenoid — đây là thông tin dinh dưỡng chung được nhiều nguồn y tế xác nhận cho quả chanh dây (Passiflora edulis) nói chung, không phải nghiên cứu riêng cho giống vàng hương ổi. Công dụng sức khỏe (hỗ trợ tiêu hóa nhờ chất xơ, chống oxy hóa nhờ vitamin C và polyphenol, tốt cho mắt nhờ vitamin A) là các lợi ích đã được y học hiện đại ghi nhận ở mức độ thành phần dinh dưỡng cơ bản, chưa phải là nghiên cứu lâm sàng chuyên biệt. Không tìm thấy cảnh báo độc tính đáng kể; lưu ý vỏ và lá chanh dây (không phải phần cùi quả ăn được) chứa cyanogenic glycoside nên không nên ăn vỏ/lá sống. Người dị ứng họ Lạc tiên nên thận trọng.",
+        "sources": [
+          "https://nongsandalat.vn/san-pham/chanh-day-vang-huong-oi",
+          "https://nhathuoclongchau.com.vn/bai-viet/chanh-day-vang-loi-ich-suc-khoe-va-nhung-luu-y-khi-su-dung.html",
+          "https://viencaytrongtrunguong.com/san-pham/cay-chanh-day-vang-huong-oi-lien-0334451026/"
+        ]
+      }
+    },
+    {
+      "category": "other",
+      "name": "Rau dền nhật",
+      "price": 10000,
+      "image": "images/rau-den-nhat.webp",
+      "description": "Lá dày, giòn, màu xanh đậm hoặc pha tím đỏ bắt mắt, sinh trưởng nhanh, là rau ăn lá bổ dưỡng phổ biến trong bữa cơm gia đình Việt.",
+      "research": {
+        "verified": true,
+        "notes": "Tên khoa học: Amaranthus tricolor L. (họ Dền - Amaranthaceae). 'Rau dền Nhật' là tên thương mại tại Việt Nam cho một giống dền lá to, dày, giòn, thường có màu xanh đậm hoặc pha đỏ tía, sinh trưởng nhanh — phù hợp mô tả hiện có; tên gọi 'Nhật' chỉ là tên thương mại giống cây, không phải loài thực vật riêng biệt về mặt phân loại học. Đặc điểm thực vật: cây thảo sống hằng năm, cao khoảng 1m, thân trụ có rãnh dọc. Thành phần dinh dưỡng: giàu nước và chất xơ (khoảng 88%), nhiều canxi, kẽm, sắt, kali, magie, vitamin A, B, C — hàm lượng canxi được so sánh vượt trội hơn sữa bò, sắt vượt trội hơn rau bina (cần xem đây là thông tin phổ biến trên các trang sức khỏe phổ thông, không phải trích dẫn từ nghiên cứu định lượng cụ thể được kiểm chứng độc lập). Công dụng trong Đông y: thanh nhiệt, lợi tiểu, hỗ trợ tiêu hóa/nhuận tràng do giàu chất xơ, hỗ trợ kiểm soát huyết áp — đây chủ yếu là kinh nghiệm y học cổ truyền và suy luận từ thành phần dinh dưỡng, mức độ bằng chứng khoa học lâm sàng trực tiếp trên rau dền còn hạn chế. Lưu ý: rau dền chứa oxalat, người có tiền sử sỏi thận nên ăn có kiểm soát; phụ nữ mang thai cần tham khảo ý kiến bác sĩ trước khi dùng với liều lượng lớn theo một số khuyến cáo dân gian.",
+        "sources": [
+          "https://trungtamthuoc.com/duoc-lieu/cay-rau-den-tia",
+          "https://hoanmy.com/rau-den/",
+          "https://youmed.vn/tin-tuc/rau-den-thanh-phan-dinh-duong-va-loi-ich-cho-suc-khoe/"
+        ]
+      }
+    },
+    {
+      "category": "other",
+      "name": "Cỏ lạc",
+      "price": 10000,
+      "image": "images/co-lac.webp",
+      "description": "Thân bò sát đất tạo thảm dày, lá hình bầu dục phủ lông tơ mịn, hoa vàng nhỏ xinh, dùng phủ đất chống xói mòn và cải tạo đất giàu đạm.",
+      "research": {
+        "verified": true,
+        "notes": "Tên khoa học: Arachis pintoi Krapov. & W.C. Gregory (thường gọi cỏ đậu, lạc dại, đậu phộng dại; họ Đậu - Fabaceae). Nguồn gốc từ vùng Cerrado, Brazil, được nhà thực vật học Geraldo Pinto phát hiện tiềm năng năm 1954, mô tả khoa học chính thức năm 1994 (theo Wikipedia tiếng Việt). Đặc điểm thực vật: cây thân bò sát đất, nhiều cành nhỏ, lá hình bầu dục dài khoảng 3cm rộng 2cm (một số nguồn mô tả có lông tơ mịn), hoa vàng nổi bật kích thước 10-15mm. Đây là cây họ Đậu (Fabaceae) nên có khả năng cộng sinh với vi khuẩn cố định đạm (Rhizobium) trong nốt sần rễ, giúp cải tạo đất giàu đạm tự nhiên — cơ chế này đã được khoa học nông nghiệp xác nhận rộng rãi và là đặc tính chung của họ Đậu. Công dụng chính đã được nhiều nguồn nông nghiệp Việt Nam (báo Lâm Đồng, Tia Sáng, khuyến nông) xác nhận: che phủ đất chống xói mòn, giữ ẩm, tăng chất hữu cơ/mùn cho đất, làm thức ăn gia súc, trang trí cảnh quan, dùng phổ biến trong vườn cà phê, tiêu, thanh long. Đây không phải là cây dùng làm thực phẩm/dược liệu cho người, sản phẩm chủ yếu phục vụ mục đích cải tạo đất/cảnh quan trong nông nghiệp, không có công dụng ẩm thực hay dược liệu cho người cần lưu ý khi mô tả sản phẩm.",
+        "sources": [
+          "https://vi.wikipedia.org/wiki/C%E1%BB%8F_%C4%91%E1%BA%ADu",
+          "https://tiasang.com.vn/doi-moi-sang-tao/cay-lac-dai-giup-giu-am-va-tang-luong-chat-huu-co-trong-dat/",
+          "https://baolamdong.vn/kinhte/201612/cay-lac-dai-tao-moi-truong-phat-trien-ca-phe-ben-vung-2768341/"
+        ]
+      }
+    },
+    {
+      "category": "dried",
+      "name": "Lá sen",
+      "price": 20000,
+      "weight": "100g",
+      "description": "Thu hái từ đầm sen tự nhiên, thái nhỏ và sấy khô giữ nguyên dược tính, dùng hãm trà thanh nhiệt.",
+      "benefit": "Hỗ trợ giảm mỡ máu, ổn định huyết áp, an thần, dễ ngủ.",
+      "research": {
+        "verified": true,
+        "notes": "Cây sen: Nelumbo nucifera (họ Sen - Nelumbonaceae). Lá sen (Folium Nelumbinis) là dược liệu được ghi nhận trong y học cổ truyền và các sách dược liệu Việt Nam (được nhiều nhà thuốc, bệnh viện như BV Nguyễn Tri Phương, Medlatec dẫn nguồn). Công dụng theo Đông y: dưỡng tâm, an thần, thanh nhiệt, lợi thấp, hạ huyết áp, giảm mỡ máu (giảm cholesterol) — khớp với mô tả sản phẩm hiện có. Thành phần hoạt chất được ghi nhận gồm alkaloid (như nuciferin) và flavonoid, có đặc tính chống oxy hóa; một số nghiên cứu tiền lâm sàng (chủ yếu trên động vật/ống nghiệm) cho thấy tác dụng giảm lipid máu, chống loạn nhịp tim, giãn mạch. Mức độ bằng chứng: công dụng an thần, giảm mỡ máu chủ yếu dựa trên y học cổ truyền kết hợp một số nghiên cứu dược lý sơ bộ (thực nghiệm), CHƯA có nhiều thử nghiệm lâm sàng quy mô lớn trên người để khẳng định chắc chắn hiệu quả điều trị — nên xem là 'có cơ sở khoa học bước đầu, cần thêm nghiên cứu lâm sàng' hơn là bằng chứng y học đã được xác lập vững chắc. Liều dùng tham khảo dân gian: lá tươi 40-80g hoặc lá khô 4-12g/ngày dạng sắc/hãm trà. Lưu ý/cảnh báo: không nên dùng liều cao kéo dài, đặc biệt với người huyết áp thấp (do tác dụng hạ huyết áp), phụ nữ mang thai và đang cho con bú nên thận trọng/tham khảo ý kiến bác sĩ trước khi dùng; lá sen có thể tương tác làm giảm hấp thu một số thuốc nếu dùng cùng lúc.",
+        "sources": [
+          "https://bvnguyentriphuong.com.vn/duoc-lieu/la-sen",
+          "https://medlatec.vn/tin-tuc/la-sen--duoc-lieu-dieu-tri-hieu-qua-nhieu-benh-ly-s51-n31724",
+          "https://www.vietnamplus.vn/vi-sao-uong-tra-la-sen-kho-co-the-giup-giam-mo-mau-post1034154.vnp"
+        ]
+      }
+    },
+    {
+      "category": "dried",
+      "name": "Lá ổi",
+      "price": 20000,
+      "weight": "100g",
+      "description": "Lá ổi già thu hái tự nhiên, sấy khô giữ dược tính, dùng nấu nước uống hằng ngày.",
+      "benefit": "Hỗ trợ tiêu hoá, ổn định đường huyết, tăng đề kháng.",
+      "research": {
+        "verified": true,
+        "notes": "Cây ổi: Psidium guajava L. (họ Sim - Myrtaceae). Lá ổi là dược liệu được ghi nhận rộng rãi trong y học cổ truyền và có nhiều nghiên cứu dược lý hiện đại hỗ trợ (theo trungtamthuoc.com, tracuuduoclieu.vn, youmed.vn). Công dụng truyền thống: chữa viêm ruột cấp, tiêu chảy, kiết lỵ (lá và búp ổi non có tác dụng làm săn niêm mạc ruột, giảm tiết dịch và nhu động ruột) — công dụng chống tiêu chảy này được ghi nhận cả trong y học cổ truyền lẫn được hỗ trợ bởi các hợp chất tanin, flavonoid (quercetin) có hoạt tính kháng khuẩn đã xác định qua nghiên cứu. Công dụng hạ đường huyết: có nghiên cứu thực nghiệm trên chuột bị tiểu đường cho thấy dịch chiết lá ổi giúp hạ đường huyết, tăng nhạy cảm insulin — đây là bằng chứng ở mức nghiên cứu tiền lâm sàng (động vật), một số nghiên cứu lâm sàng nhỏ trên người cũng có nhưng chưa đủ lớn để trở thành khuyến cáo y khoa chính thức thay thế thuốc điều trị tiểu đường. Công dụng 'tăng đề kháng' trong mô tả sản phẩm hiện có là suy luận chung từ đặc tính chống oxy hóa/kháng khuẩn của flavonoid, CHƯA có nghiên cứu cụ thể xác nhận trực tiếp lá ổi 'tăng đề kháng' theo nghĩa miễn dịch học rõ ràng — nên thận trọng khi diễn đạt. Lưu ý/cảnh báo: người đang dùng thuốc hạ đường huyết/hạ huyết áp cần thận trọng khi dùng đồng thời (nguy cơ hạ quá mức); dùng liều cao kéo dài có thể gây táo bón do tanin làm săn se niêm mạc ruột; phụ nữ mang thai nên hỏi ý kiến bác sĩ.",
+        "sources": [
+          "https://trungtamthuoc.com/duoc-lieu/oi",
+          "https://tracuuduoclieu.vn/oi.html",
+          "https://youmed.vn/tin-tuc/la-oi/"
+        ]
+      }
+    },
+    {
+      "category": "dried",
+      "name": "Lá sa kê",
+      "price": 20000,
+      "weight": "100g",
+      "description": "Lá sa kê già vàng tự nhiên, phơi & sấy đúng độ, dùng nấu nước uống hỗ trợ sức khoẻ.",
+      "benefit": "Lợi tiểu, kháng viêm, hỗ trợ giảm gout và sỏi thận.",
+      "research": {
+        "verified": true,
+        "notes": "Cây sa kê: Artocarpus altilis (họ Dâu tằm - Moraceae). Trong y học cổ truyền, lá sa kê được dùng chữa phù thũng, vàng da (viêm gan), sỏi thận, tiểu đường, cao huyết áp, và kết hợp với các vị thuốc khác để hỗ trợ điều trị gout. Về gout và sỏi thận, mô tả sản phẩm hiện có ('lợi tiểu, kháng viêm, hỗ trợ giảm gout và sỏi thận') có cơ sở khoa học đáng chú ý hơn nhiều dược liệu dân gian khác: có các nghiên cứu học thuật trong nước công bố trên tạp chí/luận văn (Tạp chí Dược học, nghiên cứu của Trung tâm Phát triển KH&CN Trẻ TP.HCM năm 2017, nghiên cứu Đại học Nguyễn Tất Thành) khảo sát tác dụng ức chế enzym xanthin oxidase (cơ chế liên quan trực tiếp đến giảm acid uric - nguyên nhân gây gout) và tác dụng hạ acid uric trên chuột thực nghiệm (một nghiên cứu ghi nhận liều 144g/kg giảm khoảng 11% acid uric so với nhóm đối chứng). Đây là bằng chứng ở mức nghiên cứu tiền lâm sàng (in vitro và trên động vật, thực hiện trong nước), CHƯA có thử nghiệm lâm sàng ngẫu nhiên có đối chứng trên người quy mô lớn, nên KHÔNG thể khẳng định lá sa kê 'chữa khỏi' gout hay sỏi thận — chỉ nên mô tả là 'hỗ trợ' dựa trên cơ chế lợi tiểu và ức chế xanthin oxidase đã được nghiên cứu bước đầu. Cơ chế lợi tiểu, kháng viêm được cho là nhờ flavonoid và polyphenol trong lá. Lưu ý: một nghiên cứu về độc tính cấp của cao chiết lá sa kê cũng đã được thực hiện (Đại học Nguyễn Tất Thành) nhưng không có đủ chi tiết trong kết quả tìm kiếm để xác nhận ngưỡng an toàn cụ thể — nên khuyến cáo người dùng không tự ý dùng liều cao kéo dài thay thuốc điều trị, cần tham khảo ý kiến thầy thuốc, đặc biệt với người có bệnh thận nặng hoặc đang dùng thuốc điều trị gout/tiểu đường.",
+        "sources": [
+          "https://vjol.info.vn/index.php/tcdh/article/view/22516",
+          "http://www.cesti.gov.vn//tai-lieu/257669/2/nghien-cuu-tac-dung-cua-cao-chiet-tiem-nang-la-sa-ke-artocarpus-altilis-dinh-huong-dieu-tri-benh-gout-trung-tam-phat-trien-khoa-hoc-va-cong-nghe-tre-nguyen-hoang-minh",
+          "https://vjol.info.vn/index.php/dh-NTT/article/view/54560",
+          "https://www.pharmacity.vn/cay-sa-ke.htm"
+        ]
+      }
+    },
+    {
+      "category": "dried",
+      "name": "Lá đu đủ",
+      "price": 20000,
+      "weight": "100g",
+      "description": "Lá đu đủ già phơi sấy khô tự nhiên, dùng nấu nước uống theo kinh nghiệm dân gian.",
+      "benefit": "Thanh nhiệt, giải độc, hỗ trợ tiêu hoá, tăng đề kháng.",
+      "research": {
+        "verified": true,
+        "notes": "Tên khoa học: Carica papaya L. (họ Đu đủ - Caricaceae), lá gọi là Folium Caricae Papayae.\n\nĐặc điểm thực vật: Đu đủ là cây thân thảo lớn, lá to, chia thùy sâu dạng chân vịt, cuống lá dài rỗng, mọc tập trung ở ngọn thân.\n\nCông dụng dân gian: Theo y học cổ truyền, lá đu đủ có tính hàn (mát), vị hơi đắng, mùi hăng, có tác dụng thanh nhiệt, giải độc, mát gan, kiện tỳ (bổ tỳ vị), nhuận tràng. Dân gian dùng lá già phơi/sấy khô nấu nước uống hoặc sắc uống. Đây chủ yếu là kinh nghiệm dân gian, CHƯA có nhiều nghiên cứu lâm sàng ở người khẳng định chắc chắn các công dụng.\n\nHoạt chất và cơ sở khoa học bước đầu: Lá chứa alkaloid, enzyme papain và chymopapain, flavonoid... Một số nghiên cứu tiền lâm sàng (in vitro/trên động vật) gợi ý tác dụng hỗ trợ tăng tiểu cầu (thường nhắc trong bối cảnh hỗ trợ điều trị sốt xuất huyết dân gian), chống viêm, kháng khuẩn - nhưng đây là bằng chứng sơ bộ, CHƯA đủ để coi là đã được chứng minh lâm sàng vững chắc, cần thận trọng khi diễn giải là \"đã được khoa học chứng minh\".\n\nCẢNH BÁO/lưu ý quan trọng:\n- Vị đắng, có thể gây buồn nôn, đầy bụng, kích ứng dạ dày, thậm chí xuất huyết tiêu hóa nếu dùng liều cao/lạm dụng (do papain hoạt tính mạnh).\n- Có khả năng tương tác với thuốc chống đông máu/thuốc làm loãng máu (tăng nguy cơ chảy máu) và thuốc điều trị tiểu đường (nguy cơ hạ đường huyết quá mức).\n- Không phù hợp cho người đang hạ đường huyết, phụ nữ có thai (đu đủ nói chung, đặc biệt đu đủ xanh, được cảnh báo có thể gây co bóp tử cung), người chuẩn bị phẫu thuật hoặc đang dùng thuốc chống đông.\n- Nên hỏi ý kiến bác sĩ trước khi dùng thường xuyên, đặc biệt nếu có bệnh nền hoặc đang dùng thuốc khác.\n\nKết luận: Công dụng thanh nhiệt/giải độc/hỗ trợ tiêu hoá chủ yếu dựa trên kinh nghiệm dân gian và y học cổ truyền; phần 'tăng đề kháng' chưa có bằng chứng khoa học rõ ràng ở người, nên ghi là chưa kiểm chứng đầy đủ.",
+        "sources": [
+          "https://nhathuoclongchau.com.vn/bai-viet/la-du-du-co-tac-dung-gi-nen-dung-la-du-du-tuoi-hay-kho.html",
+          "https://hellobacsi.com/duoc-lieu/thao-duoc/la-du-du-co-tac-dung-gi/",
+          "https://hellobacsi.com/benh-tieu-hoa/van-de-tieu-hoa-khac/ngo-doc-la-du-du/",
+          "https://suckhoedoisong.vn/4-tac-hai-nguy-hiem-khi-lam-dung-nuoc-la-du-du-chua-benh-169260611161009247.htm",
+          "https://tracuuduoclieu.vn/hoa-du-du-duc-duoc-lieu-san-quanh-ta.html"
+        ]
+      }
+    },
+    {
+      "category": "dried",
+      "name": "Lá vối",
+      "price": 20000,
+      "weight": "100g",
+      "description": "Lá vối bánh tẻ thu hái tự nhiên, sấy khô đúng độ, dùng hãm nước uống hằng ngày.",
+      "benefit": "Hỗ trợ tiêu hoá, giảm mỡ máu, ổn định đường huyết.",
+      "research": {
+        "verified": true,
+        "notes": "Tên khoa học: Cleistocalyx operculatus (Roxb.) Merr. et Perry (đồng danh Syzygium nervosum), họ Sim (Myrtaceae). Vối là cây quen thuộc trong dân gian Việt Nam, lá và nụ hoa (nụ vối) đều được dùng.\n\nĐặc điểm thực vật: Cây gỗ nhỏ đến trung bình, lá bánh tẻ (không quá non, không quá già) được thu hái để đảm bảo hàm lượng tinh dầu và tanin phù hợp.\n\nCông dụng: Lá vối hãm hoặc nấu nước uống hằng ngày là thức uống dân gian phổ biến, được xem là có tác dụng hỗ trợ tiêu hóa (kích thích tiết dịch tiêu hóa, giảm đầy bụng khó tiêu), sát khuẩn nhẹ đường ruột nhờ tannin và tinh dầu (khoảng 4%).\n\nBằng chứng khoa học: Có một số nghiên cứu bước đầu (chủ yếu tiền lâm sàng) gợi ý lá vối chứa hoạt chất có thể hỗ trợ ổn định đường huyết và giảm mỡ máu (như flavonoid, β-sitosterol có khả năng chuyển hóa cholesterol) - đây là hướng nghiên cứu đang được quan tâm nhưng CHƯA có bằng chứng lâm sàng đủ mạnh/quy mô lớn ở người để khẳng định chắc chắn hiệu quả \"giảm mỡ máu, ổn định đường huyết\" như một phương pháp điều trị. Phần lớn công dụng này vẫn ở mức kinh nghiệm dân gian kết hợp nghiên cứu sơ bộ.\n\nCẢNH BÁO/lưu ý:\n- Không nên uống nước lá vối khi đói bụng vì tannin và tác dụng kích thích tiêu hóa có thể gây cồn cào, khó chịu, mệt mỏi.\n- Không nên uống ngay sau ăn no (có thể cản trở hấp thu dinh dưỡng do tannin).\n- Không nên uống quá đặc hoặc quá nhiều trong ngày.\n- Phụ nữ có thai, người quá gầy yếu, suy nhược nên hỏi ý kiến chuyên gia trước khi dùng thường xuyên.\n\nNhìn chung lá vối được đánh giá khá lành tính nếu dùng đúng cách, đây là một trong những dược liệu dân gian có độ tin cậy tương đối cao về tính an toàn.",
+        "sources": [
+          "https://caythuoc.org/product/nu-voi",
+          "https://www.ihs.org.vn/duoc-lieu/cay-la-voi-cach-dung-va-tac-dung-chua-benh-cua-vi-thuoc-dan-da",
+          "https://medlatec.vn/tin-tuc/cay-la-voi-chua-duoc-benh-gi-va-nhung-luu-y-khi-su-dung-1",
+          "https://nhathuoclongchau.com.vn/bai-viet/ai-khong-nen-uong-nuoc-la-voi-nhung-luu-y-khi-su-dung.html",
+          "https://nhathuoclongchau.com.vn/bai-viet/nhung-tac-hai-cua-la-voi-ma-ban-nen-chu-y-khi-dung.html"
+        ]
+      }
+    },
+    {
+      "category": "dried",
+      "name": "Lá vong nem",
+      "price": 20000,
+      "weight": "100g",
+      "description": "Lá vông nem thu hái tự nhiên, sấy khô nguyên lá, dùng nấu nước hoặc hãm trà buổi tối.",
+      "benefit": "An thần, hỗ trợ giấc ngủ, giảm đau nhức xương khớp.",
+      "research": {
+        "verified": true,
+        "notes": "Tên khoa học: Erythrina variegata L. (đồng danh Erythrina orientalis), họ Đậu (Fabaceae). Đây là vị thuốc được ghi nhận trong sách \"Những cây thuốc và vị thuốc Việt Nam\" của Đỗ Tất Lợi (được trích dẫn lại trên nhiều nguồn như vnras.com).\n\nĐặc điểm thực vật: Cây gỗ nhỏ, có gai, lá kép gồm 3 lá chét, thường trồng làm hàng rào hoặc làm giá thể trầu không.\n\nCông dụng dân gian/y học cổ truyền: Lá vông nem được dùng từ lâu đời để an thần, dưỡng tâm, trị mất ngủ, hồi hộp, lo âu; ngoài ra còn dùng trị nhức mỏi, phong thấp (đau nhức xương khớp), trĩ. Trong y học cổ truyền, vông nem được cho là chỉ thực sự hiệu quả với mất ngủ do căn nguyên gan/thận, kém hiệu quả nếu mất ngủ do tỳ/phế/tâm.\n\nHoạt chất: Chứa alkaloid (erythrin/erythralin và các alkaloid nhóm erythrina khác) có tác dụng ức chế nhẹ hệ thần kinh trung ương (an thần), không gây tê liệt vận động. Có một số nghiên cứu dược lý sơ bộ (chủ yếu trên động vật) ủng hộ tác dụng an thần, nhưng CHƯA có nhiều thử nghiệm lâm sàng quy mô lớn trên người để xác nhận chắc chắn hiệu quả và liều lượng tối ưu — phần lớn vẫn dựa trên kinh nghiệm y học cổ truyền lâu đời.\n\nCẢNH BÁO/độc tính:\n- Alkaloid trong lá vông có độc tính nhẹ; dùng quá liều có thể gây sụp mí mắt, mệt mỏi toàn thân, yếu cơ khớp.\n- Liều khuyến cáo tham khảo: 6-30g/ngày (theo tài liệu y học cổ truyền) — KHÔNG tự ý dùng liều cao kéo dài.\n- Không dùng cho trẻ nhỏ, người có triệu chứng sưng nóng đỏ đau khớp, người huyết áp cao.\n- Quá liều có thể gây buồn nôn, chóng mặt, hạ huyết áp, ức chế thần kinh trung ương quá mức.\n- Công dụng 'giảm đau nhức xương khớp' trong mô tả sản phẩm cần lưu ý: đây là công dụng dân gian, mức bằng chứng khoa học còn hạn chế.",
+        "sources": [
+          "https://caythuoc.org/product/la-vong-nem-chua-benh-mat-ngu",
+          "https://caythuoc.org/cay-vong-nem-voi-benh-tri-mat-ngu.html",
+          "https://vnras.com/cay-vong-nem-nhung-cay-thuoc-va-vi-thuoc-viet-nam-do-tat-loi/",
+          "https://trungtamthuoc.com/duoc-lieu/vong-nem",
+          "https://nhathuoclongchau.com.vn/bai-viet/7-cong-dung-cua-la-vong-nem-doi-voi-suc-khoe-60796.html"
+        ]
+      }
+    },
+    {
+      "category": "dried",
+      "name": "Chùm bao",
+      "price": 20000,
+      "weight": "100g",
+      "description": "Dây và lá chùm bao (lạc tiên) thu hái tự nhiên, sấy khô, dùng hãm trà hoặc sắc uống trước khi ngủ.",
+      "benefit": "An thần, hỗ trợ giấc ngủ ngon, giảm hồi hộp lo âu.",
+      "research": {
+        "verified": true,
+        "notes": "Tên khoa học: Passiflora foetida L., họ Lạc tiên (Passifloraceae). Còn gọi là lạc tiên, nhãn lồng, tây phiên liên, dây bầu đường. Nguồn gốc từ châu Mỹ, hiện mọc hoang phổ biến ở Việt Nam. Được ghi nhận trong sách Đỗ Tất Lợi (trích dẫn trên vnras.com).\n\nĐặc điểm thực vật: Dây leo bằng tua cuốn, lá chia thùy, quả có bao hoa dạng lưới bọc ngoài (tên gọi 'chùm bao', 'nhãn lồng'). Bộ phận dùng: thân và lá (dân gian VN thường dùng phần dây + lá, đôi khi cả quả).\n\nCông dụng: Lạc tiên là vị thuốc an thần dân gian phổ biến, dùng chữa mất ngủ, hồi hộp, tim đập nhanh (đánh trống ngực), lo âu, căng thẳng thần kinh - thường hãm trà hoặc sắc uống trước khi ngủ.\n\nMức độ bằng chứng: Loài Passiflora nói chung (đặc biệt Passiflora incarnata - lạc tiên tây, khác loài với P. foetida của Việt Nam) đã có một số nghiên cứu lâm sàng ở nước ngoài cho thấy tác dụng giảm lo âu, cải thiện giấc ngủ nhẹ. Tuy nhiên với loài Passiflora foetida (lạc tiên/chùm bao phổ biến ở VN), bằng chứng khoa học trên người còn hạn chế hơn, chủ yếu là nghiên cứu dược lý sơ bộ về flavonoid, alkaloid có hoạt tính an thần, chống co giật, giảm đau, hạ đường huyết, hạ huyết áp, bảo vệ gan - phần lớn trên động vật/in vitro. Công dụng an thần, hỗ trợ giấc ngủ chủ yếu dựa trên kinh nghiệm y học cổ truyền lâu đời, được coi là khá đáng tin cậy về mặt truyền thống nhưng chưa có nhiều RCT (thử nghiệm lâm sàng ngẫu nhiên có đối chứng) cụ thể cho loài này ở Việt Nam.\n\nLƯU Ý: Cần phân biệt rõ với 'chùm bao' đôi khi bị nhầm với các loài Passiflora khác; nên xác nhận đúng loài khi thu hái. Chưa tìm thấy cảnh báo độc tính nghiêm trọng đáng kể, nhìn chung được xem là dược liệu an toàn khi dùng đúng liều dân gian, nhưng phụ nữ có thai và đang cho con bú nên thận trọng, tham khảo ý kiến thầy thuốc trước khi dùng do thiếu nghiên cứu về an toàn trong các đối tượng này.",
+        "sources": [
+          "https://trungtamthuoc.com/duoc-lieu/lac-tien-15",
+          "https://vnras.com/cay-lac-tien-chum-bao-nhung-cay-thuoc-va-vi-thuoc-viet-nam-do-tat-loi/",
+          "https://www.vinmec.com/vie/bai-viet/tac-dung-cua-cay-lac-tien-vi",
+          "https://youmed.vn/tin-tuc/lac-tien-vi-thuoc-than-ky-chua-mat-ngu-quanh-ta/"
+        ]
+      }
+    },
+    {
+      "category": "dried",
+      "name": "Trinh nữ (mắc cỡ)",
+      "price": 20000,
+      "weight": "100g",
+      "description": "Trinh nữ (mắc cỡ) thu hái tự nhiên, sấy khô cành lá hoặc rễ, dùng sắc nước uống.",
+      "benefit": "An thần, lợi tiểu, hỗ trợ giảm đau nhức xương khớp.",
+      "research": {
+        "verified": true,
+        "notes": "Tên khoa học: Mimosa pudica L., họ Trinh nữ (Mimosaceae/Fabaceae). Còn gọi là cây xấu hổ, cây thẹn, cây mắc cỡ - do lá cụp lại khi chạm vào.\n\nĐặc điểm thực vật: Cây thân thảo nhỏ, có gai, lá kép lông chim, đặc trưng bởi phản ứng cụp lá khi bị chạm (thigmonasty).\n\nCông dụng dân gian/y học cổ truyền: Toàn cây (lá, cành, rễ) được dùng làm thuốc. Trong đông y dùng trị suy nhược thần kinh, mất ngủ, viêm phế quản, phong thấp tê bại (đau nhức xương khớp), huyết áp cao, lợi tiểu. Lá thường dùng làm thuốc an thần/dịu thần kinh, rễ dùng chữa nhức xương.\n\nMức độ bằng chứng: Cây chứa alkaloid (mimosine), glycoside, flavonoid, tannin - có hoạt tính dược lý được ghi nhận qua một số nghiên cứu tiền lâm sàng (chống viêm, lợi tiểu, an thần nhẹ). Tuy nhiên phần lớn công dụng (an thần, lợi tiểu, giảm đau xương khớp) vẫn chủ yếu dựa trên kinh nghiệm y học cổ truyền, CHƯA có nhiều thử nghiệm lâm sàng ở người quy mô lớn để xác nhận chắc chắn.\n\nCẢNH BÁO/độc tính - QUAN TRỌNG:\n- Mimosine có độc tính đã ghi nhận trên động vật (ảnh hưởng tuyến giáp, rụng lông/tóc, độc tính sinh sản) ở liều cao/kéo dài.\n- Cây có tác dụng gây co bóp/kích thích kinh nguyệt (emmenagogue) và có bằng chứng ảnh hưởng khả năng sinh sản trên động vật thí nghiệm.\n- CHỐNG CHỈ ĐỊNH RÕ RÀNG cho phụ nữ có thai (nhiều nguồn y học cổ truyền VN và tài liệu quốc tế đều khuyến cáo tránh dùng do nguy cơ ảnh hưởng thai kỳ).\n- Không dùng cho người thể trạng hư hàn hoặc suy nhược cơ thể nặng (theo một số nguồn đông y).\n- Cần thận trọng, không tự ý dùng liều cao kéo dài; nên tham khảo ý kiến thầy thuốc, đặc biệt với phụ nữ mang thai hoặc đang cố gắng mang thai.",
+        "sources": [
+          "https://trungtamthuoc.com/duoc-lieu/trinh-nu",
+          "https://www.vinmec.com/vie/bai-viet/cac-cong-dung-cua-cay-mac-co-vi",
+          "https://nhathuocngocanh.com/duoc-lieu/cay-xau-ho/",
+          "https://medlatec.vn/tin-tuc/giai-dap-ban-khoan-cay-xau-ho-co-tac-dung-gi-va-thanh-phan-hoa-hoc-cua-loai-cay-nay",
+          "https://www3.ha.org.hk/toxicplant/en/mimosa_pudica.html"
+        ]
+      }
+    },
+    {
+      "category": "dried",
+      "name": "Lá dứa thơm",
+      "price": 20000,
+      "weight": "100g",
+      "description": "Lá dứa thái sợi, sấy khô giữ trọn hương thơm tự nhiên, dùng nấu nước uống hoặc hãm trà.",
+      "benefit": "Hỗ trợ ổn định đường huyết, kháng viêm, tăng cường đề kháng.",
+      "research": {
+        "verified": true,
+        "notes": "Tên khoa học: Pandanus amaryllifolius Roxb., họ Dứa dại (Pandanaceae). Đây là loài lá dứa dùng làm gia vị/tạo hương phổ biến trong ẩm thực Việt Nam và Đông Nam Á, khác với dứa (Ananas comosus - trái thơm/khóm).\n\nĐặc điểm thực vật: Lá hình mũi mác, nhẵn, xếp máng, dài 40-50cm, mép không gai (khác các loài Pandanus khác thường có gai ở mép lá), mùi thơm đặc trưng giống mùi cơm nếp - do hợp chất 2-Acetyl-1-pyrroline (chất tạo hương tương tự trong gạo thơm/nếp).\n\nCông dụng ẩm thực: Rất phổ biến - dùng tạo hương, tạo màu xanh tự nhiên cho xôi, chè, bánh, thạch trong ẩm thực Việt Nam và Đông Nam Á. Đây là công dụng được xác nhận rộng rãi, không cần bàn cãi.\n\nCông dụng dược liệu (theo y học cổ truyền/dân gian): Lá chứa tannin, alkaloid, flavonoid, polyphenol. Được dùng dân gian làm thuốc lợi tiểu (trị đái rắt, sỏi thận/sạn), giã đắp chữa trĩ, xông hơi cho phụ nữ sau sinh, hỗ trợ giảm đau xương khớp, an thần nhẹ.\n\nMức độ bằng chứng cho công dụng 'ổn định đường huyết, kháng viêm, tăng đề kháng':\n- Có một số nghiên cứu tiền lâm sàng (in vitro, trên động vật) về hoạt tính chống oxy hóa, kháng viêm, và hỗ trợ hạ đường huyết của chiết xuất lá dứa - đây là hướng nghiên cứu được quan tâm gần đây (có bài báo khoa học trong nước như trên Tạp chí KH&CN Nhiệt đới về hợp chất phenolic từ lá dứa).\n- Tuy nhiên CHƯA có đủ bằng chứng lâm sàng (thử nghiệm trên người, quy mô lớn) để khẳng định chắc chắn hiệu quả 'ổn định đường huyết' như thuốc điều trị tiểu đường - công dụng này ở mức 'có tiềm năng, đang nghiên cứu' hơn là 'đã chứng minh'. Công dụng 'tăng đề kháng' đặc biệt còn thiếu bằng chứng cụ thể, nên coi là suy diễn/quảng cáo hơn là đã kiểm chứng khoa học rõ ràng.\n\nCẢNH BÁO: Chưa ghi nhận độc tính đáng kể khi dùng làm gia vị thông thường (an toàn cao). Khi dùng liều cao dạng thuốc sắc/nước uống đậm đặc thường xuyên, nên thận trọng và không có đủ dữ liệu về an toàn dài hạn, đặc biệt nếu đang dùng thuốc điều trị tiểu đường (nguy cơ hạ đường huyết cộng dồn) - nên hỏi ý kiến bác sĩ nếu dùng với mục đích trị liệu thay vì chỉ làm gia vị.",
+        "sources": [
+          "https://tracuuduoclieu.vn/dua-thom.html",
+          "https://tracuuduoclieu.vn/pandanus-amaryllifolius-roxb.html",
+          "https://thuocdantoc.vn/duoc-lieu/la-dua",
+          "https://tapchikhcnnd.com.vn/index.php/tckhcnnd/article/view/697"
+        ]
+      }
+    },
+    {
+      "category": "dried",
+      "name": "Chùm ngây",
+      "price": 20000,
+      "weight": "100g",
+      "description": "Lá chùm ngây non thu hái tự nhiên, sấy khô giữ dưỡng chất, dùng hãm trà hoặc nấu nước uống.",
+      "benefit": "Giàu vitamin, khoáng chất, tăng đề kháng, kháng viêm.",
+      "research": {
+        "verified": true,
+        "notes": "Tên khoa học: Moringa oleifera Lam., họ Chùm ngây (Moringaceae). Còn gọi là cây Dùi trống, Ba đậu dại. Đặc điểm thực vật: cây thân gỗ nhỏ, cao 5-10m, mọc nhanh, lá kép lông chim 3 lần, hoa trắng, quả nang dài (giống dùi trống) chứa nhiều hạt. Công dụng ẩm thực: lá non, hoa, quả non được dùng làm rau ăn (nấu canh, xào), phổ biến ở nhiều nước nhiệt đới. Công dụng dược liệu: theo y học cổ truyền và các nguồn dược liệu, lá dùng lợi tiêu hóa, lợi sữa cho phụ nữ sau sinh; rễ dùng trị động kinh, cường tim, kích thích tuần hoàn, chữa ngất xỉu, suy nhược thần kinh, đau bụng co thắt; hạt chứa 33-38% dầu dùng trong thực phẩm, mỹ phẩm. Lợi ích sức khỏe: lá và các bộ phận giàu vitamin, khoáng chất, beta-caroten, acid amin, hợp chất phenolic — nhiều nghiên cứu (chưa phải mức bằng chứng lâm sàng cao, chủ yếu in-vitro/động vật) cho thấy tác dụng bảo vệ tim mạch, chống oxy hóa, hạ đường huyết, hạ huyết áp, kháng ung thư, chống loét, chống co thắt — mức bằng chứng: một phần có nghiên cứu sơ bộ, phần lớn thông tin về công dụng cụ thể (tăng đề kháng, kháng viêm mạnh) mang tính truyền thống/tổng hợp từ các trang dược liệu, chưa có nghiên cứu lâm sàng người quy mô lớn được xác nhận rõ ràng qua tìm kiếm này. CẢNH BÁO QUAN TRỌNG: rễ, vỏ, hoa chùm ngây chống chỉ định với phụ nữ có thai vì chứa alpha-sitosterol có thể gây co thắt cơ trơn tử cung, tăng nguy cơ sảy thai; dùng liều cao/kéo dài chiết xuất hoặc rễ có thể gây liệt, tổn thương gan, vô sinh thứ phát ở phụ nữ (theo nhiều nguồn nhà thuốc, chưa phải nghiên cứu đối chứng lâm sàng). Sản phẩm mô tả là lá non nên rủi ro thấp hơn so với rễ/hoa, nhưng vẫn nên khuyến cáo thận trọng với phụ nữ mang thai và không dùng liều cao kéo dài. Mô tả hiện có (giàu vitamin, khoáng chất, tăng đề kháng, kháng viêm) là phù hợp ở mức khái quát nhưng cường điệu nhẹ vì thiếu trích dẫn nghiên cứu cụ thể trên người.",
+        "sources": [
+          "https://tracuuduoclieu.vn/moringa-oleifera-lam.html",
+          "https://tracuuduoclieu.vn/cay-chum-ngay.html",
+          "https://nhathuoclongchau.com.vn/bai-viet/tac-hai-cua-cay-chum-ngay-co-the-ban-chua-biet.html",
+          "https://www.vinmec.com/vie/bai-viet/rau-chum-ngay-khong-phai-ai-an-cung-tot-vi",
+          "https://www.pharmacity.vn/tac-hai-cua-cay-chum-ngay-nhung-dieu-ban-can-biet.htm"
+        ]
+      }
+    },
+    {
+      "category": "dried",
+      "name": "Cỏ mần trầu",
+      "price": 20000,
+      "weight": "100g",
+      "description": "Cỏ mần trầu thu hái tự nhiên, sấy khô nguyên cây, dùng nấu nước uống thanh nhiệt.",
+      "benefit": "Thanh nhiệt, mát gan, lợi tiểu, giải độc cơ thể.",
+      "research": {
+        "verified": true,
+        "notes": "Tên khoa học: Eleusine indica (L.) Gaertn., họ Lúa (Poaceae). Còn gọi là ngưu cân thảo, thanh trâu thảo. Đặc điểm thực vật: cỏ mọc hoang, thân bò rồi đứng, lá hình dải hẹp, cụm hoa dạng bông ngón tay xòe (đặc trưng của chi Eleusine). Công dụng dược liệu (Đông y): tính mát, vị ngọt nhạt, có tác dụng lương huyết, thanh nhiệt giải độc, mát gan, lợi tiểu, giúp ra mồ hôi; dùng trị cao huyết áp, lao phổi, ho khan, tiểu ít sẫm màu, sốt về chiều, táo bón nhiệt ở phụ nữ có thai, động thai, nhức đầu, tức ngực; phụ nữ sau sinh dùng làm sạch sản dịch; dùng ngoài làm nước gội đầu trị gàu, rụng tóc. Thành phần: chứa nhóm flavonoid (C-glycoflavone, vitexin, iso-vitexin, orientin, iso-orientin) có tác dụng chống oxy hóa, kháng khuẩn, kháng nấm, bảo vệ gan — đây là các nghiên cứu hóa thực vật/dược lý sơ bộ, không phải thử nghiệm lâm sàng người quy mô lớn. Mức bằng chứng: chủ yếu dựa trên y học cổ truyền và một số nghiên cứu chiết xuất/hóa học thực vật (in-vitro), chưa có nghiên cứu lâm sàng đối chứng ở người được ghi nhận rõ ràng qua tìm kiếm. CẢNH BÁO: dùng quá liều khuyến cáo có thể gây buồn nôn, tiêu chảy, đau bụng, đau đầu, chóng mặt; dùng liều cao kéo dài có thể gây độc tính với gan; có thể tương tác với thuốc chống co giật, chống viêm, chống đông máu — nên tham khảo ý kiến bác sĩ nếu đang dùng các thuốc này; cần chọn nguồn sạch vì cỏ mọc hoang dễ nhiễm bụi bẩn/thuốc diệt cỏ. Mô tả hiện có (thanh nhiệt, mát gan, lợi tiểu, giải độc) khá phù hợp với y học cổ truyền nhưng nên bổ sung lưu ý về liều dùng và tương tác thuốc.",
+        "sources": [
+          "https://tracuuduoclieu.vn/eleusine-indica-l-gaertn.html",
+          "https://trungtamthuoc.com/duoc-lieu/co-man-trau",
+          "https://www.vinmec.com/vie/bai-viet/cac-tac-dung-cua-co-man-trau-vi",
+          "https://hellobacsi.com/duoc-lieu/thao-duoc/co-man-trau/"
+        ]
+      }
+    },
+    {
+      "category": "dried",
+      "name": "Lá mơ lông tím",
+      "price": 20000,
+      "weight": "100g",
+      "description": "Lá mơ lông tím thu hái tự nhiên, sấy khô giữ mùi đặc trưng, dùng nấu nước uống hỗ trợ tiêu hoá.",
+      "benefit": "Hỗ trợ tiêu hoá, kháng viêm, tốt cho đường ruột.",
+      "research": {
+        "verified": true,
+        "notes": "Tên khoa học: Paederia foetida L. (hoặc Paederia tomentosa/lanuginosa tùy nguồn), họ Cà phê (Rubiaceae). Còn gọi là mơ tam thể, lá thúi địch (vì có mùi hắc đặc trưng khi vò). Có hai loại: lá mơ tía (mặt dưới lá màu tía/tím — phù hợp với 'mơ lông tím' trong sản phẩm) và lá mơ xanh. Đặc điểm thực vật: dây leo, lá mọc đối, hai mặt lá có lông mịn. Công dụng ẩm thực: lá thường dùng ăn kèm (cuốn) với thịt chó, nem thính, một số món ăn dân gian; công dụng dược liệu: lá chứa tinh dầu có mùi bisulfua carbon, alcaloid paederin — theo Đông y có tác dụng thanh nhiệt, sát trùng, trừ phong hoạt huyết, chỉ thống giải độc, tiêu thực, trừ thấp tiêu thũng; dân gian dùng chữa đau bụng, kiết lỵ, phong thấp đau nhức, đầy bụng chậm tiêu, trẻ suy dinh dưỡng (cam tích), sa trực tràng, mụn nhọt, bạch đới. Lợi ích sức khỏe: một số nghiên cứu (mức độ sơ bộ) ghi nhận tác dụng kháng khuẩn, kháng virus, chống nôn, chống khối u, kháng viêm — mức bằng chứng phần lớn là dân gian truyền miệng kết hợp một số nghiên cứu dược lý cơ bản, chưa có thử nghiệm lâm sàng người quy mô lớn được xác nhận. CẢNH BÁO: dùng quá liều có thể gây tác dụng phụ đường ruột hoặc trên da; phụ nữ mang thai/cho con bú và trẻ nhỏ chỉ nên dùng như thực phẩm, không tự ý dùng liều cao như bài thuốc; người thể hàn (tay chân lạnh, dễ mệt, phân lỏng) dùng có thể làm nặng thêm triệu chứng; không dùng liên tục kéo dài (nên nghỉ sau 2-4 tuần); người dị ứng cần thận trọng. Mô tả hiện có (hỗ trợ tiêu hoá, kháng viêm, tốt cho đường ruột) phù hợp với công dụng dân gian truyền thống được ghi nhận nhiều nguồn.",
+        "sources": [
+          "https://tracuuduoclieu.vn/mo-long.html",
+          "https://trungtamthuoc.com/duoc-lieu/mo-long",
+          "https://mplant.ump.edu.vn/index.php/mo-long-paederia-foetida-rubiaceae/",
+          "https://suckhoeviet.org.vn/la-mo-long-18-bai-thuoc-tri-benh-hay-va-luu-y-khi-su-dung-8383.html"
+        ]
+      }
+    },
+    {
+      "category": "dried",
+      "name": "Thù lù",
+      "price": 20000,
+      "weight": "100g",
+      "description": "Thù lù (tầm bóp) thu hái tự nhiên, sấy khô nguyên trái, dùng nấu nước uống thanh nhiệt, giải độc.",
+      "benefit": "Giàu vitamin A, C, hỗ trợ tăng đề kháng, tốt cho mắt.",
+      "research": {
+        "verified": true,
+        "notes": "Tên khoa học: Physalis angulata L., họ Cà (Solanaceae). Tên gọi khác: tầm bóp, thù lù cạnh, tầm phóc, lồng đèn (do quả có đài bao hình lồng đèn), toan tương. Đặc điểm thực vật: cây thân thảo mọc hoang, quả mọng tròn màu vàng/đỏ khi chín, được bao bởi đài hoa phồng to hình túi/lồng đèn. Công dụng dược liệu (Đông y, dùng toàn cây): thanh nhiệt, trị ho, tiêu đờm, lợi tiểu, trị mụn nhọt; dân gian còn dùng hỗ trợ kháng khuẩn, kháng viêm, hạ sốt rét (sốt cách nhật). Thành phần hóa học: alkaloid, chất xơ, carbohydrate, các vitamin, physalin A-D, physagulin A-G, acid béo. Lợi ích sức khỏe: một số nghiên cứu sơ bộ (in-vitro/động vật) cho thấy tiềm năng hỗ trợ phòng/hỗ trợ điều trị đái tháo đường (ức chế alpha-amylase, alpha-glucosidase — nghiên cứu Đại học Cần Thơ), hoạt tính kháng tế bào ung thư của flavonol glycoside chiết từ lá trên một số dòng tế bào ung thư (bạch cầu, biểu mô, phổi) — đây là nghiên cứu tiền lâm sàng, KHÔNG phải bằng chứng lâm sàng ở người, không nên diễn giải là 'trị ung thư/tiểu đường'. Mức bằng chứng cho công dụng 'giàu vitamin A, C, tốt cho mắt, tăng đề kháng' trong mô tả hiện có: CHƯA KIỂM CHỨNG rõ ràng qua các nguồn tìm được — các nguồn chủ yếu nói về thanh nhiệt, trị ho, tiêu đờm, lợi tiểu; không tìm thấy nguồn uy tín xác nhận cụ thể hàm lượng vitamin A, C cao hay công dụng 'tốt cho mắt' của thù lù/tầm bóp Việt Nam (có thể bị nhầm với goji berry/kỷ tử tiếng Anh cũng gọi là 'thù lù' ở một số vùng, cần làm rõ tên gọi). CẢNH BÁO QUAN TRỌNG: cây không chứa độc tính rõ ràng nhưng RẤT DỄ NHẦM LẪN với cây lu lu đực (Solanum nigrum) — chứa độc tố solanin — cần phân biệt: hoa tầm bóp mọc đơn độc, quả chín màu đỏ/vàng có đài bao; còn lu lu đực hoa mọc thành chùm, quả chín màu đen, không có đài bao. Một số người có thể dị ứng (ngứa, nổi mẩn đỏ). Phụ nữ mang thai, cho con bú cần tham khảo bác sĩ. Có thể tương tác với thuốc điều trị tây y. Khuyến nghị: nên xác minh lại thông tin 'giàu vitamin A, C, tốt cho mắt' trước khi công bố, vì chưa tìm được nguồn xác nhận rõ ràng.",
+        "sources": [
+          "https://tracuuduoclieu.vn/physalis-angulata-l.html",
+          "https://trungtamthuoc.com/duoc-lieu/tam-bop",
+          "https://hellobacsi.com/duoc-lieu/thao-duoc/tac-dung-khong-ngo-cua-cay-tam-bop/",
+          "https://ctujsvn.ctu.edu.vn/index.php/ctujsvn/article/view/3429",
+          "https://bazaarvietnam.vn/tac-hai-cua-cay-tam-bop/"
+        ]
+      }
+    },
+    {
+      "category": "dried",
+      "name": "Lá lốt",
+      "price": 20000,
+      "weight": "100g",
+      "description": "Lá lốt già thu hái tự nhiên, sấy khô, dùng hãm hoặc sắc nước uống hỗ trợ sức khoẻ.",
+      "benefit": "Ấm bụng, hỗ trợ tiêu hoá, giảm đau nhức xương khớp.",
+      "research": {
+        "verified": true,
+        "notes": "Tên khoa học: Piper lolot L. (một số nguồn khoa học/dược điển quốc tế dùng Piper sarmentosum — có sự không thống nhất tên giữa các nguồn, cần lưu ý). Còn gọi là Tất bát. Họ Hồ tiêu (Piperaceae). Đặc điểm thực vật: cây thân thảo sống dai, lá đơn hình tim, mặt lá bóng, 5-7 gân lá nổi rõ, mùi thơm đặc trưng. Công dụng ẩm thực: lá dùng làm rau gia vị phổ biến (cuốn thịt bò, chả lá lốt...). Công dụng dược liệu (Đông y): vị cay, tính ấm, có tác dụng trừ lạnh, làm ấm bụng, giảm đau; dùng chữa đau nhức xương khớp (đặc biệt khi trời lạnh), đau bụng, đầy hơi, khó tiêu, tiêu chảy, nôn mửa, đau răng, đau đầu, chảy nước mũi hôi, ra nhiều mồ hôi tay chân. Thành phần: tinh dầu trong lá và thân chứa beta-caryophylen, benzyl axetat — có đặc tính chống viêm, giảm đau (ghi nhận qua thành phần hóa học, chưa phải bằng chứng lâm sàng người mạnh). Mức bằng chứng: chủ yếu là kinh nghiệm dân gian/y học cổ truyền lâu đời, được nhiều nguồn dược liệu ghi nhận thống nhất; có cơ sở hóa thực vật hỗ trợ (tinh dầu chống viêm) nhưng thiếu nghiên cứu lâm sàng đối chứng quy mô lớn trên người qua tìm kiếm này. CẢNH BÁO: vì tính ấm/cay nên dùng quá liều (>100g/ngày) hoặc dùng cho người có nội nhiệt (khô miệng, lưỡi đỏ, khát nước, táo bón, sốt cao) có thể gây 'nóng trong người' dẫn đến nhiệt miệng, mụn nhọt, khát nước, táo bón; người đau dạ dày/viêm loét dạ dày (thể nhiệt) dùng nhiều có thể tăng đau do tính cay nóng kích ứng niêm mạc; liều khuyến cáo thông thường 50-100g/ngày (lá tươi); phụ nữ mang thai và người có bệnh mạn tính nên hỏi ý kiến bác sĩ trước khi dùng. Mô tả hiện có (ấm bụng, hỗ trợ tiêu hoá, giảm đau nhức xương khớp) phù hợp với y học cổ truyền, nên bổ sung khuyến cáo về liều dùng và người không nên dùng (thể nhiệt).",
+        "sources": [
+          "https://tracuuduoclieu.vn/piper-lolot-l.html",
+          "https://trungtamthuoc.com/duoc-lieu/la-lot",
+          "https://www.vinmec.com/vie/bai-viet/cong-dung-cua-cay-la-lot-vi",
+          "https://vietnamnet.vn/ai-khong-nen-uong-nuoc-la-lot-5-cach-su-dung-la-lot-tot-cho-suc-khoe-2422362.html",
+          "https://mplant.ump.edu.vn/index.php/la-lot-piper-sarmentosum-piperaceae/"
+        ]
+      }
+    }
   ]
 }
