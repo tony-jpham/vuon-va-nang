@@ -354,13 +354,25 @@
     opacity:0.7;
   }
   .specimen-body{padding:20px 20px 22px;flex:1;display:flex;flex-direction:column;}
+  .specimen-taglist{
+    display:flex;align-items:center;flex-wrap:wrap;gap:8px;
+    margin-bottom:10px;
+  }
   .specimen-tag{
     font-family:var(--mono);
     font-size:0.68rem;
     letter-spacing:0.05em;
     color:var(--rust);
     text-transform:uppercase;
-    margin-bottom:10px;
+  }
+  .specimen-subtag{
+    font-family:var(--mono);
+    font-size:0.66rem;
+    letter-spacing:0.03em;
+    padding:2px 9px;
+    border-radius:999px;
+    background:var(--kraft);
+    color:var(--green-deep);
   }
   .specimen h3{
     font-family:var(--display);
@@ -797,14 +809,14 @@
         var photo = p.image
           ? '<img src="' + escapeHtml(p.image) + '" alt="' + escapeHtml(p.name) + '" loading="lazy">'
           : '<div class="frame-mark"></div>';
-        var tag = p.tag || cat.label;
+        var subtag = p.tag && p.tag !== cat.label ? '<span class="specimen-subtag">' + escapeHtml(p.tag) + '</span>' : '';
         var desc = p.description ? '<p>' + escapeHtml(p.description) + '</p>' : '';
         var benefit = p.benefit ? '<p class="specimen-benefit">' + escapeHtml(p.benefit) + '</p>' : '';
         return (
           '<div class="specimen" data-cat="' + escapeHtml(p.category) + '" data-name="' + escapeHtml(normalizeSearchText(p.name)) + '">' +
           '<div class="specimen-photo' + (p.image ? '' : ' no-image') + '">' + photo + '</div>' +
           '<div class="specimen-body">' +
-          '<div class="specimen-tag">' + escapeHtml(tag) + '</div>' +
+          '<div class="specimen-taglist"><span class="specimen-tag">' + escapeHtml(cat.label) + '</span>' + subtag + '</div>' +
           '<h3>' + escapeHtml(p.name) + '</h3>' +
           desc + benefit +
           '<div class="specimen-meta"><span>' + escapeHtml(unit) + '</span><span class="amount">' + formatPrice(p.price) + '</span></div>' +
