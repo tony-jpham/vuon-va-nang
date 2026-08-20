@@ -5,13 +5,22 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Vườn &amp; Nắng — Cây giống &amp; Dược liệu sấy khô</title>
 <meta name="description" content="Cây giống chọn lọc và dược liệu sấy khô tự nhiên, vì sức khoẻ của bạn và gia đình, ươm trồng và chế biến thủ công tại vườn nhà.">
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-J0TFQ8QC6C"></script>
+<!-- Google tag (gtag.js): chỉ tải trên website production. -->
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-J0TFQ8QC6C');
+  if (
+    location.hostname === 'tony-jpham.github.io' &&
+    location.pathname.startsWith('/vuon-va-nang/')
+  ) {
+    var gaScript = document.createElement('script');
+    gaScript.async = true;
+    gaScript.src = 'https://www.googletagmanager.com/gtag/js?id=G-J0TFQ8QC6C';
+    document.head.appendChild(gaScript);
+
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-J0TFQ8QC6C');
+  }
 </script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
