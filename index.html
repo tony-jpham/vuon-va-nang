@@ -17,9 +17,9 @@
     document.head.appendChild(gaScript);
 
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-J0TFQ8QC6C');
+    window.gtag = function(){window.dataLayer.push(arguments);};
+    window.gtag('js', new Date());
+    window.gtag('config', 'G-J0TFQ8QC6C');
   }
 </script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -765,7 +765,7 @@
         var cat = cats[p.category] || { label: p.category, unit: '' };
         var unit = unitLabels[cat.unit] || cat.unit || '';
         var photo = p.image
-          ? '<img src="' + escapeHtml(p.image) + '" alt="' + escapeHtml(p.name) + '" loading="lazy" data-lightbox="' + escapeHtml(p.image) + '">'
+          ? '<img src="' + escapeHtml(p.image) + '" alt="' + escapeHtml(p.name) + '" loading="lazy" data-lightbox="' + escapeHtml(p.image) + '" data-product-id="' + escapeHtml(p.id) + '" data-product-name="' + escapeHtml(p.name) + '" data-product-category="' + escapeHtml(cat.label) + '" data-product-price="' + escapeHtml(p.price) + '">'
           : '<div class="frame-mark"></div>';
         var tag = p.tag || cat.label;
         var desc = p.description ? '<p>' + escapeHtml(p.description) + '</p>' : '';
@@ -806,6 +806,15 @@
         var img = e.target.closest('[data-lightbox]');
         if (!img) return;
         openLightbox(img.dataset.lightbox, img.alt);
+        if (typeof window.gtag === 'function') {
+          window.gtag('event', 'view_product_image', {
+            product_id: img.dataset.productId,
+            product_name: img.dataset.productName,
+            product_category: img.dataset.productCategory,
+            product_price: Number(img.dataset.productPrice),
+            currency: 'VND'
+          });
+        }
       });
 
       lightboxClose.addEventListener('click', closeLightbox);
