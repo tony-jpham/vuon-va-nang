@@ -310,40 +310,7 @@
     display:flex;align-items:center;justify-content:center;
   }
   .specimen-photo svg{width:46%;height:46%;opacity:0.85;}
-  .specimen-photo img{width:100%;height:384px;object-fit:cover;cursor:zoom-in;}
-  .lightbox{
-    display:none;
-    position:fixed;inset:0;z-index:200;
-    background:rgba(20,17,12,0.92);
-    flex-direction:column;
-    align-items:center;justify-content:center;
-    gap:20px;
-    padding:32px;
-  }
-  .lightbox.open{display:flex;}
-  .lightbox img{
-    max-width:100%;
-    max-height:calc(100% - 76px);
-    object-fit:contain;
-    border-radius:4px;
-    box-shadow:0 20px 60px rgba(0,0,0,0.4);
-  }
-  .lightbox-close{
-    flex-shrink:0;
-    width:52px;height:52px;
-    border-radius:50%;
-    border:1px solid rgba(246,239,221,0.35);
-    background:rgba(246,239,221,0.08);
-    color:var(--paper);
-    font-size:1.5rem;line-height:1;
-    display:flex;align-items:center;justify-content:center;
-    cursor:pointer;
-  }
-  .lightbox-close:hover{background:rgba(246,239,221,0.18);}
-  @media (max-width:600px){
-    .lightbox{padding:16px;gap:16px;}
-    .lightbox img{max-height:calc(100% - 76px);}
-  }
+  .specimen-photo img{width:100%;height:384px;object-fit:cover;}
   .specimen-photo .frame-mark{
     position:absolute;top:10px;left:10px;right:10px;bottom:10px;
     border:1px dashed rgba(246,239,221,0.45);
@@ -398,6 +365,16 @@
     font-weight:700;font-size:0.98rem;
     color:var(--rust-dim);
   }
+  .specimen-detail{
+    display:inline-flex;align-items:center;justify-content:center;
+    margin-top:16px;padding:10px 14px;
+    border:1px solid var(--green-deep);
+    color:var(--green-deep);
+    font-family:var(--mono);font-size:0.74rem;
+    letter-spacing:0.04em;text-transform:uppercase;text-decoration:none;
+    transition:background 0.15s ease,color 0.15s ease;
+  }
+  .specimen-detail:hover{background:var(--green-deep);color:var(--paper);}
 
   /* ---------- PRICING TABLE ---------- */
   .price-section{background:var(--kraft);}
@@ -691,11 +668,6 @@
   </div>
 </section>
 
-<div class="lightbox" id="lightbox">
-  <img id="lightbox-img" src="" alt="">
-  <button type="button" class="lightbox-close" id="lightbox-close" aria-label="Đóng">✕</button>
-</div>
-
 <section class="price-section" id="bang-gia">
   <div class="wrap">
     <details class="price-details">
@@ -765,7 +737,7 @@
         var cat = cats[p.category] || { label: p.category, unit: '' };
         var unit = unitLabels[cat.unit] || cat.unit || '';
         var photo = p.image
-          ? '<img src="' + escapeHtml(p.image) + '" alt="' + escapeHtml(p.name) + '" loading="lazy" data-lightbox="' + escapeHtml(p.image) + '" data-product-id="' + escapeHtml(p.id) + '" data-product-name="' + escapeHtml(p.name) + '" data-product-category="' + escapeHtml(cat.label) + '" data-product-price="' + escapeHtml(p.price) + '">'
+          ? '<img src="' + escapeHtml(p.image) + '" alt="' + escapeHtml(p.name) + '" loading="lazy">'
           : '<div class="frame-mark"></div>';
         var tag = p.tag || cat.label;
         var desc = p.description ? '<p>' + escapeHtml(p.description) + '</p>' : '';
@@ -778,52 +750,13 @@
           '<h3>' + escapeHtml(p.name) + '</h3>' +
           desc + benefit +
           '<div class="specimen-meta"><span>' + escapeHtml(unit) + '</span><span class="amount">' + formatPrice(p.price) + '</span></div>' +
+          '<a class="specimen-detail" href="san-pham.html?id=' + encodeURIComponent(p.id) + '">Xem chi tiết <span aria-hidden="true">→</span></a>' +
           '</div>' +
           '</div>'
         );
       }
 
       grid.innerHTML = products.map(cardHtml).join('') || '<p class="product-loading">Chưa có sản phẩm.</p>';
-
-      var lightbox = document.getElementById('lightbox');
-      var lightboxImg = document.getElementById('lightbox-img');
-      var lightboxClose = document.getElementById('lightbox-close');
-
-      function openLightbox(src, alt) {
-        lightboxImg.src = src;
-        lightboxImg.alt = alt || '';
-        lightbox.classList.add('open');
-        document.body.style.overflow = 'hidden';
-      }
-
-      function closeLightbox() {
-        lightbox.classList.remove('open');
-        lightboxImg.src = '';
-        document.body.style.overflow = '';
-      }
-
-      grid.addEventListener('click', function (e) {
-        var img = e.target.closest('[data-lightbox]');
-        if (!img) return;
-        openLightbox(img.dataset.lightbox, img.alt);
-        if (typeof window.gtag === 'function') {
-          window.gtag('event', 'view_product_image', {
-            product_id: img.dataset.productId,
-            product_name: img.dataset.productName,
-            product_category: img.dataset.productCategory,
-            product_price: Number(img.dataset.productPrice),
-            currency: 'VND'
-          });
-        }
-      });
-
-      lightboxClose.addEventListener('click', closeLightbox);
-      lightbox.addEventListener('click', function (e) {
-        if (e.target === lightbox) closeLightbox();
-      });
-      document.addEventListener('keydown', function (e) {
-        if (e.key === 'Escape' && lightbox.classList.contains('open')) closeLightbox();
-      });
 
       filterBar.addEventListener('click', function (e) {
         var btn = e.target.closest('.filter-pill');
