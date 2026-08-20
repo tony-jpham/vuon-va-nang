@@ -30,6 +30,7 @@
     {
       "category": "plant",
       "name": "Chiều hồng",
+      "id": "plant-chieu-hong",
       "price": 15000,
       "image": "images/chieu-hong.webp",
       "description": "Thân bụi thấp, lá thon dài xanh đậm, hoa hình chuông màu hồng phấn nở liên tục, ưa nắng và dễ trồng ngoài trời.",
@@ -47,6 +48,7 @@
     {
       "category": "plant",
       "name": "Chiều tím",
+      "id": "plant-chieu-tim",
       "price": 15000,
       "image": "images/chieu-tim.webp",
       "description": "Thân bụi cao đến 1m, lá thon dài, hoa hình chuông tím nhạt nở quanh năm, chịu hạn tốt, hợp trồng viền lối đi.",
@@ -63,6 +65,7 @@
     {
       "category": "plant",
       "name": "Phát tài lá đỏ nhỏ",
+      "id": "plant-phat-tai-la-do-nho",
       "price": 15000,
       "image": "images/phat-tai-la-do-nho.webp",
       "tag": "Cây phong thuỷ",
@@ -82,6 +85,7 @@
     {
       "category": "plant",
       "name": "Phát tài lá đỏ (kèm bình)",
+      "id": "plant-phat-tai-la-do-vua",
       "price": 25000,
       "image": "images/phat-tai-la-do-vua.webp",
       "tag": "Cây phong thuỷ",
@@ -99,6 +103,7 @@
     {
       "category": "plant",
       "name": "Phát tài lá đỏ (kèm bình)",
+      "id": "plant-phat-tai-la-do-lon",
       "price": 30000,
       "image": "images/phat-tai-la-do-lon.webp",
       "tag": "Cây phong thuỷ",
@@ -115,6 +120,7 @@
     {
       "category": "plant",
       "name": "Vàng anh nhỏ",
+      "id": "plant-vang-anh-nho",
       "price": 15000,
       "image": "images/vang-anh-nho.webp",
       "tag": "Cây phong thuỷ",
@@ -134,6 +140,7 @@
     {
       "category": "plant",
       "name": "Vàng anh (kèm bình)",
+      "id": "plant-vang-anh-lon",
       "price": 30000,
       "image": "images/vang-anh-lon.webp",
       "tag": "Cây phong thuỷ",
@@ -151,6 +158,7 @@
     {
       "category": "plant",
       "name": "Cỏ nhện/Lan chi",
+      "id": "plant-lan-chi",
       "price": 15000,
       "image": "images/lan-chi.webp",
       "tag": "Cây nội thất",
@@ -168,6 +176,7 @@
     {
       "category": "plant",
       "name": "Ráy voi",
+      "id": "plant-ray-voi",
       "price": 15000,
       "image": "images/ray-voi.webp",
       "tag": "Cây lá lớn",
@@ -185,6 +194,7 @@
     {
       "category": "plant",
       "name": "Hoàng yến",
+      "id": "plant-hoang-yen",
       "price": 10000,
       "image": "images/hoang-yen.webp",
       "description": "Hoa vàng tươi hình chuông, nở rộ thành chùm rủ vào mùa xuân, cây ưa nắng, thường trồng chậu hoặc tạo bụi trang trí sân vườn.",
@@ -201,6 +211,7 @@
     {
       "category": "plant",
       "name": "Phú quí",
+      "id": "plant-phu-qui",
       "price": 15000,
       "image": "images/phu-qui.webp",
       "tag": "Cây phong thuỷ",
@@ -218,6 +229,7 @@
     {
       "category": "plant",
       "name": "Vạn niên thanh nhỏ",
+      "id": "plant-van-nien-thanh-nho",
       "price": 10000,
       "image": "images/van-nien-thanh-nho.webp",
       "description": "Lá loang màu xanh trắng hoặc xanh đốm, phiến lá hình bầu dục, dễ sống trong nhà, tượng trưng cho tài lộc và thịnh vượng.",
@@ -235,6 +247,7 @@
     {
       "category": "plant",
       "name": "Vạn niên thanh lớn",
+      "id": "plant-van-nien-thanh-lon",
       "price": 25000,
       "image": "images/van-nien-thanh-lon.webp",
       "description": "Lá loang màu xanh trắng hoặc xanh đốm, phiến lá hình bầu dục, dễ sống trong nhà, tượng trưng cho tài lộc và thịnh vượng.",
@@ -252,6 +265,7 @@
     {
       "category": "plant",
       "name": "Lưỡi hổ",
+      "id": "plant-luoi-ho",
       "price": 15000,
       "image": "images/luoi-ho.webp",
       "tag": "Cây phong thuỷ",
@@ -270,6 +284,7 @@
     {
       "category": "plant",
       "name": "Phát tài búp sen",
+      "id": "plant-phat-tai-bup-sen",
       "price": 15000,
       "image": "images/phat-tai-bup-sen.webp",
       "description": "Lá mọc xếp lớp quanh thân tạo hình búp sen, thân thẳng nhiều đốt, rễ chùm trắng khỏe, tượng trưng may mắn và tài lộc.",
@@ -286,6 +301,7 @@
     {
       "category": "plant",
       "name": "Lưỡi mèo thái xanh",
+      "id": "plant-luoi-meo-thai-xanh",
       "price": 15000,
       "image": "images/luoi-meo-thai-xanh.webp",
       "description": "Lá dày hình kiếm ngắn, xếp cuộn xoáy sát gốc tạo hoa thị, có vằn ngang bóng, cây nhỏ gọn, bền, ít cần chăm sóc.",
@@ -302,6 +318,7 @@
     {
       "category": "plant",
       "name": "Dương xỉ lá me",
+      "id": "plant-duong-xi-la-me",
       "price": 15000,
       "image": "images/duong-xi-la-me.webp",
       "description": "Lá kép nhỏ mảnh như lá me, mọc thành cụm rậm rạp xanh quanh năm, ưa bóng râm, có khả năng lọc không khí.",
@@ -318,6 +335,7 @@
     {
       "category": "plant",
       "name": "Lộc vừng",
+      "id": "plant-loc-vung",
       "price": 25000,
       "image": "images/loc-vung.webp",
       "description": "Hoa nhỏ đỏ mọc thành chùm rủ dài như dây pháo, nở vào đầu hè và cuối thu, tượng trưng cho tài lộc và may mắn.",
@@ -335,6 +353,7 @@
     {
       "category": "plant",
       "name": "Giữ tiền/lan tuyết",
+      "id": "plant-giu-tien",
       "price": 25000,
       "image": "images/giu-tien.webp",
       "description": "Lá thuôn dài xanh đậm với gân và mảng trắng như tuyết phủ, thân mảnh mềm mại, được cho là giúp giữ của cải cho gia chủ.",
@@ -351,6 +370,7 @@
     {
       "category": "plant",
       "name": "Dương xỉ tóc tiên",
+      "id": "plant-duong-xi-toc-tien",
       "price": 15000,
       "image": "images/duong-xi-toc-tien.webp",
       "description": "Lá nhỏ mảnh mai hình quạt, buông rủ mềm mại như tóc, ưa bóng râm và ẩm, tạo nét thanh nhã dịu mắt cho không gian sống.",
@@ -368,6 +388,7 @@
     {
       "category": "plant",
       "name": "Dứa vạn phát",
+      "id": "plant-dua-van-phat",
       "price": 15000,
       "image": "images/dua-van-phat.webp",
       "description": "Lá dài hẹp xanh sọc vàng ở giữa, mọc thành bụi gọn dạng dứa cảnh, ưa nắng, được xem là biểu tượng cho may mắn và tài lộc.",
@@ -384,6 +405,7 @@
     {
       "category": "plant",
       "name": "Hoa hạnh phúc",
+      "id": "plant-hoa-hanh-phuc",
       "price": 15000,
       "image": "images/hoa-hanh-phuc.webp",
       "tag": "Cây cảnh",
@@ -402,6 +424,7 @@
     {
       "category": "plant",
       "name": "Ngọc ngân",
+      "id": "plant-ngoc-ngan",
       "price": 25000,
       "image": "images/ngoc-ngan.webp",
       "description": "Lá bầu dục xanh đậm điểm vân trắng bạc nổi bật, mọc bụi gọn, tượng trưng cho sự thịnh vượng và may mắn tài lộc.",
@@ -418,6 +441,7 @@
     {
       "category": "plant",
       "name": "Da quy",
+      "id": "plant-da-quy",
       "price": 25000,
       "image": "images/da-quy.webp",
       "description": "Lá bầu dục bóng, mép lá thường pha sắc đỏ hoặc xanh thẫm, cây bụi nhỏ dùng viền bồn hoa, trang trí sân vườn và nội thất.",
@@ -434,6 +458,7 @@
     {
       "category": "plant",
       "name": "Đại phú gia",
+      "id": "plant-dai-phu-gia",
       "price": 40000,
       "image": "images/dai-phu-gia.webp",
       "description": "Lá to bản xanh đốm trắng bắt mắt, dáng bụi sum suê, thanh lọc không khí tốt nhưng nhựa cây có thể gây kích ứng da, cần tránh trẻ nhỏ.",
@@ -453,6 +478,7 @@
     {
       "category": "plant",
       "name": "Sương sáo",
+      "id": "plant-suong-sao",
       "price": 10000,
       "image": "images/suong-sao.webp",
       "description": "Thân thảo mọc thẳng cao 40-60cm, lá và thân chứa chất tạo keo, nấu lên đông thành thạch đen dùng làm món giải khát mùa hè.",
@@ -472,6 +498,7 @@
     {
       "category": "plant",
       "name": "Mắt nai",
+      "id": "plant-mat-nai",
       "price": 15000,
       "image": "images/mat-nai.webp",
       "description": "Lá hình trái xoan màu tím đặc trưng, thân mềm mọng nước, cây bụi nhỏ dễ trồng, hoa trắng nhỏ mang ý nghĩa thịnh vượng bình yên.",
@@ -488,6 +515,7 @@
     {
       "category": "plant",
       "name": "Cà na",
+      "id": "plant-ca-na",
       "price": 15000,
       "image": "images/ca-na.webp",
       "description": "Quả hạch bầu dục nhỏ, xanh khi non chuyển vàng nhạt lúc chín, vị chua giòn đặc trưng, thường dùng ăn vặt và làm mứt ở miền Tây.",
@@ -505,6 +533,7 @@
     {
       "category": "plant",
       "name": "Bình tinh",
+      "id": "plant-binh-tinh",
       "price": 10000,
       "image": "images/binh-tinh.webp",
       "description": "Lá to hình bầu dục gân song song rõ nét, củ trắng ngà bọc vảy mỏng, chứa nhiều tinh bột dùng làm bột bình tinh truyền thống.",
@@ -522,6 +551,7 @@
     {
       "category": "plant",
       "name": "Đậu biếc",
+      "id": "plant-dau-biec",
       "price": 15000,
       "image": "images/dau-biec.webp",
       "description": "Dây leo hoa xanh tím đặc trưng, dùng nấu nước hoặc nhuộm màu thực phẩm tự nhiên, còn là dược liệu dân gian hỗ trợ an thần, chống oxy hóa.",
@@ -541,6 +571,7 @@
     {
       "category": "plant",
       "name": "Xá xị",
+      "id": "plant-xa-xi",
       "price": 10000,
       "image": "images/xa-xi.webp",
       "description": "Còn gọi rau quế vị/quế đất, lá mọc đối hình bầu dục thuôn dài, thân thảo mọc thẳng, có mùi thơm đặc trưng như xá xị, thường dùng ăn kèm gỏi cuốn, lẩu.",
@@ -557,6 +588,7 @@
     {
       "category": "plant",
       "name": "So đũa hoa trắng",
+      "id": "plant-so-dua-hoa-trang",
       "price": 15000,
       "image": "images/so-dua-hoa-trang.webp",
       "description": "Cây thân gỗ nhỏ, lá kép lông chim, hoa trắng lớn mọc chùm, là đặc sản miền Tây dùng nấu canh chua hoặc xào, đồng thời là vị thuốc dân gian.",
@@ -574,6 +606,7 @@
     {
       "category": "plant",
       "name": "Lá giang",
+      "id": "plant-la-giang",
       "price": 15000,
       "image": "images/la-giang.webp",
       "description": "Dây leo lá hình trứng vị chua thanh, nguyên liệu quen thuộc để nấu canh chua, đồng thời là dược liệu dân gian giúp tiêu thũng, chống viêm.",
@@ -592,6 +625,7 @@
     {
       "category": "plant",
       "name": "Cây mỏ két",
+      "id": "plant-cay-mo-ket",
       "price": 15000,
       "image": "images/cay-mo-ket.webp",
       "description": "Cây bụi nhỏ lá to giống lá chuối, hoa hình mỏ chim màu đỏ cam sặc sỡ, cây cảnh phong thủy được ưa chuộng vì tượng trưng tài lộc, may mắn.",
@@ -608,6 +642,7 @@
     {
       "category": "plant",
       "name": "Tùng nam mỹ (thì là kiểng)",
+      "id": "plant-tung-nam-my",
       "price": 15000,
       "image": "images/tung-nam-my.webp",
       "description": "Lá kim nhỏ xẻ mảnh như lá thì là, tán lá xanh mướt dạng bụi, dáng cây thanh mảnh, thường trồng chậu làm cây cảnh trang trí.",
@@ -625,6 +660,7 @@
     {
       "category": "plant",
       "name": "Thanh tú",
+      "id": "plant-thanh-tu",
       "price": 15000,
       "image": "images/thanh-tu.webp",
       "description": "Cây bụi nhỏ, lá thuôn dài mọc đối xanh đậm, thân cứng cáp phân nhánh nhiều, dễ trồng, thường dùng làm cây cảnh chậu hoặc trồng viền.",
@@ -642,6 +678,7 @@
     {
       "category": "plant",
       "name": "Xương khỉ",
+      "id": "plant-xuong-khi",
       "price": 15000,
       "image": "images/xuong-khi.webp",
       "description": "Cây bụi nhỏ, lá thuôn dài xanh đậm mọc đối, gân lá nổi rõ, dễ trồng và ưa bóng bán phần.",
@@ -661,6 +698,7 @@
     {
       "category": "plant",
       "name": "Lá cẩm",
+      "id": "plant-la-cam",
       "price": 10000,
       "image": "images/la-cam.webp",
       "description": "Cây bụi nhỏ, lá hình bầu dục xanh đậm, gân lá nổi rõ, dân gian hay dùng lá tạo màu tự nhiên cho món ăn (xôi, bánh).",
@@ -678,6 +716,7 @@
     {
       "category": "plant",
       "name": "Dr Thanh",
+      "id": "plant-dr-thanh",
       "price": 15000,
       "image": "images/dr-thanh.webp",
       "description": "Cây thân thảo nhỏ, lá bầu dục có gân màu tía nổi bật trên nền xanh xám, thường trồng chậu làm cây cảnh lá màu.",
@@ -695,6 +734,7 @@
     {
       "category": "plant",
       "name": "Mơ lông tím",
+      "id": "plant-mo-long-tim",
       "price": 15000,
       "image": "images/mo-long-tim.webp",
       "description": "Cây leo/bụi nhỏ, lá bầu dục có lông tơ mịn, mặt dưới lá thường ánh tím, dân gian hay dùng lá làm rau ăn kèm hoặc dược liệu.",
@@ -712,6 +752,7 @@
     {
       "category": "plant",
       "name": "Ngải cứu",
+      "id": "plant-ngai-cuu",
       "price": 15000,
       "image": "images/ngai-cuu.webp",
       "description": "Cây bụi nhỏ, lá xẻ thùy sâu như lông chim, mặt dưới lá có lông trắng mịn, mùi thơm hắc đặc trưng, dân gian dùng làm rau và dược liệu.",
@@ -730,6 +771,7 @@
     {
       "category": "herb",
       "name": "Rẻ quạt/Xạ can",
+      "id": "herb-re-quat",
       "price": 15000,
       "image": "images/re-quat.webp",
       "description": "Lá dạng kiếm xếp hình quạt, hoa vàng cam đốm tía, là dược liệu cổ truyền nổi tiếng chữa viêm họng, ho có đờm.",
@@ -748,6 +790,7 @@
     {
       "category": "herb",
       "name": "Nha đam",
+      "id": "herb-nha-dam",
       "price": 10000,
       "image": "images/nha-dam.webp",
       "description": "Lá dày mọng nước xếp hình hoa thị, mép có răng cưa, chứa gel trong dùng làm đẹp da và hỗ trợ tiêu hóa, làm lành vết thương.",
@@ -766,6 +809,7 @@
     {
       "category": "herb",
       "name": "Lá é",
+      "id": "herb-la-e",
       "price": 10000,
       "image": "images/la-e.webp",
       "description": "É trắng, lá thơm dạng húng quế, dùng ăn kèm món cuốn hoặc nấu canh, có tinh dầu kháng viêm hỗ trợ tiêu hóa trong y học dân gian.",
@@ -782,6 +826,7 @@
     {
       "category": "herb",
       "name": "Mã đề",
+      "id": "herb-ma-de",
       "price": 10000,
       "image": "images/ma-de.webp",
       "tag": "Dược liệu",
@@ -799,6 +844,7 @@
     {
       "category": "herb",
       "name": "Thù lù/Tầm bóp",
+      "id": "herb-thu-lu",
       "price": 10000,
       "image": "images/thu-lu.webp",
       "description": "Quả nhỏ bọc trong lớp đài mỏng hình lồng đèn, chín ngả vàng cam, vị chua ngọt nhẹ, ăn tươi trực tiếp hoặc làm mứt, dễ trồng trong vườn nhà.",
@@ -816,6 +862,7 @@
     {
       "category": "herb",
       "name": "Hương nhu",
+      "id": "herb-huong-nhu",
       "price": 10000,
       "image": "images/huong-nhu.webp",
       "description": "Cây nhỏ toàn thân có lông, mùi thơm đặc trưng chứa eugenol, là dược liệu dân gian quen thuộc để xông giải cảm, hạ sốt.",
@@ -834,6 +881,7 @@
     {
       "category": "herb",
       "name": "Đinh lăng",
+      "id": "herb-dinh-lang",
       "price": 15000,
       "image": "images/dinh-lang.webp",
       "description": "Lá kép xẻ nhỏ như lông chim, mùi thơm nhẹ khi vò, rễ được dùng làm thuốc bổ dân gian, ví như 'sâm của người nghèo'.",
@@ -852,6 +900,7 @@
     {
       "category": "herb",
       "name": "Đinh lăng lá tròn",
+      "id": "herb-dinh-lang-la-tron",
       "price": 15000,
       "image": "images/dinh-lang-la-tron.webp",
       "tag": "Dược liệu",
@@ -871,6 +920,7 @@
     {
       "category": "spice",
       "name": "Hương thảo",
+      "id": "spice-huong-thao",
       "price": 15000,
       "image": "images/huong-thao.webp",
       "description": "Lá nhỏ dài như kim, xanh đậm, thân gỗ nhỏ mùi thơm nồng đặc trưng, thường dùng làm gia vị và trang trí giúp thư giãn tinh thần.",
@@ -888,6 +938,7 @@
     {
       "category": "spice",
       "name": "Lá lốt",
+      "id": "spice-la-lot",
       "price": 10000,
       "image": "images/la-lot.webp",
       "description": "Lá hình tim xanh đậm bóng mượt, thân bò lan sát đất, thường dùng cuốn thịt bò nướng hoặc làm chả, kèm công dụng giảm đau kháng viêm.",
@@ -905,6 +956,7 @@
     {
       "category": "spice",
       "name": "Gừng",
+      "id": "spice-gung",
       "price": 10000,
       "image": "images/gung.webp",
       "description": "Thân rễ (củ) phân nhánh như bàn tay, vỏ vàng nâu vị cay nóng thơm nồng, là gia vị và vị thuốc dân gian trị lạnh bụng, cảm cúm.",
@@ -921,6 +973,7 @@
     {
       "category": "spice",
       "name": "Ngải bún",
+      "id": "spice-ngai-bun",
       "price": 10000,
       "image": "images/ngai-bun.webp",
       "description": "Củ vàng phân nhánh như ngón tay, hương thơm dịu nhẹ ít hăng hơn gừng, là gia vị đặc trưng ẩm thực miền Tây Nam Bộ.",
@@ -939,6 +992,7 @@
     {
       "category": "spice",
       "name": "Nghệ",
+      "id": "spice-nghe",
       "price": 10000,
       "image": "images/nghe.webp",
       "description": "Thân rễ hình trụ phân nhánh màu vàng tươi đậm, cùng họ với gừng, là gia vị và dược liệu quen thuộc giúp lành vết thương, hỗ trợ tiêu hóa.",
@@ -955,6 +1009,7 @@
     {
       "category": "spice",
       "name": "Lá dứa",
+      "id": "spice-la-dua-thom",
       "price": 10000,
       "image": "images/la-dua-thom.webp",
       "description": "Lá dài hẹp như lưỡi gươm, xanh đậm mọc xoắn từ gốc, tỏa hương thơm nếp đặc trưng dùng nấu chè, làm bánh và tạo màu xanh tự nhiên.",
@@ -972,6 +1027,7 @@
     {
       "category": "fruit",
       "name": "Chanh dây vàng hương ổi",
+      "id": "fruit-chanh-day-vang-huong-oi",
       "price": 15000,
       "image": "images/chanh-day-vang-huong-oi.webp",
       "description": "Dây leo hoa tím đẹp, quả vỏ vàng bóng khi chín, hương thơm đặc trưng như ổi chín, vị ngọt dịu hài hòa vị chua nhẹ.",
@@ -988,6 +1044,7 @@
     {
       "category": "other",
       "name": "Rau dền nhật",
+      "id": "other-rau-den-nhat",
       "price": 10000,
       "image": "images/rau-den-nhat.webp",
       "description": "Lá dày, giòn, màu xanh đậm hoặc pha tím đỏ bắt mắt, sinh trưởng nhanh, là rau ăn lá bổ dưỡng phổ biến trong bữa cơm gia đình Việt.",
@@ -1004,6 +1061,7 @@
     {
       "category": "other",
       "name": "Cỏ lạc",
+      "id": "other-co-lac",
       "price": 10000,
       "image": "images/co-lac.webp",
       "description": "Thân bò sát đất tạo thảm dày, lá hình bầu dục phủ lông tơ mịn, hoa vàng nhỏ xinh, dùng phủ đất chống xói mòn và cải tạo đất giàu đạm.",
@@ -1020,6 +1078,7 @@
     {
       "category": "dried",
       "name": "Lá sen",
+      "id": "dried-la-sen",
       "price": 20000,
       "weight": "100g",
       "description": "Thu hái từ đầm sen tự nhiên, thái nhỏ và sấy khô giữ nguyên dược tính, dùng hãm trà thanh nhiệt.",
@@ -1037,6 +1096,7 @@
     {
       "category": "dried",
       "name": "Lá ổi",
+      "id": "dried-la-oi",
       "price": 20000,
       "weight": "100g",
       "description": "Lá ổi già thu hái tự nhiên, sấy khô giữ dược tính, dùng nấu nước uống hằng ngày.",
@@ -1054,6 +1114,7 @@
     {
       "category": "dried",
       "name": "Lá sa kê",
+      "id": "dried-la-sa-ke",
       "price": 20000,
       "weight": "100g",
       "description": "Lá sa kê già vàng tự nhiên, phơi & sấy đúng độ, dùng nấu nước uống hỗ trợ sức khoẻ.",
@@ -1072,6 +1133,7 @@
     {
       "category": "dried",
       "name": "Lá đu đủ",
+      "id": "dried-la-du-du",
       "price": 20000,
       "weight": "100g",
       "description": "Lá đu đủ già phơi sấy khô tự nhiên, dùng nấu nước uống theo kinh nghiệm dân gian.",
@@ -1091,6 +1153,7 @@
     {
       "category": "dried",
       "name": "Lá vối",
+      "id": "dried-la-voi",
       "price": 20000,
       "weight": "100g",
       "description": "Lá vối bánh tẻ thu hái tự nhiên, sấy khô đúng độ, dùng hãm nước uống hằng ngày.",
@@ -1110,6 +1173,7 @@
     {
       "category": "dried",
       "name": "Lá vong nem",
+      "id": "dried-la-vong-nem",
       "price": 20000,
       "weight": "100g",
       "description": "Lá vông nem thu hái tự nhiên, sấy khô nguyên lá, dùng nấu nước hoặc hãm trà buổi tối.",
@@ -1129,6 +1193,7 @@
     {
       "category": "dried",
       "name": "Chùm bao",
+      "id": "dried-chum-bao",
       "price": 20000,
       "weight": "100g",
       "description": "Dây và lá chùm bao (lạc tiên) thu hái tự nhiên, sấy khô, dùng hãm trà hoặc sắc uống trước khi ngủ.",
@@ -1147,6 +1212,7 @@
     {
       "category": "dried",
       "name": "Trinh nữ (mắc cỡ)",
+      "id": "dried-trinh-nu-mac-co",
       "price": 20000,
       "weight": "100g",
       "description": "Trinh nữ (mắc cỡ) thu hái tự nhiên, sấy khô cành lá hoặc rễ, dùng sắc nước uống.",
@@ -1166,6 +1232,7 @@
     {
       "category": "dried",
       "name": "Lá dứa thơm",
+      "id": "dried-la-dua-thom",
       "price": 20000,
       "weight": "100g",
       "description": "Lá dứa thái sợi, sấy khô giữ trọn hương thơm tự nhiên, dùng nấu nước uống hoặc hãm trà.",
@@ -1184,6 +1251,7 @@
     {
       "category": "dried",
       "name": "Chùm ngây",
+      "id": "dried-chum-ngay",
       "price": 20000,
       "weight": "100g",
       "description": "Lá chùm ngây non thu hái tự nhiên, sấy khô giữ dưỡng chất, dùng hãm trà hoặc nấu nước uống.",
@@ -1203,6 +1271,7 @@
     {
       "category": "dried",
       "name": "Cỏ mần trầu",
+      "id": "dried-co-man-trau",
       "price": 20000,
       "weight": "100g",
       "description": "Cỏ mần trầu thu hái tự nhiên, sấy khô nguyên cây, dùng nấu nước uống thanh nhiệt.",
@@ -1221,6 +1290,7 @@
     {
       "category": "dried",
       "name": "Lá mơ lông tím",
+      "id": "dried-la-mo-long-tim",
       "price": 20000,
       "weight": "100g",
       "description": "Lá mơ lông tím thu hái tự nhiên, sấy khô giữ mùi đặc trưng, dùng nấu nước uống hỗ trợ tiêu hoá.",
@@ -1239,6 +1309,7 @@
     {
       "category": "dried",
       "name": "Thù lù",
+      "id": "dried-thu-lu",
       "price": 20000,
       "weight": "100g",
       "description": "Thù lù (tầm bóp) thu hái tự nhiên, sấy khô nguyên trái, dùng nấu nước uống thanh nhiệt, giải độc.",
@@ -1258,6 +1329,7 @@
     {
       "category": "dried",
       "name": "Lá lốt",
+      "id": "dried-la-lot",
       "price": 20000,
       "weight": "100g",
       "description": "Lá lốt già thu hái tự nhiên, sấy khô, dùng hãm hoặc sắc nước uống hỗ trợ sức khoẻ.",
