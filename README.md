@@ -23,7 +23,7 @@ Mọi thay đổi commit lên branch `main` sẽ tự động deploy lại sau v
 
 1. **Header** — logo + nav ngang trên desktop; trên mobile (≤720px) thu gọn thành **nút hamburger** góc phải, bấm mở dropdown menu (Sản phẩm / Bảng giá / Câu chuyện / Liên hệ), tự đóng khi chọn một mục.
 2. **Hero** — tiêu đề + mô tả (có nhấn yếu tố sức khoẻ) + 2 nút CTA (Xem sản phẩm / Đặt hàng).
-3. **Sản phẩm** — toàn bộ 65 sản phẩm từ `products.json` render dạng lưới thẻ "tiêu bản thực vật", có **bộ lọc theo loại** (nút pill), mỗi nút hiển thị kèm số lượng sản phẩm trong nhóm đó (ví dụ "Cây cảnh (34)"), nút "Tất cả" hiển thị tổng số. 55/65 sản phẩm đã có ảnh thật.
+3. **Sản phẩm** — toàn bộ 72 sản phẩm từ `products.json` render dạng lưới thẻ "tiêu bản thực vật", có **bộ lọc theo loại** (nút pill), mỗi nút hiển thị kèm số lượng sản phẩm trong nhóm đó (ví dụ "Cây cảnh (34)"), nút "Tất cả" hiển thị tổng số. 58/72 sản phẩm đã có ảnh thật.
 4. **Bảng giá nhanh** — bảng **2 cột** (Tên sản phẩm / Giá tiền, đã bỏ cột Loại và Đơn vị tính), render động từ `products.json` bằng JavaScript (`fetch`). Sản phẩm được **gom nhóm theo loại**, mỗi nhóm có 1 dòng tiêu đề riêng (nền đậm hơn, có chấm màu theo category) chèn trước danh sách sản phẩm cùng loại, thay vì lặp lại tên loại ở từng dòng.
 5. **Câu chuyện** — giới thiệu thương hiệu (khu vườn tại Đức Huệ) + số liệu (40+ loại cây, 100% organic, 0% hoá chất/chất bảo quản) + lời mời ghé thăm vườn.
 6. **Liên hệ** — số điện thoại/Zalo và địa chỉ vườn (link Google Maps + bản đồ nhúng).
@@ -31,7 +31,8 @@ Mọi thay đổi commit lên branch `main` sẽ tự động deploy lại sau v
 
 ## Việc cần làm tiếp (chưa hoàn thiện)
 
-- [ ] Bổ sung ảnh thật cho 10 sản phẩm còn thiếu trong `products.json` (55/65 đã có ảnh).
+- [ ] Bổ sung ảnh thật cho 14 sản phẩm còn thiếu trong `products.json` (58/72 đã có ảnh) — toàn bộ đều thuộc nhóm dược liệu sấy khô (`dried`).
+- [ ] Xác minh tên khoa học/công dụng cho 7 sản phẩm mới thêm (Tùng nam mỹ, Thanh tú, Xương khỉ, Lá cẩm, Dr Thanh, Mơ lông tím, Ngải cứu) — hiện đánh dấu `verified: false` trong `products.json`, cần tra cứu nguồn trước khi công bố thông tin dược liệu/công dụng.
 - [ ] Cân nhắc thêm cột "Còn hàng/Hết hàng" hoặc nút "Đặt ngay" trong bảng giá.
 - [ ] Cân nhắc thêm form liên hệ trực tiếp trên trang (hiện chỉ có số điện thoại/Zalo).
 

@@ -606,6 +606,128 @@
       }
     },
     {
+      "category": "plant",
+      "name": "Tùng nam mỹ (thì là kiểng)",
+      "price": 15000,
+      "image": "images/tung-nam-my.webp",
+      "description": "Lá kim nhỏ xẻ mảnh như lá thì là, tán lá xanh mướt dạng bụi, dáng cây thanh mảnh, thường trồng chậu làm cây cảnh trang trí.",
+      "research": {
+        "verified": true,
+        "notes": "Tên khoa học: Artemisia scoparia (Waldst. & Kit.), thuộc họ Cúc (Asteraceae) — thường gọi ở Việt Nam là Tùng Nam Mỹ, Thì Là Thân Gỗ, Ngải Chổi, Thì Là Mỹ. Lưu ý: một số trang bán cây tại Việt Nam ghi nhầm là thuộc 'họ Măng Tây', nhưng theo phân loại thực vật học chuẩn (Wikipedia, tài liệu dược liệu Trung Quốc), loài này thuộc chi Ngải (Artemisia) trong họ Cúc, cùng họ với ngải cứu. Nguồn gốc: cây bản địa vùng Á-Âu, phân bố rộng từ Pháp đến Nhật Bản, là loài mới du nhập vào Việt Nam gần đây để làm cây cảnh. Đặc điểm thực vật: cây thân thảo/hơi hóa gỗ, cao khoảng 45cm-1,5m, thân phân nhiều nhánh, gốc thân hơi ngả tím; lá màu xanh non khi non chuyển vàng khi già, xẻ thùy nhỏ mảnh nhiều lần giống lá thì là, không lông; hoa nhỏ màu trắng vàng mọc thành chùm ở đầu cành. Công dụng: ở Việt Nam chủ yếu trồng làm cây cảnh trang trí (sân vườn, lối đi, chậu cảnh, cắt tỉa tạo dáng); một số trang thương mại VN ghi lá có thể dùng làm rau gia vị nhưng chưa được nguồn khoa học độc lập xác nhận. Đáng chú ý, trong y học cổ truyền Trung Quốc, loài này (gọi là nhân trần/nhân trần cao) được dùng hỗ trợ chức năng gan mật và lợi tiểu — công dụng dược liệu này không được các trang bán cây cảnh ở Việt Nam đề cập. Chăm sóc: ưa sáng, chịu bán râm, tưới vừa phải, đất tơi xốp thoát nước tốt, nhiệt độ thích hợp 20-30°C, chịu lạnh kém. CẢNH BÁO: phấn hoa có thể gây viêm mũi dị ứng ở người nhạy cảm, cây chứa sesquiterpene lactone có khả năng gây dị ứng da khi tiếp xúc.",
+        "sources": [
+          "https://vuonbachthao.vn/cay-thi-la-than-go-tung-nam-my",
+          "https://greenfield.com.vn/vi/p/tung-nam-my.126",
+          "https://en.wikipedia.org/wiki/Artemisia_scoparia",
+          "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6918244/"
+        ]
+      }
+    },
+    {
+      "category": "plant",
+      "name": "Thanh tú",
+      "price": 15000,
+      "image": "images/thanh-tu.webp",
+      "description": "Cây bụi nhỏ, lá thuôn dài mọc đối xanh đậm, thân cứng cáp phân nhánh nhiều, dễ trồng, thường dùng làm cây cảnh chậu hoặc trồng viền.",
+      "research": {
+        "verified": false,
+        "notes": "Không xác minh được khớp hoàn toàn với mô tả hình thái. Trên thị trường cây cảnh Việt Nam, tên thương mại 'Thanh tú' (hay 'Hoa thanh tú', 'Blue Daze') hầu như chỉ ứng với một loài được ghi nhận thống nhất trên Wikipedia tiếng Việt và các nguồn bán cây: Evolvulus glomeratus, thuộc họ Bìm bìm (Convolvulaceae). Tuy nhiên loài này là cây thân thảo, cành mềm, dạng bò lan/rủ nhẹ, lá đơn mọc so le (không phải mọc đối) hình trái xoan nhỏ có phủ lông mịn, đặc trưng nổi bật với hoa xanh lam — không khớp với mô tả sản phẩm này (cây bụi thân cứng cáp, lá thuôn dài mọc đối, xanh đậm, không thấy hoa trong ảnh). Đặc điểm mô tả lại gần với Duranta erecta hơn, nhưng loài này ở Việt Nam được gọi phổ biến là 'Thanh quan'/'Chuỗi ngọc' (họ Cỏ roi ngựa - Verbenaceae), không có nguồn nào xác nhận gọi là 'Thanh tú'. Có thể đây là nhầm lẫn tên gọi giữa người bán/vùng miền, hoặc còn một loài khác chưa xác định được qua tra cứu. Cần đối chiếu thêm bằng hình ảnh thực tế hoặc hỏi trực tiếp người bán trước khi khẳng định tên khoa học và công dụng.",
+        "sources": [
+          "https://vi.wikipedia.org/wiki/Thanh_t%C3%BA",
+          "https://fptshop.com.vn/tin-tuc/for-gamers/hoa-thanh-tu-198765",
+          "https://vi.wikipedia.org/wiki/Thanh_quan",
+          "https://tracuuduoclieu.vn/duranta-repens-l.html"
+        ]
+      }
+    },
+    {
+      "category": "plant",
+      "name": "Xương khỉ",
+      "price": 15000,
+      "image": "images/xuong-khi.webp",
+      "description": "Cây bụi nhỏ, lá thuôn dài xanh đậm mọc đối, gân lá nổi rõ, dễ trồng và ưa bóng bán phần.",
+      "research": {
+        "verified": true,
+        "notes": "Tên khoa học: Clinacanthus nutans (Burm.f.) Lindau (đồng danh: Justicia nutans Burm.f.), thuộc họ Ô rô (Acanthaceae). Ở Việt Nam còn gọi là bìm bịp, mảnh cộng, lá cầm, ưu độn thảo. Đặc điểm thực vật: cây bụi nhỏ, cao 1-3m, thân hình trụ có vân, lá hình mác/thuôn dài, hẹp, mọc đối xứng, gân lá nổi rõ, ưa bóng bán phần, dễ trồng bằng giâm cành. Công dụng dân gian (Đông y): lá sắc uống có tác dụng bổ, lợi tiểu, tiêu sưng viêm; lá giã đắp trị đau mắt đỏ, sưng vú, hỗ trợ liền xương, giảm sưng khớp, bong gân; ở Thái Lan dùng lá tươi trị bỏng, côn trùng cắn, chàm; được biết đến ở Đông Nam Á với khả năng giải độc nọc rắn. Mức độ bằng chứng khoa học: các nghiên cứu PubMed (in vitro/tiền lâm sàng) cho thấy hoạt tính kháng virus (herpes simplex, varicella-zoster), kháng viêm, chống oxy hóa, hỗ trợ ức chế một số dòng tế bào ung thư nhờ hàm lượng flavonoid cao — tuy nhiên chủ yếu là nghiên cứu trên tế bào/động vật, CHƯA có đủ thử nghiệm lâm sàng trên người. CẢNH BÁO: liều dùng khuyến nghị (dạng khô) không quá 40g/lần, pha trà chỉ nên dùng khoảng 10g khô, không lạm dụng kéo dài; không dùng cho người huyết áp thấp, người có biểu hiện hàn khí xâm nhập (tay chân lạnh); phụ nữ có thai và cho con bú cần thận trọng do chưa có đầy đủ dữ liệu an toàn; nếu đang dùng thuốc Tây y nên uống cách thời gian dùng thuốc ít nhất 1 tiếng để tránh tương tác. Đây là cây thuốc dân gian, không thay thế điều trị y khoa chính thống cho các bệnh nặng.",
+        "sources": [
+          "https://tracuuduoclieu.vn/clinacanthus-nutans-burm-f-lindau.html",
+          "https://www.vinmec.com/vie/bai-viet/cac-cong-dung-cua-cay-xuong-khi-vi",
+          "https://www.vinmec.com/vie/bai-viet/tac-dung-phu-cua-cay-xuong-khi-vi",
+          "https://trungtamthuoc.com/duoc-lieu/cay-lien-xuong",
+          "https://pubmed.ncbi.nlm.nih.gov/30105077/",
+          "https://pubmed.ncbi.nlm.nih.gov/28198202/"
+        ]
+      }
+    },
+    {
+      "category": "plant",
+      "name": "Lá cẩm",
+      "price": 10000,
+      "image": "images/la-cam.webp",
+      "description": "Cây bụi nhỏ, lá hình bầu dục xanh đậm, gân lá nổi rõ, dân gian hay dùng lá tạo màu tự nhiên cho món ăn (xôi, bánh).",
+      "research": {
+        "verified": false,
+        "notes": "Danh pháp khoa học có sự chuyển đổi giữa các hệ thống phân loại: tên đồng nghĩa cũ Peristrophe roxburghiana được cập nhật thành Peristrophe bivalvis (L.) Merr., và theo Plants of the World Online (Kew) tên hiện được chấp nhận là Dicliptera tinctoria (Nees) Kostel. — cả ba tên chỉ cùng một loài, thuộc họ Ô rô (Acanthaceae), nguồn gốc Nam và Đông Nam Á. Đặc điểm thực vật: cây thân thảo/bụi nhỏ sống lâu năm, cao 30-100cm, thân có 4 cạnh với rãnh dọc sâu, lá mọc đối, hình bầu dục, dài khoảng 2-10cm. Tuy nhiên trong dân gian có NHIỀU GIỐNG lá cẩm khác nhau (cẩm tím/tím Huế, cẩm đỏ, cẩm vàng...) phân biệt qua chi tiết như có lông hay không, có đốm/sọc trắng dọc gân lá hay không — mô tả sản phẩm hiện tại (lá bầu dục xanh đậm, gân nổi rõ) chưa đủ chi tiết để xác định chính xác đây là giống nào, cần quan sát thêm hoặc đối chiếu ảnh thực tế. Công dụng: dùng phổ biến để nhuộm màu tự nhiên (tím, đỏ tùy giống) cho xôi, bánh tét, bánh bao, chè, thay thế phẩm màu tổng hợp. Y học cổ truyền dùng lá cẩm vị ngọt nhạt, tính mát, có tác dụng thanh phế nhiệt, chỉ huyết, tiêu thũng, giải độc, hỗ trợ trị ho, viêm phế quản. Một số nghiên cứu hiện đại ghi nhận hoạt tính kháng khuẩn, kháng nấm và chống viêm từ dịch chiết lá. Về độc tính: các nguồn tra cứu cho rằng lá cẩm an toàn, không ghi nhận độc tính đáng kể, nhưng đây chủ yếu là thông tin dân gian/truyền thông phổ thông, chưa có nghiên cứu độc tính lâm sàng chính thức.",
+        "sources": [
+          "https://vi.wikipedia.org/wiki/L%C3%A1_c%E1%BA%A9m",
+          "https://powo.science.kew.org/taxon/47708-1",
+          "https://thuocdantoc.vn/duoc-lieu/cay-la-cam",
+          "https://suckhoedoisong.vn/la-cam-duoc-lieu-chat-tao-mau-tu-nhien-an-toan-cho-thuc-pham-169260122210641887.htm"
+        ]
+      }
+    },
+    {
+      "category": "plant",
+      "name": "Dr Thanh",
+      "price": 15000,
+      "image": "images/dr-thanh.webp",
+      "description": "Cây thân thảo nhỏ, lá bầu dục có gân màu tía nổi bật trên nền xanh xám, thường trồng chậu làm cây cảnh lá màu.",
+      "research": {
+        "verified": true,
+        "notes": "Tên khoa học: Strobilanthes alternata (Burm.f.) Moylan ex J.R.I.Wood, đồng nghĩa (tên cũ thường gặp) Hemigraphis alternata (Burm.f.) T.Anderson, thuộc họ Ô rô (Acanthaceae). Được bán phổ biến ở Việt Nam dưới tên thương mại 'cây trà Dr Thanh' hoặc tên dân gian 'bán tự cảnh', do lá khi hãm nước uống có hương vị gần giống trà thảo mộc Dr Thanh đóng chai. Đặc điểm thực vật: cây thân thảo nhỏ, mọc bò lan/thân bán đứng, thân vuông màu tía, dễ ra rễ tại các đốt khi bò trên đất; lá hình bầu dục, mép răng cưa/khía tròn, dài 4-8cm, bề mặt hơi nhăn/gợn nổi rõ gân (giống hoa văn bánh waffle, tên tiếng Anh 'Purple Waffle Plant'); mặt trên lá xanh xám ánh bạc, mặt dưới và gân lá màu tía/đỏ tím nổi bật, độ đậm màu tím phụ thuộc lượng ánh sáng; hoa nhỏ màu trắng hình phễu mọc ở đầu cành. Công dụng: chủ yếu trồng làm cây cảnh lá màu, cây phủ đất hoặc trồng chậu trang trí; dân gian cũng dùng lá nấu nước uống với quan niệm tính mát, thanh nhiệt (công dụng truyền miệng, chưa được y học kiểm chứng đầy đủ). Về độc tính: theo cơ sở dữ liệu ASPCA, loài này được xếp loại KHÔNG độc đối với chó, mèo và ngựa; nếu thú cưng ăn số lượng lớn có thể gây khó chịu tiêu hóa nhẹ do kết cấu lá, nên vẫn cần để cây tránh xa tầm với của thú nuôi như biện pháp phòng ngừa.",
+        "sources": [
+          "https://mocnhienfarm.com/products/cay-tra-dr-thanh",
+          "https://chohoaonline.com/p/cay-ban-tu-canh-cay-tra-dr-thanh",
+          "https://en.wikipedia.org/wiki/Strobilanthes_alternata",
+          "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/purple-waffle-plant"
+        ]
+      }
+    },
+    {
+      "category": "plant",
+      "name": "Mơ lông tím",
+      "price": 15000,
+      "image": "images/mo-long-tim.webp",
+      "description": "Cây leo/bụi nhỏ, lá bầu dục có lông tơ mịn, mặt dưới lá thường ánh tím, dân gian hay dùng lá làm rau ăn kèm hoặc dược liệu.",
+      "research": {
+        "verified": true,
+        "notes": "Tên khoa học: Paederia foetida L. (một số tài liệu Việt Nam như uphcm.edu.vn và Wikipedia tiếng Việt dùng tên Paederia lanuginosa Wall. cho loài phổ biến tại Việt Nam có thân/lá lông trắng cứng, mặt dưới lá tím — danh pháp giữa các nguồn tiếng Việt chưa hoàn toàn thống nhất, cả hai đều thuộc họ Cà phê/Rubiaceae và được gọi chung là 'mơ lông'/'mơ tam thể'). Đặc điểm thực vật: dây leo bằng thân quấn, sống nhiều năm, thân có lông mịn; lá mọc đối, hình bầu dục/hình tim, mặt trên xanh, mặt dưới thường ánh tím, cả hai mặt phủ lông tơ mịn; hoa trắng hoặc tím nhạt mọc thành xim kép; lá vò có mùi hăng đặc trưng. Nguồn gốc Ấn Độ - Malaysia, phân bố rộng khắp Đông Nam Á, mọc hoang và được trồng phổ biến ở Việt Nam. Công dụng ẩm thực: rau gia vị quen thuộc, ăn sống kèm món cuốn, đặc biệt món chả lá mơ và ăn kèm thịt chó — dân gian cho rằng hỗ trợ tiêu hóa và giảm dị ứng khi ăn protein lạ. Y học cổ truyền: vị hơi đắng, hơi mặn, tính mát, tác dụng thanh nhiệt, giải độc, sát trùng, trừ phong hoạt huyết, chỉ thống, tiêu thực đạo trệ; dùng dân gian chữa kiết lỵ, đau bụng, tiêu chảy, đầy bụng khó tiêu, phong thấp đau nhức. Liều dùng tham khảo (thuốc sắc) khoảng 15-30g/ngày, một số tài liệu cho biết có thể dùng tới 50g. CẢNH BÁO: lá cần rửa thật sạch trước khi ăn sống (thường trồng sát đất, dễ nhiễm khuẩn/ký sinh trùng); một số người có thể dị ứng (phát ban, sưng môi/lưỡi) nên thận trọng khi dùng lần đầu; là công dụng dân gian, không thay thế điều trị y khoa — kiết lỵ/tiêu chảy nặng hoặc kéo dài cần đi khám bác sĩ; phụ nữ có thai, trẻ nhỏ, người có bệnh nền nên hỏi ý kiến thầy thuốc trước khi dùng làm dược liệu.",
+        "sources": [
+          "https://tracuuduoclieu.vn/mo-long.html",
+          "https://www.vinmec.com/vie/bai-viet/cay-mo-long-co-tac-dung-gi-vi",
+          "https://trungtamthuoc.com/duoc-lieu/mo-long",
+          "https://vi.wikipedia.org/wiki/M%C6%A1_tam_th%E1%BB%83"
+        ]
+      }
+    },
+    {
+      "category": "plant",
+      "name": "Ngải cứu",
+      "price": 15000,
+      "image": "images/ngai-cuu.webp",
+      "description": "Cây bụi nhỏ, lá xẻ thùy sâu như lông chim, mặt dưới lá có lông trắng mịn, mùi thơm hắc đặc trưng, dân gian dùng làm rau và dược liệu.",
+      "research": {
+        "verified": true,
+        "notes": "Tên khoa học: Artemisia vulgaris L., thuộc họ Cúc (Asteraceae), còn gọi là ngải diệp, thuốc cứu. Đặc điểm thực vật: cây thân thảo sống lâu năm, cao khoảng 50-60cm, thân có rãnh dọc phủ lông mịn; lá mọc so le, xẻ thùy sâu như lông chim, mặt trên lá màu lục sẫm, mặt dưới phủ đầy lông nhung trắng mịn; toàn cây có mùi thơm hắc đặc trưng do chứa tinh dầu (cineol, borneol, thuyol...). Công dụng ẩm thực: lá và ngọn non dùng làm rau trong các món quen thuộc như trứng chiên ngải cứu, gà hầm/tần ngải cứu, canh ngải cứu nấu với óc heo hoặc trứng. Công dụng dược liệu dân gian: điều hòa kinh nguyệt, giảm đau bụng kinh, làm ấm tử cung, an thai, trừ hàn thấp, cầm máu, hỗ trợ điều trị đau nhức xương khớp, và là nguyên liệu chính trong châm cứu (ngải nhung dùng để cứu). CẢNH BÁO: không nên dùng tùy tiện với liều cao hoặc kéo dài. Phụ nữ mang thai, đặc biệt 3 tháng đầu, cần thận trọng hoặc tránh dùng vì hoạt chất thujone có thể kích thích co bóp tử cung, làm tăng nguy cơ sảy thai hoặc sinh non; phụ nữ đang cho con bú cũng không nên dùng vì các hợp chất có thể bài tiết qua sữa mẹ. Người có bệnh gan cần lưu ý vì dùng liều cao, kéo dài có thể gây rối loạn chuyển hóa tại gan. Chỉ nên dùng như một loại rau/gia vị với lượng vừa phải (1-2 lần/tuần), không tự ý dùng liều cao hoặc kéo dài như thuốc mà không có chỉ định của thầy thuốc/bác sĩ y học cổ truyền.",
+        "sources": [
+          "https://trungtamthuoc.com/duoc-lieu/ngai-cuu-82",
+          "https://www.vinmec.com/vie/bai-viet/ngai-cuu-vi-thuoc-tuyet-voi-cho-suc-khoe-vi",
+          "https://vi.wikipedia.org/wiki/Ng%E1%BA%A3i_c%E1%BB%A9u",
+          "https://nhathuoclongchau.com.vn/bai-viet/tac-dung-cua-la-ngai-cuu-doi-voi-phu-nu-va-nhung-luu-y-khi-su-dung.html",
+          "https://mplant.ump.edu.vn/index.php/ngai-cuu-artemisia-vulgaris-asteraceae/"
+        ]
+      }
+    },
+    {
       "category": "herb",
       "name": "Rẻ quạt/Xạ can",
       "price": 15000,
