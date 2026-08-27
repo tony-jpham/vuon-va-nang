@@ -769,7 +769,8 @@
   if (!grid || !tbody || !searchInput || !searchClear || !searchStatus || !searchNoResults || !searchReset) return;
 
   function formatPrice(n) {
-    return n.toLocaleString('vi-VN') + 'đ';
+    if (n === null || n === undefined || n === '') return '';
+    return Number(n).toLocaleString('vi-VN') + 'đ';
   }
 
   function escapeHtml(s) {
