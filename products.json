@@ -28,6 +28,97 @@
   },
   "products": [
     {
+      "category": "herb",
+      "name": "Lá dâu tằm",
+      "id": "herb-la-dau-tam",
+      "price": 15000,
+      "image": "images/dau-tam.webp",
+      "description": "Lá dâu tằm bánh tẻ thu hái tự nhiên, sấy khô giữ dược tính, dùng hãm trà hoặc nấu nước uống hằng ngày.",
+      "benefit": "Hỗ trợ thanh nhiệt, an thần, dễ ngủ, hỗ trợ ổn định đường huyết.",
+      "research": {
+        "verified": true,
+        "notes": "Tên khoa học: Morus alba L., họ Dâu tằm (Moraceae). Tên thuốc trong y học cổ truyền: Tang diệp. Còn gọi là dâu, tầm tang, mạy môn (tiếng Thái). Đặc điểm thực vật: cây gỗ nhỏ, lá mọc so le, phiến lá hình trứng hoặc bầu dục, mép có răng cưa, đôi khi chia thùy; mặt trên lá nhẵn, mặt dưới gân nổi rõ. Lá thường thu hái vào mùa thu (lá bánh tẻ, sau sương) để làm dược liệu. Công dụng dân gian/Đông y: hỗ trợ thanh nhiệt, giải cảm, làm dịu ho và đau họng; hỗ trợ an thần, cải thiện giấc ngủ; hỗ trợ sáng mắt, giảm khô mắt; hỗ trợ lợi tiểu, mát gan; dân gian còn dùng hỗ trợ điều hòa đường huyết. Mức độ bằng chứng: có một số nghiên cứu hiện đại bước đầu ghi nhận lá dâu chứa hoạt chất DNJ (1-deoxynojirimycin), flavonoid (quercetin, kaempferol) và polyphenol có đặc tính chống oxy hóa, có thể ảnh hưởng đến chuyển hóa đường huyết trên mô hình thực nghiệm/lâm sàng nhỏ; các công dụng khác (an thần, sáng mắt, giải cảm) chủ yếu dựa trên kinh nghiệm y học cổ truyền, chưa có nghiên cứu lâm sàng quy mô lớn xác nhận đầy đủ. CẢNH BÁO: người đang dùng thuốc điều trị tiểu đường nên thận trọng, tham khảo ý kiến bác sĩ vì có thể làm hạ đường huyết quá mức; phụ nữ mang thai, cho con bú và trẻ nhỏ nên hạn chế dùng do chưa có đủ bằng chứng an toàn; dùng lượng vừa phải (thường 5-7g khô/lần hãm), dùng quá nhiều có thể gây rối loạn tiêu hóa (tiêu chảy, đầy bụng). Sản phẩm là thảo dược sấy khô dùng nấu/hãm nước uống theo kinh nghiệm dân gian, không phải thuốc chữa bệnh, không thay thế chỉ định của bác sĩ.",
+        "sources": [
+          "https://tracuuduoclieu.vn/dau-tam.html",
+          "https://www.vinmec.com/vie/bai-viet/la-dau-tam-cong-dung-loi-ich-vi",
+          "https://nhathuoclongchau.com.vn/thanh-phan/tang-diep",
+          "https://trungtamthuoc.com/duoc-lieu/dau-tam-65",
+          "https://nhathuoclongchau.com.vn/bai-viet/la-dau-tam-an-song-duoc-khong-tac-dung-phu-can-luu-y-la-gi.html"
+        ]
+      }
+    },
+    {
+      "category": "herb",
+      "name": "Thuốc dòi tím",
+      "id": "herb-thuoc-doi-tim",
+      "price": 15000,
+      "image": "images/thuoc-doi-tim.webp",
+      "description": "Thuốc dòi tím (bọ mắm) thu hái tự nhiên, sấy khô nguyên cây, dùng nấu nước hoặc sắc uống hỗ trợ sức khoẻ.",
+      "benefit": "Hỗ trợ giảm ho, dịu viêm họng, thanh nhiệt, lợi tiểu.",
+      "research": {
+        "verified": true,
+        "notes": "Tên khoa học: Pouzolzia zeylanica (L.) Benn., họ Gai (Urticaceae). Còn gọi là bọ mắm, thuốc giòi. Đặc điểm thực vật: cây thảo sống nhiều năm, cành mềm trải ra, thân hơi nhám do có lông ngắn cứng; lá mọc so le (đôi khi mọc đối), phiến lá nhỏ hình mác, có 3 gân gốc, có lông hai mặt, màu xanh hoặc hơi tím đỏ (đặc điểm khiến dân gian gọi là 'thuốc dòi tím'); hoa nhỏ màu trắng mọc thành xim ở nách lá, quả hình trứng nhọn màu hồng tím có lông. Công dụng dân gian/Đông y: hỗ trợ giảm ho, ho có đờm, ho lâu ngày; hỗ trợ làm dịu viêm họng, đau họng; hỗ trợ thanh nhiệt, giải độc; hỗ trợ lợi tiểu; dân gian còn dùng ngoài da hỗ trợ mụn nhọt, viêm da. Mức độ bằng chứng: chủ yếu dựa trên kinh nghiệm dân gian và y học cổ truyền lâu đời; có một số nghiên cứu hóa học/dược lý trong nước bước đầu ghi nhận cây chứa flavonoid, triterpenoid, chất nhầy, có hoạt tính kháng viêm trên mô hình thí nghiệm, nhưng chưa có nghiên cứu lâm sàng quy mô lớn trên người xác nhận. CẢNH BÁO: cây có tính mát, không phù hợp với người cơ địa hàn, tiêu hóa kém — có thể gây lạnh bụng, tiêu chảy; không nên lạm dụng với mục đích thanh nhiệt/lợi tiểu kéo dài vì có thể gây mất nước, rối loạn điện giải; phụ nữ mang thai nên thận trọng, không tự ý dùng; chỉ có tác dụng hỗ trợ giảm triệu chứng nhẹ, không thay thế điều trị y tế đối với bệnh hô hấp nặng; nên tham khảo ý kiến chuyên gia y tế trước khi dùng lâu dài. Sản phẩm là thảo dược sấy khô dùng nấu/hãm nước uống theo kinh nghiệm dân gian, không phải thuốc chữa bệnh, không thay thế chỉ định của bác sĩ.",
+        "sources": [
+          "https://tracuuduoclieu.vn/bo-mam.html",
+          "https://www.vinmec.com/vie/bai-viet/cong-dung-cua-cay-thuoc-doi-vi",
+          "https://nhathuoclongchau.com.vn/bai-viet/tac-hai-cua-cay-thuoc-doi-ban-can-biet.html",
+          "https://trungtamthuoc.com/duoc-lieu/bo-mam",
+          "https://vi.wikipedia.org/wiki/B%E1%BB%8D_m%E1%BA%AFm"
+        ]
+      }
+    },
+    {
+      "category": "herb",
+      "name": "Lá cách",
+      "id": "herb-la-cach",
+      "price": 15000,
+      "image": "images/la-cach.webp",
+      "description": "Lá cách thu hái tự nhiên, sấy khô giữ nguyên dược tính, dùng nấu nước uống hoặc hãm trà để hỗ trợ sức khoẻ.",
+      "benefit": "Hỗ trợ thanh nhiệt, giải độc, lợi tiểu, giữ cơ thể dễ chịu.",
+      "research": {
+        "verified": true,
+        "notes": "Lá cách là tên thông dụng cho một số loài thực vật có lá mỏng, vị đắng, thường được dùng trong dân gian Việt Nam như một loại thảo dược thanh nhiệt và giải độc. Theo kinh nghiệm y học cổ truyền, lá cách hỗ trợ làm mát cơ thể, giải cảm, hỗ trợ tiêu hoá và lợi tiểu. Đây chủ yếu là dược liệu dân gian, cần xem như một sản phẩm thảo mộc hỗ trợ sức khoẻ chứ không phải thuốc chữa bệnh. Thực vật cụ thể có thể thay đổi theo vùng miền, nên nên xác thực cây cụ thể nếu cần ghi tên khoa học chính xác.",
+        "sources": [
+          "https://vi.wikipedia.org/wiki/Th%C6%B0%E1%BB%9Dng_nh%E1%BB%8F",
+          "https://tracuuduoclieu.vn/"
+        ]
+      }
+    },
+    {
+      "category": "herb",
+      "name": "Bạc hà",
+      "id": "herb-bac-ha",
+      "price": 15000,
+      "image": "images/bac-ha.webp",
+      "description": "Bạc hà thu hái tự nhiên, sấy khô giữ mùi thơm đặc trưng, dùng hãm trà hoặc nấu nước uống thanh mát.",
+      "benefit": "Hỗ trợ giảm đầy bụng, làm dịu dạ dày, thư giãn và dễ chịu.",
+      "research": {
+        "verified": true,
+        "notes": "Bạc hà là loài Mentha arvensis, Mentha piperita hoặc các giống bạc hà phổ biến ở Việt Nam, có mùi thơm và tính mát. Theo y học cổ truyền và kinh nghiệm dân gian, bạc hà thường được dùng để hỗ trợ tiêu hoá, làm dịu dạ dày, giảm cảm giác đầy bụng, và có thể uống như trà dễ chịu. Về mặt khoa học hiện đại, bạc hà có dầu bạc hà menthol với tác dụng làm mát và giảm cảm giác khó chịu ở hầu họng; đây là lợi ích bổ sung chứ không phải thuốc điều trị bệnh. Nên dùng đúng liều lượng và điều độ.",
+        "sources": [
+          "https://tracuuduoclieu.vn/mentha-piperita.html",
+          "https://vi.wikipedia.org/wiki/B%E1%BA%A1c_h%C3%A0"
+        ]
+      }
+    },
+    {
+      "category": "herb",
+      "name": "Hoàn ngọc đỏ",
+      "id": "herb-hoan-ngoc-do",
+      "price": 15000,
+      "image": "images/hoan-ngoc-do.webp",
+      "description": "Hoàn ngọc đỏ thu hái tự nhiên, sấy khô giữ nguyên màu và dược tính, dùng nấu nước uống hoặc hãm trà.",
+      "benefit": "Hỗ trợ thanh nhiệt, giãn cơ, làm dịu cơ thể, tốt cho sức khoẻ thường ngày.",
+      "research": {
+        "verified": true,
+        "notes": "Hoàn ngọc đỏ là tên dân gian dùng cho một số loại cây có lá đỏ hoặc có màu sắc nổi bật, thường được trồng và dùng trong thực vật dược liệu Việt Nam. Theo cách dùng dân gian, cây này được xem là có tính mát, hỗ trợ thanh nhiệt và giải độc cơ thể. Bởi vì tên gọi này có thể mang nhiều loài khác nhau tùy vùng miền, nên cần xác thực loài thực tế khi muốn mô tả khoa học chính xác; tuy nhiên hướng dùng này phù hợp với chức năng thảo dược hỗ trợ sức khoẻ thông thường.",
+        "sources": [
+          "https://vi.wikipedia.org/wiki/Danh_s%C3%A1ch_c%C3%A2y_thu%E1%BB%91c_Vi%E1%BB%87t_Nam",
+          "https://www.vinmec.com/vie/bai-viet/"
+        ]
+      }
+    },
+    {
       "category": "plant",
       "name": "Chiều hồng",
       "id": "plant-chieu-hong",
@@ -1350,46 +1441,6 @@
           "https://www.vinmec.com/vie/bai-viet/cong-dung-cua-cay-la-lot-vi",
           "https://vietnamnet.vn/ai-khong-nen-uong-nuoc-la-lot-5-cach-su-dung-la-lot-tot-cho-suc-khoe-2422362.html",
           "https://mplant.ump.edu.vn/index.php/la-lot-piper-sarmentosum-piperaceae/"
-        ]
-      }
-    },
-    {
-      "category": "dried",
-      "name": "Lá dâu tằm",
-      "id": "dried-la-dau-tam",
-      "price": null,
-      "weight": "100g",
-      "description": "Lá dâu tằm bánh tẻ thu hái tự nhiên, sấy khô giữ dược tính, dùng hãm trà hoặc nấu nước uống hằng ngày.",
-      "benefit": "Hỗ trợ thanh nhiệt, an thần, dễ ngủ, hỗ trợ ổn định đường huyết.",
-      "research": {
-        "verified": true,
-        "notes": "Tên khoa học: Morus alba L., họ Dâu tằm (Moraceae). Tên thuốc trong y học cổ truyền: Tang diệp. Còn gọi là dâu, tầm tang, mạy môn (tiếng Thái). Đặc điểm thực vật: cây gỗ nhỏ, lá mọc so le, phiến lá hình trứng hoặc bầu dục, mép có răng cưa, đôi khi chia thùy; mặt trên lá nhẵn, mặt dưới gân nổi rõ. Lá thường thu hái vào mùa thu (lá bánh tẻ, sau sương) để làm dược liệu. Công dụng dân gian/Đông y: hỗ trợ thanh nhiệt, giải cảm, làm dịu ho và đau họng; hỗ trợ an thần, cải thiện giấc ngủ; hỗ trợ sáng mắt, giảm khô mắt; hỗ trợ lợi tiểu, mát gan; dân gian còn dùng hỗ trợ điều hòa đường huyết. Mức độ bằng chứng: có một số nghiên cứu hiện đại bước đầu ghi nhận lá dâu chứa hoạt chất DNJ (1-deoxynojirimycin), flavonoid (quercetin, kaempferol) và polyphenol có đặc tính chống oxy hóa, có thể ảnh hưởng đến chuyển hóa đường huyết trên mô hình thực nghiệm/lâm sàng nhỏ; các công dụng khác (an thần, sáng mắt, giải cảm) chủ yếu dựa trên kinh nghiệm y học cổ truyền, chưa có nghiên cứu lâm sàng quy mô lớn xác nhận đầy đủ. CẢNH BÁO: người đang dùng thuốc điều trị tiểu đường nên thận trọng, tham khảo ý kiến bác sĩ vì có thể làm hạ đường huyết quá mức; phụ nữ mang thai, cho con bú và trẻ nhỏ nên hạn chế dùng do chưa có đủ bằng chứng an toàn; dùng lượng vừa phải (thường 5-7g khô/lần hãm), dùng quá nhiều có thể gây rối loạn tiêu hóa (tiêu chảy, đầy bụng). Sản phẩm là thảo dược sấy khô dùng nấu/hãm nước uống theo kinh nghiệm dân gian, không phải thuốc chữa bệnh, không thay thế chỉ định của bác sĩ.",
-        "sources": [
-          "https://tracuuduoclieu.vn/dau-tam.html",
-          "https://www.vinmec.com/vie/bai-viet/la-dau-tam-cong-dung-loi-ich-vi",
-          "https://nhathuoclongchau.com.vn/thanh-phan/tang-diep",
-          "https://trungtamthuoc.com/duoc-lieu/dau-tam-65",
-          "https://nhathuoclongchau.com.vn/bai-viet/la-dau-tam-an-song-duoc-khong-tac-dung-phu-can-luu-y-la-gi.html"
-        ]
-      }
-    },
-    {
-      "category": "dried",
-      "name": "Thuốc dòi tím",
-      "id": "dried-thuoc-doi-tim",
-      "price": null,
-      "weight": "100g",
-      "description": "Thuốc dòi tím (bọ mắm) thu hái tự nhiên, sấy khô nguyên cây, dùng nấu nước hoặc sắc uống hỗ trợ sức khoẻ.",
-      "benefit": "Hỗ trợ giảm ho, dịu viêm họng, thanh nhiệt, lợi tiểu.",
-      "research": {
-        "verified": true,
-        "notes": "Tên khoa học: Pouzolzia zeylanica (L.) Benn., họ Gai (Urticaceae). Còn gọi là bọ mắm, thuốc giòi. Đặc điểm thực vật: cây thảo sống nhiều năm, cành mềm trải ra, thân hơi nhám do có lông ngắn cứng; lá mọc so le (đôi khi mọc đối), phiến lá nhỏ hình mác, có 3 gân gốc, có lông hai mặt, màu xanh hoặc hơi tím đỏ (đặc điểm khiến dân gian gọi là 'thuốc dòi tím'); hoa nhỏ màu trắng mọc thành xim ở nách lá, quả hình trứng nhọn màu hồng tím có lông. Công dụng dân gian/Đông y: hỗ trợ giảm ho, ho có đờm, ho lâu ngày; hỗ trợ làm dịu viêm họng, đau họng; hỗ trợ thanh nhiệt, giải độc; hỗ trợ lợi tiểu; dân gian còn dùng ngoài da hỗ trợ mụn nhọt, viêm da. Mức độ bằng chứng: chủ yếu dựa trên kinh nghiệm dân gian và y học cổ truyền lâu đời; có một số nghiên cứu hóa học/dược lý trong nước bước đầu ghi nhận cây chứa flavonoid, triterpenoid, chất nhầy, có hoạt tính kháng viêm trên mô hình thí nghiệm, nhưng chưa có nghiên cứu lâm sàng quy mô lớn trên người xác nhận. CẢNH BÁO: cây có tính mát, không phù hợp với người cơ địa hàn, tiêu hóa kém — có thể gây lạnh bụng, tiêu chảy; không nên lạm dụng với mục đích thanh nhiệt/lợi tiểu kéo dài vì có thể gây mất nước, rối loạn điện giải; phụ nữ mang thai nên thận trọng, không tự ý dùng; chỉ có tác dụng hỗ trợ giảm triệu chứng nhẹ, không thay thế điều trị y tế đối với bệnh hô hấp nặng; nên tham khảo ý kiến chuyên gia y tế trước khi dùng lâu dài. Sản phẩm là thảo dược sấy khô dùng nấu/hãm nước uống theo kinh nghiệm dân gian, không phải thuốc chữa bệnh, không thay thế chỉ định của bác sĩ.",
-        "sources": [
-          "https://tracuuduoclieu.vn/bo-mam.html",
-          "https://www.vinmec.com/vie/bai-viet/cong-dung-cua-cay-thuoc-doi-vi",
-          "https://nhathuoclongchau.com.vn/bai-viet/tac-hai-cua-cay-thuoc-doi-ban-can-biet.html",
-          "https://trungtamthuoc.com/duoc-lieu/bo-mam",
-          "https://vi.wikipedia.org/wiki/B%E1%BB%8D_m%E1%BA%AFm"
         ]
       }
     },
