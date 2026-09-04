@@ -421,88 +421,6 @@
   }
   .specimen-detail:hover{background:var(--green-deep);color:var(--paper);}
 
-  /* ---------- PRICING TABLE ---------- */
-  .price-section{background:var(--kraft);}
-  .price-details summary{
-    cursor:pointer;
-    list-style:none;
-  }
-  .price-details summary::-webkit-details-marker{display:none;}
-  .price-toggle-hint{
-    font-family:var(--mono);
-    font-size:0.78rem;
-    color:var(--rust);
-    white-space:nowrap;
-  }
-  .price-details[open] .price-toggle-hint .closed-label{display:none;}
-  .price-details:not([open]) .price-toggle-hint .open-label{display:none;}
-  .price-details .price-scroll,
-  .price-details .price-note{
-    margin-top:28px;
-  }
-  .price-scroll{
-    overflow-x:auto;
-    border:1px solid rgba(36,31,23,0.16);
-    border-radius:4px;
-    background:var(--kraft-light);
-  }
-  table.price-table{
-    width:100%;
-    border-collapse:collapse;
-    font-size:0.92rem;
-    table-layout:fixed;
-  }
-  .price-table td.amount{white-space:nowrap;}
-  .price-table thead th{
-    text-align:left;
-    font-family:var(--mono);
-    font-size:0.72rem;
-    text-transform:uppercase;
-    letter-spacing:0.06em;
-    color:var(--paper);
-    background:var(--green-deep);
-    padding:14px 18px;
-  }
-  .price-table thead th:first-child{border-radius:0;}
-  .price-table tbody td{
-    padding:14px 18px;
-    border-bottom:1px dashed rgba(36,31,23,0.18);
-    color:var(--ink);
-    vertical-align:middle;
-  }
-  .price-table tbody tr:last-child td{border-bottom:none;}
-  .price-table tbody tr:hover{background:rgba(31,43,30,0.05);}
-  .price-table tr.price-group-row td{
-    padding:10px 18px;
-    background:rgba(31,43,30,0.06);
-    border-bottom:1px solid rgba(36,31,23,0.18);
-  }
-  .price-table tr.price-group-row:hover{background:none;}
-  .price-table tr.price-group-row:first-child td{border-top:none;}
-  .price-cat{
-    display:inline-flex;align-items:center;gap:8px;
-    font-family:var(--mono);font-size:0.75rem;
-    text-transform:uppercase;letter-spacing:0.04em;
-    color:var(--green-mid);
-  }
-  .price-cat .dot{width:7px;height:7px;border-radius:50%;display:inline-block;}
-  .price-cat.plant .dot{background:var(--sage);}
-  .price-cat.herb .dot{background:var(--green-mid);}
-  .price-cat.spice .dot{background:var(--rust-dim);}
-  .price-cat.fruit .dot{background:var(--green-deep);}
-  .price-cat.other .dot{background:var(--kraft);}
-  .price-cat.dried .dot{background:var(--rust);}
-  .price-table td.name{
-    font-family:var(--display);
-    font-weight:500;
-    color:var(--green-deep);
-  }
-  .price-table td.amount{
-    font-family:var(--mono);
-    font-weight:700;
-    color:var(--rust-dim);
-    white-space:nowrap;
-  }
   .benefit-toggle{
     display:inline-flex;align-items:center;gap:8px;
     background:rgba(168,68,42,0.08);
@@ -537,12 +455,6 @@
     border-left:2px solid var(--sage);
     padding:10px 14px;
     border-radius:2px;
-  }
-  .price-note{
-    margin-top:18px;
-    font-family:var(--mono);
-    font-size:0.78rem;
-    color:var(--green-mid);
   }
 
   /* ---------- ABOUT / SPLIT ---------- */
@@ -596,23 +508,6 @@
   }
   .btn-ghost-invert:hover{background:var(--kraft-light);color:var(--green-deep);}
 
-  /* ---------- FEEDBACK ---------- */
-  .feedback p{color:var(--ink);opacity:0.82;max-width:56ch;margin-bottom:32px;}
-  .feedback-embed{
-    background:var(--kraft-light);
-    border:1px solid var(--kraft);
-    border-radius:4px;
-    padding:8px;
-    max-width:680px;
-  }
-  .feedback-embed iframe{
-    width:100%;
-    height:650px;
-    max-height:80vh;
-    display:block;
-    border:0;
-  }
-
   form{display:flex;flex-direction:column;gap:16px;}
   label{
     font-family:var(--mono);font-size:0.72rem;
@@ -662,10 +557,8 @@
     </label>
     <ul>
       <li><a href="#san-pham">Sản phẩm</a></li>
-      <li><a href="#bang-gia">Bảng giá</a></li>
       <li><a href="#cau-chuyen">Câu chuyện</a></li>
       <li><a href="#lien-he">Liên hệ</a></li>
-      <li><a href="#gop-y">Góp ý</a></li>
     </ul>
   </nav>
 </header>
@@ -724,49 +617,16 @@
   </div>
 </section>
 
-<section class="price-section" id="bang-gia">
-  <div class="wrap">
-    <details class="price-details">
-      <summary>
-        <div class="section-head" style="margin-bottom:0;">
-          <div>
-            <h2>Bảng giá nhanh</h2>
-          </div>
-          <span class="num">
-            02 — Tra giá không cần ảnh ·
-            <span class="price-toggle-hint"><span class="closed-label">▸ Bấm để xem</span><span class="open-label">▾ Bấm để ẩn</span></span>
-          </span>
-        </div>
-      </summary>
-      <div class="price-scroll">
-        <table class="price-table">
-          <thead>
-            <tr>
-              <th>Tên sản phẩm</th>
-              <th>Giá tiền</th>
-            </tr>
-          </thead>
-          <tbody id="price-table-body">
-            <tr><td colspan="2">Đang tải bảng giá…</td></tr>
-          </tbody>
-        </table>
-      </div>
-      <p class="price-note">* Giá đã bao gồm đóng gói, chưa gồm phí giao hàng. Vuốt ngang bảng để xem đủ cột trên điện thoại.</p>
-    </details>
-  </div>
-</section>
-
 <script>
 (function () {
   var grid = document.getElementById('product-grid');
   var filterBar = document.getElementById('filter-bar');
-  var tbody = document.getElementById('price-table-body');
   var searchInput = document.getElementById('product-search-input');
   var searchClear = document.getElementById('product-search-clear');
   var searchStatus = document.getElementById('search-status');
   var searchNoResults = document.getElementById('product-no-results');
   var searchReset = document.getElementById('product-search-reset');
-  if (!grid || !tbody || !searchInput || !searchClear || !searchStatus || !searchNoResults || !searchReset) return;
+  if (!grid || !searchInput || !searchClear || !searchStatus || !searchNoResults || !searchReset) return;
 
   function formatPrice(n) {
     if (n === null || n === undefined || n === '') return '';
@@ -870,28 +730,9 @@
         updateVisibleProducts();
       });
 
-      var rows = [];
-      var lastCat = null;
-      products.forEach(function (p) {
-        var cat = cats[p.category] || { label: p.category, unit: '' };
-        if (p.category !== lastCat) {
-          rows.push(
-            '<tr class="price-group-row"><td colspan="2"><span class="price-cat ' + escapeHtml(p.category) + '"><span class="dot"></span>' + escapeHtml(cat.label) + '</span></td></tr>'
-          );
-          lastCat = p.category;
-        }
-        rows.push(
-          '<tr>' +
-          '<td class="name">' + escapeHtml(p.name) + '</td>' +
-          '<td class="amount">' + formatPrice(p.price) + '</td>' +
-          '</tr>'
-        );
-      });
-      tbody.innerHTML = rows.join('') || '<tr><td colspan="2">Chưa có sản phẩm.</td></tr>';
     })
     .catch(function () {
       grid.innerHTML = '<p class="product-loading">Không tải được sản phẩm. Vui lòng thử lại sau.</p>';
-      tbody.innerHTML = '<tr><td colspan="2">Không tải được bảng giá. Vui lòng thử lại sau.</td></tr>';
     });
 })();
 </script>
@@ -907,7 +748,6 @@
     <div>
       <h2>Một góc vườn nhỏ, giữ lại theo cách riêng</h2>
       <p>Vườn &amp; Nắng là 1 khu vườn nhỏ tại Đức Huệ, nơi chúng tôi trồng thuận tự nhiên và sấy khô theo phương pháp giữ nguyên hương vị, dược tính — không rút ngắn thời gian, không dùng chất bảo quản.</p>
-      <p>Bảng giá chỉ là một phần — ghé thăm vườn để khám phá thêm nhiều loại cây và dược liệu khác chưa kịp cập nhật.</p>
       <div class="about-stats">
         <div><span class="n">50+</span><span class="l">Loại cây</span></div>
         <div><span class="n">100%</span><span class="l">Cây giống và dược liệu Organic</span></div>
@@ -945,23 +785,10 @@
   });
 </script>
 
-<section class="feedback" id="gop-y">
-  <div class="wrap">
-    <div class="section-head">
-      <div><h2>Vườn &amp; Nắng muốn nghe bạn nói</h2></div>
-      <span class="num">04 — Góp ý, không cần đăng nhập</span>
-    </div>
-    <p>Cảm ơn bạn đã ghé thăm Vườn &amp; Nắng! Một vài dòng góp ý của bạn sẽ giúp vườn chăm chút sản phẩm và dịch vụ tốt hơn mỗi ngày. Không cần điền tên nếu bạn muốn ẩn danh nhé 🌱</p>
-    <div class="feedback-embed">
-      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSccXhKRViyXkR0UU-LTGmGmSxMHzCVFzIWXeLw06IQ70W7fnQ/viewform?embedded=true" title="Form góp ý Vườn &amp; Nắng">Đang tải…</iframe>
-    </div>
-  </div>
-</section>
-
 <footer>
   <div class="wrap">
     <span>© 2026 Vườn &amp; Nắng.</span>
-    <span><a href="#san-pham">Sản phẩm</a> · <a href="#bang-gia">Bảng giá</a> · <a href="#cau-chuyen">Câu chuyện</a> · <a href="#lien-he">Liên hệ</a> · <a href="#gop-y">Góp ý</a></span>
+    <span><a href="#san-pham">Sản phẩm</a> · <a href="#cau-chuyen">Câu chuyện</a> · <a href="#lien-he">Liên hệ</a></span>
   </div>
 </footer>
 
